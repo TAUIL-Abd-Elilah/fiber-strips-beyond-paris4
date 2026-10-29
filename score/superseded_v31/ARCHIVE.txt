@@ -1,0 +1,15 @@
+superseded_v31: pre-registration v3.1 (frozen 2026-10-29 00:34:06), archived on 29 Oct 2026 before the v3.2
+erratum (PREREG 10.8). Every file that v3.2 changes is here as it was frozen; each is checked against the
+v3.1 FREEZE sha256 below. Files v3.2 does not change keep their v3.1 sha256 in the v3.2 FREEZE.txt.
+runs/relaunch_v3.ps1 was not pinned in v3.1: it is kept here as it stood at v3.1, and its first version
+(28 Oct 14:44:45 UTC) is rebuilt from the session record of the author's AI assistant, which wrote it.
+
+archived file                                      path                                        sha256 (archived)                                                 = v3.1 FREEZE
+PREREG_v31.md                                      PREREG.md                                   831ee3cfb7fb2165cd1dcf8856125782c2bd084d0d11562a66dfbdba26337a90  yes
+write_freeze_v31.py                                tools/write_freeze.py                       670b53dc2bac6113f0e23968973405865dbde6006bc49a7e7a03e3434b9af025  yes
+FREEZE_v31.txt                                     FREEZE.txt                                  7c8be79970c1a98d3b097c0988ea0b53d7a5354379e78f7f5e11abc851dbd559  (the v3.1 freeze record itself; 100 files)
+relaunch_v3_at_v31.ps1                             runs/relaunch_v3.ps1                        2fa2df603a78379da2f9078137204f0f8caccc353fde20591465e093fac396af  (not pinned in v3.1)
+relaunch_v3_first_version_from_session_record.ps1  runs/relaunch_v3.ps1 (28 Oct 14:44:45 UTC)  eb8c16bad1fba09334dd65683da0e45299fff9e3e8a0e07d658ff0b0b0443fce  (rebuilt from the session record)
+
+changed in v3.2: PREREG.md, tools/write_freeze.py, FREEZE.txt (rewritten by tools/write_freeze.py);
+runs/relaunch_v3.ps1 (comments, and an unused function removed) is pinned from v3.2 on

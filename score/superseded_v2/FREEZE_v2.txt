@@ -1,0 +1,44 @@
+Freeze of pre-registration v2 for fiber_strip_small_v1 off Paris 4 (C:/VesuviusTemp/strips/score)
+frozen_at_local: 2026-10-28 12:27:47 +0000
+frozen_at_utc:   2026-10-28 12:27:47 UTC
+state: no PHerc0139 or PHerc0332 strip has been scored or inspected; the one 0139 smoke-test strip of the setup run (runs/smoke0139, fiber dj_20260902T151037604_000001) has no matched stretch (PREREG 10.3)
+tests: 38 passed (tests/test_score_strips.py 33 synthetic, tests/test_piece_afv.py 5 on the real AFVs), CPU only, 28 Oct 2026
+notes:
+  - Primary set (2.5 mm stretches): 2 stretches on 2 fibers -> G1 FAILS (needs 30): no PHerc0139 accuracy claim from the primary set; its 2 strips are run as case studies
+  - Secondary set (villa --min-run 40): 57 fibers, 1075 stretches; run subsample 39 pieces / 242 stretches / 30 fibers, 2932 planned decisions (2908 on the AFV geometry), 8.00 GiB new CT; verdict labelled 'secondary:'
+  - PHerc0332: 15 of 45 crossings (<= 6 sv; all 3 tight <= 3 sv), 25 pieces, 560 planned decisions (543 on the AFV geometry), 1.97 GiB new CT
+  - After PREREG was written, a plumbing check scored a fake strip laid on segment w044 around S0000 (runs/realdata_check, no model): error 0.0001 sv, coverage 1.0, fiber floor 0.96 sv; the Lasagna-plane baseline on that one stretch was 2.26 sv mean (Lasagna vs segment normal median 2.4 deg). No model strip was involved.
+sha256:
+  ac91035fabbfdfb65568c5d99d6f853221cf3e2f839667ed8475bc098442b9ba *PREREG.md
+  a3edb92a2b2987337949b5458499f8a1babdc54140ad564ed19c2d8832ee726f *score_strips.py
+  554c9c12f66f4b0dea5eace0090adbf34ba24c875672332f6d4b3bc1c73261cb *tests/test_score_strips.py
+  9750782c1d8df3024539e355ff9d165ae71c01fa41b1243d3ba255acfe93e233 *tests/test_piece_afv.py
+  5a0b1afbade9ed44b0ededf8c10a5276fc22b483459dde6505e86c55b44531de *tools/make_piece_afv.py
+  5bb45d9504505fb6ecc87b36cf930cd3a756db518a2d1ba097e83d79242c35da *tools/download_inputs.py
+  81241eabacd8c2a87515a49da3bcaba6ef5e1a21fe49475aad3d73c0710a51c0 *tools/write_freeze.py
+  f22973b9eaf9033a7d4ea877f875730d042a5b3997375694a3393acac108517c *../tools/fibers_json_to_afv.py
+  8d2b5b473dbe0c1d008d33f93c8472d8938317e5eba412a2fc893742ab3cb64f *results/matched_stretches.json
+  20a754b87ac78d7e01564dc573b8750a08210415a64d9e8822b23843d2f7e0fa *results/matched_stretches_secondary_run40.json
+  3b6102b9fdebe3c83a0dac349cab0b4b99c49d95c93a120b2e7f23b7e992d932 *results/crossings_0332_plan.json
+  cfc54980796afc147de7517297be9c3121f182711327ecc4c809503d102ce09b *data/matched_0139.afv
+  a09ed3bf4ca6197fcb2d9d6e306fee6d5daa260702f3fd4706861edd5d7804f5 *data/matched_0139.tsv
+  3d3ae0d9426a596b8edcf1db64f3a83a7fa42c26dffa964b14eb18ca24c4bcd5 *results/runplan_0139_primary.tsv
+  1e4c94f86c930b279d5e2f9848bce74c45986eca15324ea6d132dfbd5c962110 *results/matched_0139_afv_report.json
+  d9138f3e5579f53f3d3c5a63d3734842986908ed262d69b8f7961d69c6335000 *data/matched_0139_secondary_run40.afv
+  1bd4aa15b8aa3353e1739b1c7fb3427f7af88b94a61457c5db10002b68fa3280 *data/matched_0139_secondary_run40.tsv
+  b9a467c3d2f216a0bfa2c5d4503c5d4566ba1db526c5087c542999e8238e77b2 *results/runplan_0139_secondary_run40.tsv
+  2986962ca7fc95bd972d3dc5d5cfb4444ce4f965e6b7ecc80d13bbe1160fc22e *results/matched_0139_secondary_run40_afv_report.json
+  a5e9fd31f9516918553a538a31f1888ff283abf496693f81a0d1cd2c38567c04 *data/crossings_0332.afv
+  25ac9fb51ae8d06a4b0b99e50c8071d9f72bd0422fc1d3f19bf987838bf28535 *data/crossings_0332.tsv
+  c5ffc63593ef8d68e7387ba4233358696cd616f5489b20c46d901b0c30f6f4ce *results/runplan_0332_crossings.tsv
+  777a036f036fbdc0210f05ea1f7c346c9e9c33d93af38eef5142aa28f1ba756c *results/crossings_0332_afv_report.json
+  9d632fe17fe2591768d79ba7942c31570327e5603337d31cf1736a18a205627e *data/lasagna_normals_0139_primary.npz
+  d0dae184704fb6e1c55a970e24e1f7a29f67b092e179bc325f35f76869d248c8 *data/lasagna_normals_0139_secondary_run40.npz
+  6cde18d6de60b360995ec2e44c2ca38b45cd75476090007370b3e368a05cd3a8 *data/segments_manifest.json
+  73475915220dfcd57f5eaf61018a03f8fc1561fef2fb4dfba9145b69b7702cde *data/fibers0139_manifest.json
+  ca140fd626b5737f38b460ac680d3f7e190124781bf12ba92c275c55c19fe78b *data/fibers0332_manifest.json
+  8123543f1792ab307a6f6d426469710899aaa0d36a2dc3bc8160ddf7a57a7edb *data/umbilicus/PHerc0139_20260102150214_umbilicus.json
+  e30daff671ec93f7a05adfe589e596f870a4485e6b2853feca11652ec73bf8b5 *superseded_v1/PREREG_v1.md
+  df68b273966bf42bbefc06e4cc5c72acd32987794cc3cae5dac9c6b8c1dbbcbc *superseded_v1/FREEZE_v1.txt
+  b82b9cee709f386313382ae8fc0419575b31171d7dccff2ef52cd7e5d7fcbab9 *superseded_v1/score_strips_v1.py
+  7870d8a89bdda7855b52605ab751b8010098cc8dd341dd24ddfac020df69bc0a *superseded_v1/g1_v1_result.json

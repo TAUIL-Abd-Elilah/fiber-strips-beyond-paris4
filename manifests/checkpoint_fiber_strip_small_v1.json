@@ -1,0 +1,16 @@
+{
+ "note": "The strip model is not redistributed here. fetch_inputs.py checkpoint downloads it from Hugging Face at this revision and checks each sha256. The model repo declares no license (no license tag, no model card, checked 28 Oct 2026).",
+ "repo_id": "scrollprize/fiber_strip_small_v1",
+ "revision": "7bd163a22c839ff312879ae1916195d0c9729c0e",
+ "url": "https://huggingface.co/scrollprize/fiber_strip_small_v1/tree/7bd163a22c839ff312879ae1916195d0c9729c0e",
+ "author": "Sean Johnson (bruniss), villa PR #2110",
+ "local_layout": "hf_home/hub/models--scrollprize--fiber_strip_small_v1/snapshots/7bd163a22c839ff312879ae1916195d0c9729c0e/<file>",
+ "hashed_on": "2026-10-28, from the copy downloaded by the setup run on 27 Oct 2026",
+ "files": [
+  {"file": "last.pt", "bytes": 26295702, "sha256": "0f6d64da50e47af10c86912a8e268c99fa55bf784823b7ca5b87f84d47f1d6e4"},
+  {"file": "heading_model.pt", "bytes": 2050702, "sha256": "c10e21e62d05228bdadeda65334d5c9eede91d942b80ca9d318616eda7cbf35f"},
+  {"file": "config.json", "bytes": 1619, "sha256": "485b25596e5e15f51d576a8636383e239d27b74635f6a3453a95eaf1db8a0724"},
+  {"file": "run.json", "bytes": 1428, "sha256": "6c8228575548bbe24331984cc7b1c7e7ca3571d515533e74ce95f0dcb100b7d5"},
+  {"file": "log.jsonl", "bytes": 254230, "sha256": "ca4b329fc47f65ecee82756c89691d447f56f97b7ac9eb3b0331a66afff54305"}
+ ]
+}

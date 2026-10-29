@@ -1,0 +1,1290 @@
+{
+ "gate": "G0: >= 9/10 strips with mean node-index distance <= 1 patch voxel (9.6 um)",
+ "passed": true,
+ "strips_passing": 10,
+ "strips": 10,
+ "strips_within_pr2163_band": 10,
+ "method": "node index matching on nodes valid in both grids (same shape and layout required); secondary: nearest published node by KD-tree; Euclidean distance in patch voxels (CT level 2, 9.6 um)",
+ "summary": {
+  "mean_of_means": 0.012105194914155348,
+  "max_mean": 0.028569826214017217,
+  "max_p99": 0.12302627653532473
+ },
+ "selection": "results/g0_selection_rule.txt + results/g0_selected.json",
+ "run": {
+  "status": "ok",
+  "argv": [
+   "--afv",
+   "C:/VesuviusTemp/strips/data/g0/g0_fibers.afv",
+   "--out",
+   "C:/VesuviusTemp/strips/runs/g0",
+   "--checkpoint",
+   "scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e",
+   "--device",
+   "cpu",
+   "--cache-dir",
+   "C:/VesuviusTemp/strips/ct_cache",
+   "--umbilicus",
+   "C:/VesuviusTemp/strips/data/paris4/umbilicus.json",
+   "--threads",
+   "16",
+   "--batch",
+   "32"
+  ],
+  "wall_seconds": 548.99,
+  "fibers": 10,
+  "decisions": 228,
+  "strip_seconds_sum": 548.0,
+  "decisions_per_second_strips": 0.416,
+  "decisions_per_second_wall": 0.415,
+  "per_strip_seconds": [
+   16.04,
+   121.12,
+   91.88,
+   49.88,
+   49.09,
+   34.83,
+   36.32,
+   20.5,
+   87.99,
+   40.35
+  ],
+  "per_strip_decisions": [
+   22,
+   20,
+   27,
+   21,
+   23,
+   18,
+   19,
+   29,
+   30,
+   19
+  ],
+  "cpu_user_seconds": 423.4,
+  "cpu_system_seconds": 47.9,
+  "peak_rss_gb": 4.073,
+  "peak_wset_gb": 4.392,
+  "torch_threads": 16,
+  "torch": "2.13.0+cu126",
+  "cuda_visible_devices": "-1"
+ },
+ "timing_run": {
+  "status": "ok",
+  "argv": [
+   "--afv",
+   "C:/VesuviusTemp/strips/data/g0/g0_fibers.afv",
+   "--out",
+   "C:/VesuviusTemp/strips/runs/g0_timing16",
+   "--checkpoint",
+   "scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e",
+   "--device",
+   "cpu",
+   "--cache-dir",
+   "C:/VesuviusTemp/strips/ct_cache",
+   "--umbilicus",
+   "C:/VesuviusTemp/strips/data/paris4/umbilicus.json",
+   "--threads",
+   "16",
+   "--batch",
+   "32"
+  ],
+  "wall_seconds": 169.55,
+  "fibers": 10,
+  "decisions": 228,
+  "strip_seconds_sum": 168.56,
+  "decisions_per_second_strips": 1.353,
+  "decisions_per_second_wall": 1.345,
+  "per_strip_seconds": [
+   17.19,
+   16.11,
+   20.04,
+   15.53,
+   17.19,
+   13.08,
+   13.76,
+   20.74,
+   21.39,
+   13.53
+  ],
+  "per_strip_decisions": [
+   22,
+   20,
+   27,
+   21,
+   23,
+   18,
+   19,
+   29,
+   30,
+   19
+  ],
+  "cpu_user_seconds": 418.9,
+  "cpu_system_seconds": 57.9,
+  "peak_rss_gb": 3.812,
+  "peak_uss_gb": 3.3,
+  "ct_chunks_read": 392,
+  "peak_wset_gb": 4.378,
+  "torch_threads": 16,
+  "torch": "2.13.0+cu126",
+  "cuda_visible_devices": "-1"
+ },
+ "fibers": [
+  {
+   "fiber": 238475,
+   "family": "H",
+   "z_bin": 0,
+   "radial_half": "inner",
+   "length_mm": 3.522,
+   "published_nodes": 1350,
+   "decisions": 22,
+   "seconds": 16.04,
+   "nodes": 1350,
+   "expected_error_vox_new": 1.4937016279348256,
+   "expected_error_vox_published": 1.494,
+   "shape_new": [
+    25,
+    120
+   ],
+   "shape_published": [
+    25,
+    120
+   ],
+   "same_shape": true,
+   "same_layout": true,
+   "layout": {
+    "fiber_along": [
+     "columns",
+     "columns"
+    ],
+    "fiber_reversed": [
+     false,
+     false
+    ],
+    "across_reversed": [
+     true,
+     true
+    ],
+    "first_row_arc_patch_voxels": [
+     -46.5,
+     -46.5
+    ],
+    "family": [
+     "H",
+     "H"
+    ],
+    "decision_step": [
+     8.0,
+     8.0
+    ],
+    "blend": [
+     16.0,
+     16.0
+    ],
+    "trim_patch_voxels": [
+     75.0,
+     75.0
+    ],
+    "trace_per_patch": [
+     0.5,
+     0.5
+    ]
+   },
+   "valid_new": 1350,
+   "valid_published": 1350,
+   "checkpoint_published": "/home/sean/Documents/villa/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/output/sheet_strip_paris4_slim50k_v3/last.pt",
+   "step_published": 15000,
+   "checkpoint_new": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt",
+   "mask_iou": 1.0,
+   "mask_agreement": 1.0,
+   "index": {
+    "mean": 0.028569826214017217,
+    "median": 0.018213037232664146,
+    "p99": 0.12302627653532473,
+    "max": 0.15378151307047663,
+    "n": 1350
+   },
+   "exact_equal_fraction": 0.0014814814814814814,
+   "within_0p05": 0.8177777777777778,
+   "expected_error_abs_diff": {
+    "mean": 0.002737915339293303,
+    "median": 0.0020075440406799316,
+    "p99": 0.012001866102218628,
+    "max": 0.016143798828125,
+    "n": 1350
+   },
+   "nearest": {
+    "mean": 0.028569826214017217,
+    "median": 0.018213037232664146,
+    "p99": 0.12302627653532473,
+    "max": 0.15378151307047663,
+    "n": 1350
+   },
+   "nearest_published_to_new": {
+    "mean": 0.028569826214017217,
+    "median": 0.018213037232664146,
+    "p99": 0.12302627653532473,
+    "max": 0.15378151307047663,
+    "n": 1350
+   },
+   "status": "compared",
+   "pass_gate": true,
+   "within_pr2163_band": true
+  },
+  {
+   "fiber": 329464,
+   "family": "V",
+   "z_bin": 0,
+   "radial_half": "outer",
+   "length_mm": 4.345,
+   "published_nodes": 1875,
+   "decisions": 27,
+   "seconds": 91.88,
+   "nodes": 1875,
+   "expected_error_vox_new": 1.0682355776712948,
+   "expected_error_vox_published": 1.069,
+   "shape_new": [
+    140,
+    25
+   ],
+   "shape_published": [
+    140,
+    25
+   ],
+   "same_shape": true,
+   "same_layout": true,
+   "layout": {
+    "fiber_along": [
+     "rows",
+     "rows"
+    ],
+    "fiber_reversed": [
+     true,
+     true
+    ],
+    "across_reversed": [
+     false,
+     false
+    ],
+    "first_row_arc_patch_voxels": [
+     -46.5,
+     -46.5
+    ],
+    "family": [
+     "V",
+     "V"
+    ],
+    "decision_step": [
+     8.0,
+     8.0
+    ],
+    "blend": [
+     16.0,
+     16.0
+    ],
+    "trim_patch_voxels": [
+     75.0,
+     75.0
+    ],
+    "trace_per_patch": [
+     0.5,
+     0.5
+    ]
+   },
+   "valid_new": 1875,
+   "valid_published": 1875,
+   "checkpoint_published": "/home/sean/Documents/villa/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/output/sheet_strip_paris4_slim50k_v3/last.pt",
+   "step_published": 15000,
+   "checkpoint_new": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt",
+   "mask_iou": 1.0,
+   "mask_agreement": 1.0,
+   "index": {
+    "mean": 0.010754147318702344,
+    "median": 0.008734640537108554,
+    "p99": 0.04262400311805286,
+    "max": 0.06687849089165598,
+    "n": 1875
+   },
+   "exact_equal_fraction": 0.0032,
+   "within_0p05": 0.9946666666666667,
+   "expected_error_abs_diff": {
+    "mean": 0.0023931090672810874,
+    "median": 0.00182420015335083,
+    "p99": 0.009857089519500732,
+    "max": 0.018406033515930176,
+    "n": 1875
+   },
+   "nearest": {
+    "mean": 0.010754147318702344,
+    "median": 0.008734640537108554,
+    "p99": 0.04262400311805286,
+    "max": 0.06687849089165598,
+    "n": 1875
+   },
+   "nearest_published_to_new": {
+    "mean": 0.010754147318702344,
+    "median": 0.008734640537108554,
+    "p99": 0.04262400311805286,
+    "max": 0.06687849089165598,
+    "n": 1875
+   },
+   "status": "compared",
+   "pass_gate": true,
+   "within_pr2163_band": true
+  },
+  {
+   "fiber": 435199,
+   "family": "H",
+   "z_bin": 1,
+   "radial_half": "outer",
+   "length_mm": 3.325,
+   "published_nodes": 1225,
+   "decisions": 21,
+   "seconds": 49.88,
+   "nodes": 1225,
+   "expected_error_vox_new": 0.6443068818407464,
+   "expected_error_vox_published": 0.645,
+   "shape_new": [
+    25,
+    116
+   ],
+   "shape_published": [
+    25,
+    116
+   ],
+   "same_shape": true,
+   "same_layout": true,
+   "layout": {
+    "fiber_along": [
+     "columns",
+     "columns"
+    ],
+    "fiber_reversed": [
+     false,
+     false
+    ],
+    "across_reversed": [
+     true,
+     true
+    ],
+    "first_row_arc_patch_voxels": [
+     -46.5,
+     -46.5
+    ],
+    "family": [
+     "H",
+     "H"
+    ],
+    "decision_step": [
+     8.0,
+     8.0
+    ],
+    "blend": [
+     16.0,
+     16.0
+    ],
+    "trim_patch_voxels": [
+     75.0,
+     75.0
+    ],
+    "trace_per_patch": [
+     0.5,
+     0.5
+    ]
+   },
+   "valid_new": 1225,
+   "valid_published": 1225,
+   "checkpoint_published": "/home/sean/Documents/villa/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/output/sheet_strip_paris4_slim50k_v3/last.pt",
+   "step_published": 15000,
+   "checkpoint_new": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt",
+   "mask_iou": 1.0,
+   "mask_agreement": 1.0,
+   "index": {
+    "mean": 0.008202041220508932,
+    "median": 0.006939780470484324,
+    "p99": 0.027386267104850214,
+    "max": 0.04275180496063971,
+    "n": 1225
+   },
+   "exact_equal_fraction": 0.009795918367346938,
+   "within_0p05": 1.0,
+   "expected_error_abs_diff": {
+    "mean": 0.001318264323837903,
+    "median": 0.001102149486541748,
+    "p99": 0.004618480205535888,
+    "max": 0.006666839122772217,
+    "n": 1225
+   },
+   "nearest": {
+    "mean": 0.008202041220508932,
+    "median": 0.006939780470484324,
+    "p99": 0.027386267104850214,
+    "max": 0.04275180496063971,
+    "n": 1225
+   },
+   "nearest_published_to_new": {
+    "mean": 0.008202041220508932,
+    "median": 0.006939780470484324,
+    "p99": 0.027386267104850214,
+    "max": 0.04275180496063971,
+    "n": 1225
+   },
+   "status": "compared",
+   "pass_gate": true,
+   "within_pr2163_band": true
+  },
+  {
+   "fiber": 307062,
+   "family": "V",
+   "z_bin": 1,
+   "radial_half": "inner",
+   "length_mm": 3.243,
+   "published_nodes": 1175,
+   "decisions": 20,
+   "seconds": 121.12,
+   "nodes": 1175,
+   "expected_error_vox_new": 0.7935159703005428,
+   "expected_error_vox_published": 0.794,
+   "shape_new": [
+    112,
+    25
+   ],
+   "shape_published": [
+    112,
+    25
+   ],
+   "same_shape": true,
+   "same_layout": true,
+   "layout": {
+    "fiber_along": [
+     "rows",
+     "rows"
+    ],
+    "fiber_reversed": [
+     true,
+     true
+    ],
+    "across_reversed": [
+     false,
+     false
+    ],
+    "first_row_arc_patch_voxels": [
+     -46.5,
+     -46.5
+    ],
+    "family": [
+     "V",
+     "V"
+    ],
+    "decision_step": [
+     8.0,
+     8.0
+    ],
+    "blend": [
+     16.0,
+     16.0
+    ],
+    "trim_patch_voxels": [
+     75.0,
+     75.0
+    ],
+    "trace_per_patch": [
+     0.5,
+     0.5
+    ]
+   },
+   "valid_new": 1175,
+   "valid_published": 1175,
+   "checkpoint_published": "/home/sean/Documents/villa/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/output/sheet_strip_paris4_slim50k_v3/last.pt",
+   "step_published": 15000,
+   "checkpoint_new": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt",
+   "mask_iou": 1.0,
+   "mask_agreement": 1.0,
+   "index": {
+    "mean": 0.00912914021124178,
+    "median": 0.007376926235223695,
+    "p99": 0.03466944631880066,
+    "max": 0.061119570531934016,
+    "n": 1175
+   },
+   "exact_equal_fraction": 0.001702127659574468,
+   "within_0p05": 0.9991489361702127,
+   "expected_error_abs_diff": {
+    "mean": 0.0016086802584059695,
+    "median": 0.0013812780380249023,
+    "p99": 0.0054570531845092776,
+    "max": 0.007252395153045654,
+    "n": 1175
+   },
+   "nearest": {
+    "mean": 0.00912914021124178,
+    "median": 0.007376926235223695,
+    "p99": 0.03466944631880066,
+    "max": 0.061119570531934016,
+    "n": 1175
+   },
+   "nearest_published_to_new": {
+    "mean": 0.00912914021124178,
+    "median": 0.007376926235223695,
+    "p99": 0.03466944631880066,
+    "max": 0.061119570531934016,
+    "n": 1175
+   },
+   "status": "compared",
+   "pass_gate": true,
+   "within_pr2163_band": true
+  },
+  {
+   "fiber": 498336,
+   "family": "H",
+   "z_bin": 2,
+   "radial_half": "inner",
+   "length_mm": 3.675,
+   "published_nodes": 1450,
+   "decisions": 23,
+   "seconds": 49.09,
+   "nodes": 1450,
+   "expected_error_vox_new": 1.0549069515171663,
+   "expected_error_vox_published": 1.056,
+   "shape_new": [
+    25,
+    124
+   ],
+   "shape_published": [
+    25,
+    124
+   ],
+   "same_shape": true,
+   "same_layout": true,
+   "layout": {
+    "fiber_along": [
+     "columns",
+     "columns"
+    ],
+    "fiber_reversed": [
+     false,
+     false
+    ],
+    "across_reversed": [
+     true,
+     true
+    ],
+    "first_row_arc_patch_voxels": [
+     -46.5,
+     -46.5
+    ],
+    "family": [
+     "H",
+     "H"
+    ],
+    "decision_step": [
+     8.0,
+     8.0
+    ],
+    "blend": [
+     16.0,
+     16.0
+    ],
+    "trim_patch_voxels": [
+     75.0,
+     75.0
+    ],
+    "trace_per_patch": [
+     0.5,
+     0.5
+    ]
+   },
+   "valid_new": 1450,
+   "valid_published": 1450,
+   "checkpoint_published": "/home/sean/Documents/villa/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/output/sheet_strip_paris4_slim50k_v3/last.pt",
+   "step_published": 15000,
+   "checkpoint_new": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt",
+   "mask_iou": 1.0,
+   "mask_agreement": 1.0,
+   "index": {
+    "mean": 0.014761100603614918,
+    "median": 0.010805805414513203,
+    "p99": 0.07274157703717311,
+    "max": 0.11083043264355362,
+    "n": 1450
+   },
+   "exact_equal_fraction": 0.0034482758620689655,
+   "within_0p05": 0.9675862068965517,
+   "expected_error_abs_diff": {
+    "mean": 0.0021583638931142873,
+    "median": 0.0014293789863586426,
+    "p99": 0.014135334491729736,
+    "max": 0.02622246742248535,
+    "n": 1450
+   },
+   "nearest": {
+    "mean": 0.014761100603614918,
+    "median": 0.010805805414513203,
+    "p99": 0.07274157703717311,
+    "max": 0.11083043264355362,
+    "n": 1450
+   },
+   "nearest_published_to_new": {
+    "mean": 0.014761100603614918,
+    "median": 0.010805805414513203,
+    "p99": 0.07274157703717311,
+    "max": 0.11083043264355362,
+    "n": 1450
+   },
+   "status": "compared",
+   "pass_gate": true,
+   "within_pr2163_band": true
+  },
+  {
+   "fiber": 523953,
+   "family": "V",
+   "z_bin": 2,
+   "radial_half": "outer",
+   "length_mm": 2.957,
+   "published_nodes": 975,
+   "decisions": 18,
+   "seconds": 34.83,
+   "nodes": 975,
+   "expected_error_vox_new": 0.8427221470720576,
+   "expected_error_vox_published": 0.844,
+   "shape_new": [
+    104,
+    25
+   ],
+   "shape_published": [
+    104,
+    25
+   ],
+   "same_shape": true,
+   "same_layout": true,
+   "layout": {
+    "fiber_along": [
+     "rows",
+     "rows"
+    ],
+    "fiber_reversed": [
+     true,
+     true
+    ],
+    "across_reversed": [
+     false,
+     false
+    ],
+    "first_row_arc_patch_voxels": [
+     -46.5,
+     -46.5
+    ],
+    "family": [
+     "V",
+     "V"
+    ],
+    "decision_step": [
+     8.0,
+     8.0
+    ],
+    "blend": [
+     16.0,
+     16.0
+    ],
+    "trim_patch_voxels": [
+     75.0,
+     75.0
+    ],
+    "trace_per_patch": [
+     0.5,
+     0.5
+    ]
+   },
+   "valid_new": 975,
+   "valid_published": 975,
+   "checkpoint_published": "/home/sean/Documents/villa/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/output/sheet_strip_paris4_slim50k_v3/last.pt",
+   "step_published": 15000,
+   "checkpoint_new": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt",
+   "mask_iou": 1.0,
+   "mask_agreement": 1.0,
+   "index": {
+    "mean": 0.010412471267227653,
+    "median": 0.008400708268596315,
+    "p99": 0.03821381528636136,
+    "max": 0.05669111435039059,
+    "n": 975
+   },
+   "exact_equal_fraction": 0.0041025641025641026,
+   "within_0p05": 0.9989743589743589,
+   "expected_error_abs_diff": {
+    "mean": 0.0017343036945049579,
+    "median": 0.001442253589630127,
+    "p99": 0.0061340975761413575,
+    "max": 0.013802528381347656,
+    "n": 975
+   },
+   "nearest": {
+    "mean": 0.010412471267227653,
+    "median": 0.008400708268596315,
+    "p99": 0.03821381528636136,
+    "max": 0.05669111435039059,
+    "n": 975
+   },
+   "nearest_published_to_new": {
+    "mean": 0.010412471267227653,
+    "median": 0.008400708268596315,
+    "p99": 0.03821381528636136,
+    "max": 0.05669111435039059,
+    "n": 975
+   },
+   "status": "compared",
+   "pass_gate": true,
+   "within_pr2163_band": true
+  },
+  {
+   "fiber": 757072,
+   "family": "H",
+   "z_bin": 3,
+   "radial_half": "outer",
+   "length_mm": 4.681,
+   "published_nodes": 2100,
+   "decisions": 29,
+   "seconds": 20.5,
+   "nodes": 2100,
+   "expected_error_vox_new": 0.9012763408329227,
+   "expected_error_vox_published": 0.902,
+   "shape_new": [
+    25,
+    148
+   ],
+   "shape_published": [
+    25,
+    148
+   ],
+   "same_shape": true,
+   "same_layout": true,
+   "layout": {
+    "fiber_along": [
+     "columns",
+     "columns"
+    ],
+    "fiber_reversed": [
+     false,
+     false
+    ],
+    "across_reversed": [
+     false,
+     false
+    ],
+    "first_row_arc_patch_voxels": [
+     -46.5,
+     -46.5
+    ],
+    "family": [
+     "H",
+     "H"
+    ],
+    "decision_step": [
+     8.0,
+     8.0
+    ],
+    "blend": [
+     16.0,
+     16.0
+    ],
+    "trim_patch_voxels": [
+     75.0,
+     75.0
+    ],
+    "trace_per_patch": [
+     0.5,
+     0.5
+    ]
+   },
+   "valid_new": 2100,
+   "valid_published": 2100,
+   "checkpoint_published": "/home/sean/Documents/villa/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/output/sheet_strip_paris4_slim50k_v3/last.pt",
+   "step_published": 15000,
+   "checkpoint_new": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt",
+   "mask_iou": 1.0,
+   "mask_agreement": 1.0,
+   "index": {
+    "mean": 0.01022648091673594,
+    "median": 0.007937386819828545,
+    "p99": 0.04354325035338027,
+    "max": 0.06618552831607362,
+    "n": 2100
+   },
+   "exact_equal_fraction": 0.005238095238095238,
+   "within_0p05": 0.9942857142857143,
+   "expected_error_abs_diff": {
+    "mean": 0.0019840358552478607,
+    "median": 0.0015641748905181885,
+    "p99": 0.008418471813201885,
+    "max": 0.022125720977783203,
+    "n": 2100
+   },
+   "nearest": {
+    "mean": 0.01022648091673594,
+    "median": 0.007937386819828545,
+    "p99": 0.04354325035338027,
+    "max": 0.06618552831607362,
+    "n": 2100
+   },
+   "nearest_published_to_new": {
+    "mean": 0.01022648091673594,
+    "median": 0.007937386819828545,
+    "p99": 0.04354325035338027,
+    "max": 0.06618552831607362,
+    "n": 2100
+   },
+   "status": "compared",
+   "pass_gate": true,
+   "within_pr2163_band": true
+  },
+  {
+   "fiber": 740130,
+   "family": "V",
+   "z_bin": 3,
+   "radial_half": "inner",
+   "length_mm": 3.015,
+   "published_nodes": 1025,
+   "decisions": 19,
+   "seconds": 36.32,
+   "nodes": 1025,
+   "expected_error_vox_new": 1.0683137394620679,
+   "expected_error_vox_published": 1.07,
+   "shape_new": [
+    108,
+    25
+   ],
+   "shape_published": [
+    108,
+    25
+   ],
+   "same_shape": true,
+   "same_layout": true,
+   "layout": {
+    "fiber_along": [
+     "rows",
+     "rows"
+    ],
+    "fiber_reversed": [
+     true,
+     true
+    ],
+    "across_reversed": [
+     false,
+     false
+    ],
+    "first_row_arc_patch_voxels": [
+     -46.5,
+     -46.5
+    ],
+    "family": [
+     "V",
+     "V"
+    ],
+    "decision_step": [
+     8.0,
+     8.0
+    ],
+    "blend": [
+     16.0,
+     16.0
+    ],
+    "trim_patch_voxels": [
+     75.0,
+     75.0
+    ],
+    "trace_per_patch": [
+     0.5,
+     0.5
+    ]
+   },
+   "valid_new": 1025,
+   "valid_published": 1025,
+   "checkpoint_published": "/home/sean/Documents/villa/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/output/sheet_strip_paris4_slim50k_v3/last.pt",
+   "step_published": 15000,
+   "checkpoint_new": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt",
+   "mask_iou": 1.0,
+   "mask_agreement": 1.0,
+   "index": {
+    "mean": 0.01173535678355625,
+    "median": 0.00966747552403483,
+    "p99": 0.04120663957289269,
+    "max": 0.05634943332877988,
+    "n": 1025
+   },
+   "exact_equal_fraction": 0.000975609756097561,
+   "within_0p05": 0.9980487804878049,
+   "expected_error_abs_diff": {
+    "mean": 0.0024977297317690965,
+    "median": 0.0019612908363342285,
+    "p99": 0.010084729194641111,
+    "max": 0.017087101936340332,
+    "n": 1025
+   },
+   "nearest": {
+    "mean": 0.01173535678355625,
+    "median": 0.00966747552403483,
+    "p99": 0.04120663957289269,
+    "max": 0.05634943332877988,
+    "n": 1025
+   },
+   "nearest_published_to_new": {
+    "mean": 0.01173535678355625,
+    "median": 0.00966747552403483,
+    "p99": 0.04120663957289269,
+    "max": 0.05634943332877988,
+    "n": 1025
+   },
+   "status": "compared",
+   "pass_gate": true,
+   "within_pr2163_band": true
+  },
+  {
+   "fiber": 838073,
+   "family": "H",
+   "z_bin": 4,
+   "radial_half": "inner",
+   "length_mm": 3.058,
+   "published_nodes": 1050,
+   "decisions": 19,
+   "seconds": 40.35,
+   "nodes": 1050,
+   "expected_error_vox_new": 0.8851485529961224,
+   "expected_error_vox_published": 0.886,
+   "shape_new": [
+    25,
+    108
+   ],
+   "shape_published": [
+    25,
+    108
+   ],
+   "same_shape": true,
+   "same_layout": true,
+   "layout": {
+    "fiber_along": [
+     "columns",
+     "columns"
+    ],
+    "fiber_reversed": [
+     false,
+     false
+    ],
+    "across_reversed": [
+     true,
+     true
+    ],
+    "first_row_arc_patch_voxels": [
+     -46.5,
+     -46.5
+    ],
+    "family": [
+     "H",
+     "H"
+    ],
+    "decision_step": [
+     8.0,
+     8.0
+    ],
+    "blend": [
+     16.0,
+     16.0
+    ],
+    "trim_patch_voxels": [
+     75.0,
+     75.0
+    ],
+    "trace_per_patch": [
+     0.5,
+     0.5
+    ]
+   },
+   "valid_new": 1050,
+   "valid_published": 1050,
+   "checkpoint_published": "/home/sean/Documents/villa/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/output/sheet_strip_paris4_slim50k_v3/last.pt",
+   "step_published": 15000,
+   "checkpoint_new": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt",
+   "mask_iou": 1.0,
+   "mask_agreement": 1.0,
+   "index": {
+    "mean": 0.009274516988368583,
+    "median": 0.007603680187517904,
+    "p99": 0.03454027961106892,
+    "max": 0.04829790241749312,
+    "n": 1050
+   },
+   "exact_equal_fraction": 0.009523809523809525,
+   "within_0p05": 1.0,
+   "expected_error_abs_diff": {
+    "mean": 0.0019086602188292004,
+    "median": 0.0014934241771697998,
+    "p99": 0.008988908529281612,
+    "max": 0.01764369010925293,
+    "n": 1050
+   },
+   "nearest": {
+    "mean": 0.009274516988368583,
+    "median": 0.007603680187517904,
+    "p99": 0.03454027961106892,
+    "max": 0.04829790241749312,
+    "n": 1050
+   },
+   "nearest_published_to_new": {
+    "mean": 0.009274516988368583,
+    "median": 0.007603680187517904,
+    "p99": 0.03454027961106892,
+    "max": 0.04829790241749312,
+    "n": 1050
+   },
+   "status": "compared",
+   "pass_gate": true,
+   "within_pr2163_band": true
+  },
+  {
+   "fiber": 778459,
+   "family": "V",
+   "z_bin": 4,
+   "radial_half": "outer",
+   "length_mm": 4.796,
+   "published_nodes": 2175,
+   "decisions": 30,
+   "seconds": 87.99,
+   "nodes": 2175,
+   "expected_error_vox_new": 0.6870553285957771,
+   "expected_error_vox_published": 0.687,
+   "shape_new": [
+    152,
+    25
+   ],
+   "shape_published": [
+    152,
+    25
+   ],
+   "same_shape": true,
+   "same_layout": true,
+   "layout": {
+    "fiber_along": [
+     "rows",
+     "rows"
+    ],
+    "fiber_reversed": [
+     true,
+     true
+    ],
+    "across_reversed": [
+     false,
+     false
+    ],
+    "first_row_arc_patch_voxels": [
+     -46.5,
+     -46.5
+    ],
+    "family": [
+     "V",
+     "V"
+    ],
+    "decision_step": [
+     8.0,
+     8.0
+    ],
+    "blend": [
+     16.0,
+     16.0
+    ],
+    "trim_patch_voxels": [
+     75.0,
+     75.0
+    ],
+    "trace_per_patch": [
+     0.5,
+     0.5
+    ]
+   },
+   "valid_new": 2175,
+   "valid_published": 2175,
+   "checkpoint_published": "/home/sean/Documents/villa/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/output/sheet_strip_paris4_slim50k_v3/last.pt",
+   "step_published": 15000,
+   "checkpoint_new": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt",
+   "mask_iou": 1.0,
+   "mask_agreement": 1.0,
+   "index": {
+    "mean": 0.007986867617579864,
+    "median": 0.006519057579501313,
+    "p99": 0.02848884218061804,
+    "max": 0.05146447313671109,
+    "n": 2175
+   },
+   "exact_equal_fraction": 0.004597701149425287,
+   "within_0p05": 0.999080459770115,
+   "expected_error_abs_diff": {
+    "mean": 0.0014199082878814347,
+    "median": 0.0010988116264343262,
+    "p99": 0.005687973499298094,
+    "max": 0.011093378067016602,
+    "n": 2175
+   },
+   "nearest": {
+    "mean": 0.007986867617579864,
+    "median": 0.006519057579501313,
+    "p99": 0.02848884218061804,
+    "max": 0.05146447313671109,
+    "n": 2175
+   },
+   "nearest_published_to_new": {
+    "mean": 0.007986867617579864,
+    "median": 0.006519057579501313,
+    "p99": 0.02848884218061804,
+    "max": 0.05146447313671109,
+    "n": 2175
+   },
+   "status": "compared",
+   "pass_gate": true,
+   "within_pr2163_band": true
+  }
+ ],
+ "throughput": {
+  "note": "CPU only (CUDA_VISIBLE_DEVICES=-1), fp32 (autocast is off on CPU), CT fully cached locally; the machine was shared (another session used ~1.5-2.5 cores, total CPU ~20-33% busy before the runs). torch conv3d scales poorly past 4 threads here (micro-benchmark: 1.26 s / 0.50 / 0.47 / 0.43 s at 1/4/8/16 threads).",
+  "one_process_16_threads_batch32": {
+   "wall_seconds": 169.55,
+   "fibers": 10,
+   "decisions": 228,
+   "decisions_per_second_wall": 1.345,
+   "decisions_per_second_strips": 1.353,
+   "per_strip_seconds": [
+    17.19,
+    16.11,
+    20.04,
+    15.53,
+    17.19,
+    13.08,
+    13.76,
+    20.74,
+    21.39,
+    13.53
+   ],
+   "cpu_user_seconds": 418.9,
+   "peak_rss_gb": 3.812,
+   "peak_uss_gb": 3.3,
+   "peak_wset_gb": 4.378,
+   "torch_threads": 16,
+   "ct_chunks_read": 392,
+   "args": "--threads 16 --batch 32"
+  },
+  "one_process_16_threads_4_crop_threads": {
+   "wall_seconds": 155.68,
+   "fibers": 10,
+   "decisions": 228,
+   "decisions_per_second_wall": 1.465,
+   "decisions_per_second_strips": 1.473,
+   "per_strip_seconds": [
+    15.44,
+    13.68,
+    17.87,
+    13.97,
+    15.99,
+    12.81,
+    12.72,
+    19.46,
+    20.1,
+    12.71
+   ],
+   "cpu_user_seconds": 417.4,
+   "peak_rss_gb": 3.842,
+   "peak_uss_gb": 3.363,
+   "peak_wset_gb": 4.377,
+   "torch_threads": 16,
+   "ct_chunks_read": 392,
+   "args": "--threads 16 --batch 32 --crop-threads 4"
+  },
+  "one_process_8_threads_batch16": {
+   "wall_seconds": 170.93,
+   "fibers": 10,
+   "decisions": 228,
+   "decisions_per_second_wall": 1.334,
+   "decisions_per_second_strips": 1.341,
+   "per_strip_seconds": [
+    16.12,
+    14.64,
+    19.75,
+    15.77,
+    17.21,
+    14.32,
+    14.1,
+    21.54,
+    22.28,
+    14.25
+   ],
+   "cpu_user_seconds": 415.7,
+   "peak_rss_gb": 3.213,
+   "peak_uss_gb": 2.824,
+   "peak_wset_gb": 3.418,
+   "torch_threads": 8,
+   "ct_chunks_read": 392,
+   "args": "--threads 8 --batch 16"
+  },
+  "two_processes_6_threads_batch8": {
+   "shards": [
+    {
+     "wall_seconds": 158.64,
+     "fibers": 5,
+     "decisions": 121,
+     "decisions_per_second_wall": 0.763,
+     "decisions_per_second_strips": 0.767,
+     "per_strip_seconds": [
+      29.51,
+      38.8,
+      29.97,
+      25.48,
+      33.94
+     ],
+     "cpu_user_seconds": 218.2,
+     "peak_rss_gb": 2.225,
+     "peak_uss_gb": 1.784,
+     "peak_wset_gb": 2.234,
+     "torch_threads": 6,
+     "ct_chunks_read": 200,
+     "args": "--threads 6 --batch 8 --shard 0 2"
+    },
+    {
+     "wall_seconds": 149.29,
+     "fibers": 5,
+     "decisions": 107,
+     "decisions_per_second_wall": 0.717,
+     "decisions_per_second_strips": 0.721,
+     "per_strip_seconds": [
+      29.24,
+      30.12,
+      23.85,
+      40.26,
+      24.84
+     ],
+     "cpu_user_seconds": 191.4,
+     "peak_rss_gb": 2.178,
+     "peak_uss_gb": 1.721,
+     "peak_wset_gb": 2.22,
+     "torch_threads": 6,
+     "ct_chunks_read": 192,
+     "args": "--threads 6 --batch 8 --shard 1 2"
+    }
+   ],
+   "aggregate_decisions_per_second": 1.437,
+   "sum_peak_rss_gb": 4.403,
+   "sum_peak_uss_gb": 3.505
+  },
+  "gate_pass_with_ct_streaming": {
+   "decisions_per_second": 0.415,
+   "note": "pass 1 streamed 35 CT chunks villa needed beyond the radius-120 prefetch, one at a time (~14 s each over S3 here)"
+  }
+ },
+ "determinism": "pass 1 (streaming) and the cached 16-thread pass gave bitwise identical strips (10/10, max |diff| 0)",
+ "environment": {
+  "villa": "6f2024569 (scrollcase: rotate to flat (#2276), 2026-10-23) + PR #2163 diff (bfad589) applied cleanly; last main commit before #2316 is 322cb0899 (#2283), which does not touch sheet_strip, fibers/ or crop_sampling",
+  "worktree": "C:/VesuviusTemp/strips/villa_6f2 (detached)",
+  "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt (+ heading_model.pt)",
+  "settings": "infer_all defaults = published trace.json: decision_step 8, blend 16, trim 75 patch vox, min length 2.5 mm, base voxel 2.4 um",
+  "umbilicus": "dl.ash2txt.org/datasets/spiral_datasets/PHercParis4/umbilicus.json (level-2 voxels)",
+  "ct": "s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr level 2, cache C:/VesuviusTemp/strips/ct_cache",
+  "python": "C:/Users/PC/miniconda3/envs/vesuvius/python.exe (3.14.6, torch 2.13.0+cu126), CUDA hidden",
+  "cpu": "16 logical / 10 physical cores (psutil), 34.2 GB RAM"
+ },
+ "published_strips_note": "published trace.json names /home/sean/.../sheet_strip_paris4_slim50k_v3/last.pt update 15000; fibers.tsv in all_strips.zip marks 175,326 strips v3 and 53,874 v2_ft (another checkpoint); only v3 strips were eligible"
+}

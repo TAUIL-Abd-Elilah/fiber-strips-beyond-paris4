@@ -1,0 +1,306 @@
+diff --git a/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/README.md b/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/README.md
+index 9ef470e33..e6859b9c5 100644
+--- a/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/README.md
++++ b/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/README.md
+@@ -141,6 +141,11 @@ VC3D's Line Annotation can trace its Fiber model lines with this model (hamburge
+ for the Fiber model"; off by default) through `tracing/service.py`, which VC3D starts with the Python environment it
+ was launched from: the default checkpoint unless one is chosen there.
+ 
++On native Windows (no `fcntl`, no official Triton wheels for Windows, no `vc` bindings in the win64 VC3D build), the
++chunk-cache locks use `msvcrt`, `--crops gpu` falls back to an eager (uncompiled) gather, and `tracing/service.py`
++reads CT through the remote chunk cache (`--cache-dir`, else `$XDG_CACHE_HOME/vesuvius/volume_cache`) with a
++printed warning when `vc` is missing.
++
+ ## Evaluation
+ 
+ ```bash
+diff --git a/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/tracing/service.py b/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/tracing/service.py
+index c9edf264a..bb77e4d47 100644
+--- a/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/tracing/service.py
++++ b/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/tracing/service.py
+@@ -32,6 +32,7 @@ import argparse
+ import json
+ import os
+ import re
++import socket
+ import socketserver
+ import sys
+ import threading
+@@ -45,7 +46,8 @@ import numpy as np
+ from vesuvius.neural_tracing.tracers.fibers.frames.ct import ct_seed_heading, trace_heading
+ from vesuvius.neural_tracing.tracers.fibers.frames.learned import predict_frames, trace_family_kwargs
+ from vesuvius.neural_tracing.tracers.fibers.frames.ct import ct_frame
+-from vesuvius.neural_tracing.tracers.fibers.tracing.runtime import add_checkpoint_argument, add_volume_arguments, checkpoint_source
++from vesuvius.neural_tracing.tracers.fibers.tracing.runtime import (
++    add_checkpoint_argument, add_volume_arguments, checkpoint_source, default_cache_dir)
+ from vesuvius.neural_tracing.tracers.fibers.tracing.volume import build_tracer
+ from vesuvius.neural_tracing.tracers.shared.geometry import arclength, normalize, resample_polyline, interp_at
+ from vesuvius.neural_tracing.tracers.shared.ct_structure import SeedHeadingError
+@@ -90,6 +92,10 @@ class FiberFollow:
+             forward_chunk=64, sampling_seed=0, crops='gpu' if args.device.startswith('cuda') else 'cpu',
+             gpu_chunks=args.gpu_chunks, axis_workers=0,
+             **{k: getattr(args, k) for k in ('ct', 'ct_level', 'ct_grid_scale', 'grid_scale', 'cache_dir', 'frame_checkpoint')})
++        if os.environ.get('VESUVIUS_CT_READER') == 'vc3d' and not options.cache_dir:
++            # VC3D passes no --cache-dir. A VC3D build without `vc` bindings has CT read through the remote chunk
++            # cache (crop_sampling/volume.py): keep it in the default folder, not in the one the checkpoint recorded.
++            options.cache_dir = default_cache_dir()
+         Path(args.state_dir).mkdir(parents=True, exist_ok=True)
+         self.tracer, self.vol, self.spec, self.policy = build_tracer(options)
+         self.base_um = model_base_um(self.spec, args.base_um)
+@@ -268,12 +274,67 @@ class Handler(socketserver.StreamRequestHandler):
+         self.wfile.flush()
+ 
+ 
++def _sockaddr_un(path):
++    import ctypes
++
++    class SockaddrUn(ctypes.Structure):
++        _fields_ = [('sun_family', ctypes.c_ushort), ('sun_path', ctypes.c_char*108)]
++    raw = os.fsencode(path)
++    if len(raw) >= 108:  # sun_path holds 107 bytes and the terminating NUL
++        raise OSError(f'socket path is too long for AF_UNIX ({len(raw)} bytes, at most 107): {path}')
++    return SockaddrUn(1, raw)
++
++
++if hasattr(socketserver, 'UnixStreamServer'):
++    UnixServer = socketserver.UnixStreamServer
++else:
++    class UnixServer(socketserver.TCPServer):
++        """Windows: Winsock has AF_UNIX stream sockets (VC3D's client uses them), but CPython can neither bind nor
++        accept them, so both go through ws2_32."""
++        address_family = 1  # AF_UNIX
++
++        def server_bind(self):
++            import ctypes
++            address = _sockaddr_un(self.server_address)
++            ws2 = ctypes.windll.ws2_32
++            if ws2.bind(ctypes.c_size_t(self.socket.fileno()), ctypes.byref(address), ctypes.sizeof(address)):
++                raise OSError(f'cannot bind {self.server_address}: WSA error {ws2.WSAGetLastError()}')
++
++        def get_request(self):
++            import ctypes
++            ws2 = ctypes.windll.ws2_32
++            ws2.accept.restype = ctypes.c_size_t
++            handle = ws2.accept(ctypes.c_size_t(self.socket.fileno()), None, None)
++            if handle == ctypes.c_size_t(-1).value:
++                raise OSError(f'accept failed: WSA error {ws2.WSAGetLastError()}')
++            return socket.socket(self.address_family, socket.SOCK_STREAM, 0, handle), self.server_address
++
++
++def parent_alive(pid):
++    """A liveness check for ``pid``. On Windows os.kill(pid, 0) is no liveness check: signal 0 is CTRL_C_EVENT,
++    sent to the console, or WinError 87 without one (VC3D started from Explorer). Wait on a process handle there
++    instead, opened once, so a reused pid cannot pass for the parent."""
++    if os.name != 'nt':
++        def alive():
++            try:
++                os.kill(pid, 0)
++            except OSError:
++                return False
++            return True
++        return alive
++    import ctypes
++    kernel32 = ctypes.WinDLL('kernel32', use_last_error=True)
++    kernel32.OpenProcess.restype = ctypes.c_void_p
++    kernel32.WaitForSingleObject.argtypes = (ctypes.c_void_p, ctypes.c_uint32)
++    handle = kernel32.OpenProcess(0x00100000, False, pid)  # SYNCHRONIZE
++    return lambda: bool(handle) and kernel32.WaitForSingleObject(handle, 0) == 0x102  # WAIT_TIMEOUT: running
++
++
+ def watch_parent(pid, server):
++    alive = parent_alive(pid)
+     while True:
+         time.sleep(2.)
+-        try:
+-            os.kill(pid, 0)
+-        except OSError:
++        if not alive():
+             server.shutdown()
+             return
+ 
+@@ -296,7 +357,7 @@ def main(argv=None):
+     SERVICE = FiberFollow(ARGS)
+     path = Path(ARGS.socket)
+     path.unlink(missing_ok=True)
+-    server = socketserver.UnixStreamServer(str(path), Handler)
++    server = UnixServer(str(path), Handler)
+     if ARGS.parent_pid:
+         threading.Thread(target=watch_parent, args=(ARGS.parent_pid, server), daemon=True).start()
+     print(f'fiber_follow service listening on {path} (grid scale {SERVICE.g:g}, base {SERVICE.base_um:g} um, '
+diff --git a/vesuvius/src/vesuvius/neural_tracing/tracers/shared/crop_sampling/gpu.py b/vesuvius/src/vesuvius/neural_tracing/tracers/shared/crop_sampling/gpu.py
+index d4cb23ade..b90eb163a 100644
+--- a/vesuvius/src/vesuvius/neural_tracing/tracers/shared/crop_sampling/gpu.py
++++ b/vesuvius/src/vesuvius/neural_tracing/tracers/shared/crop_sampling/gpu.py
+@@ -232,10 +232,23 @@ class GPUChunkCache:
+ _GATHERS: dict = {}
+ 
+ 
++def _compiles_on(device):
++    """Whether inductor can compile for ``device``: CUDA needs Triton, which has no official Windows wheels."""
++    if device.type != 'cuda':
++        return True
++    try:
++        from torch.utils._triton import has_triton
++    except ImportError:  # a private torch helper: without it, look for the package itself
++        import importlib.util
++        return importlib.util.find_spec('triton') is not None
++    return has_triton()
++
++
+ def _gather_trilinear(pool, table, anchor, rel, frame, local, bounds, shifts):
+-    """The compiled gather for these chunk shifts (constants in the kernel)."""
++    """The compiled gather for these chunk shifts (constants in the kernel); eager where inductor cannot compile."""
+     if shifts not in _GATHERS:
+-        _GATHERS[shifts] = torch.compile(_gather_kernel(*shifts), dynamic=True)
++        kernel = _gather_kernel(*shifts)
++        _GATHERS[shifts] = torch.compile(kernel, dynamic=True) if _compiles_on(pool.device) else kernel
+     return _GATHERS[shifts](pool, table, anchor, rel, frame, local, bounds)
+ 
+ 
+diff --git a/vesuvius/src/vesuvius/neural_tracing/tracers/shared/crop_sampling/prefetch.py b/vesuvius/src/vesuvius/neural_tracing/tracers/shared/crop_sampling/prefetch.py
+index ea889eba5..1a3cfb174 100644
+--- a/vesuvius/src/vesuvius/neural_tracing/tracers/shared/crop_sampling/prefetch.py
++++ b/vesuvius/src/vesuvius/neural_tracing/tracers/shared/crop_sampling/prefetch.py
+@@ -18,7 +18,7 @@ import uuid
+ import numpy as np
+ 
+ from vesuvius.neural_tracing.tracers.shared.crop_sampling.volume import RemoteChunkedArray, chunk_lock_path, chunk_slices, open_remote_array, padded_chunk
+-from vesuvius.neural_tracing.tracers.shared.io import atomic_write
++from vesuvius.neural_tracing.tracers.shared.io import atomic_write, lock_exclusive
+ 
+ DEMAND, AHEAD = 0, 10
+ COUNTERS = ('submitted', 'deferred', 'cached', 'completed', 'completed_bytes',
+@@ -168,7 +168,6 @@ class AsyncFetcher:
+             raise
+ 
+     async def fetch(self, descriptor, key):
+-        import fcntl
+         path,_ = _paths(descriptor,key,self.session)
+         if path.is_file():
+             return 'cached',0
+@@ -181,7 +180,7 @@ class AsyncFetcher:
+         with lock_path.open('a+b') as lock:
+             while True:
+                 try:
+-                    fcntl.flock(lock,fcntl.LOCK_EX | fcntl.LOCK_NB)
++                    lock_exclusive(lock, blocking=False)
+                     break
+                 except BlockingIOError:
+                     # Never block the event loop behind another process's chunk.
+diff --git a/vesuvius/src/vesuvius/neural_tracing/tracers/shared/crop_sampling/volume.py b/vesuvius/src/vesuvius/neural_tracing/tracers/shared/crop_sampling/volume.py
+index ac5b13852..d9a2c18ea 100644
+--- a/vesuvius/src/vesuvius/neural_tracing/tracers/shared/crop_sampling/volume.py
++++ b/vesuvius/src/vesuvius/neural_tracing/tracers/shared/crop_sampling/volume.py
+@@ -19,7 +19,7 @@ from urllib.parse import urlsplit
+ import numcodecs
+ import numpy as np
+ 
+-from vesuvius.neural_tracing.tracers.shared.io import atomic_write
++from vesuvius.neural_tracing.tracers.shared.io import atomic_write, lock_exclusive
+ from vesuvius.neural_tracing.tracers.shared.retired import ANY, retire
+ 
+ _VCZ1_REGISTERED = False
+@@ -252,8 +252,15 @@ class RemoteChunkedArray(ChunkedArray):
+             dtype=np.dtype(array.dtype).str,fill_value=np.asarray(getattr(array,'metadata',array).fill_value or 0).item(),
+             compressor=None,filters=None,order='C',
+             dimension_separator=getattr(getattr(array,'metadata',array),'dimension_separator','.'))
+-        atomic_write(local/'.zattrs',json.dumps(dict(remote_url=url,level=level)).encode())
+-        atomic_write(local/'.zarray',json.dumps(metadata).encode())
++        # One publisher at a time, and only once: on Windows os.replace cannot overwrite a .zarray another process has open.
++        lock_path = Path(local)/'.locks'/'.zarray'
++        lock_path.parent.mkdir(parents=True,exist_ok=True)
++        with lock_path.open('a+b') as lock:
++            lock_exclusive(lock)
++            if (Path(local)/'.zarray').exists():
++                return
++            atomic_write(local/'.zattrs',json.dumps(dict(remote_url=url,level=level)).encode())
++            atomic_write(local/'.zarray',json.dumps(metadata).encode())
+ 
+     def _open(self):
+         import zarr
+@@ -268,15 +275,14 @@ class RemoteChunkedArray(ChunkedArray):
+             return cached
+         if self.cache_only:
+             raise FileNotFoundError(f'Remote CT chunk is not prefetched: {self.path}/{key}')
+-        # POSIX advisory locks work on both supported platforms (Linux/macOS).
++        # Advisory file locks (flock on Linux/macOS, msvcrt on Windows: shared/io.py).
+         # Separate file handles serialize threads as well as loader processes.
+         # Cached reads avoid the lock. A reader waits for a chunk another reader is
+         # fetching, without downloading it twice.
+-        import fcntl
+         lock_path = chunk_lock_path(self.path, key)
+         lock_path.parent.mkdir(exist_ok=True)
+         with lock_path.open('a+b') as lock:
+-            fcntl.flock(lock,fcntl.LOCK_EX)
++            lock_exclusive(lock)
+             cached = super()._load(key)
+             if cached is not None:
+                 return cached
+@@ -349,7 +355,14 @@ def open_ct_array(spec, cache_bytes, *, cache_only=False):
+         if os.environ.get('VESUVIUS_CT_READER') == 'vc3d':
+             if cache_only:
+                 raise ValueError('VC3D CT reader does not support cache-only prefetch mode')
+-            return Vc3dChunkedArray(spec.ct_zarr, spec.ct_level, cache_bytes)
++            try:
++                return Vc3dChunkedArray(spec.ct_zarr, spec.ct_level, cache_bytes)
++            except ModuleNotFoundError as error:
++                # VC3D builds without Python bindings (the Windows release) cannot share the viewer's cache.
++                if error.name not in ('vc', 'vc.volume'):
++                    raise
++                print('VC3D bindings not found; reading CT through the remote cache', flush=True)
++                print(f'CT chunk cache: {spec.cache_dir}', flush=True)
+         return RemoteChunkedArray(spec.ct_zarr, spec.ct_level, spec.cache_dir, cache_bytes, cache_only=cache_only)
+     return ChunkedArray(os.path.join(spec.ct_zarr, str(spec.ct_level)), cache_bytes)
+ 
+diff --git a/vesuvius/src/vesuvius/neural_tracing/tracers/shared/io.py b/vesuvius/src/vesuvius/neural_tracing/tracers/shared/io.py
+index b7dd17bce..fa8ee427d 100644
+--- a/vesuvius/src/vesuvius/neural_tracing/tracers/shared/io.py
++++ b/vesuvius/src/vesuvius/neural_tracing/tracers/shared/io.py
+@@ -1,10 +1,17 @@
+-"""Atomic file output and JSON with numpy values."""
++"""Atomic file output, advisory file locks and JSON with numpy values."""
+ from __future__ import annotations
++import errno
+ import json
+ import os
+ from pathlib import Path
+ import tempfile
++import time
+ import numpy as np
++try:
++    import fcntl
++except ImportError:  # Windows has no fcntl
++    fcntl = None
++    import msvcrt
+ 
+ 
+ def atomic_write(path, data):
+@@ -23,6 +30,28 @@ def atomic_write(path, data):
+             temporary.unlink(missing_ok=True)
+ 
+ 
++def lock_exclusive(handle, *, blocking=True):
++    """Take an exclusive advisory lock on the open file ``handle``, held until the handle closes: ``flock`` on
++    Linux/macOS, a one-byte ``msvcrt`` lock on Windows (polled, since ``LK_LOCK`` gives up after ~10 s). Separate
++    handles exclude each other in one process as across processes. With ``blocking=False`` a lock held through another
++    handle raises ``BlockingIOError`` on every platform."""
++    if fcntl is not None:
++        fcntl.flock(handle, fcntl.LOCK_EX | (0 if blocking else fcntl.LOCK_NB))
++        return
++    handle.seek(0)
++    while True:
++        try:
++            msvcrt.locking(handle.fileno(), msvcrt.LK_NBLCK, 1)
++            return
++        except OSError as error:
++            # Only contention is retried: anything else (a bad descriptor) would spin here forever.
++            if error.errno not in (errno.EACCES, errno.EDEADLK):
++                raise
++            if not blocking:
++                raise BlockingIOError(errno.EAGAIN, 'file lock is held through another handle') from None
++        time.sleep(.01)
++
++
+ def jsonable(x):
+     if isinstance(x,np.ndarray): return x.tolist()
+     if isinstance(x,np.generic): return x.item()

@@ -1,0 +1,25 @@
+{
+ "note": "Open-data umbilicus files (Vesuvius Challenge, CC BY-NC 4.0), level-0 voxels. Not redistributed here. The URLs follow the bucket layout SAMPLE/representations/umbilicus/<file> named in tools/umbilicus_l0_to_l2.py; the setup run kept no download log, so the URLs were not re-checked online when this manifest was written (28 Oct 2026). The sha256 values are of the copies used for the freeze.",
+ "files": [
+  {
+   "scroll": "PHerc0139",
+   "volume": "20260102150214",
+   "file": "20260102150214-umbilicus-20260826112529.json",
+   "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/representations/umbilicus/20260102150214-umbilicus-20260826112529.json",
+   "bytes": 27960,
+   "sha256": "8123543f1792ab307a6f6d426469710899aaa0d36a2dc3bc8160ddf7a57a7edb",
+   "copies": ["score/data/umbilicus/PHerc0139_20260102150214_umbilicus.json", "data/umbilicus/20260102150214-umbilicus-20260826112529.json"],
+   "level2": {"path": "data/umbilicus/PHerc0139_20260102150214_umbilicus_L2.json", "made_by": "tools/umbilicus_l0_to_l2.py IN OUT (factor 4)", "bytes": 32482, "sha256": "91b80a1fd74c1744d858033aefc949046f71847dff6b046814b29e24f6adbaac"}
+  },
+  {
+   "scroll": "PHerc0332",
+   "volume": "20251211183505",
+   "file": "20251211183505-umbilicus-20260828110920.json",
+   "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0332/representations/umbilicus/20251211183505-umbilicus-20260828110920.json",
+   "bytes": 12151,
+   "sha256": "ab0f872ff6f93c25f28d376d417643d1f1d78248c885b9e3b81fe1ca316692df",
+   "copies": ["data/umbilicus/20251211183505-umbilicus-20260828110920.json"],
+   "level2": {"path": "data/umbilicus/PHerc0332_20251211183505_umbilicus_L2.json", "made_by": "tools/umbilicus_l0_to_l2.py IN OUT (factor 4)", "bytes": 14413, "sha256": "d458cd931d0363950da0934237ad804d1101e847664d3d4fa048636371941217"}
+  }
+ ]
+}

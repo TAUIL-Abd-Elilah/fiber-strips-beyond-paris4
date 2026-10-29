@@ -1,0 +1,1794 @@
+{
+ "summary": {
+  "fiber_files": 255,
+  "fiber_bytes": 88068432,
+  "missing_url": []
+ },
+ "files": [
+  {
+   "fiber": "dj_20260810T113807458_000001.json",
+   "bytes": 971323,
+   "sha256": "4fcec1cb1f8ed5b0ccb74dc3ac0e948866c14ca82bd130e5f12afb837f3abf7a",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20260810T113807458_000001.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20260810T130246774_000002.json",
+   "bytes": 313550,
+   "sha256": "18ba244295353f22b3a65c32bfe8c27a33ba2ceb2c8bdfeb35b41e6c863b6b95",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20260810T130246774_000002.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20260810T143258026_000003.json",
+   "bytes": 251228,
+   "sha256": "6a7c8e61916a19bcd9f0f99b132cec987ed14a28637e3dfcac3896265c9917d4",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20260810T143258026_000003.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20260810T144059833_000004.json",
+   "bytes": 634044,
+   "sha256": "874587a542358a971934eba5283a21dd5fea4aa688342070f3b0af5d64334510",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20260810T144059833_000004.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20260810T173331897_000005.json",
+   "bytes": 212334,
+   "sha256": "44ba030117ce09da105e48f71fdb995d9a6af5d8dc279496c186290c983645de",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20260810T173331897_000005.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20260810T180232302_000006.json",
+   "bytes": 553605,
+   "sha256": "5f20d5c2f280dc257a712b41a131a756c1e2543d78f8bcbec9e824a12f6e1b41",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20260810T180232302_000006.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20260810T205839715_000007.json",
+   "bytes": 937538,
+   "sha256": "5d2eb24823b5d2afbe0775f8803a85ed27cb87ae542cecbc4efe433436caaa46",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20260810T205839715_000007.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20260828T133213319_000008.json",
+   "bytes": 1829191,
+   "sha256": "4ff658a2d39dc89f32a198a7fb718d89422dd9ed704bd61539072e7500fe31c3",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20260828T133213319_000008.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20260901T132148373_000011.json",
+   "bytes": 1410193,
+   "sha256": "76d1e72958988cf36a7a9c4ae940e6210ae08a5808f0d937c8c422005c1fd837",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20260901T132148373_000011.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20260901T142101013_000012.json",
+   "bytes": 27959,
+   "sha256": "690af11b116540c382855a9ccc034a99bc61b4f59d669f2b8e0ff1a8de83e511",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20260901T142101013_000012.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20260901T142101013_000013.json",
+   "bytes": 1532393,
+   "sha256": "cf723e641a4aea5d9d03e870d8a06fbe302067aaa2964e811b90277e77c5932d",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20260901T142101013_000013.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20260901T161301263_000014.json",
+   "bytes": 2211901,
+   "sha256": "baff36c08d8018cb40d78fbfc393e96187d0c32d502fef942c8483dcb2a80892",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20260901T161301263_000014.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20260923T173510189_000015.json",
+   "bytes": 513105,
+   "sha256": "91a48e3e8977743c37e83125a8e02c4ab4e9003bd1f17d8d9017825bb98e8780",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20260923T173510189_000015.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20260923T180418957_000016.json",
+   "bytes": 568113,
+   "sha256": "1d1288d7d3778ec1d35f85539b7a19623db50b2933e19daac11b65bfa9f7189a",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20260923T180418957_000016.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261019T162826995_000017.json",
+   "bytes": 405490,
+   "sha256": "4e18cd3e668431ffd2493f8f2f73ceeb1073913ff7adae5d763f9d7b1409c108",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261019T162826995_000017.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261019T164214575_000018.json",
+   "bytes": 420281,
+   "sha256": "a3bab2bef3a29b64b378da79851b8f7aad7455e6a95d384951146e5d3e07042f",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261019T164214575_000018.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261019T165744303_000019.json",
+   "bytes": 247239,
+   "sha256": "fe0740203f36d056ee992c760805a7c8442cfcb9c90d432214fbe7904d662385",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261019T165744303_000019.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261019T171637323_000021.json",
+   "bytes": 660467,
+   "sha256": "45aff97471e6bfae84184734bd0e41c4ebecb238010be670c6b5a13ea4195b55",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261019T171637323_000021.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261019T171637323_000022.json",
+   "bytes": 297477,
+   "sha256": "0df53a911396c82280b4e508badc23f08e7b4adcd35216c489a4670ecbd4a4c3",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261019T171637323_000022.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261020T104050414_000023.json",
+   "bytes": 173783,
+   "sha256": "af46e389914a1cfc08a80f0fa79284dce8b81f15b2a0f427cbc92504011fdea3",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261020T104050414_000023.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261020T104330336_000024.json",
+   "bytes": 496059,
+   "sha256": "85cfa978cfb71554087b8032d1c51cf80247bab5fd8cc0d40a0c5c2d4d033ca3",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261020T104330336_000024.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261020T105336339_000025.json",
+   "bytes": 249725,
+   "sha256": "7cfabb67c8cab34f89d610b0081fdb1ea1fea349662f130d1b5dc87fb839c15e",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261020T105336339_000025.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261020T105707680_000026.json",
+   "bytes": 319891,
+   "sha256": "288ad6c27a5acdff27bc7512564aefa82b05378c93a9ea5e9be658a6232f6a36",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261020T105707680_000026.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261020T110330833_000027.json",
+   "bytes": 498510,
+   "sha256": "c5371aefa1d5a02691de6684de8cbf90442041ddd374c08a4ab121ccfe8a8cfd",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261020T110330833_000027.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261020T110330833_000028.json",
+   "bytes": 170862,
+   "sha256": "7aaf7ce39646ad28b6b4c6b5a00a95ebf3d69b2f43e262f2ea963add42bfd6d3",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261020T110330833_000028.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261020T172947429_000029.json",
+   "bytes": 693079,
+   "sha256": "0bb5d152ee573c6045587583a3ad9a2b68fc5440d69a27e574b8357bad59da01",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261020T172947429_000029.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261020T181251358_000030.json",
+   "bytes": 903513,
+   "sha256": "3ef099cd46b8e6a7eddafe6999151d9746ad4b3f3fbc226971d7d5241732a6fb",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261020T181251358_000030.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261020T181251358_000031.json",
+   "bytes": 186654,
+   "sha256": "3a0114f271766332d276707fc6dba1cec352b2d25a01e2a45598003aa49d478e",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261020T181251358_000031.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261021T161111211_000032.json",
+   "bytes": 533900,
+   "sha256": "b59e1e2f21bbc42adb0d2044a66990102d8325f36d6760b2da260722e491da5e",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261021T161111211_000032.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261021T162300637_000033.json",
+   "bytes": 863026,
+   "sha256": "65db43b41656293cb217ac2aac948667c098770f71685bd3b5ec0938fea5fa04",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261021T162300637_000033.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261021T171014367_000034.json",
+   "bytes": 323977,
+   "sha256": "3b4fba960b839757525bef00b9bcc294f660c892bfda316b96e1aea9c10e4a7c",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261021T171014367_000034.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261021T172347931_000035.json",
+   "bytes": 127646,
+   "sha256": "ae4cec2b866924a99f600ed14ca7b954e278da78e168c48f3f7f81a04befe5c4",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261021T172347931_000035.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261021T172922352_000036.json",
+   "bytes": 871769,
+   "sha256": "3e27819339d39a92ae3166cbfaf705dcc50cafab75e53035e97ec8e91db1909b",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261021T172922352_000036.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261021T175950465_000037.json",
+   "bytes": 294692,
+   "sha256": "d67f5fe91af224ebf3ed1548d5b170cf42f2b65442930a672901a4852e4a9747",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261021T175950465_000037.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261021T180543008_000038.json",
+   "bytes": 184245,
+   "sha256": "9f4df361ef1db0da55fed92f994babdebebcdd89a1d77a1e4583d3abb3fe5496",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261021T180543008_000038.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261021T180728527_000039.json",
+   "bytes": 51935,
+   "sha256": "89de87b780432a286686257b07c18e4a89306ab05fd2498d660c4911ad071367",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261021T180728527_000039.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261022T103826340_000040.json",
+   "bytes": 412933,
+   "sha256": "97b160c162216a6ba615e536738171e8a6bc8d043e786ffe0e6ca5d05e492b76",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261022T103826340_000040.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261022T104237390_000041.json",
+   "bytes": 298242,
+   "sha256": "0b5a876f17c64b02f2ab40a0810c726cfbb69f957e25ed3250dcffc60cf00ce4",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261022T104237390_000041.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261022T110502312_000042.json",
+   "bytes": 887807,
+   "sha256": "51d8023148c36e65ea8c1ba95bd542b620116be7a1979f4ba396526606eb982d",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261022T110502312_000042.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261022T112114260_000043.json",
+   "bytes": 115014,
+   "sha256": "27ebe00b4ba39b7baa2a15cd6cafedf8027252b849ef6fcfe11303e6ffed29d5",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261022T112114260_000043.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261022T112602488_000044.json",
+   "bytes": 192208,
+   "sha256": "b5aff0ad57d2c05078e58da6088bd069795ec5daadaed72154117d162892c078",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261022T112602488_000044.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261022T132938878_000045.json",
+   "bytes": 102776,
+   "sha256": "bd413a3bfa59b844bf5901f70c153817211faa9ca5ccdc5050efb4db90b15643",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261022T132938878_000045.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261022T133246051_000046.json",
+   "bytes": 68902,
+   "sha256": "0cfd5cbea1640d964e675fade507977797389efcb88b98afbd5eba0e07e5124a",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261022T133246051_000046.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261022T133535557_000047.json",
+   "bytes": 85677,
+   "sha256": "f82bee950b5363287f0e67e732a1876b785b9f979b7f008e560d8e0c761268b8",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261022T133535557_000047.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261022T135035934_000048.json",
+   "bytes": 275360,
+   "sha256": "0f7cc91c12692674741998bb5b1c4ddb64d7313c6e926d926f9f01d02dd40ab8",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261022T135035934_000048.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261022T140224878_000049.json",
+   "bytes": 394467,
+   "sha256": "8fc4171dac02ce349a0005834f828d7f7055cc90f396535b9a2b4b5a579f870b",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261022T140224878_000049.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261022T141443443_000050.json",
+   "bytes": 402987,
+   "sha256": "b001c283a8cb07252066d82c1443816436241e18c8cc236181b638e26e155858",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261022T141443443_000050.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261022T142626898_000051.json",
+   "bytes": 93396,
+   "sha256": "35edccb441f45536b1c06ec336e161c28cd1041ba7927d61937f7799ca0c2a14",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261022T142626898_000051.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261022T152714932_000052.json",
+   "bytes": 143754,
+   "sha256": "af4d3d795531935c857372e8626be8b2e4d1be1ccc8fb32513fd01b3c64a92cd",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261022T152714932_000052.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261022T154420428_000053.json",
+   "bytes": 163125,
+   "sha256": "146e5f954b7734670b3bc77d290538579b59db0dd0a12e7d0575d7693c4adcdb",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261022T154420428_000053.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261022T154755059_000054.json",
+   "bytes": 445372,
+   "sha256": "68d68bd2571e325aff267f37d50d0e3192ce4a35ac3ed0a299f614e355a09199",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261022T154755059_000054.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261022T181520615_000056.json",
+   "bytes": 65489,
+   "sha256": "7bc5a07ee642035b589c7b8caa8d281a27c2b68baa7c783efeb8c22e9c5f8d26",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261022T181520615_000056.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261022T181520615_000057.json",
+   "bytes": 43332,
+   "sha256": "bb1bcfbf8f42382d7d86c964b7db414e1f9fba62a4b849cb06af2ef6739f3dc8",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261022T181520615_000057.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261026T142945660_000058.json",
+   "bytes": 178567,
+   "sha256": "aefd3490fa2cd069611739ec1c6c9aeaae59a27cec919ef60a3dcf110bcd1d67",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261026T142945660_000058.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261026T145103619_000059.json",
+   "bytes": 52636,
+   "sha256": "80f75185dbe245ef0d64f6e823d1525f497b0f387246ffbb24384449f2aae792",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261026T145103619_000059.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261026T145249162_000060.json",
+   "bytes": 73336,
+   "sha256": "1d43ee4cdecf618e34beb747b4115de08d1fdf52a6893a9af83f6b14c9b7ddd5",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261026T145249162_000060.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261026T145444243_000061.json",
+   "bytes": 96170,
+   "sha256": "8edbe3a5dca6da3408808061163d8b7fd49a674e73b34a63ed8b26471eccb207",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261026T145444243_000061.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261026T145612415_000062.json",
+   "bytes": 65516,
+   "sha256": "b9c399bb416ce7f07dfd44be093cc312120277c0eaf4cd1dbeb6df884d6f0fb2",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261026T145612415_000062.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261026T145851782_000063.json",
+   "bytes": 106029,
+   "sha256": "7c5cf082810dbfbe597b5bc5b8d96cbcc8eb3aa48038fd1695944cc523888865",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261026T145851782_000063.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261026T151918660_000064.json",
+   "bytes": 40551,
+   "sha256": "0d864b8fab1ddfe98cf461be32fb43e14b775f09eb810321986ba640dd7e14ec",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261026T151918660_000064.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261026T153643874_000065.json",
+   "bytes": 122535,
+   "sha256": "55049d85085daad7551aeebd137291ce19a3b8a82f5e1133e0b9faaffab65698",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261026T153643874_000065.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261026T153643874_000066.json",
+   "bytes": 678805,
+   "sha256": "293006eb147a06ec4dbf69a025865d8518450251fcc929f1e4ca0e7508b848c6",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261026T153643874_000066.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261026T154041900_000067.json",
+   "bytes": 138001,
+   "sha256": "a9f37608c0f38ad65769ebcdcd5204b936577cc96479f91dbb8d87e83e0b0484",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261026T154041900_000067.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261026T193623205_000068.json",
+   "bytes": 333436,
+   "sha256": "1a1eb17c16db2747ab5295fc07eca2fade9292118122f8addfe504ca0566b547",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261026T193623205_000068.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "dj_20261026T193623205_000069.json",
+   "bytes": 239661,
+   "sha256": "3691e1582ecfb58b81e6a5743b34a6f4a5f02da2632daae9fcf88d11878937eb",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/dj_20261026T193623205_000069.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260819T015639606_000007.json",
+   "bytes": 413154,
+   "sha256": "9c1e2a827a9312a9b498f179b0f25f85f3b54a86813c1fa53318425592b98c33",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260819T015639606_000007.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260819T021447237_000008.json",
+   "bytes": 68078,
+   "sha256": "ef1af8bf6d1333e091f9419f4fa63492ed2b5df5c2bf4e8dd0743c99671096ef",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260819T021447237_000008.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260819T022021338_000009.json",
+   "bytes": 32929,
+   "sha256": "cdb71067f9b660f40b44a2daef2ecde4a158480006197ae3264175790a0b397d",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260819T022021338_000009.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260819T023656149_000013.json",
+   "bytes": 172794,
+   "sha256": "8bfc6bcb69baadcf33067dbbec282e4ac5887f2ec50645411dadeafa3344ca90",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260819T023656149_000013.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260819T032711395_000015.json",
+   "bytes": 24621,
+   "sha256": "52f3e136435ec897884a7a211530c74f2ca35abe13131a4dc29a949046778981",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260819T032711395_000015.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260819T035533211_000018.json",
+   "bytes": 122914,
+   "sha256": "ea87d27b12ae1d31be9bdbd45371719f8904eb2c0bdb83b231766a76892072b2",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260819T035533211_000018.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260819T153920984_000019.json",
+   "bytes": 431645,
+   "sha256": "df1c59a8a884f4399b6ebcd5b2562e460bfd6933178f89d80abf688347fdabab",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260819T153920984_000019.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260820T151152927_000020.json",
+   "bytes": 1383393,
+   "sha256": "bf74cfd68a58eac969b1f689ef3d161a5f05acbb263de0a237ee2be07017bfaa",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260820T151152927_000020.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260820T222924914_000021.json",
+   "bytes": 1108901,
+   "sha256": "e1383aae0b3452267c8d99e2e2b7f2e5da64437194f70f5831a22a0d19f73b7e",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260820T222924914_000021.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260820T233725076_000022.json",
+   "bytes": 358214,
+   "sha256": "f5b60c833a5f955a7ca3b941652924a17e4f156251443fc898697d5e9cea6017",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260820T233725076_000022.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T000652623_000023.json",
+   "bytes": 729245,
+   "sha256": "1e0365f2a3ad9b2a3e9e10b04c355a53bf023542d45a7fef32e5309e38947413",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T000652623_000023.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T020232128_000024.json",
+   "bytes": 785436,
+   "sha256": "18b341c038abf8ebde3c11d48ddb4bcd02204c1675f4f6bf45f88101fcf6c7a9",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T020232128_000024.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T031410127_000025.json",
+   "bytes": 107270,
+   "sha256": "1be4ba8359ed9ce9a3e28134f5ce5f03068bbcd44a455bcf61e5450ae96700e9",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T031410127_000025.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T032200792_000026.json",
+   "bytes": 523855,
+   "sha256": "7c6ba4a850f19e01eebd2943f4a90cbf5312235c52f9409083d1a05292006844",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T032200792_000026.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T032913194_000027.json",
+   "bytes": 64978,
+   "sha256": "12c9e61d3ffe3f08aec5522b124f58c4748422cfd77d4717854f0dda4044ec1e",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T032913194_000027.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T033251395_000028.json",
+   "bytes": 469878,
+   "sha256": "4e896551b7aca254fc75f1c66426487af88f4da25154a9c16b86ecce48cb6e49",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T033251395_000028.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T164641854_000031.json",
+   "bytes": 474949,
+   "sha256": "6d924de7ee3fa65ab2ec13d5b2553d944d2941d57af2cb4f35f104b86eed9d9e",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T164641854_000031.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T165448820_000029.json",
+   "bytes": 531038,
+   "sha256": "4ddbbfbf128d113c6888e92a527aa49360cebab9a05902d1a9e7767ef8894441",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T165448820_000029.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T172237515_000030.json",
+   "bytes": 217889,
+   "sha256": "efe2ba8e25b875eddce4ab7f004aaaeaf44517762e140d2a743ae34445527f91",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T172237515_000030.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T191212977_000032.json",
+   "bytes": 91738,
+   "sha256": "7825e645c791f26c01a3a3c67ca2f62fe7c81e14c153c99b3eef838d3a1e914d",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T191212977_000032.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T191911591_000033.json",
+   "bytes": 224967,
+   "sha256": "1733bd4d62b281ee983163d6bd9ad8759478a29ae3af9212549bf4a7ad972b95",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T191911591_000033.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T193040018_000034.json",
+   "bytes": 31109,
+   "sha256": "d06ae7e7ec2121c8997da635b2356ace2372d8e26296b4e61322704ff9ef3cdd",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T193040018_000034.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T193245033_000035.json",
+   "bytes": 135213,
+   "sha256": "e33f5f05c422b4f01e9879f8fda74fde590c1d82bdb8ed608a1ee09fc2e99ef0",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T193245033_000035.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T193832788_000036.json",
+   "bytes": 872817,
+   "sha256": "9141584e1c15b259f73a567c02556b90aa94f6d93c511664b3df51e9416ae10e",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T193832788_000036.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T213244974_000037.json",
+   "bytes": 426302,
+   "sha256": "5b13a435201973460d1acd618d778be70e06d67946fac3a76cb724ae52054852",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T213244974_000037.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T233340519_000038.json",
+   "bytes": 47205,
+   "sha256": "901119ee1db7c0360ff4026aeef4f4f55ac0bb384ec11fd3e212c57a122cfca7",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T233340519_000038.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T233638767_000039.json",
+   "bytes": 55618,
+   "sha256": "661034b8af0cb04ab3f7892f78c02e420ece8367eea58bc3b358269b3cf99d1f",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T233638767_000039.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T233848157_000042.json",
+   "bytes": 67586,
+   "sha256": "452100d22371334c6914dde601940e9da60eef230fe86870b3360fefc7c16dc1",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T233848157_000042.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T234056473_000041.json",
+   "bytes": 62986,
+   "sha256": "ae7970845e8f410bd93f4a9fe4bdb615c8099a020ed6644d088b7dfbded42085",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T234056473_000041.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T234720231_000043.json",
+   "bytes": 68339,
+   "sha256": "3b790ef215a75ad01bfd08033ecf10e03bafcb622cb228783936c82849ded146",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T234720231_000043.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T235032081_000044.json",
+   "bytes": 60682,
+   "sha256": "f6bd2f494fc853dcddfdb6ea368022616656bedcd385d230b4ffef49bc427b8a",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T235032081_000044.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T235239070_000045.json",
+   "bytes": 16267,
+   "sha256": "b2ba80ae9331e105250815b311e6cfa79fbe8c37639120ee77b34d92d89c02f8",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T235239070_000045.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260821T235327503_000046.json",
+   "bytes": 159635,
+   "sha256": "b8e1e16783f2079f738aed7cadedc5bd442e9a317dba86bbd47821eeb8564356",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260821T235327503_000046.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T000246820_000047.json",
+   "bytes": 29336,
+   "sha256": "0c8482e8f72fad4b34647352daaafa3ad61df3b4da76437b1bfbcf95f8322b40",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T000246820_000047.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T000437066_000048.json",
+   "bytes": 21408,
+   "sha256": "471c1b9976767e28df2c4dcf3d1f2b9c40697f6e7050316f936600e5f2715f53",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T000437066_000048.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T000644008_000049.json",
+   "bytes": 40784,
+   "sha256": "0dda7e0c447b29ae018b7271ad44bdc4bb97b3038ba3b77ad053dcd283430f01",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T000644008_000049.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T000914377_000050.json",
+   "bytes": 56678,
+   "sha256": "4bbf9885438e9090649e70f0a59b1cb57ca89f81b8173f6f7d2f20c7a5d8f2dc",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T000914377_000050.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T001223746_000051.json",
+   "bytes": 242802,
+   "sha256": "b6ac015482b4e0d2d818f9109638bddfc68a6d8f9d32a2856907c20fa6a0be0d",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T001223746_000051.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T002429618_000052.json",
+   "bytes": 248143,
+   "sha256": "bb54aa7355661ce75bc4a8d94479071e78479d1977b6f87d5479fd7b67765eb6",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T002429618_000052.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T022348206_000053.json",
+   "bytes": 451238,
+   "sha256": "fa0a4d3a783e7e576f815608beb1518d11cf84659ee6905aee83cf2c564154be",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T022348206_000053.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T025624725_000054.json",
+   "bytes": 473950,
+   "sha256": "44d4030f831dcaf3fbfd53675f74dfeafb04ab566560da0fde2b0ff0306d5ce5",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T025624725_000054.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T031655516_000055.json",
+   "bytes": 191670,
+   "sha256": "8c24d30ba6c6a5bc32196ac7022ae63076894682bb5d9d90951ef25966d69dcd",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T031655516_000055.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T032335476_000056.json",
+   "bytes": 754218,
+   "sha256": "4914322f995ce85b321dc3220bdad8fadeb88280abfa5fdca57ee1eeab24a36a",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T032335476_000056.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T032745157_000057.json",
+   "bytes": 225366,
+   "sha256": "aab28d5ae7e89915d948a8f03cb7ae325d28e71b19b2f976df82fc179aebc52a",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T032745157_000057.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T033517433_000058.json",
+   "bytes": 199940,
+   "sha256": "d6f5f30fa8968d59e1d65e8fcf160f5beaa0fc1c203cccb53b626b2291a0aee9",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T033517433_000058.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T034344368_000059.json",
+   "bytes": 92813,
+   "sha256": "0377329b893802a79cae1254b84ff8c649ffec8db2faa98491164603b6e5978f",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T034344368_000059.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T035102078_000060.json",
+   "bytes": 96129,
+   "sha256": "09cf1e10a00defd31272f05a64c8c5e8e1b341e8bfc01089a9adc39c94b06860",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T035102078_000060.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T164832186_000062.json",
+   "bytes": 262576,
+   "sha256": "6aa88f618244b8c3db1364b3f8d696f1e4ad3e5fe24824d3dc5c95a244cae7ab",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T164832186_000062.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T175718371_000063.json",
+   "bytes": 625982,
+   "sha256": "dc5f2e652966a240cee5046af625b3f666c092a134984cb09053bd9e8db76275",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T175718371_000063.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T183538139_000064.json",
+   "bytes": 238640,
+   "sha256": "a20d852d99d8d003884238ccdc256bc79e71052aa5a3f1f06c95639cd80f59f6",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T183538139_000064.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260822T193333844_000065.json",
+   "bytes": 1090742,
+   "sha256": "032a5252fdd3f46ed4f7e6ba70b53f8d40fada9848d08cbfb4cc26a8cb0f2f13",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260822T193333844_000065.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260824T164423720_000066.json",
+   "bytes": 79156,
+   "sha256": "d37d1627dbe429d932dbe37e9046a3c8f49ff8bb9f27f2c9a27c51f8a27cbb17",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260824T164423720_000066.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260824T165229728_000067.json",
+   "bytes": 131767,
+   "sha256": "8e77561276cc476af12747d43ad2be50d314243baf4dcac884395831556e557d",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260824T165229728_000067.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260824T170439385_000068.json",
+   "bytes": 227286,
+   "sha256": "0afc74a0f6f0abf311b74aa021c37cff8fed454d005b3af72ffa68aa5b9e5dd7",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260824T170439385_000068.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260824T172252747_000014.json",
+   "bytes": 216941,
+   "sha256": "c2dd63aec8eecc0e2a4054de33bf891d12444b2b398aaa23c0328e47f9cb8d0b",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260824T172252747_000014.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260824T180726687_000070.json",
+   "bytes": 809658,
+   "sha256": "f0beafd39e2b3fea0f2a8be1327193b41ff7d71d7ceab0f93055552211be3527",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260824T180726687_000070.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260824T191056836_000071.json",
+   "bytes": 174647,
+   "sha256": "930c9fbc58c4761392c9e74f80693f0e71bb9c142ce6800dfafe42878bcfab8a",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260824T191056836_000071.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260824T193518223_000072.json",
+   "bytes": 50479,
+   "sha256": "2dc281f48c2aa680cc14dbfe5438e0d7212e40bfa74839562d7b7c6f3603607d",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260824T193518223_000072.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260824T193809246_000073.json",
+   "bytes": 691254,
+   "sha256": "9b79d88e0c9e692e1d05ccabd57b2fa9a3a0a10c1819db69cda2b1b7e569853a",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260824T193809246_000073.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260824T193843752_000074.json",
+   "bytes": 9907,
+   "sha256": "6442f3dfcd915e0247272a1d95e54434a3c1056a8754996e13840343ef0e650b",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260824T193843752_000074.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260824T193934068_000075.json",
+   "bytes": 17653,
+   "sha256": "8e6a2f5caf3c3c570bca4b983c693f700d748f49f494dc3218d78e20e1e6866c",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260824T193934068_000075.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260824T194110528_000076.json",
+   "bytes": 23225,
+   "sha256": "54334171c3d8076e4468bff7123f45ce3c490f20131590ebdc56d8cc1902ddd4",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260824T194110528_000076.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20260824T194228123_000077.json",
+   "bytes": 29455,
+   "sha256": "b3707b2985a4ee118de860aeca525e396fd8ed4daa4836a1062a98feb8dc1fda",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20260824T194228123_000077.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T202755960_000079.json",
+   "bytes": 84202,
+   "sha256": "9dfcd3cc6135a48ee27b8491dfc2cc0db654fe751a7d321cfb30fa67d80627fd",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T202755960_000079.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T203105897_000080.json",
+   "bytes": 122090,
+   "sha256": "329d875640017f3a61beb9ef450683adade0b2987886afb19d69f5e6f3dc6bfc",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T203105897_000080.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T203259512_000081.json",
+   "bytes": 120121,
+   "sha256": "7e944bf981461e1732fa9b0595a515b7b4b9f6cadacdc7c4dba811d39f21bfef",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T203259512_000081.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T203519534_000082.json",
+   "bytes": 130811,
+   "sha256": "a730cb44e2dae24086e189bdd1ae6c4a57f9bee3db92f571cde8dbfdf7e50a60",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T203519534_000082.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T203706586_000083.json",
+   "bytes": 182013,
+   "sha256": "e9a26a018e6fbe7bf215451c8e4f18fbfb853689589c992daa3bb97a02374357",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T203706586_000083.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T204209853_000084.json",
+   "bytes": 36163,
+   "sha256": "b1699eb504f716a08cf32607738bd0a0eb481ad3c8aa23072f3acfa4a029d8f6",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T204209853_000084.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T204610173_000085.json",
+   "bytes": 234400,
+   "sha256": "a5ad6c23b5dfc6123518eb9ac703e5849d6e412e53e04b0a2a021928e2b53ead",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T204610173_000085.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T205141730_000086.json",
+   "bytes": 144719,
+   "sha256": "7bb7a7ab0e975c63b99402e16d2381a409223c86929c0cc107862fb2110c3e29",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T205141730_000086.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T205504208_000087.json",
+   "bytes": 116309,
+   "sha256": "69b1287a93f0a387b208e9b9cbc2a3e7d14c2276f773b944007f3ea3fe1c2ab8",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T205504208_000087.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T205717634_000088.json",
+   "bytes": 77946,
+   "sha256": "8b57e1f9881802d648b1a3716f77dcdf4e0b624b999916a03b719ad96502a0b5",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T205717634_000088.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T210248704_000089.json",
+   "bytes": 152669,
+   "sha256": "e290cb499e652c7f81e2174f36583d4a9921915550e5193cc837a16840b87cbc",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T210248704_000089.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T210601020_000090.json",
+   "bytes": 73430,
+   "sha256": "dfae402fedaca0b98ccff7ded9f66afad04992004e18d1bb1b99f058563b78bb",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T210601020_000090.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T210734897_000091.json",
+   "bytes": 119088,
+   "sha256": "91ff607de047d0607039a206a2521bfae396a97ad0ec638758b6920c66ef18c9",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T210734897_000091.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T211345637_000092.json",
+   "bytes": 103002,
+   "sha256": "3bd7adf468dd29c0753f0c95299d0377febb8423eafeae04e575e4c214b20b27",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T211345637_000092.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T211547317_000093.json",
+   "bytes": 200493,
+   "sha256": "9a659e40aa3cfdcec3b28d9345074cc85790205730af1d139c08729971c7c657",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T211547317_000093.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T211854651_000094.json",
+   "bytes": 165258,
+   "sha256": "645381a1820269e10b3d2af4889927aeac12b30a5a6319bd1e98bdabf3ee0cc6",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T211854651_000094.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T212056579_000095.json",
+   "bytes": 149969,
+   "sha256": "7afb149a8064eaa93c49c0b2be933587cfdaae936af9127190b450d1ec210126",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T212056579_000095.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T212252875_000096.json",
+   "bytes": 224747,
+   "sha256": "1e4ef3e74b9e1b6610dc3a87f8b66ad5c56798e6a8807d0796537f4d39f0af6a",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T212252875_000096.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T212716727_000097.json",
+   "bytes": 120192,
+   "sha256": "9495dd17deb7b6351013fa9e4a36725d57a0128ba98e370b79fa4efd0c1c0dc3",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T212716727_000097.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T212919464_000098.json",
+   "bytes": 287582,
+   "sha256": "49de43538ddf809983fac870559c37e58bcb1f327819284e9c8ed62f052efaf1",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T212919464_000098.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T214238459_000099.json",
+   "bytes": 115632,
+   "sha256": "61bdc2a689b61f585fe00d06214549fd3ea1cea15455ebcc8dbe859229283f93",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T214238459_000099.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261014T214334847_000100.json",
+   "bytes": 113885,
+   "sha256": "750586ee90f605d7688c540c2d0009034e943580fdd910ab2452139a587fd8e5",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261014T214334847_000100.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261019T182355177_000101.json",
+   "bytes": 407474,
+   "sha256": "4eb581024fe8f4bab956a993bd28f4090094d181323e4f646bfbcff8017e5eb4",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261019T182355177_000101.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261019T194802921_000102.json",
+   "bytes": 611115,
+   "sha256": "8afba204a78c958d55dc8423225fae2fc1a6238774b4b1d0ec882c7c6b580190",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261019T194802921_000102.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261019T200142954_000103.json",
+   "bytes": 722915,
+   "sha256": "235dd869b07fde35fc2c82e8e05f9b747ef9313f6d3a3a7e7c9e40145bdf8b84",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261019T200142954_000103.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261019T222901140_000105.json",
+   "bytes": 978848,
+   "sha256": "020b6cdbfd013ee5744a738bc545eae85d0891b2969716a884c75aaf2eb09124",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261019T222901140_000105.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261019T222901140_000106.json",
+   "bytes": 848931,
+   "sha256": "e3c069245ada3331b4b57a600d479fe649900bcd7cdd1963bccce2e841d74711",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261019T222901140_000106.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "kb_20261019T231201285_000107.json",
+   "bytes": 202773,
+   "sha256": "84ad9a5fdce1a750217313989d7bd422d27ddcfd3e93dc747c40f79cf602cc92",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/kb_20261019T231201285_000107.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261009T100840116_000001.json",
+   "bytes": 164922,
+   "sha256": "478d5b8709b1c6351debe6f955fd944102c39069d0865509ae92d745732d07bc",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261009T100840116_000001.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261012T050846234_000002.json",
+   "bytes": 109807,
+   "sha256": "375950935f48dcbea842422ecd0c8994faf6859cfa765e2918790beaed6c831c",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261012T050846234_000002.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261012T052354517_000003.json",
+   "bytes": 164206,
+   "sha256": "83e87b6cc67435a84761934394f0f75c19e0bd5589b3fe4b92c1208f2157c0e4",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261012T052354517_000003.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261012T060702388_000004.json",
+   "bytes": 656944,
+   "sha256": "daa1699b8924965134e8317458e982b11aa4bd00a21750fa9dad1992712d89b9",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261012T060702388_000004.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261012T064223338_000005.json",
+   "bytes": 385783,
+   "sha256": "f5c733ab101e745773d6b507379c79a2d8b3c8319bb6fd2facffe87098257ea1",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261012T064223338_000005.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261012T072842175_000006.json",
+   "bytes": 527922,
+   "sha256": "474ab39965d0494c3b70d7450168d9d88d8c7f54e1409784863d298b257cb354",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261012T072842175_000006.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261012T074722861_000007.json",
+   "bytes": 413515,
+   "sha256": "042f0b45b2e4561fc372baeab7b096c637f748e635dd1ef78086477e874582f4",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261012T074722861_000007.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261012T080610223_000008.json",
+   "bytes": 352047,
+   "sha256": "ebbcf72522810c2a586cda926d75783fe653cf6cbfd7910c2310b39a7ac409e2",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261012T080610223_000008.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261012T082923030_000009.json",
+   "bytes": 495296,
+   "sha256": "14c28b75895802cc2cbf5b9a3b46d7bfb524dc25f7d72e84254647364cd77ee3",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261012T082923030_000009.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261012T085409386_000010.json",
+   "bytes": 881586,
+   "sha256": "5a0ebe88a50665e8a815a2215ef41ceda706adc061cd03aefc09875bdafb8b63",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261012T085409386_000010.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261012T094048959_000011.json",
+   "bytes": 361448,
+   "sha256": "419b27a93c0f8173860b4da778c14347b883e76486eb1d3d928270a120b30419",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261012T094048959_000011.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261012T100347204_000012.json",
+   "bytes": 868848,
+   "sha256": "ed38ac64472308f9d8e378adf82a6410fd62122cf2dbde8348c818f7c345e214",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261012T100347204_000012.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261013T053536230_000013.json",
+   "bytes": 339483,
+   "sha256": "454089d6c6bb7e69c1c1b9584764d6b05cf579437774ac72a28e7cd5659ae191",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261013T053536230_000013.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261013T055156369_000014.json",
+   "bytes": 377696,
+   "sha256": "865cde9df8495f8207784c5ba50397a1602285de20b7b3bcf491e4ea6e57fe1e",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261013T055156369_000014.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261013T060711857_000015.json",
+   "bytes": 404544,
+   "sha256": "2cdeea373657708df59f348f58efa3abfd256524ec8c30e64b3e59b1060a72b3",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261013T060711857_000015.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261013T062111148_000016.json",
+   "bytes": 294171,
+   "sha256": "0fa396a29701460b092841efd1e4a27edec4a0d2e62ca4e3cddb62ca03e02d63",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261013T062111148_000016.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261013T070107500_000017.json",
+   "bytes": 385431,
+   "sha256": "b6c9be34cf4cdfdc7d785e53166f9eaa941416c401d4cf88b53b17ffaab7ad3d",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261013T070107500_000017.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261013T072249252_000018.json",
+   "bytes": 151389,
+   "sha256": "24626d17aba6f5a557676da100b6f3f03f534fff1f0ae82dc21fd57bb227b168",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261013T072249252_000018.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261013T072800334_000019.json",
+   "bytes": 151276,
+   "sha256": "291c94790f6057815247d2f2e8a0b9b0b020fbc4979344890f979cf4557c2bd7",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261013T072800334_000019.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261013T074017953_000020.json",
+   "bytes": 491821,
+   "sha256": "da08cb2cf0684adccce130335e6a494db39fea4f7cad2ba25c4bef6efd2c1276",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261013T074017953_000020.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261013T080333587_000021.json",
+   "bytes": 252878,
+   "sha256": "f1a1c17594b94238149e8c2a33b53fda57be35b717732c11820c3c3a44af4cd9",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261013T080333587_000021.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261013T082112091_000022.json",
+   "bytes": 132049,
+   "sha256": "2aae64afb79f783910df06e5b5fecd25f5454f15f5fde8f3511656d9622c8c1f",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261013T082112091_000022.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261013T082929647_000023.json",
+   "bytes": 428296,
+   "sha256": "520dd4009647c5ed6b0fb20826a5217953efd9a79d6c0b5ee84b4f8243fc54f6",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261013T082929647_000023.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261013T090421254_000024.json",
+   "bytes": 240006,
+   "sha256": "fc88a76352ac2ac8d51b71429ccb181c2be54c76ec5a1b20bf0ba5025fc96736",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261013T090421254_000024.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261013T092358148_000025.json",
+   "bytes": 106830,
+   "sha256": "3acf424da262c2023b8f107c72a061769367a36dc7e176dbb95a621f2f46d0ad",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261013T092358148_000025.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261013T094642960_000026.json",
+   "bytes": 115261,
+   "sha256": "7364d462674468c069d7d6ca1653786750ceef5c728fba587fc11075d7f99317",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261013T094642960_000026.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261013T095553471_000027.json",
+   "bytes": 147921,
+   "sha256": "30bc99f60c9c6f1213f0f76b7745870996bb2c32d3804d646ccc23e4dd2d5264",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261013T095553471_000027.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T051024766_000028.json",
+   "bytes": 275482,
+   "sha256": "1c4aac170f86c6277190096da18b7dbe22a4692d2212d2885a1b745bdfe87e12",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T051024766_000028.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T052523142_000029.json",
+   "bytes": 187746,
+   "sha256": "75cef8435e68f4a0cc23feccbd91a03e7aab13469a288d95803d39bfdd0cb564",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T052523142_000029.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T053045556_000030.json",
+   "bytes": 137014,
+   "sha256": "79c9a7d30f0b99e8d5534e400e76959bacce204cf4e6a9ca10bd8a668cc5df7b",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T053045556_000030.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T053827877_000031.json",
+   "bytes": 174197,
+   "sha256": "3b50d763be6620fe92d3a8db0b0165fef3efbf320b7b4ce938e02544ef080981",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T053827877_000031.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T054454708_000032.json",
+   "bytes": 126547,
+   "sha256": "ac02a71cfef2c3cbf28f1a0f20084c3ac69733779034fc70905222fe50657764",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T054454708_000032.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T055552490_000033.json",
+   "bytes": 127671,
+   "sha256": "693d2d06d17493bddcc72dbb256d294b9c270664d6d63fe57c73a1f465d5857c",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T055552490_000033.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T060251289_000034.json",
+   "bytes": 73935,
+   "sha256": "ef98b2bb1a69e6e95ca25d77cecfc21d9e396de6417dec0fa94db2b84eb9b060",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T060251289_000034.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T070715152_000035.json",
+   "bytes": 210599,
+   "sha256": "cbe5af6c7df6356f9dd6cef5db43bf0ca55ed1b7845521f195d4e8a78d4416df",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T070715152_000035.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T071541855_000036.json",
+   "bytes": 410115,
+   "sha256": "df46a070efedb2d3f060b2265e2778c494b58392cfcecf6490a9c5a38f5e8d7e",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T071541855_000036.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T074939731_000037.json",
+   "bytes": 339759,
+   "sha256": "d2d81dcb2a2ced8aed6da21d69df3814315b012c10efa271b19f3179cdaf00c3",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T074939731_000037.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T081359359_000038.json",
+   "bytes": 207698,
+   "sha256": "1fe434a805df835e72d277541dcba740f608aad60b8b2db16e861b6863c805d3",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T081359359_000038.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T083840104_000039.json",
+   "bytes": 222524,
+   "sha256": "5cba35c8ec6d5e2eaa16a93d2d8b5a33f069904b7ab3e8a7aec36727dd223fe7",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T083840104_000039.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T085023944_000040.json",
+   "bytes": 143280,
+   "sha256": "e68ab5dad0de4017ef4d30ca41530db19930758d353f2c4691ff90e0c9984246",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T085023944_000040.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T090229736_000042.json",
+   "bytes": 501197,
+   "sha256": "b18de67e80c81495ef2b844048199ed47ac9a52b3429630c93eed8e981b2eb95",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T090229736_000042.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T091006643_000043.json",
+   "bytes": 405309,
+   "sha256": "ad8010a2777459dd396601d42bf50b078afcbb119a3fe0f7a8a600f7b2409d99",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T091006643_000043.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T091434689_000044.json",
+   "bytes": 659063,
+   "sha256": "ba647e1d4e1fb0894a335d4b19390cff33622ac13f17a9fa464885d348904b5f",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T091434689_000044.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T094820592_000045.json",
+   "bytes": 386310,
+   "sha256": "b1440ac7573be5cb9f5f3831c667b5bd54beaed62e1d0db68d46d8a52e7948ae",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T094820592_000045.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261014T095124662_000046.json",
+   "bytes": 451109,
+   "sha256": "2e1ad3625b099ec98ac6a7f22f110356bf59b6490d0e08767d039d2f7ca141e2",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261014T095124662_000046.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261015T051629710_000047.json",
+   "bytes": 953508,
+   "sha256": "7801095ee53b970ac609c025ff42e55566fd86f170872dd4537cf9e448c94534",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261015T051629710_000047.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261015T064229132_000048.json",
+   "bytes": 430218,
+   "sha256": "b9e1386de7bd55fa923fa848d2948d5d39d22213db164386e695758400c3e6e7",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261015T064229132_000048.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261015T065431729_000049.json",
+   "bytes": 481737,
+   "sha256": "604a41572916c09cc6d9a0bc2e92308416c2dd0916612409e04ebfc656532ac0",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261015T065431729_000049.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261015T070224501_000050.json",
+   "bytes": 160048,
+   "sha256": "d0b967cb7e0b6b7a7f244ff62b16202c8b71960a248c58892ea81f0a8e6c8502",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261015T070224501_000050.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261015T071645041_000052.json",
+   "bytes": 412023,
+   "sha256": "88e73d28c05f3527544992b2df22f37d2e27ea9001a9e30ae857ba9d90d78c04",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261015T071645041_000052.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261015T074932873_000054.json",
+   "bytes": 394175,
+   "sha256": "3abaa0956202cdbf04b727a6d9691cb222ec7ec1043005d3367fa4560f804080",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261015T074932873_000054.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261015T081825174_000055.json",
+   "bytes": 414315,
+   "sha256": "b6dffbcadb2dfacc9f50356aecb6fe3599572bbd65846fb7bfe3f860d700ffa1",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261015T081825174_000055.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261015T083225608_000056.json",
+   "bytes": 904166,
+   "sha256": "1f130e1e1aa086c6e30bfa04f81d9ba13caf5fffe741229102564f420e60fef9",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261015T083225608_000056.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261015T085630589_000057.json",
+   "bytes": 797736,
+   "sha256": "4402e48b91dc3e6804f264745b5cb54bae4ad0fe110d9f301c59b5d1db840bd6",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261015T085630589_000057.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261015T091715075_000058.json",
+   "bytes": 654296,
+   "sha256": "619055fd70ebdd8bde2113a262f7438901890962f1086a255b5b73b9b872c808",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261015T091715075_000058.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261015T092210781_000059.json",
+   "bytes": 178835,
+   "sha256": "888a4a91f83131964ebfcd4bae53f33475037cdb8b440a262917ebef0be58ff9",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261015T092210781_000059.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261015T092444102_000060.json",
+   "bytes": 303938,
+   "sha256": "ad6f1db4915b74bd1834991e3b94c9a70c084f6183de370c0dcc929c5f77efc1",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261015T092444102_000060.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261015T092618871_000061.json",
+   "bytes": 736786,
+   "sha256": "0ee14189059fd34c228888f594e2471ee56370603e539fd832c72c720eb67f7e",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261015T092618871_000061.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261016T051543584_000062.json",
+   "bytes": 425344,
+   "sha256": "592a0405902fa404b0c1c457b878b79ef466966d3828056fc9c5dcdb8c6ec79c",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261016T051543584_000062.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261016T060947844_000063.json",
+   "bytes": 476907,
+   "sha256": "9ff4ae59077d15c290e7a9a35ca914c9873b4f56d18871b3409a06c741fca022",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261016T060947844_000063.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261016T064537639_000064.json",
+   "bytes": 417931,
+   "sha256": "d30abdc86edca24c381c8700ae9af0f8ef328b3a687e6f1361ef258cc9d9c143",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261016T064537639_000064.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261016T070813200_000065.json",
+   "bytes": 554741,
+   "sha256": "7958a712ebd3649db5f3537b32c8b76eb29f1b063636214f0be2db8c827c92fd",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261016T070813200_000065.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261016T072318360_000066.json",
+   "bytes": 181491,
+   "sha256": "86e038e09e4720e534c236bb76c8cb787a84c1018a68c0a0408c9bbcdb882f18",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261016T072318360_000066.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261016T073118915_000067.json",
+   "bytes": 508550,
+   "sha256": "c35ede886731e4613ffa14042a93605e821ddaa73c700ce64124d7a138b83c15",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261016T073118915_000067.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261016T073323561_000068.json",
+   "bytes": 486284,
+   "sha256": "e0c3a01596262f1ea40b0ac058c3d1b1c7cf5f229b63c203ae5900c2a529601f",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261016T073323561_000068.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261016T075741451_000069.json",
+   "bytes": 907193,
+   "sha256": "8e27d43638fc24bd68fcfabca3c217eb539918c472ddebb07cc2870e191432a4",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261016T075741451_000069.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261016T084726310_000070.json",
+   "bytes": 835991,
+   "sha256": "4571c375cf689f58c68c7374e5f95718fe664550f1bfd8f42fd2934c68492e92",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261016T084726310_000070.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261016T092817272_000071.json",
+   "bytes": 519636,
+   "sha256": "1e43c81fb8c8196a7649b519ad93a6cf21532d391e0a00f65a15c9ea704c7aa1",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261016T092817272_000071.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261016T100557808_000072.json",
+   "bytes": 183409,
+   "sha256": "a908e4218075205ddbc5600890f7dfc3f222654d158e6e5d5762cf47a36fecbf",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261016T100557808_000072.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261019T052138002_000073.json",
+   "bytes": 81600,
+   "sha256": "b3f6f87e30a4712d8ec22a97dab03b672a8b9e4d1928b2aedadc6b1f75611313",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261019T052138002_000073.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261019T052444952_000074.json",
+   "bytes": 268700,
+   "sha256": "b4ff69e21edc6dddbf3f49b2c7e6b795f74880b07bdd5ff520eea9e730865622",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261019T052444952_000074.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261019T054115492_000075.json",
+   "bytes": 160604,
+   "sha256": "0261ec451ca8c80d2ef921b9cd12ca05cb1373ea097aea228ed64d4280a41268",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261019T054115492_000075.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261019T054615141_000076.json",
+   "bytes": 266428,
+   "sha256": "253eb6e645f14469e33f74ab9128b938b62584ee94680a5d88f9ef73756b6e6e",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261019T054615141_000076.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261019T071250251_000078.json",
+   "bytes": 149328,
+   "sha256": "52dba4259dee844470d57ff8d4512b4f71b6ef50fd3a13ee768b80839cfa9536",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261019T071250251_000078.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261019T072249003_000079.json",
+   "bytes": 225905,
+   "sha256": "e1567306a5bf0f2f6becd21583ca65b0e1fa494caea646f833300979a95301ff",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261019T072249003_000079.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261019T073444282_000080.json",
+   "bytes": 618598,
+   "sha256": "d8941ee1185a1cf831676d1c9607a447d2c434ff185664562fda5a1619dcf2bf",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261019T073444282_000080.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261019T074716909_000081.json",
+   "bytes": 274140,
+   "sha256": "ae2a8632d40c5be2caf3393187eecfccd9df3fc472882d7ee9d38ce3f77fbd40",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261019T074716909_000081.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261019T081241917_000082.json",
+   "bytes": 616740,
+   "sha256": "8513485b356a0cc2395f970bd551a9431aa2eb5c1022f2fa0bc918758ade8409",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261019T081241917_000082.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261019T085229530_000083.json",
+   "bytes": 190464,
+   "sha256": "0d84375dac9bed2a1e4c77a4d6a7777660e5a5a85702d15eb3843d714810cd2c",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261019T085229530_000083.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261019T090313830_000084.json",
+   "bytes": 253904,
+   "sha256": "6adc6d6ae07d30d6122da8d7ed46a5372d359359e07afb003ed9c1446dfd2d56",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261019T090313830_000084.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261019T091818346_000085.json",
+   "bytes": 157611,
+   "sha256": "95679048da74982f699d938173f3b4bb98a23be8700fcb07728c099d70af6bd0",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261019T091818346_000085.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261019T092602793_000086.json",
+   "bytes": 293386,
+   "sha256": "397dd8498d4acf41e23941071bd53b300283bfc92e5f4ce4ccefbad7fbabebaa",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261019T092602793_000086.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261019T104808662_000087.json",
+   "bytes": 314619,
+   "sha256": "11347e930da1a8403c62d9c82406f1006e0e0697e065b7b2406926da060ef0ab",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261019T104808662_000087.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261019T110844521_000088.json",
+   "bytes": 247912,
+   "sha256": "b2b363bbe8925d00a168a056f2b4ff7a342aac150626e0db6bd8abb23106d54e",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261019T110844521_000088.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261020T051705616_000089.json",
+   "bytes": 390562,
+   "sha256": "9149ed98293fcf4815c17baf9b37034b13bad25bc18b94352d45bb8be0b260c1",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261020T051705616_000089.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261020T054929715_000090.json",
+   "bytes": 380916,
+   "sha256": "60f12c59089ef6ccb0207fa8b133e55aba2f4bede35b9fd8f7d997b683363fff",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261020T054929715_000090.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261020T060604707_000091.json",
+   "bytes": 803329,
+   "sha256": "ebd08eee6cf8206dbf7e4a98532fa47bc2e4be7478d84e86d6c53e3589aab899",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261020T060604707_000091.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261020T063537793_000092.json",
+   "bytes": 176625,
+   "sha256": "0bf73b1258148f6e3b8cf004f36e3d9b8e7a15e477233330e18acfa7b80e4f83",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261020T063537793_000092.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261020T065435715_000093.json",
+   "bytes": 530425,
+   "sha256": "d410a92e17bf912da0c0535c7b7d06cac2096f84cb7fda8ba63668ed0b1ba874",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261020T065435715_000093.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261020T070106089_000094.json",
+   "bytes": 277909,
+   "sha256": "2c2bdc9166d1f77b75a4dd88ba42116a3ff4af9ec5374f18286fcab71d89fb2e",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261020T070106089_000094.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261020T070956708_000095.json",
+   "bytes": 308465,
+   "sha256": "63a626bd8e30866c794e8c2a454affa320ab612587123498cb6d145b5144871f",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261020T070956708_000095.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261020T071743443_000096.json",
+   "bytes": 324548,
+   "sha256": "fe3dff6837f84be75cd3137e84037c1978f76a6ea0ba3d4cf6eca263b3e51b38",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261020T071743443_000096.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261020T074957224_000098.json",
+   "bytes": 257003,
+   "sha256": "936df031b19328e5a1ec4f385a31831d96fc3d4c75ec545b3e614f7ac02ffc8c",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261020T074957224_000098.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261020T075932590_000099.json",
+   "bytes": 151729,
+   "sha256": "1b8b96931a9e55917580baf4c7d1e35c8cd905035f6cd8bd2f37448cabc2f5dd",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261020T075932590_000099.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261020T080423917_000100.json",
+   "bytes": 277403,
+   "sha256": "6c34dbfe496799968fd12cca90a40a3749148f4d81383a3fd59e336dbd19dcc6",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261020T080423917_000100.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261020T081306560_000101.json",
+   "bytes": 183773,
+   "sha256": "9a2da37557292d19dbaf5de329afc426aea462b222730d8732d4f65fdd896097",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261020T081306560_000101.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261020T083954894_000102.json",
+   "bytes": 284168,
+   "sha256": "c395b2712f9643db70e460700ce7c7ef0d6286f8012ce9bcca7863606e6fe142",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261020T083954894_000102.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261020T094920047_000103.json",
+   "bytes": 334477,
+   "sha256": "d51e0e45a57a0de63843e597e6f6f588d7fb61b332894cde3fa398b463858e8f",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261020T094920047_000103.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  },
+  {
+   "fiber": "lt_20261020T112237109_000104.json",
+   "bytes": 257926,
+   "sha256": "ed05719f7cc0096ccbdf466f906fcc2563691412fdc5da61c579d2dae6139931",
+   "source": "https://dl.ash2txt.org/other/annotators/0332_fibers/lt_20261020T112237109_000104.json",
+   "status": "copied from C:/VesuviusTemp/strips/data/human/0332 (setup run download, 27 Oct 2026)"
+  }
+ ]
+}

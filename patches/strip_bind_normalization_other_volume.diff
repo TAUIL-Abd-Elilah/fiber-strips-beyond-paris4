@@ -1,0 +1,38 @@
+diff --git a/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/sheet_strip/infer.py b/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/sheet_strip/infer.py
+index 135d2e9..14df67e 100644
+--- a/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/sheet_strip/infer.py
++++ b/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/sheet_strip/infer.py
+@@ -154,6 +154,25 @@ def reuse_seed_heading(item, vol, cache):
+     item['fiber_family'] = family
+     item['seed_tangent'] = cache[key].copy()
+ 
++def bind_normalization(spec):
++    """Bind the checkpoint's per-crop z-score record to the CT actually read. The record names the training volume
++    (shared/crop_sampling/normalization.validate_record refuses any other); per-crop z-score keeps no per-volume
++    statistics, so a CT given with --ct (another scroll) gets the same method and epsilon bound to it, as the
++    follower's inference does through prepare_normalization. A no-op for the checkpoint's own volume."""
++    from vesuvius.neural_tracing.tracers.shared.crop_sampling.normalization import (
++        ZSCORE_EPSILON, ZSCORE_METHOD, array_identity, volume_key)
++    from vesuvius.neural_tracing.tracers.shared.crop_sampling.volume import open_ct_array
++    record = spec.ct_normalization
++    if record is None or record.get('volume') == volume_key(spec):
++        return
++    if record.get('method') != ZSCORE_METHOD or record.get('epsilon') != ZSCORE_EPSILON:
++        raise ValueError('Only per-crop z-score CT normalization can be bound to another volume')
++    spec.ct_normalization = dict(method=ZSCORE_METHOD, volume=volume_key(spec), epsilon=ZSCORE_EPSILON,
++                                 **array_identity(open_ct_array(spec, 32 << 20)))
++    print(f"CT per-crop z-score bound to {spec.ct_normalization['volume']} (checkpoint: {record.get('volume')})",
++          flush=True)
++
++
+ class StripPredictor:
+     """A sheet-strip checkpoint and what its decisions need (frame model and crop builder, CT volume, umbilicus),
+     loaded once; ``predict`` runs one fiber's decisions."""
+@@ -169,6 +188,7 @@ class StripPredictor:
+         self.data = self.ck['run_config']['data']
+         self.spec = CTVolumeSpec.from_dict(self.ck['vol_spec'])
+         configure_volume(volume or argparse.Namespace(), self.spec, self.cfg, path)
++        bind_normalization(self.spec)
+         self.trace_per_patch = self.spec.ct_grid_scale/self.spec.grid_scale
+         self.f, self.v = (a.numpy().astype(np.float64) for a in strip_grid(self.cfg))
+         self.sample_cfg = SampleConfig(**dict(self.ck['sample_cfg'], crop=self.cfg.fine,

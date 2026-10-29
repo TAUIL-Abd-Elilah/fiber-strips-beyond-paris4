@@ -1,0 +1,29 @@
+Worktree: C:/VesuviusTemp/strips/villa_6f2  (git worktree of D:/Competition/Vesuvius progress prizes/villa, detached)
+Base:     6f2024569404a46b0f008eee292773945c07a684  "scrollcase: rotate to flat (#2276)", 2026-10-23, on ScrollPrize/villa main.
+          Last main commit before #2316 (39a8cf3a1, 2026-10-26) is 322cb0899 (#2283); #2283 changes no file under
+          tracers/fibers/, tracers/shared/crop_sampling/ or sheet_strip/, so 6f2024569 and 322cb0899 run the same strip code.
+          sheet_strip/ is unchanged since #2110 (826c2f64e); infer_all.py takes --afv and reads AFVFibers (SQLite AFV).
+
+1) PR #2163 (slchicoineau-creator, Baz248; head bfad589dc84240fb80e11d3c3fdeb341fcc1a62c, open, unmerged)
+   source:  gh pr diff 2163 -R ScrollPrize/villa  -> pr2163_full.diff (564 lines, 8 files)
+   applied: git apply  -> every hunk clean; one hunk offset only (shared/crop_sampling/gpu.py hunk #1 at line 232, offset 29).
+   adapted: nothing. Recorded as applied: applied_pr2163_on_6f2024569.diff (git diff right after applying).
+   files:   fibers/README.md, fibers/tracing/service.py, shared/crop_sampling/{gpu,prefetch,volume}.py, shared/io.py,
+            new tests fibers/tests/test_chunk_lock.py, test_service_transport.py.
+   tests on this machine (Windows 11, CPU, Python 3.14.6, torch 2.13.0+cu126):
+            test_chunk_lock.py + test_service_transport.py + test_sheet_strip_io.py: 22 passed; test_sheet_strip.py: 18 passed.
+   G0 (results/g0.json) ran on 6f2024569 + this diff only.
+
+2) Local patch (Claude, for scrolls other than PHerc Paris 4; applied AFTER the G0 runs, a no-op for Paris 4):
+   strip_bind_normalization_other_volume.diff  (sheet_strip/infer.py, +20 lines)
+   why:     StripPredictor builds CTVolume(spec) whose validate_record refuses any CT but the checkpoint's
+            (record volume = PHercParis4 ...::2). Per-crop z-score keeps no per-volume statistics, so with --ct of
+            another scroll the same method/epsilon is bound to that volume (what fibers/tracing/inference.py does via
+            prepare_normalization). Checked on a PHerc0139 human fiber (runs/smoke0139).
+   worktree_full_after_g0.diff = the worktree's full diff now (1 + 2).
+
+Runtime notes (not code changes):
+   - CUDA hidden with CUDA_VISIBLE_DEVICES=-1: an empty value is dropped when Git Bash starts a Windows process
+     (torch.cuda.is_available() was True with ''), -1 gives False / 0 devices.
+   - run with --device cpu (default is cuda); autocast is off on CPU, so the strip model runs fp32 (published: GPU bf16).
+   - Paris 4 umbilicus: dl.ash2txt.org/.../PHercParis4/umbilicus.json (the checkpoint records /mnt/raid_nvme/...).

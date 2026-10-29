@@ -1,0 +1,16 @@
+{
+  "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt",
+  "step": 15000,
+  "afv": "runs\\erratum_v31\\paris4\\paris4_pieces.afv",
+  "fiber": 1803139159717749,
+  "arc_trace": [
+    150.3522465,
+    206.3522465
+  ],
+  "decision_step": 8.0,
+  "blend": 16.0,
+  "trim_patch_voxels": 75.0,
+  "units": "patch voxels",
+  "trace_per_patch": 0.5,
+  "first_row_arc_patch_voxels": 230.204493
+}

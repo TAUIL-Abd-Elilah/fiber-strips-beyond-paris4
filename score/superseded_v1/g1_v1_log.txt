@@ -1,0 +1,67 @@
+615 fibers (5 skipped), 38 segments
+[match] segment 1/38 20250108000000-w025_2025010863: 1552672 nodes, 446861 samples near, 103 s
+[match] segment 2/38 20250108000001-w026_2025010854: 1770176 nodes, 514300 samples near, 208 s
+[match] segment 3/38 20250108000002-w027_2025010845: 1704768 nodes, 518877 samples near, 319 s
+[match] segment 4/38 20250108000003-w028_2025010836: 1711264 nodes, 527272 samples near, 460 s
+[match] segment 5/38 20250108000004-w029_2025010827: 1713552 nodes, 548962 samples near, 585 s
+[match] segment 6/38 20250108000005-w030_2025010818: 1718640 nodes, 561625 samples near, 718 s
+[match] segment 7/38 20250223000000-w059_2025022312: 2359760 nodes, 928790 samples near, 907 s
+[match] segment 8/38 20250831000000-w040_2025083102: 1667200 nodes, 629897 samples near, 1013 s
+[match] segment 9/38 20251226000000-w055_2025122611: 2593840 nodes, 953172 samples near, 1148 s
+[match] segment 10/38 20260108000000-w041_2026010816: 1645952 nodes, 627315 samples near, 1235 s
+[match] segment 11/38 20260112000000-w043_2026011217: 1660944 nodes, 636480 samples near, 1336 s
+[match] segment 12/38 20260115000000-w044_2026011522: 1663792 nodes, 644401 samples near, 1433 s
+[match] segment 13/38 20260115000001-w056_2026011514: 2312480 nodes, 937898 samples near, 1622 s
+[match] segment 14/38 20260126000000-w045_2026012619: 1652784 nodes, 652283 samples near, 1814 s
+[match] segment 15/38 20260127000000-w057_2026012713: 2463696 nodes, 967813 samples near, 1936 s
+[match] segment 16/38 20260130000000-w031_2026013019: 1724224 nodes, 571991 samples near, 2036 s
+[match] segment 17/38 20260203000000-w032_2026020303: 1756544 nodes, 592391 samples near, 2132 s
+[match] segment 18/38 20260206000000-w042_2026020613: 1573440 nodes, 609698 samples near, 2217 s
+[match] segment 19/38 20260206000001-w047_2026020613: 1648128 nodes, 667339 samples near, 2299 s
+[match] segment 20/38 20260206000002-w054_2026020617: 2717328 nodes, 920253 samples near, 2428 s
+[match] segment 21/38 20260210000000-w058_2026021020: 2420688 nodes, 971436 samples near, 2548 s
+[match] segment 22/38 20260215000000-w024_2026021572: 1464992 nodes, 420186 samples near, 2635 s
+[match] segment 23/38 20260219000000-w033_2026021913: 1781824 nodes, 602266 samples near, 2712 s
+[match] segment 24/38 20260219000001-w048_2026021912: 1645904 nodes, 675383 samples near, 2789 s
+[match] segment 25/38 20260220000000-w053_2026022021: 2515696 nodes, 895163 samples near, 2882 s
+[match] segment 26/38 20260227000000-w052_2026022705: 2536624 nodes, 912979 samples near, 2979 s
+[match] segment 27/38 20260302000000-w039_2026030210: 1578160 nodes, 696650 samples near, 3066 s
+[match] segment 28/38 20260302000001-w050_2026030220: 691264 nodes, 423005 samples near, 3114 s
+[match] segment 29/38 20260303000000-w034_2026030317: 1775296 nodes, 609595 samples near, 3344 s
+[match] segment 30/38 20260306000000-w038_2026030608: 1495344 nodes, 566273 samples near, 3470 s
+[match] segment 31/38 20260306000001-w051_2026030600: 2486640 nodes, 898612 samples near, 3650 s
+[match] segment 32/38 20260310000000-w037_2026031015: 1420272 nodes, 537764 samples near, 3764 s
+[match] segment 33/38 20260311000000-w023_202603112281: 1387136 nodes, 394103 samples near, 3868 s
+[match] segment 34/38 20260316000000-w036_2026031607: 1335120 nodes, 515921 samples near, 3954 s
+[match] segment 35/38 20260317000000-w035_2026031718: 964448 nodes, 492175 samples near, 4069 s
+[match] segment 36/38 20260318000000-w049_20260318: 1794448 nodes, 686858 samples near, 4201 s
+[match] segment 37/38 20260325000000-w046_20260325: 1657872 nodes, 652093 samples near, 4281 s
+[match] segment 38/38 20260422000000-title_2026042222_zmid_flatboi: 323216 nodes, 121408 samples near, 4320 s
+{
+ "fibers": 615,
+ "candidates": 22,
+ "matched_long": 0,
+ "matched_any_length": 0,
+ "by_family": {
+  "H": {
+   "candidates": 17,
+   "matched": 0
+  },
+  "V": {
+   "candidates": 5,
+   "matched": 0
+  },
+  "?": {
+   "candidates": 0,
+   "matched": 0
+  }
+ },
+ "noise_floor_sv": 1.7839570628053474,
+ "noise_floor_definition": "median over candidate fibers of the per-fiber median |normal distance| of its samples within 6.0 sv of a segment",
+ "matched_fiber_median_abs_d_sv": null,
+ "matched_fiber_mean_d_sv": null,
+ "sensitivity_matched_at_50pct": 0,
+ "flagged_matched": 0,
+ "pass": false,
+ "rule": ">= 30 matched fibers (>= 70% of length within 2.0 sv of a segment, runs >= 40.0 sv, length >= 2.5 mm) and noise floor <= 2.0 sv"
+}

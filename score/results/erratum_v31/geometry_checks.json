@@ -1,0 +1,275 @@
+{
+ "tool": "tools/erratum_geometry_checks.py",
+ "scorer_sha256": "d7d6d1946bc4decd72bc153958c4fb209f10f90fdca5f16b6616186f8e2c3577",
+ "scope": "fiber geometry and the frozen plans only; no strip",
+ "crossing_rule_0332": {
+  "6": {
+   "tol_sv": 6.0,
+   "pairs_exact": 48,
+   "pairs_k1": 48,
+   "missed_by_k1": 0,
+   "missed": [],
+   "found_by_k1_not_exact": 0,
+   "k1_approach_larger": []
+  },
+  "3": {
+   "tol_sv": 3.0,
+   "pairs_exact": 4,
+   "pairs_k1": 4,
+   "missed_by_k1": 0,
+   "missed": [],
+   "found_by_k1_not_exact": 0,
+   "k1_approach_larger": []
+  },
+  "plan_crossings_found": 48
+ },
+ "piece_tube": {
+  "radius_sv": 119.10212856415819,
+  "crop_reach_trace": 58.051064282079096,
+  "crop": {
+   "depth": 144,
+   "width": 128,
+   "behind": 72,
+   "spacing": 0.5
+  },
+  "tube_sigma": 1.0,
+  "sets": [
+   {
+    "set": "primary",
+    "pieces": 2,
+    "totals": {
+     "heads": 58,
+     "scoring": 56,
+     "sphere": 0,
+     "sphere_scoring": 0,
+     "box": 0,
+     "box_scoring": 0
+    },
+    "pieces_sphere": 0,
+    "pieces_box_scoring": 0,
+    "affected": [],
+    "box_half_along_sv": 75.0,
+    "box_half_radial_sv": 92.80256121069154,
+    "min_nearest_outside_sv": 158.59241412740178
+   },
+   {
+    "set": "secondary",
+    "pieces": 46,
+    "totals": {
+     "heads": 3513,
+     "scoring": 2207,
+     "sphere": 350,
+     "sphere_scoring": 209,
+     "box": 200,
+     "box_scoring": 121
+    },
+    "pieces_sphere": 8,
+    "pieces_box_scoring": 6,
+    "affected": [
+     {
+      "piece": "P0005",
+      "fiber": "dj_20260904T160405930_000005",
+      "heads": 4,
+      "heads_scoring": 4,
+      "outside_samples": 7436,
+      "heads_sphere": 4,
+      "heads_sphere_scoring": 4,
+      "heads_box": 4,
+      "heads_box_scoring": 4,
+      "nearest_outside_point_to_a_head_sv": 81.52863626654703
+     },
+     {
+      "piece": "P0006",
+      "fiber": "dj_20260904T160405930_000005",
+      "heads": 418,
+      "heads_scoring": 231,
+      "outside_samples": 557,
+      "heads_sphere": 15,
+      "heads_sphere_scoring": 14,
+      "heads_box": 14,
+      "heads_box_scoring": 13,
+      "nearest_outside_point_to_a_head_sv": 81.37838703952089
+     },
+     {
+      "piece": "P0020",
+      "fiber": "kb_20260902T191811281_000079",
+      "heads": 10,
+      "heads_scoring": 9,
+      "outside_samples": 18276,
+      "heads_sphere": 10,
+      "heads_sphere_scoring": 9,
+      "heads_box": 10,
+      "heads_box_scoring": 9,
+      "nearest_outside_point_to_a_head_sv": 72.05303256386807
+     },
+     {
+      "piece": "P0040",
+      "fiber": "kb_20260904T033920427_000087",
+      "heads": 37,
+      "heads_scoring": 12,
+      "outside_samples": 9277,
+      "heads_sphere": 37,
+      "heads_sphere_scoring": 12,
+      "heads_box": 21,
+      "heads_box_scoring": 6,
+      "nearest_outside_point_to_a_head_sv": 58.912888904079075
+     },
+     {
+      "piece": "P0044",
+      "fiber": "kb_20260904T040638181_000088",
+      "heads": 132,
+      "heads_scoring": 77,
+      "outside_samples": 16739,
+      "heads_sphere": 132,
+      "heads_sphere_scoring": 77,
+      "heads_box": 132,
+      "heads_box_scoring": 77,
+      "nearest_outside_point_to_a_head_sv": 9.301489346889772
+     },
+     {
+      "piece": "P0066",
+      "fiber": "kb_20260918T034157988_000148",
+      "heads": 170,
+      "heads_scoring": 121,
+      "outside_samples": 9255,
+      "heads_sphere": 17,
+      "heads_sphere_scoring": 17,
+      "heads_box": 0,
+      "heads_box_scoring": 0,
+      "nearest_outside_point_to_a_head_sv": 100.58882341362933
+     },
+     {
+      "piece": "P0076",
+      "fiber": "kb_20260925T033453814_000215",
+      "heads": 227,
+      "heads_scoring": 128,
+      "outside_samples": 14913,
+      "heads_sphere": 132,
+      "heads_sphere_scoring": 74,
+      "heads_box": 19,
+      "heads_box_scoring": 12,
+      "nearest_outside_point_to_a_head_sv": 91.39160555786553
+     },
+     {
+      "piece": "P0083",
+      "fiber": "kb_20260929T030233129_000230",
+      "heads": 168,
+      "heads_scoring": 113,
+      "outside_samples": 6159,
+      "heads_sphere": 3,
+      "heads_sphere_scoring": 2,
+      "heads_box": 0,
+      "heads_box_scoring": 0,
+      "nearest_outside_point_to_a_head_sv": 102.03926832731057
+     }
+    ],
+    "box_half_along_sv": 75.0,
+    "box_half_radial_sv": 92.80256121069154,
+    "min_nearest_outside_sv": 9.301489346889772
+   },
+   {
+    "set": "0332",
+    "pieces": 25,
+    "totals": {
+     "heads": 558,
+     "scoring": 531,
+     "sphere": 142,
+     "sphere_scoring": 134,
+     "box": 119,
+     "box_scoring": 112
+    },
+    "pieces_sphere": 7,
+    "pieces_box_scoring": 6,
+    "affected": [
+     {
+      "piece": "C0000",
+      "fiber": "dj_20260810T113807458_000001",
+      "heads": 21,
+      "heads_scoring": 20,
+      "outside_samples": 17996,
+      "heads_sphere": 21,
+      "heads_sphere_scoring": 20,
+      "heads_box": 21,
+      "heads_box_scoring": 20,
+      "nearest_outside_point_to_a_head_sv": 41.036863929170046
+     },
+     {
+      "piece": "C0003",
+      "fiber": "dj_20261020T172947429_000029",
+      "heads": 21,
+      "heads_scoring": 20,
+      "outside_samples": 8203,
+      "heads_sphere": 21,
+      "heads_sphere_scoring": 20,
+      "heads_box": 0,
+      "heads_box_scoring": 0,
+      "nearest_outside_point_to_a_head_sv": 112.1455867462608
+     },
+     {
+      "piece": "C0004",
+      "fiber": "dj_20261021T162300637_000033",
+      "heads": 21,
+      "heads_scoring": 20,
+      "outside_samples": 14115,
+      "heads_sphere": 14,
+      "heads_sphere_scoring": 14,
+      "heads_box": 14,
+      "heads_box_scoring": 14,
+      "nearest_outside_point_to_a_head_sv": 81.17825865565361
+     },
+     {
+      "piece": "C0009",
+      "fiber": "kb_20260822T032335476_000056",
+      "heads": 22,
+      "heads_scoring": 20,
+      "outside_samples": 10815,
+      "heads_sphere": 22,
+      "heads_sphere_scoring": 20,
+      "heads_box": 22,
+      "heads_box_scoring": 20,
+      "nearest_outside_point_to_a_head_sv": 62.34379351705927
+     },
+     {
+      "piece": "C0010",
+      "fiber": "kb_20260822T193333844_000065",
+      "heads": 21,
+      "heads_scoring": 20,
+      "outside_samples": 9104,
+      "heads_sphere": 21,
+      "heads_sphere_scoring": 20,
+      "heads_box": 19,
+      "heads_box_scoring": 18,
+      "nearest_outside_point_to_a_head_sv": 85.16377547544265
+     },
+     {
+      "piece": "C0020",
+      "fiber": "lt_20261015T085630589_000057",
+      "heads": 22,
+      "heads_scoring": 20,
+      "outside_samples": 12727,
+      "heads_sphere": 22,
+      "heads_sphere_scoring": 20,
+      "heads_box": 22,
+      "heads_box_scoring": 20,
+      "nearest_outside_point_to_a_head_sv": 9.77795618002095
+     },
+     {
+      "piece": "C0023",
+      "fiber": "lt_20261020T060604707_000091",
+      "heads": 21,
+      "heads_scoring": 20,
+      "outside_samples": 14860,
+      "heads_sphere": 21,
+      "heads_sphere_scoring": 20,
+      "heads_box": 21,
+      "heads_box_scoring": 20,
+      "nearest_outside_point_to_a_head_sv": 44.244614291899325
+     }
+    ],
+    "box_half_along_sv": 75.0,
+    "box_half_radial_sv": 92.80256121069154,
+    "min_nearest_outside_sv": 9.77795618002095
+   }
+  ]
+ }
+}

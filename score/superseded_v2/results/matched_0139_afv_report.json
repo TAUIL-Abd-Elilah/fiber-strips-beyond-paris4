@@ -1,0 +1,54 @@
+{
+ "pieces": 2,
+ "checks": [
+  {
+   "piece": "P0000",
+   "afv_id": 2365895600798341,
+   "points": 429,
+   "length_sv_json": 911.0523993410022,
+   "length_sv_plan": 911.0523993410052,
+   "length_sv_afvfibers": 911.0523993410022,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.75,
+    749.31
+   ],
+   "decisions": 29,
+   "decisions_planned": 29
+  },
+  {
+   "piece": "P0001",
+   "afv_id": 2216996804852677,
+   "points": 457,
+   "length_sv_json": 909.4176021735491,
+   "length_sv_plan": 909.417602173548,
+   "length_sv_afvfibers": 909.4176021735481,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.02,
+    749.5
+   ],
+   "decisions": 29,
+   "decisions_planned": 29
+  }
+ ],
+ "afv": "data\\matched_0139.afv",
+ "write_afv": {
+  "fibers": 2,
+  "points": 886,
+  "blocks": 4
+ },
+ "volume": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr",
+ "base_shape_zyx": [
+  76953,
+  26511,
+  26511
+ ],
+ "pieces_written": 2,
+ "decisions_runplan": 58,
+ "decisions_plan": 58,
+ "max_length_diff_sv_afvfibers_vs_json": 1.0231815394945443e-12,
+ "max_head_to_geometry_sv": 0.7239291381773763,
+ "kink_repaired_pieces": 0,
+ "infer_command": "python -m vesuvius.neural_tracing.tracers.fibers.sheet_strip.infer --afv AFV --fiber AFV_ID --arc ARC_START ARC_END --out OUT/<piece> --checkpoint scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e --ct <the volume> --umbilicus <its umbilicus, level-2 voxels> --cache-dir C:/VesuviusTemp/strips/ct_cache --device cpu --index none --no-render --step 8 --blend 16 --trim 75 (CUDA_VISIBLE_DEVICES=-1)"
+}

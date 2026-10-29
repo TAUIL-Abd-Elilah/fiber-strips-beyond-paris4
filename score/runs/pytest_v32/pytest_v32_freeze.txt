@@ -1,0 +1,5 @@
+.............................................................            [100%]
+61 passed in 130.49s (0:02:10)
+
+exit   (BelowNormal, CPU only, 2026-10-29 02:06:08 to 02:08:21)
+(PowerShell 5.1 did not capture the exit code of the detached pytest process; pytest itself reported 61 passed, no failures)

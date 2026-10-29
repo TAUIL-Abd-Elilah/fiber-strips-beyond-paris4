@@ -1,0 +1,11 @@
+superseded_v3: pre-registration v3 (frozen 2026-10-28 14:04:24), archived on 28 Oct 2026 before the v3.1
+erratum (PREREG 10.7). Every file that v3.1 changes is here as it was frozen; each is checked against the v3
+FREEZE sha256 below. Files v3.1 does not change keep their v3 sha256 in the v3.1 FREEZE.txt.
+
+archived file                 v3 path                 sha256 (archived)                                                 = v3 FREEZE
+PREREG_v3.md                  PREREG.md               0b86d6247310a18a16998a010f66a714ee10f90e05563996424cc3aa2977eda2  yes
+write_freeze_v3.py            tools/write_freeze.py   7274db4a3e618c28da7e3a40bf4d95b7227c5c824336b24a1af1ab994c672312  yes
+FREEZE_v3.txt                 FREEZE.txt              5309debbbeeb6ed7401badbbd163809b9c4632838c71f7eded8945d0783db8d5  (the v3 freeze record itself; 52 files)
+
+v3 files unchanged in v3.1 (sha256 as in FREEZE_v3.txt): 50 of 50
+changed in v3.1: PREREG.md, tools/write_freeze.py, FREEZE.txt (rewritten by tools/write_freeze.py)

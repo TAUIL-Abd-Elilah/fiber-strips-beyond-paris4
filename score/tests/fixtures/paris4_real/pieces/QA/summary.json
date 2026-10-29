@@ -1,0 +1,31 @@
+{
+ "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt",
+ "step": 15000,
+ "afv": "runs\\erratum_v31\\paris4\\paris4_pieces.afv",
+ "fiber": 1803139159717749,
+ "arc_trace": [
+  150.3522465,
+  206.3522465
+ ],
+ "decision_step": 8.0,
+ "blend": 16.0,
+ "trim_patch_voxels": 75.0,
+ "units": "patch voxels",
+ "trace_per_patch": 0.5,
+ "first_row_arc_patch_voxels": 230.204493,
+ "decisions": 8,
+ "rows": 64,
+ "columns": 25,
+ "row_step_voxels": 4.0,
+ "column_step_voxels": 5.0,
+ "v_flips": 0,
+ "spread_vox": {
+  "median": 1.4274936655899229,
+  "p95": 4.906292709218143
+ },
+ "expected_error_vox": {
+  "mean": 0.7806073427200317,
+  "p95": 0.8991311192512512
+ },
+ "seconds": 697.3519797325134
+}

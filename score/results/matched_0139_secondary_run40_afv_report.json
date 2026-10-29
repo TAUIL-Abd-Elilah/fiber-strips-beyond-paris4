@@ -1,0 +1,4218 @@
+{
+ "pieces": 182,
+ "checks": [
+  {
+   "piece": "P0000",
+   "afv_id": 1085436640491701,
+   "points": 1312,
+   "length_sv_json": 2618.9269617157765,
+   "length_sv_plan": 2618.926961715773,
+   "length_sv_afvfibers": 2616.6047304896324,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    40.0,
+    2457.0
+   ],
+   "decisions": 152,
+   "decisions_planned": 152,
+   "head_k": [
+    1,
+    152
+   ],
+   "first_head_trace": 20.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0001",
+   "afv_id": 3154084534188517,
+   "points": 160,
+   "length_sv_json": 362.3273058112983,
+   "length_sv_plan": 362.3273058112982,
+   "length_sv_afvfibers": 361.7647365416716,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    72.0,
+    201.0
+   ],
+   "decisions": 9,
+   "decisions_planned": 9,
+   "head_k": [
+    3,
+    11
+   ],
+   "first_head_trace": 36.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0002",
+   "afv_id": 3355610489640581,
+   "points": 823,
+   "length_sv_json": 1822.9456168154065,
+   "length_sv_plan": 1822.9456168154074,
+   "length_sv_afvfibers": 1821.111411257,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    300.295151,
+    1661.295151
+   ],
+   "decisions": 86,
+   "decisions_planned": 86,
+   "head_k": [
+    42,
+    127
+   ],
+   "first_head_trace": 150.1475755,
+   "max_head_dev_sv": 0.10166120280816549,
+   "mean_head_dev_sv": 0.005588430993685103,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0003",
+   "afv_id": 1495443054561029,
+   "points": 997,
+   "length_sv_json": 2032.0615740934804,
+   "length_sv_plan": 2032.0615740934868,
+   "length_sv_afvfibers": 2026.4471268900193,
+   "kink_repairs": 3,
+   "arc_patch_vox": [
+    297.006186,
+    1866.006186
+   ],
+   "decisions": 99,
+   "decisions_planned": 99,
+   "head_k": [
+    159,
+    257
+   ],
+   "first_head_trace": 148.503093,
+   "max_head_dev_sv": 0.3516125778317515,
+   "mean_head_dev_sv": 0.23869341569391497,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0004",
+   "afv_id": 3650317663021589,
+   "points": 392,
+   "length_sv_json": 781.0071807938448,
+   "length_sv_plan": 781.0071807938384,
+   "length_sv_afvfibers": 781.0071807938444,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.299051,
+    621.299051
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    303,
+    323
+   ],
+   "first_head_trace": 150.1495255,
+   "max_head_dev_sv": 2.4248254081792703e-07,
+   "mean_head_dev_sv": 2.4248095765723787e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0005",
+   "afv_id": 2000681101533365,
+   "points": 118,
+   "length_sv_json": 232.20397701887262,
+   "length_sv_plan": 232.20397701887268,
+   "length_sv_afvfibers": 232.20397701887268,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    24.0,
+    73.0
+   ],
+   "decisions": 4,
+   "decisions_planned": 4,
+   "head_k": [
+    0,
+    3
+   ],
+   "first_head_trace": 12.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0006",
+   "afv_id": 2018950693767765,
+   "points": 3529,
+   "length_sv_json": 7111.212596460706,
+   "length_sv_plan": 7111.212596460709,
+   "length_sv_afvfibers": 7104.858086005208,
+   "kink_repairs": 2,
+   "arc_patch_vox": [
+    299.378282,
+    6972.378282
+   ],
+   "decisions": 418,
+   "decisions_planned": 418,
+   "head_k": [
+    52,
+    469
+   ],
+   "first_head_trace": 149.689141,
+   "max_head_dev_sv": 0.0977177608240551,
+   "mean_head_dev_sv": 0.0009039661021867122,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0007",
+   "afv_id": 2922928426483381,
+   "points": 1911,
+   "length_sv_json": 3924.8119115041236,
+   "length_sv_plan": 3924.8119115041145,
+   "length_sv_afvfibers": 3917.5923654467124,
+   "kink_repairs": 3,
+   "arc_patch_vox": [
+    24.0,
+    3753.0
+   ],
+   "decisions": 234,
+   "decisions_planned": 234,
+   "head_k": [
+    0,
+    233
+   ],
+   "first_head_trace": 12.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0008",
+   "afv_id": 3323775755856309,
+   "points": 2458,
+   "length_sv_json": 4895.888979442271,
+   "length_sv_plan": 4895.888979442276,
+   "length_sv_afvfibers": 4895.234425966818,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    301.3692,
+    4894.3692
+   ],
+   "decisions": 288,
+   "decisions_planned": 288,
+   "head_k": [
+    349,
+    636
+   ],
+   "first_head_trace": 150.6846,
+   "max_head_dev_sv": 0.02943596130751522,
+   "mean_head_dev_sv": 0.0007888631887398384,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0009",
+   "afv_id": 950005967211333,
+   "points": 418,
+   "length_sv_json": 831.3525866445455,
+   "length_sv_plan": 831.3525866445475,
+   "length_sv_afvfibers": 831.3525866445456,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.662231,
+    670.662231
+   ],
+   "decisions": 24,
+   "decisions_planned": 24,
+   "head_k": [
+    128,
+    151
+   ],
+   "first_head_trace": 150.8311155,
+   "max_head_dev_sv": 1.8453533318989374e-07,
+   "mean_head_dev_sv": 1.8453333642244964e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0010",
+   "afv_id": 744021744382853,
+   "points": 530,
+   "length_sv_json": 1054.580698179251,
+   "length_sv_plan": 1054.5806981792475,
+   "length_sv_afvfibers": 1054.5806981792507,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.641207,
+    893.641207
+   ],
+   "decisions": 38,
+   "decisions_planned": 38,
+   "head_k": [
+    232,
+    269
+   ],
+   "first_head_trace": 150.3206035,
+   "max_head_dev_sv": 4.839997656084088e-07,
+   "mean_head_dev_sv": 4.839977538892117e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0011",
+   "afv_id": 898363942515093,
+   "points": 289,
+   "length_sv_json": 573.9812639367253,
+   "length_sv_plan": 573.9812639367246,
+   "length_sv_afvfibers": 573.9812639367251,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.666652,
+    414.666652
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    319,
+    326
+   ],
+   "first_head_trace": 150.833326,
+   "max_head_dev_sv": 1.2056446182649166e-08,
+   "mean_head_dev_sv": 1.2054470098641435e-08,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0012",
+   "afv_id": 3781486536474069,
+   "points": 298,
+   "length_sv_json": 590.8437868724934,
+   "length_sv_plan": 590.843786872495,
+   "length_sv_afvfibers": 590.8437868724934,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.752704,
+    430.752704
+   ],
+   "decisions": 9,
+   "decisions_planned": 9,
+   "head_k": [
+    361,
+    369
+   ],
+   "first_head_trace": 150.876352,
+   "max_head_dev_sv": 1.0891069027205997e-07,
+   "mean_head_dev_sv": 1.0890930980924651e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0013",
+   "afv_id": 2456688587350501,
+   "points": 281,
+   "length_sv_json": 557.1334266832653,
+   "length_sv_plan": 557.1334266832646,
+   "length_sv_afvfibers": 557.1334266832654,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.172305,
+    397.172305
+   ],
+   "decisions": 7,
+   "decisions_planned": 7,
+   "head_k": [
+    424,
+    430
+   ],
+   "first_head_trace": 150.0861525,
+   "max_head_dev_sv": 1.4026537697636784e-07,
+   "mean_head_dev_sv": 1.4026359651198261e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0014",
+   "afv_id": 2572225136665557,
+   "points": 352,
+   "length_sv_json": 701.5577822927253,
+   "length_sv_plan": 701.5577822927253,
+   "length_sv_afvfibers": 701.5577822927252,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.014951,
+    541.014951
+   ],
+   "decisions": 16,
+   "decisions_planned": 16,
+   "head_k": [
+    21,
+    36
+   ],
+   "first_head_trace": 150.0074755,
+   "max_head_dev_sv": 2.522629088676763e-07,
+   "mean_head_dev_sv": 2.522626764323768e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0015",
+   "afv_id": 2635863841702261,
+   "points": 376,
+   "length_sv_json": 746.5949390636947,
+   "length_sv_plan": 746.5949390636949,
+   "length_sv_afvfibers": 746.5949390636949,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.739211,
+    734.739211
+   ],
+   "decisions": 28,
+   "decisions_planned": 28,
+   "head_k": [
+    83,
+    110
+   ],
+   "first_head_trace": 150.8696055,
+   "max_head_dev_sv": 1.2185694252231337e-07,
+   "mean_head_dev_sv": 1.2185586043332996e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0016",
+   "afv_id": 3761443764176133,
+   "points": 314,
+   "length_sv_json": 622.6944527056263,
+   "length_sv_plan": 622.6944527056262,
+   "length_sv_afvfibers": 622.6944527056265,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.3135,
+    462.3135
+   ],
+   "decisions": 11,
+   "decisions_planned": 11,
+   "head_k": [
+    102,
+    112
+   ],
+   "first_head_trace": 150.65675,
+   "max_head_dev_sv": 4.3724467446013654e-07,
+   "mean_head_dev_sv": 4.3724397224690097e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0017",
+   "afv_id": 2712615234608053,
+   "points": 290,
+   "length_sv_json": 575.7385903062088,
+   "length_sv_plan": 575.7385903062082,
+   "length_sv_afvfibers": 575.7385903062085,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.854138,
+    414.854138
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    153,
+    160
+   ],
+   "first_head_trace": 150.927069,
+   "max_head_dev_sv": 4.991704775636134e-07,
+   "mean_head_dev_sv": 4.991698496038175e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0018",
+   "afv_id": 3679585842340581,
+   "points": 180,
+   "length_sv_json": 376.8338700518806,
+   "length_sv_plan": 376.8338700518806,
+   "length_sv_afvfibers": 376.3470396713018,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    24.0,
+    217.0
+   ],
+   "decisions": 13,
+   "decisions_planned": 13,
+   "head_k": [
+    0,
+    12
+   ],
+   "first_head_trace": 12.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0019",
+   "afv_id": 2135864550750725,
+   "points": 553,
+   "length_sv_json": 1101.03714904843,
+   "length_sv_plan": 1101.0371490483958,
+   "length_sv_afvfibers": 1101.0371490484292,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.950723,
+    941.950723
+   ],
+   "decisions": 41,
+   "decisions_planned": 41,
+   "head_k": [
+    1002,
+    1042
+   ],
+   "first_head_trace": 150.4753615,
+   "max_head_dev_sv": 4.441725477870244e-07,
+   "mean_head_dev_sv": 4.4415707713083934e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0020",
+   "afv_id": 810890135349813,
+   "points": 262,
+   "length_sv_json": 604.729456242463,
+   "length_sv_plan": 604.7294562424648,
+   "length_sv_afvfibers": 601.816091323159,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    297.339535,
+    442.339535
+   ],
+   "decisions": 10,
+   "decisions_planned": 10,
+   "head_k": [
+    73,
+    82
+   ],
+   "first_head_trace": 148.6697675,
+   "max_head_dev_sv": 4.401411754775737e-07,
+   "mean_head_dev_sv": 4.4014047460984254e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0021",
+   "afv_id": 4456524113244133,
+   "points": 725,
+   "length_sv_json": 1441.5176306847823,
+   "length_sv_plan": 1441.5176306847836,
+   "length_sv_afvfibers": 1437.6008049293798,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    300.132021,
+    1277.132021
+   ],
+   "decisions": 62,
+   "decisions_planned": 62,
+   "head_k": [
+    114,
+    175
+   ],
+   "first_head_trace": 150.0660105,
+   "max_head_dev_sv": 0.16650177349940773,
+   "mean_head_dev_sv": 0.02957956886982981,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0022",
+   "afv_id": 170013476301765,
+   "points": 418,
+   "length_sv_json": 956.2327963406516,
+   "length_sv_plan": 956.2327963406515,
+   "length_sv_afvfibers": 945.2858272879502,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    152.0,
+    793.0
+   ],
+   "decisions": 41,
+   "decisions_planned": 41,
+   "head_k": [
+    8,
+    48
+   ],
+   "first_head_trace": 76.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0023",
+   "afv_id": 2201285289231765,
+   "points": 790,
+   "length_sv_json": 1665.6519174597486,
+   "length_sv_plan": 1665.6519174597506,
+   "length_sv_afvfibers": 1664.2369129085441,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    302.703268,
+    1503.703268
+   ],
+   "decisions": 76,
+   "decisions_planned": 76,
+   "head_k": [
+    77,
+    152
+   ],
+   "first_head_trace": 151.351634,
+   "max_head_dev_sv": 0.06405761065151361,
+   "mean_head_dev_sv": 0.009275874340294943,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0024",
+   "afv_id": 1957535134768277,
+   "points": 330,
+   "length_sv_json": 653.9973613791742,
+   "length_sv_plan": 653.9973613791817,
+   "length_sv_afvfibers": 653.4215260580564,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    299.593071,
+    492.593071
+   ],
+   "decisions": 13,
+   "decisions_planned": 13,
+   "head_k": [
+    260,
+    272
+   ],
+   "first_head_trace": 149.7965355,
+   "max_head_dev_sv": 1.4295374139283555e-07,
+   "mean_head_dev_sv": 1.4295225886794455e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0025",
+   "afv_id": 1014946402476901,
+   "points": 434,
+   "length_sv_json": 861.1353044508933,
+   "length_sv_plan": 861.1353044509069,
+   "length_sv_afvfibers": 861.1353044508934,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.187916,
+    701.187916
+   ],
+   "decisions": 26,
+   "decisions_planned": 26,
+   "head_k": [
+    371,
+    396
+   ],
+   "first_head_trace": 150.093958,
+   "max_head_dev_sv": 3.3721948652574026e-07,
+   "mean_head_dev_sv": 3.372172401035001e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0026",
+   "afv_id": 4330651142912933,
+   "points": 556,
+   "length_sv_json": 1103.103858179859,
+   "length_sv_plan": 1103.1038581798593,
+   "length_sv_afvfibers": 1103.103858179859,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.282938,
+    942.282938
+   ],
+   "decisions": 41,
+   "decisions_planned": 41,
+   "head_k": [
+    449,
+    489
+   ],
+   "first_head_trace": 150.641469,
+   "max_head_dev_sv": 2.5085632389841435e-07,
+   "mean_head_dev_sv": 2.508529761923818e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0027",
+   "afv_id": 2164867823093349,
+   "points": 1149,
+   "length_sv_json": 2285.9486237469755,
+   "length_sv_plan": 2285.9486237469755,
+   "length_sv_afvfibers": 2285.948623746976,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.220433,
+    2125.220433
+   ],
+   "decisions": 115,
+   "decisions_planned": 115,
+   "head_k": [
+    526,
+    640
+   ],
+   "first_head_trace": 150.1102165,
+   "max_head_dev_sv": 1.7287650821877324e-07,
+   "mean_head_dev_sv": 1.728630059111495e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0028",
+   "afv_id": 3734765522153765,
+   "points": 992,
+   "length_sv_json": 1968.6442013573624,
+   "length_sv_plan": 1968.6442013573742,
+   "length_sv_afvfibers": 1966.7768015022891,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    300.856722,
+    1805.856722
+   ],
+   "decisions": 95,
+   "decisions_planned": 95,
+   "head_k": [
+    706,
+    800
+   ],
+   "first_head_trace": 150.428361,
+   "max_head_dev_sv": 0.08633389284780703,
+   "mean_head_dev_sv": 0.031095032297912745,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0029",
+   "afv_id": 2302745406879941,
+   "points": 370,
+   "length_sv_json": 733.6048598395112,
+   "length_sv_plan": 733.6048598395082,
+   "length_sv_afvfibers": 733.6048598395108,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.124248,
+    573.124248
+   ],
+   "decisions": 18,
+   "decisions_planned": 18,
+   "head_k": [
+    831,
+    848
+   ],
+   "first_head_trace": 150.062124,
+   "max_head_dev_sv": 4.914479734532424e-08,
+   "mean_head_dev_sv": 4.913987526228159e-08,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0030",
+   "afv_id": 1657499357380405,
+   "points": 546,
+   "length_sv_json": 1085.8753041339996,
+   "length_sv_plan": 1085.8753041339914,
+   "length_sv_afvfibers": 1085.8753041339999,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.751404,
+    926.751404
+   ],
+   "decisions": 40,
+   "decisions_planned": 40,
+   "head_k": [
+    883,
+    922
+   ],
+   "first_head_trace": 150.875702,
+   "max_head_dev_sv": 2.3619344609148565e-07,
+   "mean_head_dev_sv": 2.3618709608786627e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0031",
+   "afv_id": 4407289331397413,
+   "points": 441,
+   "length_sv_json": 910.7288328167597,
+   "length_sv_plan": 910.7288328167488,
+   "length_sv_afvfibers": 910.7288328167599,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.90593,
+    749.90593
+   ],
+   "decisions": 29,
+   "decisions_planned": 29,
+   "head_k": [
+    965,
+    993
+   ],
+   "first_head_trace": 150.452965,
+   "max_head_dev_sv": 1.5843107902867897e-07,
+   "mean_head_dev_sv": 1.5842148025310759e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0032",
+   "afv_id": 377223984757589,
+   "points": 1143,
+   "length_sv_json": 2275.5487181217973,
+   "length_sv_plan": 2275.5487181217977,
+   "length_sv_afvfibers": 2275.5487181217977,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    168.0,
+    2265.0
+   ],
+   "decisions": 132,
+   "decisions_planned": 132,
+   "head_k": [
+    9,
+    140
+   ],
+   "first_head_trace": 84.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0033",
+   "afv_id": 1367892720487093,
+   "points": 4295,
+   "length_sv_json": 9189.248843422134,
+   "length_sv_plan": 9189.248843422123,
+   "length_sv_afvfibers": 9170.736270711157,
+   "kink_repairs": 12,
+   "arc_patch_vox": [
+    296.0,
+    9161.0
+   ],
+   "decisions": 555,
+   "decisions_planned": 555,
+   "head_k": [
+    17,
+    571
+   ],
+   "first_head_trace": 148.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0034",
+   "afv_id": 3968224957459429,
+   "points": 570,
+   "length_sv_json": 1133.1790141513852,
+   "length_sv_plan": 1133.1790141513861,
+   "length_sv_afvfibers": 1132.7817879268653,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    300.164957,
+    973.164957
+   ],
+   "decisions": 43,
+   "decisions_planned": 43,
+   "head_k": [
+    40,
+    82
+   ],
+   "first_head_trace": 150.0824785,
+   "max_head_dev_sv": 0.005205844147093931,
+   "mean_head_dev_sv": 0.003673268481476821,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0035",
+   "afv_id": 4008533781375621,
+   "points": 289,
+   "length_sv_json": 574.5038624803358,
+   "length_sv_plan": 574.5038624803337,
+   "length_sv_afvfibers": 574.5038624803358,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.808694,
+    414.808694
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    183,
+    190
+   ],
+   "first_head_trace": 150.904347,
+   "max_head_dev_sv": 1.8172248566730876e-07,
+   "mean_head_dev_sv": 1.8172184705624796e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0036",
+   "afv_id": 581967229414501,
+   "points": 306,
+   "length_sv_json": 607.2207264508432,
+   "length_sv_plan": 607.2207264508488,
+   "length_sv_afvfibers": 607.2207264508432,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.624372,
+    446.624372
+   ],
+   "decisions": 10,
+   "decisions_planned": 10,
+   "head_k": [
+    241,
+    250
+   ],
+   "first_head_trace": 150.812186,
+   "max_head_dev_sv": 2.2728049128281643e-07,
+   "mean_head_dev_sv": 2.2727981094550416e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0037",
+   "afv_id": 82766970957909,
+   "points": 305,
+   "length_sv_json": 605.885960506787,
+   "length_sv_plan": 605.8859605067764,
+   "length_sv_afvfibers": 605.8859605067876,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.33811,
+    446.33811
+   ],
+   "decisions": 10,
+   "decisions_planned": 10,
+   "head_k": [
+    299,
+    308
+   ],
+   "first_head_trace": 150.669055,
+   "max_head_dev_sv": 2.991984844214032e-07,
+   "mean_head_dev_sv": 2.991974562003777e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0038",
+   "afv_id": 2031249382499381,
+   "points": 2972,
+   "length_sv_json": 5913.371708106355,
+   "length_sv_plan": 5913.371708106348,
+   "length_sv_afvfibers": 5913.371708106348,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    216.0,
+    5753.0
+   ],
+   "decisions": 347,
+   "decisions_planned": 347,
+   "head_k": [
+    12,
+    358
+   ],
+   "first_head_trace": 108.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0039",
+   "afv_id": 936817416878245,
+   "points": 587,
+   "length_sv_json": 1167.1412506659617,
+   "length_sv_plan": 1167.1412506659553,
+   "length_sv_afvfibers": 1167.1412506659617,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.99421,
+    1006.99421
+   ],
+   "decisions": 45,
+   "decisions_planned": 45,
+   "head_k": [
+    478,
+    522
+   ],
+   "first_head_trace": 150.997105,
+   "max_head_dev_sv": 2.2571924857992009e-07,
+   "mean_head_dev_sv": 2.257136894233292e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0040",
+   "afv_id": 472638235393749,
+   "points": 524,
+   "length_sv_json": 1037.6559711837815,
+   "length_sv_plan": 1037.6559711837654,
+   "length_sv_afvfibers": 1036.753046948468,
+   "kink_repairs": 2,
+   "arc_patch_vox": [
+    301.056882,
+    878.056882
+   ],
+   "decisions": 37,
+   "decisions_planned": 37,
+   "head_k": [
+    556,
+    592
+   ],
+   "first_head_trace": 150.528441,
+   "max_head_dev_sv": 0.10374656887987951,
+   "mean_head_dev_sv": 0.002871787655674189,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0041",
+   "afv_id": 3050127325616757,
+   "points": 579,
+   "length_sv_json": 1150.8429245761406,
+   "length_sv_plan": 1150.8429245761363,
+   "length_sv_afvfibers": 1150.8429245761408,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.985052,
+    990.985052
+   ],
+   "decisions": 44,
+   "decisions_planned": 44,
+   "head_k": [
+    106,
+    149
+   ],
+   "first_head_trace": 150.992526,
+   "max_head_dev_sv": 4.0972488794559263e-07,
+   "mean_head_dev_sv": 4.097211244589536e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0042",
+   "afv_id": 1144080307869685,
+   "points": 1701,
+   "length_sv_json": 3389.957083609668,
+   "length_sv_plan": 3389.957083609678,
+   "length_sv_afvfibers": 3389.957083609668,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.69736,
+    3229.69736
+   ],
+   "decisions": 184,
+   "decisions_planned": 184,
+   "head_k": [
+    191,
+    374
+   ],
+   "first_head_trace": 150.34868,
+   "max_head_dev_sv": 0.17754618904380542,
+   "mean_head_dev_sv": 0.06648388284581273,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0043",
+   "afv_id": 4426745420694693,
+   "points": 988,
+   "length_sv_json": 1967.067220903454,
+   "length_sv_plan": 1967.0672209034565,
+   "length_sv_afvfibers": 1966.577190741934,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    301.577068,
+    1806.577068
+   ],
+   "decisions": 95,
+   "decisions_planned": 95,
+   "head_k": [
+    408,
+    502
+   ],
+   "first_head_trace": 150.788534,
+   "max_head_dev_sv": 0.49002974936057647,
+   "mean_head_dev_sv": 0.3302752667458994,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0044",
+   "afv_id": 3339204251093733,
+   "points": 1284,
+   "length_sv_json": 2557.3426906666664,
+   "length_sv_plan": 2557.3426906666373,
+   "length_sv_afvfibers": 2557.111859930841,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    300.988798,
+    2397.988798
+   ],
+   "decisions": 132,
+   "decisions_planned": 132,
+   "head_k": [
+    690,
+    821
+   ],
+   "first_head_trace": 150.494399,
+   "max_head_dev_sv": 0.05890173865848115,
+   "mean_head_dev_sv": 0.0437256801293688,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0045",
+   "afv_id": 1203833862722037,
+   "points": 915,
+   "length_sv_json": 1821.828910752461,
+   "length_sv_plan": 1821.828910752478,
+   "length_sv_afvfibers": 1821.828910752459,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.483992,
+    1662.483992
+   ],
+   "decisions": 86,
+   "decisions_planned": 86,
+   "head_k": [
+    870,
+    955
+   ],
+   "first_head_trace": 150.741996,
+   "max_head_dev_sv": 3.226005300901352e-07,
+   "mean_head_dev_sv": 3.2258996609356296e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0046",
+   "afv_id": 2228916950510245,
+   "points": 727,
+   "length_sv_json": 1531.1639289412878,
+   "length_sv_plan": 1531.163928941287,
+   "length_sv_afvfibers": 1528.8458263474927,
+   "kink_repairs": 3,
+   "arc_patch_vox": [
+    24.0,
+    1369.0
+   ],
+   "decisions": 85,
+   "decisions_planned": 85,
+   "head_k": [
+    0,
+    84
+   ],
+   "first_head_trace": 12.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0047",
+   "afv_id": 2628713640561653,
+   "points": 1178,
+   "length_sv_json": 2610.215013705798,
+   "length_sv_plan": 2610.215013705795,
+   "length_sv_afvfibers": 2607.3812201116593,
+   "kink_repairs": 6,
+   "arc_patch_vox": [
+    300.665655,
+    2445.665655
+   ],
+   "decisions": 135,
+   "decisions_planned": 135,
+   "head_k": [
+    125,
+    259
+   ],
+   "first_head_trace": 150.3328275,
+   "max_head_dev_sv": 3.4869671662565613,
+   "mean_head_dev_sv": 0.9035595222655571,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0048",
+   "afv_id": 1880261206883653,
+   "points": 313,
+   "length_sv_json": 690.1089264815072,
+   "length_sv_plan": 690.1089264815091,
+   "length_sv_afvfibers": 690.1089264815071,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.591631,
+    526.591631
+   ],
+   "decisions": 15,
+   "decisions_planned": 15,
+   "head_k": [
+    289,
+    303
+   ],
+   "first_head_trace": 150.7958155,
+   "max_head_dev_sv": 4.053014976974505e-07,
+   "mean_head_dev_sv": 4.052986611103073e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0049",
+   "afv_id": 2906863488778469,
+   "points": 307,
+   "length_sv_json": 705.0816652029769,
+   "length_sv_plan": 705.0816652029735,
+   "length_sv_afvfibers": 703.4112859556043,
+   "kink_repairs": 2,
+   "arc_patch_vox": [
+    302.892507,
+    543.892507
+   ],
+   "decisions": 16,
+   "decisions_planned": 16,
+   "head_k": [
+    348,
+    363
+   ],
+   "first_head_trace": 151.4462535,
+   "max_head_dev_sv": 0.3997613485108074,
+   "mean_head_dev_sv": 0.14984467475972746,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0050",
+   "afv_id": 2397454309118549,
+   "points": 323,
+   "length_sv_json": 765.8155649783771,
+   "length_sv_plan": 765.8155649783721,
+   "length_sv_afvfibers": 764.3903034762083,
+   "kink_repairs": 2,
+   "arc_patch_vox": [
+    299.985178,
+    604.985178
+   ],
+   "decisions": 20,
+   "decisions_planned": 20,
+   "head_k": [
+    400,
+    419
+   ],
+   "first_head_trace": 149.992589,
+   "max_head_dev_sv": 0.02804691457948865,
+   "mean_head_dev_sv": 0.025656091478893396,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0051",
+   "afv_id": 1807781562105189,
+   "points": 290,
+   "length_sv_json": 574.6841129948914,
+   "length_sv_plan": 574.6841129948889,
+   "length_sv_afvfibers": 574.684112994891,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.786001,
+    413.786001
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    367,
+    374
+   ],
+   "first_head_trace": 150.3930005,
+   "max_head_dev_sv": 1.6846874379252168e-07,
+   "mean_head_dev_sv": 1.6846619970931699e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0052",
+   "afv_id": 3870936565345301,
+   "points": 297,
+   "length_sv_json": 589.7698965225381,
+   "length_sv_plan": 589.7698965225427,
+   "length_sv_afvfibers": 589.769896522538,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.42562,
+    429.42562
+   ],
+   "decisions": 9,
+   "decisions_planned": 9,
+   "head_k": [
+    450,
+    458
+   ],
+   "first_head_trace": 150.21281,
+   "max_head_dev_sv": 3.582577009442997e-07,
+   "mean_head_dev_sv": 3.5825634172646474e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0053",
+   "afv_id": 568288345129861,
+   "points": 489,
+   "length_sv_json": 973.1608973266104,
+   "length_sv_plan": 973.1608973266127,
+   "length_sv_afvfibers": 973.1608973266109,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.687522,
+    813.687522
+   ],
+   "decisions": 33,
+   "decisions_planned": 33,
+   "head_k": [
+    122,
+    154
+   ],
+   "first_head_trace": 150.343761,
+   "max_head_dev_sv": 2.3502051858699007e-07,
+   "mean_head_dev_sv": 2.3501881759136542e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0054",
+   "afv_id": 1048900471090277,
+   "points": 298,
+   "length_sv_json": 590.3859174422895,
+   "length_sv_plan": 590.3859174422923,
+   "length_sv_afvfibers": 590.3859174422893,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.556157,
+    429.556157
+   ],
+   "decisions": 9,
+   "decisions_planned": 9,
+   "head_k": [
+    222,
+    230
+   ],
+   "first_head_trace": 150.2780785,
+   "max_head_dev_sv": 1.1480385330637499e-07,
+   "mean_head_dev_sv": 1.1480287350875613e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0055",
+   "afv_id": 3262392374325781,
+   "points": 288,
+   "length_sv_json": 606.3490052521229,
+   "length_sv_plan": 606.3490052521083,
+   "length_sv_afvfibers": 606.3490052521225,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.511017,
+    446.511017
+   ],
+   "decisions": 10,
+   "decisions_planned": 10,
+   "head_k": [
+    939,
+    948
+   ],
+   "first_head_trace": 150.7555085,
+   "max_head_dev_sv": 1.1769928261942171e-07,
+   "mean_head_dev_sv": 1.1769701439972677e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0056",
+   "afv_id": 1481532103644837,
+   "points": 291,
+   "length_sv_json": 574.0340191863709,
+   "length_sv_plan": 574.0340191863579,
+   "length_sv_afvfibers": 562.782237796752,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    290.629964,
+    403.629964
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    1046,
+    1053
+   ],
+   "first_head_trace": 145.314982,
+   "max_head_dev_sv": 3.305610468702159e-07,
+   "mean_head_dev_sv": 3.3055659660442133e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0057",
+   "afv_id": 2674381991515189,
+   "points": 290,
+   "length_sv_json": 575.3453121518316,
+   "length_sv_plan": 575.3453121518069,
+   "length_sv_afvfibers": 575.3453121518316,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.89068,
+    414.89068
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    1087,
+    1094
+   ],
+   "first_head_trace": 150.94534,
+   "max_head_dev_sv": 3.364897605824742e-07,
+   "mean_head_dev_sv": 3.364852031824949e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0058",
+   "afv_id": 3209749417188437,
+   "points": 288,
+   "length_sv_json": 572.8534998598288,
+   "length_sv_plan": 572.8534998598043,
+   "length_sv_afvfibers": 572.8534998598284,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.78541,
+    413.78541
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    1139,
+    1146
+   ],
+   "first_head_trace": 150.392705,
+   "max_head_dev_sv": 1.0315781801720769e-07,
+   "mean_head_dev_sv": 1.0315392995306307e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0059",
+   "afv_id": 2791403741532741,
+   "points": 308,
+   "length_sv_json": 607.5510183577073,
+   "length_sv_plan": 607.5510183577389,
+   "length_sv_afvfibers": 607.5510183577068,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.920909,
+    446.920909
+   ],
+   "decisions": 10,
+   "decisions_planned": 10,
+   "head_k": [
+    1191,
+    1200
+   ],
+   "first_head_trace": 150.9604545,
+   "max_head_dev_sv": 2.9109402573754736e-07,
+   "mean_head_dev_sv": 2.9108428203832915e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0060",
+   "afv_id": 866910650064389,
+   "points": 1060,
+   "length_sv_json": 2110.214803674325,
+   "length_sv_plan": 2110.214803674324,
+   "length_sv_afvfibers": 2110.2148036743247,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.272507,
+    1949.272507
+   ],
+   "decisions": 104,
+   "decisions_planned": 104,
+   "head_k": [
+    112,
+    215
+   ],
+   "first_head_trace": 150.1362535,
+   "max_head_dev_sv": 1.0197510039047841e-07,
+   "mean_head_dev_sv": 1.019727916542809e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0061",
+   "afv_id": 1495955905966757,
+   "points": 296,
+   "length_sv_json": 589.0676371389875,
+   "length_sv_plan": 589.0676371389895,
+   "length_sv_afvfibers": 589.0676371389874,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.058582,
+    429.058582
+   ],
+   "decisions": 9,
+   "decisions_planned": 9,
+   "head_k": [
+    244,
+    252
+   ],
+   "first_head_trace": 150.029291,
+   "max_head_dev_sv": 2.6478124378326436e-07,
+   "mean_head_dev_sv": 2.6478038125801563e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0062",
+   "afv_id": 2833036775949685,
+   "points": 281,
+   "length_sv_json": 558.1199157433789,
+   "length_sv_plan": 558.1199157433757,
+   "length_sv_afvfibers": 558.1199157433789,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.03358,
+    398.03358
+   ],
+   "decisions": 7,
+   "decisions_planned": 7,
+   "head_k": [
+    299,
+    305
+   ],
+   "first_head_trace": 150.51679,
+   "max_head_dev_sv": 1.4117735611925307e-07,
+   "mean_head_dev_sv": 1.4117641360915834e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0063",
+   "afv_id": 2653801203553957,
+   "points": 329,
+   "length_sv_json": 654.1058086962942,
+   "length_sv_plan": 654.1058086962994,
+   "length_sv_afvfibers": 654.105808696294,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.77447,
+    493.77447
+   ],
+   "decisions": 13,
+   "decisions_planned": 13,
+   "head_k": [
+    396,
+    408
+   ],
+   "first_head_trace": 150.387235,
+   "max_head_dev_sv": 1.7807655224529836e-07,
+   "mean_head_dev_sv": 1.780735197225011e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0064",
+   "afv_id": 2800413755494949,
+   "points": 714,
+   "length_sv_json": 1422.2355836750323,
+   "length_sv_plan": 1422.235583675033,
+   "length_sv_afvfibers": 1422.2355836750314,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.832295,
+    1262.832295
+   ],
+   "decisions": 61,
+   "decisions_planned": 61,
+   "head_k": [
+    37,
+    97
+   ],
+   "first_head_trace": 150.9161475,
+   "max_head_dev_sv": 8.489421124075592e-08,
+   "mean_head_dev_sv": 8.48930293964508e-08,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0065",
+   "afv_id": 625740150664357,
+   "points": 316,
+   "length_sv_json": 796.8242555899946,
+   "length_sv_plan": 796.8242555899969,
+   "length_sv_afvfibers": 796.824255589994,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.035114,
+    637.035114
+   ],
+   "decisions": 22,
+   "decisions_planned": 22,
+   "head_k": [
+    161,
+    182
+   ],
+   "first_head_trace": 150.017557,
+   "max_head_dev_sv": 3.928660973793976e-07,
+   "mean_head_dev_sv": 3.928645548219376e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0066",
+   "afv_id": 4128877541821397,
+   "points": 1588,
+   "length_sv_json": 3166.1386349193654,
+   "length_sv_plan": 3166.138634919379,
+   "length_sv_afvfibers": 3166.138634919368,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.34776,
+    3005.34776
+   ],
+   "decisions": 170,
+   "decisions_planned": 170,
+   "head_k": [
+    523,
+    692
+   ],
+   "first_head_trace": 150.17388,
+   "max_head_dev_sv": 2.709120888067497e-08,
+   "mean_head_dev_sv": 2.7081466825194515e-08,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0067",
+   "afv_id": 3030533368540421,
+   "points": 369,
+   "length_sv_json": 734.6453695557601,
+   "length_sv_plan": 734.6453695557511,
+   "length_sv_afvfibers": 734.6453695557605,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.558655,
+    574.558655
+   ],
+   "decisions": 18,
+   "decisions_planned": 18,
+   "head_k": [
+    334,
+    351
+   ],
+   "first_head_trace": 150.7793275,
+   "max_head_dev_sv": 1.517115723069387e-07,
+   "mean_head_dev_sv": 1.5170930313778858e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0068",
+   "afv_id": 2832280477568565,
+   "points": 520,
+   "length_sv_json": 1037.9550049238733,
+   "length_sv_plan": 1037.9550049238915,
+   "length_sv_afvfibers": 1037.9550049238744,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.22334,
+    877.22334
+   ],
+   "decisions": 37,
+   "decisions_planned": 37,
+   "head_k": [
+    918,
+    954
+   ],
+   "first_head_trace": 150.11167,
+   "max_head_dev_sv": 2.2497026482263637e-07,
+   "mean_head_dev_sv": 2.2496569921908565e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0069",
+   "afv_id": 3700963659559221,
+   "points": 1253,
+   "length_sv_json": 2559.1766647243967,
+   "length_sv_plan": 2559.1766647243976,
+   "length_sv_afvfibers": 2559.1766647243885,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.465576,
+    2398.465576
+   ],
+   "decisions": 132,
+   "decisions_planned": 132,
+   "head_k": [
+    153,
+    284
+   ],
+   "first_head_trace": 150.732788,
+   "max_head_dev_sv": 3.328380454068496e-07,
+   "mean_head_dev_sv": 3.328317222998082e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0070",
+   "afv_id": 4429498908009205,
+   "points": 291,
+   "length_sv_json": 575.4410904766657,
+   "length_sv_plan": 575.441090476661,
+   "length_sv_afvfibers": 573.9699513930925,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    300.115402,
+    413.115402
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    342,
+    349
+   ],
+   "first_head_trace": 150.057701,
+   "max_head_dev_sv": 4.1385731766104456e-07,
+   "mean_head_dev_sv": 4.138564363636934e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0071",
+   "afv_id": 691680519667029,
+   "points": 416,
+   "length_sv_json": 828.6144809135693,
+   "length_sv_plan": 828.6144809135667,
+   "length_sv_afvfibers": 828.6144809135697,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.220695,
+    669.220695
+   ],
+   "decisions": 24,
+   "decisions_planned": 24,
+   "head_k": [
+    383,
+    406
+   ],
+   "first_head_trace": 150.1103475,
+   "max_head_dev_sv": 4.0771551163607084e-07,
+   "mean_head_dev_sv": 4.077132117190063e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0072",
+   "afv_id": 277900196207061,
+   "points": 889,
+   "length_sv_json": 1773.877879047509,
+   "length_sv_plan": 1773.8778790475062,
+   "length_sv_afvfibers": 1773.8778790475087,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.427269,
+    1614.427269
+   ],
+   "decisions": 83,
+   "decisions_planned": 83,
+   "head_k": [
+    457,
+    539
+   ],
+   "first_head_trace": 150.7136345,
+   "max_head_dev_sv": 1.779860453350687e-07,
+   "mean_head_dev_sv": 1.7798148666608424e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0073",
+   "afv_id": 1292537738872917,
+   "points": 1029,
+   "length_sv_json": 2109.665905569513,
+   "length_sv_plan": 2109.665905569502,
+   "length_sv_afvfibers": 2109.6659055695077,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.55121,
+    1950.55121
+   ],
+   "decisions": 104,
+   "decisions_planned": 104,
+   "head_k": [
+    577,
+    680
+   ],
+   "first_head_trace": 150.775605,
+   "max_head_dev_sv": 4.918374202332378e-07,
+   "mean_head_dev_sv": 4.918304769746632e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0074",
+   "afv_id": 3335651425721029,
+   "points": 1282,
+   "length_sv_json": 2557.3901650445505,
+   "length_sv_plan": 2557.3901650445387,
+   "length_sv_afvfibers": 2557.3901650445487,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.004865,
+    2397.004865
+   ],
+   "decisions": 132,
+   "decisions_planned": 132,
+   "head_k": [
+    741,
+    872
+   ],
+   "first_head_trace": 150.0024325,
+   "max_head_dev_sv": 2.8260849586831333e-07,
+   "mean_head_dev_sv": 2.8259697165795944e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0075",
+   "afv_id": 398959829455061,
+   "points": 227,
+   "length_sv_json": 606.1918115633621,
+   "length_sv_plan": 606.1918115633616,
+   "length_sv_afvfibers": 601.9024563920801,
+   "kink_repairs": 2,
+   "arc_patch_vox": [
+    297.220706,
+    442.220706
+   ],
+   "decisions": 10,
+   "decisions_planned": 10,
+   "head_k": [
+    902,
+    911
+   ],
+   "first_head_trace": 148.610353,
+   "max_head_dev_sv": 2.968281605867305e-07,
+   "mean_head_dev_sv": 2.968206367103543e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0076",
+   "afv_id": 323692528413061,
+   "points": 1928,
+   "length_sv_json": 3961.954069196802,
+   "length_sv_plan": 3961.9540691967995,
+   "length_sv_afvfibers": 3959.610727488977,
+   "kink_repairs": 3,
+   "arc_patch_vox": [
+    303.92982,
+    3920.92982
+   ],
+   "decisions": 227,
+   "decisions_planned": 227,
+   "head_k": [
+    949,
+    1175
+   ],
+   "first_head_trace": 151.96491,
+   "max_head_dev_sv": 0.5220138651025077,
+   "mean_head_dev_sv": 0.1396949038585573,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0077",
+   "afv_id": 3573467907663749,
+   "points": 296,
+   "length_sv_json": 589.5578959724412,
+   "length_sv_plan": 589.557895972441,
+   "length_sv_afvfibers": 589.5578959724409,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.0,
+    429.0
+   ],
+   "decisions": 9,
+   "decisions_planned": 9,
+   "head_k": [
+    20,
+    28
+   ],
+   "first_head_trace": 150.0,
+   "max_head_dev_sv": 6.37716700820681e-08,
+   "mean_head_dev_sv": 6.377131208076691e-08,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0078",
+   "afv_id": 3630595961106997,
+   "points": 826,
+   "length_sv_json": 1646.0482171720435,
+   "length_sv_plan": 1646.0482171720482,
+   "length_sv_afvfibers": 1646.0482171720419,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.493297,
+    1485.493297
+   ],
+   "decisions": 75,
+   "decisions_planned": 75,
+   "head_k": [
+    67,
+    141
+   ],
+   "first_head_trace": 150.2466485,
+   "max_head_dev_sv": 7.822352882245504e-08,
+   "mean_head_dev_sv": 7.821980979165763e-08,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0079",
+   "afv_id": 1134937573772357,
+   "points": 544,
+   "length_sv_json": 1085.9960151577961,
+   "length_sv_plan": 1085.996015157792,
+   "length_sv_afvfibers": 1085.9960151577966,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.447263,
+    925.447263
+   ],
+   "decisions": 40,
+   "decisions_planned": 40,
+   "head_k": [
+    248,
+    287
+   ],
+   "first_head_trace": 150.2236315,
+   "max_head_dev_sv": 2.1174034289782534e-07,
+   "mean_head_dev_sv": 2.1173684850425144e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0080",
+   "afv_id": 226364885305717,
+   "points": 536,
+   "length_sv_json": 1069.7552877269773,
+   "length_sv_plan": 1069.7552877269757,
+   "length_sv_afvfibers": 1069.7552877269773,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.010667,
+    909.010667
+   ],
+   "decisions": 39,
+   "decisions_planned": 39,
+   "head_k": [
+    98,
+    136
+   ],
+   "first_head_trace": 150.0053335,
+   "max_head_dev_sv": 2.70440481649087e-07,
+   "mean_head_dev_sv": 2.704391644514159e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0081",
+   "afv_id": 1690667354052485,
+   "points": 336,
+   "length_sv_json": 669.9852859691305,
+   "length_sv_plan": 669.9852859691264,
+   "length_sv_afvfibers": 669.9852859691297,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.495543,
+    509.495543
+   ],
+   "decisions": 14,
+   "decisions_planned": 14,
+   "head_k": [
+    173,
+    186
+   ],
+   "first_head_trace": 150.2477715,
+   "max_head_dev_sv": 4.4640982999152946e-07,
+   "mean_head_dev_sv": 4.4640886376948824e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0082",
+   "afv_id": 3828288027137189,
+   "points": 946,
+   "length_sv_json": 1885.1643734333682,
+   "length_sv_plan": 1885.1643734333747,
+   "length_sv_afvfibers": 1885.1643734333677,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.476041,
+    1725.476041
+   ],
+   "decisions": 90,
+   "decisions_planned": 90,
+   "head_k": [
+    363,
+    452
+   ],
+   "first_head_trace": 150.2380205,
+   "max_head_dev_sv": 2.0148766107815427e-07,
+   "mean_head_dev_sv": 2.0148011055282855e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0083",
+   "afv_id": 2976662044878437,
+   "points": 1470,
+   "length_sv_json": 2936.159308172473,
+   "length_sv_plan": 2936.1593081724727,
+   "length_sv_afvfibers": 2936.1593081724727,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    104.0,
+    2777.0
+   ],
+   "decisions": 168,
+   "decisions_planned": 168,
+   "head_k": [
+    5,
+    172
+   ],
+   "first_head_trace": 52.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0084",
+   "afv_id": 2387947620633605,
+   "points": 1362,
+   "length_sv_json": 2719.110916771283,
+   "length_sv_plan": 2719.1109167712793,
+   "length_sv_afvfibers": 2719.1109167712857,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.862906,
+    2558.862906
+   ],
+   "decisions": 142,
+   "decisions_planned": 142,
+   "head_k": [
+    207,
+    348
+   ],
+   "first_head_trace": 150.931453,
+   "max_head_dev_sv": 3.2257270235707697e-07,
+   "mean_head_dev_sv": 3.2256649995737944e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0085",
+   "afv_id": 1606108448286021,
+   "points": 1042,
+   "length_sv_json": 2078.694842652046,
+   "length_sv_plan": 2078.6948426520566,
+   "length_sv_afvfibers": 2078.6948426520466,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.784172,
+    1917.784172
+   ],
+   "decisions": 102,
+   "decisions_planned": 102,
+   "head_k": [
+    380,
+    481
+   ],
+   "first_head_trace": 150.392086,
+   "max_head_dev_sv": 3.667172948360814e-07,
+   "mean_head_dev_sv": 3.6671152750060977e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0086",
+   "afv_id": 2710283500232837,
+   "points": 289,
+   "length_sv_json": 574.039598481164,
+   "length_sv_plan": 574.0395984811585,
+   "length_sv_afvfibers": 574.0395984811636,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.558038,
+    414.558038
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    859,
+    866
+   ],
+   "first_head_trace": 150.779019,
+   "max_head_dev_sv": 3.713923624712033e-07,
+   "mean_head_dev_sv": 3.7138961174522283e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0087",
+   "afv_id": 3694889445697221,
+   "points": 296,
+   "length_sv_json": 589.080141893807,
+   "length_sv_plan": 589.0801418938069,
+   "length_sv_afvfibers": 589.0801418938065,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.120681,
+    429.120681
+   ],
+   "decisions": 9,
+   "decisions_planned": 9,
+   "head_k": [
+    78,
+    86
+   ],
+   "first_head_trace": 150.0603405,
+   "max_head_dev_sv": 4.734671892475962e-07,
+   "mean_head_dev_sv": 4.734665261404211e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0088",
+   "afv_id": 574756303172133,
+   "points": 321,
+   "length_sv_json": 637.8643274377354,
+   "length_sv_plan": 637.8643274377357,
+   "length_sv_afvfibers": 637.8643274377357,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.022561,
+    477.022561
+   ],
+   "decisions": 12,
+   "decisions_planned": 12,
+   "head_k": [
+    23,
+    34
+   ],
+   "first_head_trace": 150.0112805,
+   "max_head_dev_sv": 2.81374839454497e-07,
+   "mean_head_dev_sv": 2.813746037938288e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0089",
+   "afv_id": 2611443315982805,
+   "points": 1592,
+   "length_sv_json": 3187.5832654782002,
+   "length_sv_plan": 3187.583265478207,
+   "length_sv_afvfibers": 3181.2715610747446,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    300.153696,
+    3021.153696
+   ],
+   "decisions": 171,
+   "decisions_planned": 171,
+   "head_k": [
+    91,
+    261
+   ],
+   "first_head_trace": 150.076848,
+   "max_head_dev_sv": 0.38156487789278715,
+   "mean_head_dev_sv": 0.06907446698143677,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0090",
+   "afv_id": 1077455588049685,
+   "points": 460,
+   "length_sv_json": 910.9434952243024,
+   "length_sv_plan": 910.9434952243037,
+   "length_sv_afvfibers": 910.9434952243021,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.203714,
+    750.203714
+   ],
+   "decisions": 29,
+   "decisions_planned": 29,
+   "head_k": [
+    342,
+    370
+   ],
+   "first_head_trace": 150.601857,
+   "max_head_dev_sv": 3.922457189323521e-07,
+   "mean_head_dev_sv": 3.922440826024145e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0091",
+   "afv_id": 2079082726257957,
+   "points": 427,
+   "length_sv_json": 845.4716083968765,
+   "length_sv_plan": 845.471608396877,
+   "length_sv_afvfibers": 845.4716083968763,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.260266,
+    685.260266
+   ],
+   "decisions": 25,
+   "decisions_planned": 25,
+   "head_k": [
+    399,
+    423
+   ],
+   "first_head_trace": 150.130133,
+   "max_head_dev_sv": 5.27835945502284e-08,
+   "mean_head_dev_sv": 5.277968672556981e-08,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0092",
+   "afv_id": 3336062516837333,
+   "points": 741,
+   "length_sv_json": 1504.8880499732295,
+   "length_sv_plan": 1504.8880499732331,
+   "length_sv_afvfibers": 1501.1447882612006,
+   "kink_repairs": 2,
+   "arc_patch_vox": [
+    300.910042,
+    1341.910042
+   ],
+   "decisions": 66,
+   "decisions_planned": 66,
+   "head_k": [
+    457,
+    522
+   ],
+   "first_head_trace": 150.455021,
+   "max_head_dev_sv": 0.1546036513730849,
+   "mean_head_dev_sv": 0.03443282680149291,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0093",
+   "afv_id": 1339951052406693,
+   "points": 1046,
+   "length_sv_json": 2078.9218701680315,
+   "length_sv_plan": 2078.9218701679874,
+   "length_sv_afvfibers": 2078.9218701680343,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.920142,
+    1918.920142
+   ],
+   "decisions": 102,
+   "decisions_planned": 102,
+   "head_k": [
+    551,
+    652
+   ],
+   "first_head_trace": 150.960071,
+   "max_head_dev_sv": 4.3765328813971615e-07,
+   "mean_head_dev_sv": 4.3763199529634233e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0094",
+   "afv_id": 2306685522999285,
+   "points": 680,
+   "length_sv_json": 1351.294885969704,
+   "length_sv_plan": 1351.2948859696935,
+   "length_sv_afvfibers": 1341.7167195786776,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    300.915304,
+    1181.915304
+   ],
+   "decisions": 56,
+   "decisions_planned": 56,
+   "head_k": [
+    686,
+    741
+   ],
+   "first_head_trace": 150.457652,
+   "max_head_dev_sv": 0.17261717061504175,
+   "mean_head_dev_sv": 0.06629140659269131,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0095",
+   "afv_id": 559726095353557,
+   "points": 1842,
+   "length_sv_json": 3652.987223996506,
+   "length_sv_plan": 3652.9872239964934,
+   "length_sv_afvfibers": 3643.88350189342,
+   "kink_repairs": 4,
+   "arc_patch_vox": [
+    300.289331,
+    3485.289331
+   ],
+   "decisions": 200,
+   "decisions_planned": 200,
+   "head_k": [
+    866,
+    1065
+   ],
+   "first_head_trace": 150.1446655,
+   "max_head_dev_sv": 0.3736146565317981,
+   "mean_head_dev_sv": 0.12368726993252857,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0096",
+   "afv_id": 1288870160152101,
+   "points": 138,
+   "length_sv_json": 280.3560926203817,
+   "length_sv_plan": 280.3560926203816,
+   "length_sv_afvfibers": 280.3560926203816,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    24.0,
+    121.0
+   ],
+   "decisions": 7,
+   "decisions_planned": 7,
+   "head_k": [
+    0,
+    6
+   ],
+   "first_head_trace": 12.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0097",
+   "afv_id": 184289841579317,
+   "points": 1196,
+   "length_sv_json": 2377.1569315582447,
+   "length_sv_plan": 2377.156931558245,
+   "length_sv_afvfibers": 2377.156931558245,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    104.0,
+    2217.0
+   ],
+   "decisions": 133,
+   "decisions_planned": 133,
+   "head_k": [
+    5,
+    137
+   ],
+   "first_head_trace": 52.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0098",
+   "afv_id": 539913693958181,
+   "points": 595,
+   "length_sv_json": 1181.0448626805528,
+   "length_sv_plan": 1181.044862680555,
+   "length_sv_afvfibers": 1181.0448626805526,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.795008,
+    1021.795008
+   ],
+   "decisions": 46,
+   "decisions_planned": 46,
+   "head_k": [
+    270,
+    315
+   ],
+   "first_head_trace": 150.397504,
+   "max_head_dev_sv": 2.298466801857088e-07,
+   "mean_head_dev_sv": 2.298436398206113e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0099",
+   "afv_id": 165553597552085,
+   "points": 1666,
+   "length_sv_json": 3309.653534100267,
+   "length_sv_plan": 3309.6535341002673,
+   "length_sv_afvfibers": 3309.385837754124,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    301.269178,
+    3150.269178
+   ],
+   "decisions": 179,
+   "decisions_planned": 179,
+   "head_k": [
+    361,
+    539
+   ],
+   "first_head_trace": 150.634589,
+   "max_head_dev_sv": 0.26769674676586896,
+   "mean_head_dev_sv": 0.01972710297358595,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0100",
+   "afv_id": 2270531175569397,
+   "points": 733,
+   "length_sv_json": 1453.444814906206,
+   "length_sv_plan": 1453.4448149062064,
+   "length_sv_afvfibers": 1453.4448149062043,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.7888,
+    1293.7888
+   ],
+   "decisions": 63,
+   "decisions_planned": 63,
+   "head_k": [
+    578,
+    640
+   ],
+   "first_head_trace": 150.3944,
+   "max_head_dev_sv": 2.5944558716456584e-07,
+   "mean_head_dev_sv": 2.594380413004222e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0101",
+   "afv_id": 1198586513489253,
+   "points": 2909,
+   "length_sv_json": 5791.07391436285,
+   "length_sv_plan": 5791.073914362918,
+   "length_sv_afvfibers": 5791.0739143628425,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.495732,
+    5630.495732
+   ],
+   "decisions": 334,
+   "decisions_planned": 334,
+   "head_k": [
+    697,
+    1030
+   ],
+   "first_head_trace": 150.747866,
+   "max_head_dev_sv": 2.0402761119611148e-08,
+   "mean_head_dev_sv": 2.035544780548892e-08,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0102",
+   "afv_id": 2136661307618021,
+   "points": 289,
+   "length_sv_json": 572.6821732612848,
+   "length_sv_plan": 572.6821732613025,
+   "length_sv_afvfibers": 572.6821732612847,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.437348,
+    413.437348
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    1060,
+    1067
+   ],
+   "first_head_trace": 150.218674,
+   "max_head_dev_sv": 4.310828670506244e-07,
+   "mean_head_dev_sv": 4.310801293032094e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0103",
+   "afv_id": 62244348162949,
+   "points": 571,
+   "length_sv_json": 1133.84694422607,
+   "length_sv_plan": 1133.8469442260866,
+   "length_sv_afvfibers": 1133.8469442260703,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.75518,
+    974.75518
+   ],
+   "decisions": 43,
+   "decisions_planned": 43,
+   "head_k": [
+    1102,
+    1144
+   ],
+   "first_head_trace": 150.87759,
+   "max_head_dev_sv": 2.4165178481660616e-07,
+   "mean_head_dev_sv": 2.416370505860172e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0104",
+   "afv_id": 3602397960374741,
+   "points": 1682,
+   "length_sv_json": 3448.924400004123,
+   "length_sv_plan": 3448.92440000412,
+   "length_sv_afvfibers": 3438.2536488614464,
+   "kink_repairs": 2,
+   "arc_patch_vox": [
+    301.012787,
+    3278.012787
+   ],
+   "decisions": 187,
+   "decisions_planned": 187,
+   "head_k": [
+    45,
+    231
+   ],
+   "first_head_trace": 150.5063935,
+   "max_head_dev_sv": 1.0121990367794038,
+   "mean_head_dev_sv": 0.10928448573631429,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0105",
+   "afv_id": 746738401073957,
+   "points": 652,
+   "length_sv_json": 1294.7726003370365,
+   "length_sv_plan": 1294.7726003370244,
+   "length_sv_afvfibers": 1294.7726003370362,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.396882,
+    1134.396882
+   ],
+   "decisions": 53,
+   "decisions_planned": 53,
+   "head_k": [
+    295,
+    347
+   ],
+   "first_head_trace": 150.698441,
+   "max_head_dev_sv": 2.2346154566678366e-07,
+   "mean_head_dev_sv": 2.234568417495576e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0106",
+   "afv_id": 1151533012455477,
+   "points": 306,
+   "length_sv_json": 607.4946709729306,
+   "length_sv_plan": 607.4946709729211,
+   "length_sv_afvfibers": 607.494670972931,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.949611,
+    446.949611
+   ],
+   "decisions": 10,
+   "decisions_planned": 10,
+   "head_k": [
+    391,
+    400
+   ],
+   "first_head_trace": 150.9748055,
+   "max_head_dev_sv": 4.954664729216647e-07,
+   "mean_head_dev_sv": 4.954655744638926e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0107",
+   "afv_id": 4239128439060917,
+   "points": 1942,
+   "length_sv_json": 3854.3880035321417,
+   "length_sv_plan": 3854.3880035321363,
+   "length_sv_afvfibers": 3853.909494601416,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    300.455075,
+    3693.455075
+   ],
+   "decisions": 213,
+   "decisions_planned": 213,
+   "head_k": [
+    431,
+    643
+   ],
+   "first_head_trace": 150.2275375,
+   "max_head_dev_sv": 0.0522402422922184,
+   "mean_head_dev_sv": 0.0024058822491947692,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0108",
+   "afv_id": 4182533122220565,
+   "points": 386,
+   "length_sv_json": 766.7601786782332,
+   "length_sv_plan": 766.7601786782325,
+   "length_sv_afvfibers": 766.760178678233,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.786476,
+    605.786476
+   ],
+   "decisions": 20,
+   "decisions_planned": 20,
+   "head_k": [
+    682,
+    701
+   ],
+   "first_head_trace": 150.393238,
+   "max_head_dev_sv": 3.792607291360427e-07,
+   "mean_head_dev_sv": 3.7925590270456394e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0109",
+   "afv_id": 861460688837173,
+   "points": 2943,
+   "length_sv_json": 5855.840127679097,
+   "length_sv_plan": 5855.840127679092,
+   "length_sv_afvfibers": 5855.840127679104,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.80898,
+    5837.80898
+   ],
+   "decisions": 347,
+   "decisions_planned": 347,
+   "head_k": [
+    736,
+    1082
+   ],
+   "first_head_trace": 150.40449,
+   "max_head_dev_sv": 1.54309091356338e-07,
+   "mean_head_dev_sv": 1.5429444351325555e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0110",
+   "afv_id": 3656383711386789,
+   "points": 266,
+   "length_sv_json": 617.0744054919722,
+   "length_sv_plan": 617.0744054919724,
+   "length_sv_afvfibers": 617.0744054919721,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    24.0,
+    457.0
+   ],
+   "decisions": 28,
+   "decisions_planned": 28,
+   "head_k": [
+    0,
+    27
+   ],
+   "first_head_trace": 12.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0111",
+   "afv_id": 3966735518223413,
+   "points": 290,
+   "length_sv_json": 574.6208791683011,
+   "length_sv_plan": 574.6208791683025,
+   "length_sv_afvfibers": 574.6208791683011,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.401057,
+    414.401057
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    75,
+    82
+   ],
+   "first_head_trace": 150.7005285,
+   "max_head_dev_sv": 2.119814039832708e-07,
+   "mean_head_dev_sv": 2.1198053652919507e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0112",
+   "afv_id": 130228283776229,
+   "points": 519,
+   "length_sv_json": 1085.72970715548,
+   "length_sv_plan": 1085.7297071554808,
+   "length_sv_afvfibers": 1085.7297071554808,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.191294,
+    925.191294
+   ],
+   "decisions": 40,
+   "decisions_planned": 40,
+   "head_k": [
+    147,
+    186
+   ],
+   "first_head_trace": 150.095647,
+   "max_head_dev_sv": 1.9077113461329393e-07,
+   "mean_head_dev_sv": 1.907684918664142e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0113",
+   "afv_id": 144824631286917,
+   "points": 582,
+   "length_sv_json": 1230.3415728067907,
+   "length_sv_plan": 1230.3415728067848,
+   "length_sv_afvfibers": 1230.3415728067912,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.824499,
+    1070.824499
+   ],
+   "decisions": 49,
+   "decisions_planned": 49,
+   "head_k": [
+    225,
+    273
+   ],
+   "first_head_trace": 150.9122495,
+   "max_head_dev_sv": 2.938355157185905e-07,
+   "mean_head_dev_sv": 2.9383338204752815e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0114",
+   "afv_id": 1820988235588869,
+   "points": 1819,
+   "length_sv_json": 3616.170143855861,
+   "length_sv_plan": 3616.170143855874,
+   "length_sv_afvfibers": 3609.550439965036,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    301.483198,
+    3454.483198
+   ],
+   "decisions": 198,
+   "decisions_planned": 198,
+   "head_k": [
+    302,
+    499
+   ],
+   "first_head_trace": 150.741599,
+   "max_head_dev_sv": 7.8110896107752,
+   "mean_head_dev_sv": 2.240727362072625,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0115",
+   "afv_id": 2662536448304949,
+   "points": 2917,
+   "length_sv_json": 5800.711558138268,
+   "length_sv_plan": 5800.711558138244,
+   "length_sv_afvfibers": 5794.828433399888,
+   "kink_repairs": 3,
+   "arc_patch_vox": [
+    300.916093,
+    5789.916093
+   ],
+   "decisions": 344,
+   "decisions_planned": 344,
+   "head_k": [
+    622,
+    965
+   ],
+   "first_head_trace": 150.4580465,
+   "max_head_dev_sv": 0.33499392623589574,
+   "mean_head_dev_sv": 0.061696755466990334,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0116",
+   "afv_id": 4444226308591109,
+   "points": 251,
+   "length_sv_json": 496.0573748568175,
+   "length_sv_plan": 496.05737485681817,
+   "length_sv_afvfibers": 496.05737485681726,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.004831,
+    429.004831
+   ],
+   "decisions": 9,
+   "decisions_planned": 9,
+   "head_k": [
+    31,
+    39
+   ],
+   "first_head_trace": 150.0024155,
+   "max_head_dev_sv": 2.9625102531508983e-07,
+   "mean_head_dev_sv": 2.9625073752910034e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0117",
+   "afv_id": 1413071499867877,
+   "points": 1421,
+   "length_sv_json": 2829.303256162727,
+   "length_sv_plan": 2829.3032561627238,
+   "length_sv_afvfibers": 2828.1442018310636,
+   "kink_repairs": 2,
+   "arc_patch_vox": [
+    300.045478,
+    2669.045478
+   ],
+   "decisions": 149,
+   "decisions_planned": 149,
+   "head_k": [
+    28,
+    176
+   ],
+   "first_head_trace": 150.022739,
+   "max_head_dev_sv": 0.0027382946846873308,
+   "mean_head_dev_sv": 8.488727702529999e-05,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0118",
+   "afv_id": 2665466647618949,
+   "points": 385,
+   "length_sv_json": 766.2194219524818,
+   "length_sv_plan": 766.2194219524815,
+   "length_sv_afvfibers": 766.2194219524816,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.110978,
+    606.110978
+   ],
+   "decisions": 20,
+   "decisions_planned": 20,
+   "head_k": [
+    102,
+    121
+   ],
+   "first_head_trace": 150.555489,
+   "max_head_dev_sv": 3.5172778432558204e-07,
+   "mean_head_dev_sv": 3.517268107656866e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0119",
+   "afv_id": 3916755155162245,
+   "points": 1349,
+   "length_sv_json": 2707.033037110083,
+   "length_sv_plan": 2707.033037110077,
+   "length_sv_afvfibers": 2707.033037110085,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.958314,
+    2701.958314
+   ],
+   "decisions": 151,
+   "decisions_planned": 151,
+   "head_k": [
+    154,
+    304
+   ],
+   "first_head_trace": 150.479157,
+   "max_head_dev_sv": 4.2056841340688543e-07,
+   "mean_head_dev_sv": 4.2056124969191425e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0120",
+   "afv_id": 1910489783328309,
+   "points": 297,
+   "length_sv_json": 589.5821792790637,
+   "length_sv_plan": 589.5821792790638,
+   "length_sv_afvfibers": 589.5821792790634,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.38946,
+    430.38946
+   ],
+   "decisions": 9,
+   "decisions_planned": 9,
+   "head_k": [
+    79,
+    87
+   ],
+   "first_head_trace": 150.69473,
+   "max_head_dev_sv": 2.1129332115107816e-07,
+   "mean_head_dev_sv": 2.112930513532278e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0121",
+   "afv_id": 3590359107663125,
+   "points": 296,
+   "length_sv_json": 588.860256346652,
+   "length_sv_plan": 588.860256346652,
+   "length_sv_afvfibers": 588.8602563466518,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.23542,
+    429.23542
+   ],
+   "decisions": 9,
+   "decisions_planned": 9,
+   "head_k": [
+    324,
+    332
+   ],
+   "first_head_trace": 150.11771,
+   "max_head_dev_sv": 2.4061349238161116e-07,
+   "mean_head_dev_sv": 2.406123659928247e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0122",
+   "afv_id": 3596558801711621,
+   "points": 821,
+   "length_sv_json": 1630.502780628899,
+   "length_sv_plan": 1630.5027806288986,
+   "length_sv_afvfibers": 1630.5027806288995,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.899794,
+    1469.899794
+   ],
+   "decisions": 74,
+   "decisions_planned": 74,
+   "head_k": [
+    69,
+    142
+   ],
+   "first_head_trace": 150.449897,
+   "max_head_dev_sv": 4.92555226876821e-07,
+   "mean_head_dev_sv": 4.925539506851589e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0123",
+   "afv_id": 3230156461733701,
+   "points": 1199,
+   "length_sv_json": 2381.7555569252004,
+   "length_sv_plan": 2381.7555569252,
+   "length_sv_afvfibers": 2381.7555569252027,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.554493,
+    2222.554493
+   ],
+   "decisions": 121,
+   "decisions_planned": 121,
+   "head_k": [
+    175,
+    295
+   ],
+   "first_head_trace": 150.7772465,
+   "max_head_dev_sv": 3.1700138473678233e-07,
+   "mean_head_dev_sv": 3.169978203019013e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0124",
+   "afv_id": 3049526489103973,
+   "points": 634,
+   "length_sv_json": 1261.5153750712425,
+   "length_sv_plan": 1261.5153750712457,
+   "length_sv_afvfibers": 1261.5153750712425,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.179713,
+    1101.179713
+   ],
+   "decisions": 51,
+   "decisions_planned": 51,
+   "head_k": [
+    108,
+    158
+   ],
+   "first_head_trace": 150.0898565,
+   "max_head_dev_sv": 2.4246648647726647e-07,
+   "mean_head_dev_sv": 2.424649538931624e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0125",
+   "afv_id": 1480496712141941,
+   "points": 297,
+   "length_sv_json": 590.469155838094,
+   "length_sv_plan": 590.4691558380882,
+   "length_sv_afvfibers": 590.469155838094,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.664403,
+    429.664403
+   ],
+   "decisions": 9,
+   "decisions_planned": 9,
+   "head_k": [
+    191,
+    199
+   ],
+   "first_head_trace": 150.3322015,
+   "max_head_dev_sv": 1.392387742318213e-07,
+   "mean_head_dev_sv": 1.3923837999974488e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0126",
+   "afv_id": 3529262341318277,
+   "points": 1494,
+   "length_sv_json": 2974.7751101578324,
+   "length_sv_plan": 2974.7751101578283,
+   "length_sv_afvfibers": 2974.7751101578297,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.861435,
+    2814.861435
+   ],
+   "decisions": 158,
+   "decisions_planned": 158,
+   "head_k": [
+    265,
+    422
+   ],
+   "first_head_trace": 150.9307175,
+   "max_head_dev_sv": 2.7654572993858756e-07,
+   "mean_head_dev_sv": 2.765395138345112e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0127",
+   "afv_id": 882761698686149,
+   "points": 787,
+   "length_sv_json": 1565.5030812226357,
+   "length_sv_plan": 1565.5030812226353,
+   "length_sv_afvfibers": 1565.503081222635,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.502234,
+    1405.502234
+   ],
+   "decisions": 70,
+   "decisions_planned": 70,
+   "head_k": [
+    87,
+    156
+   ],
+   "first_head_trace": 150.251117,
+   "max_head_dev_sv": 3.92497875725149e-07,
+   "mean_head_dev_sv": 3.9249638873073996e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0128",
+   "afv_id": 4476756906390469,
+   "points": 570,
+   "length_sv_json": 1132.8063675527892,
+   "length_sv_plan": 1132.8063675527887,
+   "length_sv_afvfibers": 1129.401273466273,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    300.064175,
+    973.064175
+   ],
+   "decisions": 43,
+   "decisions_planned": 43,
+   "head_k": [
+    199,
+    241
+   ],
+   "first_head_trace": 150.0320875,
+   "max_head_dev_sv": 4.202128102592942e-07,
+   "mean_head_dev_sv": 4.202112196306052e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0129",
+   "afv_id": 1240359817039525,
+   "points": 491,
+   "length_sv_json": 975.2276569781657,
+   "length_sv_plan": 975.2276569781716,
+   "length_sv_afvfibers": 975.2276569781658,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.896327,
+    814.896327
+   ],
+   "decisions": 33,
+   "decisions_planned": 33,
+   "head_k": [
+    298,
+    330
+   ],
+   "first_head_trace": 150.9481635,
+   "max_head_dev_sv": 1.9992601649731397e-07,
+   "mean_head_dev_sv": 1.9992379160028703e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0130",
+   "afv_id": 3824147324458725,
+   "points": 298,
+   "length_sv_json": 589.3812373157025,
+   "length_sv_plan": 589.3812373156998,
+   "length_sv_afvfibers": 589.3812373157028,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.512434,
+    429.512434
+   ],
+   "decisions": 9,
+   "decisions_planned": 9,
+   "head_k": [
+    390,
+    398
+   ],
+   "first_head_trace": 150.256217,
+   "max_head_dev_sv": 3.429959487440618e-07,
+   "mean_head_dev_sv": 3.4299426879951456e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0131",
+   "afv_id": 658199811858053,
+   "points": 306,
+   "length_sv_json": 605.4935874103021,
+   "length_sv_plan": 605.4935874103021,
+   "length_sv_afvfibers": 605.493587410302,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.474483,
+    445.474483
+   ],
+   "decisions": 10,
+   "decisions_planned": 10,
+   "head_k": [
+    440,
+    449
+   ],
+   "first_head_trace": 150.2372415,
+   "max_head_dev_sv": 3.4179329323303287e-07,
+   "mean_head_dev_sv": 3.417925597820913e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0132",
+   "afv_id": 809940739157877,
+   "points": 1492,
+   "length_sv_json": 2968.421399916955,
+   "length_sv_plan": 2968.421399916955,
+   "length_sv_afvfibers": 2968.421399916955,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    232.0,
+    2809.0
+   ],
+   "decisions": 162,
+   "decisions_planned": 162,
+   "head_k": [
+    13,
+    174
+   ],
+   "first_head_trace": 116.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0133",
+   "afv_id": 2830538165042517,
+   "points": 949,
+   "length_sv_json": 1887.0618262667726,
+   "length_sv_plan": 1887.0618262667776,
+   "length_sv_afvfibers": 1886.601174974213,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    301.644255,
+    1726.644255
+   ],
+   "decisions": 90,
+   "decisions_planned": 90,
+   "head_k": [
+    306,
+    395
+   ],
+   "first_head_trace": 150.8221275,
+   "max_head_dev_sv": 0.05851255172910176,
+   "mean_head_dev_sv": 0.011117677197565179,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0134",
+   "afv_id": 862241313982405,
+   "points": 583,
+   "length_sv_json": 1655.2139045735403,
+   "length_sv_plan": 1655.2139045735446,
+   "length_sv_afvfibers": 1647.116326577673,
+   "kink_repairs": 5,
+   "arc_patch_vox": [
+    300.872655,
+    1485.872655
+   ],
+   "decisions": 75,
+   "decisions_planned": 75,
+   "head_k": [
+    107,
+    181
+   ],
+   "first_head_trace": 150.4363275,
+   "max_head_dev_sv": 0.5049486074458582,
+   "mean_head_dev_sv": 0.3704604091842135,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0135",
+   "afv_id": 2721220862020245,
+   "points": 288,
+   "length_sv_json": 572.4385237303441,
+   "length_sv_plan": 572.4385237303431,
+   "length_sv_afvfibers": 572.4385237303441,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.379036,
+    413.379036
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    219,
+    226
+   ],
+   "first_head_trace": 150.189518,
+   "max_head_dev_sv": 4.911555212045502e-07,
+   "mean_head_dev_sv": 4.911551138752728e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0136",
+   "afv_id": 1003302959815589,
+   "points": 281,
+   "length_sv_json": 557.7279799725663,
+   "length_sv_plan": 557.727979972572,
+   "length_sv_afvfibers": 557.7279799725666,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.79593,
+    397.79593
+   ],
+   "decisions": 7,
+   "decisions_planned": 7,
+   "head_k": [
+    309,
+    315
+   ],
+   "first_head_trace": 150.397965,
+   "max_head_dev_sv": 2.765457069077341e-07,
+   "mean_head_dev_sv": 2.7654487158822113e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0137",
+   "afv_id": 2682271222938069,
+   "points": 298,
+   "length_sv_json": 591.4060723339659,
+   "length_sv_plan": 591.4060723339735,
+   "length_sv_afvfibers": 591.4060723339662,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.723004,
+    430.723004
+   ],
+   "decisions": 9,
+   "decisions_planned": 9,
+   "head_k": [
+    369,
+    377
+   ],
+   "first_head_trace": 150.861502,
+   "max_head_dev_sv": 2.333674343829484e-07,
+   "mean_head_dev_sv": 2.333669513204618e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0138",
+   "afv_id": 2858573916003429,
+   "points": 474,
+   "length_sv_json": 942.5352912614487,
+   "length_sv_plan": 942.5352912614626,
+   "length_sv_afvfibers": 942.5352912614486,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.556556,
+    782.556556
+   ],
+   "decisions": 31,
+   "decisions_planned": 31,
+   "head_k": [
+    419,
+    449
+   ],
+   "first_head_trace": 150.778278,
+   "max_head_dev_sv": 1.0016243675940041e-07,
+   "mean_head_dev_sv": 1.0015348952936917e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0139",
+   "afv_id": 4323563441875349,
+   "points": 576,
+   "length_sv_json": 1145.875266313294,
+   "length_sv_plan": 1145.8752663132943,
+   "length_sv_afvfibers": 1145.8752663132943,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    216.0,
+    985.0
+   ],
+   "decisions": 49,
+   "decisions_planned": 49,
+   "head_k": [
+    12,
+    60
+   ],
+   "first_head_trace": 108.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0140",
+   "afv_id": 3720841720302965,
+   "points": 290,
+   "length_sv_json": 575.1977426973054,
+   "length_sv_plan": 575.1977426973071,
+   "length_sv_afvfibers": 575.1977426973053,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.867689,
+    414.867689
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    112,
+    119
+   ],
+   "first_head_trace": 150.9338445,
+   "max_head_dev_sv": 1.53654999396299e-07,
+   "mean_head_dev_sv": 1.536547145905393e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0141",
+   "afv_id": 2637317887740773,
+   "points": 481,
+   "length_sv_json": 957.3538826602215,
+   "length_sv_plan": 957.3538826602262,
+   "length_sv_afvfibers": 957.3538826602203,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.06092,
+    798.06092
+   ],
+   "decisions": 32,
+   "decisions_planned": 32,
+   "head_k": [
+    164,
+    195
+   ],
+   "first_head_trace": 150.53046,
+   "max_head_dev_sv": 3.0257261229969284e-08,
+   "mean_head_dev_sv": 3.025430910787499e-08,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0142",
+   "afv_id": 1914819562690165,
+   "points": 585,
+   "length_sv_json": 1165.6118205973326,
+   "length_sv_plan": 1165.611820597329,
+   "length_sv_afvfibers": 1165.6118205973316,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.539021,
+    1005.539021
+   ],
+   "decisions": 45,
+   "decisions_planned": 45,
+   "head_k": [
+    244,
+    288
+   ],
+   "first_head_trace": 150.2695105,
+   "max_head_dev_sv": 1.80553826974667e-08,
+   "mean_head_dev_sv": 1.8052329561765443e-08,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0143",
+   "afv_id": 756331877384181,
+   "points": 684,
+   "length_sv_json": 1359.5307808773894,
+   "length_sv_plan": 1359.530780877375,
+   "length_sv_afvfibers": 1359.5307808773891,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.591767,
+    1198.591767
+   ],
+   "decisions": 57,
+   "decisions_planned": 57,
+   "head_k": [
+    327,
+    383
+   ],
+   "first_head_trace": 150.7958835,
+   "max_head_dev_sv": 2.7964642889177376e-07,
+   "mean_head_dev_sv": 2.7964219640832733e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0144",
+   "afv_id": 2927505417221989,
+   "points": 546,
+   "length_sv_json": 1085.1644408508232,
+   "length_sv_plan": 1085.1644408508237,
+   "length_sv_afvfibers": 1085.1644408508234,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.122663,
+    925.122663
+   ],
+   "decisions": 40,
+   "decisions_planned": 40,
+   "head_k": [
+    416,
+    455
+   ],
+   "first_head_trace": 150.0613315,
+   "max_head_dev_sv": 2.8472819406787836e-07,
+   "mean_head_dev_sv": 2.847245808972988e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0145",
+   "afv_id": 1441649777957429,
+   "points": 313,
+   "length_sv_json": 622.7966426098392,
+   "length_sv_plan": 622.7966426098388,
+   "length_sv_afvfibers": 622.79664260984,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.906829,
+    461.906829
+   ],
+   "decisions": 11,
+   "decisions_planned": 11,
+   "head_k": [
+    47,
+    57
+   ],
+   "first_head_trace": 150.4534145,
+   "max_head_dev_sv": 3.3736499445801423e-07,
+   "mean_head_dev_sv": 3.373647982938947e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0146",
+   "afv_id": 2905744012066149,
+   "points": 289,
+   "length_sv_json": 573.0098125247964,
+   "length_sv_plan": 573.009812524796,
+   "length_sv_afvfibers": 573.0098125247968,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.110245,
+    413.110245
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    86,
+    93
+   ],
+   "first_head_trace": 150.0551225,
+   "max_head_dev_sv": 6.938203146256991e-09,
+   "mean_head_dev_sv": 6.937730807017881e-09,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0147",
+   "afv_id": 2229407716596885,
+   "points": 482,
+   "length_sv_json": 957.6686551876937,
+   "length_sv_plan": 957.6686551876919,
+   "length_sv_afvfibers": 957.6686551876937,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.571856,
+    798.571856
+   ],
+   "decisions": 32,
+   "decisions_planned": 32,
+   "head_k": [
+    144,
+    175
+   ],
+   "first_head_trace": 150.785928,
+   "max_head_dev_sv": 4.5508908648821326e-08,
+   "mean_head_dev_sv": 4.5507536976647164e-08,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0148",
+   "afv_id": 3876783015873829,
+   "points": 329,
+   "length_sv_json": 652.4684137115055,
+   "length_sv_plan": 652.4684137115046,
+   "length_sv_afvfibers": 652.4684137115058,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.004714,
+    493.004714
+   ],
+   "decisions": 13,
+   "decisions_planned": 13,
+   "head_k": [
+    217,
+    229
+   ],
+   "first_head_trace": 150.002357,
+   "max_head_dev_sv": 2.4758325764145806e-07,
+   "mean_head_dev_sv": 2.475823688433276e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0149",
+   "afv_id": 1717772148821589,
+   "points": 732,
+   "length_sv_json": 1457.6375149551914,
+   "length_sv_plan": 1457.6375149552023,
+   "length_sv_afvfibers": 1454.9731268673065,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    301.644695,
+    1294.644695
+   ],
+   "decisions": 63,
+   "decisions_planned": 63,
+   "head_k": [
+    283,
+    345
+   ],
+   "first_head_trace": 150.8223475,
+   "max_head_dev_sv": 0.6654509280019384,
+   "mean_head_dev_sv": 0.03671642968436673,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0150",
+   "afv_id": 4052790102954837,
+   "points": 330,
+   "length_sv_json": 654.900572757125,
+   "length_sv_plan": 654.9005727571257,
+   "length_sv_afvfibers": 654.9005727571251,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.772927,
+    494.772927
+   ],
+   "decisions": 13,
+   "decisions_planned": 13,
+   "head_k": [
+    434,
+    446
+   ],
+   "first_head_trace": 150.8864635,
+   "max_head_dev_sv": 9.619964654699066e-09,
+   "mean_head_dev_sv": 9.618244217583094e-09,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0151",
+   "afv_id": 879081659334117,
+   "points": 297,
+   "length_sv_json": 590.1782524643594,
+   "length_sv_plan": 590.1782524643587,
+   "length_sv_afvfibers": 590.1782524643593,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.338999,
+    430.338999
+   ],
+   "decisions": 9,
+   "decisions_planned": 9,
+   "head_k": [
+    79,
+    87
+   ],
+   "first_head_trace": 150.6694995,
+   "max_head_dev_sv": 2.996045778278596e-07,
+   "mean_head_dev_sv": 2.996042073647747e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0152",
+   "afv_id": 4371985898965941,
+   "points": 1120,
+   "length_sv_json": 2301.167748360968,
+   "length_sv_plan": 2301.1677483609747,
+   "length_sv_afvfibers": 2300.4395962396557,
+   "kink_repairs": 2,
+   "arc_patch_vox": [
+    300.484603,
+    2141.484603
+   ],
+   "decisions": 116,
+   "decisions_planned": 116,
+   "head_k": [
+    120,
+    235
+   ],
+   "first_head_trace": 150.2423015,
+   "max_head_dev_sv": 0.3403970651975798,
+   "mean_head_dev_sv": 0.08511195340694,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0153",
+   "afv_id": 4055145541795621,
+   "points": 482,
+   "length_sv_json": 957.4108227579707,
+   "length_sv_plan": 957.4108227579591,
+   "length_sv_afvfibers": 957.4108227579705,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.014096,
+    797.014096
+   ],
+   "decisions": 32,
+   "decisions_planned": 32,
+   "head_k": [
+    310,
+    341
+   ],
+   "first_head_trace": 150.007048,
+   "max_head_dev_sv": 1.3392207300251487e-07,
+   "mean_head_dev_sv": 1.3391843240784044e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0154",
+   "afv_id": 308032586516677,
+   "points": 290,
+   "length_sv_json": 574.1334887589308,
+   "length_sv_plan": 574.1334887589337,
+   "length_sv_afvfibers": 573.7520092552306,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    300.55318,
+    413.55318
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    396,
+    403
+   ],
+   "first_head_trace": 150.27659,
+   "max_head_dev_sv": 4.09963267329852e-07,
+   "mean_head_dev_sv": 4.0996181053060944e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0155",
+   "afv_id": 91603212544805,
+   "points": 281,
+   "length_sv_json": 557.6787317280841,
+   "length_sv_plan": 557.6787317280814,
+   "length_sv_afvfibers": 557.6787317280844,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.815423,
+    397.815423
+   ],
+   "decisions": 7,
+   "decisions_planned": 7,
+   "head_k": [
+    438,
+    444
+   ],
+   "first_head_trace": 150.4077115,
+   "max_head_dev_sv": 4.702065520967163e-07,
+   "mean_head_dev_sv": 4.7020555380515e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0156",
+   "afv_id": 1556416310459221,
+   "points": 361,
+   "length_sv_json": 717.0673066746498,
+   "length_sv_plan": 717.0673066746498,
+   "length_sv_afvfibers": 717.0673066746493,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.916822,
+    557.916822
+   ],
+   "decisions": 17,
+   "decisions_planned": 17,
+   "head_k": [
+    49,
+    65
+   ],
+   "first_head_trace": 150.458411,
+   "max_head_dev_sv": 3.2960345082620733e-07,
+   "mean_head_dev_sv": 3.296030695501119e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0157",
+   "afv_id": 4386140422238373,
+   "points": 1191,
+   "length_sv_json": 2370.377180961223,
+   "length_sv_plan": 2370.3771809612276,
+   "length_sv_afvfibers": 2366.720601387088,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    301.852567,
+    2206.852567
+   ],
+   "decisions": 120,
+   "decisions_planned": 120,
+   "head_k": [
+    112,
+    231
+   ],
+   "first_head_trace": 150.9262835,
+   "max_head_dev_sv": 0.0797152207590351,
+   "mean_head_dev_sv": 0.0014853459540014285,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0158",
+   "afv_id": 3106319170053717,
+   "points": 369,
+   "length_sv_json": 734.1133328163348,
+   "length_sv_plan": 734.1133328163323,
+   "length_sv_afvfibers": 734.1133328163347,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.940592,
+    573.940592
+   ],
+   "decisions": 18,
+   "decisions_planned": 18,
+   "head_k": [
+    287,
+    304
+   ],
+   "first_head_trace": 150.470296,
+   "max_head_dev_sv": 4.182927142313772e-07,
+   "mean_head_dev_sv": 4.1828911338283595e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0159",
+   "afv_id": 1635502758596965,
+   "points": 289,
+   "length_sv_json": 575.0244896321386,
+   "length_sv_plan": 575.0244896321328,
+   "length_sv_afvfibers": 575.0244896321389,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.558372,
+    414.558372
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    378,
+    385
+   ],
+   "first_head_trace": 150.779186,
+   "max_head_dev_sv": 9.545122557209951e-08,
+   "mean_head_dev_sv": 9.54492776128979e-08,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0160",
+   "afv_id": 3739841935587605,
+   "points": 247,
+   "length_sv_json": 489.9865478093907,
+   "length_sv_plan": 489.9865478093908,
+   "length_sv_afvfibers": 489.9865478093908,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    200.0,
+    329.0
+   ],
+   "decisions": 9,
+   "decisions_planned": 9,
+   "head_k": [
+    11,
+    19
+   ],
+   "first_head_trace": 100.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0161",
+   "afv_id": 4021117907318373,
+   "points": 602,
+   "length_sv_json": 1198.907572599288,
+   "length_sv_plan": 1198.9075725992882,
+   "length_sv_afvfibers": 1198.9075725992875,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.185808,
+    1038.185808
+   ],
+   "decisions": 47,
+   "decisions_planned": 47,
+   "head_k": [
+    32,
+    78
+   ],
+   "first_head_trace": 150.592904,
+   "max_head_dev_sv": 8.025460109926038e-09,
+   "mean_head_dev_sv": 8.024942258402059e-09,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0162",
+   "afv_id": 3446654289435781,
+   "points": 288,
+   "length_sv_json": 572.1754682969727,
+   "length_sv_plan": 572.1754682969759,
+   "length_sv_afvfibers": 572.1754682969728,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.009099,
+    413.009099
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    172,
+    179
+   ],
+   "first_head_trace": 150.0045495,
+   "max_head_dev_sv": 2.969121108863644e-07,
+   "mean_head_dev_sv": 2.9691154197357205e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0163",
+   "afv_id": 2821192634789285,
+   "points": 298,
+   "length_sv_json": 591.0591878031944,
+   "length_sv_plan": 591.0591878031964,
+   "length_sv_afvfibers": 591.0591878031943,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.902704,
+    430.902704
+   ],
+   "decisions": 9,
+   "decisions_planned": 9,
+   "head_k": [
+    215,
+    223
+   ],
+   "first_head_trace": 150.951352,
+   "max_head_dev_sv": 4.631471404645917e-07,
+   "mean_head_dev_sv": 4.631465418810007e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0164",
+   "afv_id": 3376717059298149,
+   "points": 781,
+   "length_sv_json": 1552.5567949748565,
+   "length_sv_plan": 1552.556794974863,
+   "length_sv_afvfibers": 1551.1058867832649,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    301.872404,
+    1390.872404
+   ],
+   "decisions": 69,
+   "decisions_planned": 69,
+   "head_k": [
+    266,
+    334
+   ],
+   "first_head_trace": 150.936202,
+   "max_head_dev_sv": 0.15935917684981132,
+   "mean_head_dev_sv": 0.0090034514676255,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0165",
+   "afv_id": 2335327794702197,
+   "points": 288,
+   "length_sv_json": 605.1686724721835,
+   "length_sv_plan": 605.1686724721858,
+   "length_sv_afvfibers": 596.1662012104161,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    300.631964,
+    445.631964
+   ],
+   "decisions": 10,
+   "decisions_planned": 10,
+   "head_k": [
+    376,
+    385
+   ],
+   "first_head_trace": 150.315982,
+   "max_head_dev_sv": 2.5310403135534114e-07,
+   "mean_head_dev_sv": 2.5310324947151533e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0166",
+   "afv_id": 1165947021441061,
+   "points": 829,
+   "length_sv_json": 1645.1678713636543,
+   "length_sv_plan": 1645.1678713636559,
+   "length_sv_afvfibers": 1645.1678713636552,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.000178,
+    1485.000178
+   ],
+   "decisions": 75,
+   "decisions_planned": 75,
+   "head_k": [
+    19,
+    93
+   ],
+   "first_head_trace": 150.000089,
+   "max_head_dev_sv": 2.3169619337035483e-07,
+   "mean_head_dev_sv": 2.3169513952813887e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0167",
+   "afv_id": 2115992033530645,
+   "points": 282,
+   "length_sv_json": 557.9012326377397,
+   "length_sv_plan": 557.9012326377388,
+   "length_sv_afvfibers": 557.9012326377397,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.17438,
+    398.17438
+   ],
+   "decisions": 7,
+   "decisions_planned": 7,
+   "head_k": [
+    221,
+    227
+   ],
+   "first_head_trace": 150.58719,
+   "max_head_dev_sv": 1.9174655425986293e-07,
+   "mean_head_dev_sv": 1.9174547893353025e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0168",
+   "afv_id": 4256444448745397,
+   "points": 764,
+   "length_sv_json": 1519.2534420456518,
+   "length_sv_plan": 1519.2534420456545,
+   "length_sv_afvfibers": 1519.2534420456518,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.517724,
+    1358.517724
+   ],
+   "decisions": 67,
+   "decisions_planned": 67,
+   "head_k": [
+    111,
+    177
+   ],
+   "first_head_trace": 150.758862,
+   "max_head_dev_sv": 5.974209447607711e-09,
+   "mean_head_dev_sv": 5.972165629597978e-09,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0169",
+   "afv_id": 2981770914539397,
+   "points": 529,
+   "length_sv_json": 1052.8644102510095,
+   "length_sv_plan": 1052.8644102510134,
+   "length_sv_afvfibers": 1052.8644102510086,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.264924,
+    893.264924
+   ],
+   "decisions": 38,
+   "decisions_planned": 38,
+   "head_k": [
+    224,
+    261
+   ],
+   "first_head_trace": 150.132462,
+   "max_head_dev_sv": 3.5424228352832505e-07,
+   "mean_head_dev_sv": 3.5423988536761466e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0170",
+   "afv_id": 4405648303292725,
+   "points": 843,
+   "length_sv_json": 1678.5726388527455,
+   "length_sv_plan": 1678.5726388527492,
+   "length_sv_afvfibers": 1678.5726388527455,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.400671,
+    1518.400671
+   ],
+   "decisions": 77,
+   "decisions_planned": 77,
+   "head_k": [
+    294,
+    370
+   ],
+   "first_head_trace": 150.7003355,
+   "max_head_dev_sv": 1.6847515311671585e-07,
+   "mean_head_dev_sv": 1.6847166063299853e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0171",
+   "afv_id": 2589008714552053,
+   "points": 159,
+   "length_sv_json": 313.41757011159507,
+   "length_sv_plan": 313.41757011159496,
+   "length_sv_afvfibers": 313.41757011159496,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    40.0,
+    153.0
+   ],
+   "decisions": 8,
+   "decisions_planned": 8,
+   "head_k": [
+    1,
+    8
+   ],
+   "first_head_trace": 20.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0172",
+   "afv_id": 4478971655306389,
+   "points": 281,
+   "length_sv_json": 556.3938377549541,
+   "length_sv_plan": 556.3938377549536,
+   "length_sv_afvfibers": 556.3938377549541,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.019598,
+    397.019598
+   ],
+   "decisions": 7,
+   "decisions_planned": 7,
+   "head_k": [
+    32,
+    38
+   ],
+   "first_head_trace": 150.009799,
+   "max_head_dev_sv": 2.4967852312355716e-07,
+   "mean_head_dev_sv": 2.496783334491906e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0173",
+   "afv_id": 2509984239909861,
+   "points": 1025,
+   "length_sv_json": 2041.6969793918215,
+   "length_sv_plan": 2041.696979391825,
+   "length_sv_afvfibers": 2041.696979391825,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    216.0,
+    1881.0
+   ],
+   "decisions": 105,
+   "decisions_planned": 105,
+   "head_k": [
+    12,
+    116
+   ],
+   "first_head_trace": 108.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0174",
+   "afv_id": 543606077587973,
+   "points": 393,
+   "length_sv_json": 781.5039543710031,
+   "length_sv_plan": 781.5039543710045,
+   "length_sv_afvfibers": 781.5039543710037,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.303129,
+    621.303129
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    153,
+    173
+   ],
+   "first_head_trace": 150.1515645,
+   "max_head_dev_sv": 2.3647664644895845e-07,
+   "mean_head_dev_sv": 2.3647598339526152e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0175",
+   "afv_id": 80037866028341,
+   "points": 502,
+   "length_sv_json": 1054.190376743063,
+   "length_sv_plan": 1054.1903767430595,
+   "length_sv_afvfibers": 1054.1903767430624,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.744726,
+    894.744726
+   ],
+   "decisions": 38,
+   "decisions_planned": 38,
+   "head_k": [
+    221,
+    258
+   ],
+   "first_head_trace": 150.872363,
+   "max_head_dev_sv": 4.488681988965757e-07,
+   "mean_head_dev_sv": 4.4886580463840206e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0176",
+   "afv_id": 2613383801293605,
+   "points": 3167,
+   "length_sv_json": 6312.961221521595,
+   "length_sv_plan": 6312.9612215216,
+   "length_sv_afvfibers": 6312.961221521601,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    24.0,
+    6153.0
+   ],
+   "decisions": 384,
+   "decisions_planned": 384,
+   "head_k": [
+    0,
+    383
+   ],
+   "first_head_trace": 12.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0177",
+   "afv_id": 648900565310709,
+   "points": 2666,
+   "length_sv_json": 5390.713432470995,
+   "length_sv_plan": 5390.713432470988,
+   "length_sv_afvfibers": 5390.71343247101,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.446811,
+    5230.446811
+   ],
+   "decisions": 309,
+   "decisions_planned": 309,
+   "head_k": [
+    455,
+    763
+   ],
+   "first_head_trace": 150.7234055,
+   "max_head_dev_sv": 2.5633626777689226e-07,
+   "mean_head_dev_sv": 2.5631178489829343e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0178",
+   "afv_id": 1248014114371381,
+   "points": 1259,
+   "length_sv_json": 2503.924663079983,
+   "length_sv_plan": 2503.9246630799607,
+   "length_sv_afvfibers": 2503.9246630799817,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.794166,
+    2493.794166
+   ],
+   "decisions": 138,
+   "decisions_planned": 138,
+   "head_k": [
+    800,
+    937
+   ],
+   "first_head_trace": 150.397083,
+   "max_head_dev_sv": 1.6327097914450052e-07,
+   "mean_head_dev_sv": 1.632573296879488e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0179",
+   "afv_id": 3736774616113525,
+   "points": 929,
+   "length_sv_json": 1848.1898098586762,
+   "length_sv_plan": 1848.1898098586748,
+   "length_sv_afvfibers": 1848.1898098586748,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    232.0,
+    1689.0
+   ],
+   "decisions": 92,
+   "decisions_planned": 92,
+   "head_k": [
+    13,
+    104
+   ],
+   "first_head_trace": 116.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0180",
+   "afv_id": 3697424000158453,
+   "points": 1318,
+   "length_sv_json": 2622.3681964416405,
+   "length_sv_plan": 2622.368196441639,
+   "length_sv_afvfibers": 2622.368196441642,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.571019,
+    2462.571019
+   ],
+   "decisions": 136,
+   "decisions_planned": 136,
+   "head_k": [
+    140,
+    275
+   ],
+   "first_head_trace": 150.7855095,
+   "max_head_dev_sv": 1.829528105158191e-07,
+   "mean_head_dev_sv": 1.8295020667054274e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0181",
+   "afv_id": 4136662216506005,
+   "points": 610,
+   "length_sv_json": 1214.3365568604424,
+   "length_sv_plan": 1214.3365568604258,
+   "length_sv_afvfibers": 1214.3365568604427,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.463365,
+    1053.463365
+   ],
+   "decisions": 48,
+   "decisions_planned": 48,
+   "head_k": [
+    513,
+    560
+   ],
+   "first_head_trace": 150.2316825,
+   "max_head_dev_sv": 2.603515139533089e-07,
+   "mean_head_dev_sv": 2.6034222633396173e-07,
+   "clamped_to_min_head": false
+  }
+ ],
+ "afv": "data\\matched_0139_secondary_run40.afv",
+ "write_afv": {
+  "fibers": 182,
+  "points": 138618,
+  "blocks": 653
+ },
+ "volume": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr",
+ "base_shape_zyx": [
+  76953,
+  26511,
+  26511
+ ],
+ "pieces_written": 182,
+ "runplan_tool": "make_piece_afv.py v3 run plan (heads on the full run grid)",
+ "full_afv": "../data/human_afv/PHerc0139_human_controlled.afv",
+ "end_pad_sv": 1.0,
+ "decisions_runplan": 12725,
+ "decisions_plan": 12725,
+ "max_length_diff_sv_afvfibers_vs_json": 18.51257271097711,
+ "max_head_dev_sv_vs_full_run": 7.8110896107752,
+ "pieces_head_dev_over_1sv": [
+  "P0047",
+  "P0104",
+  "P0114"
+ ],
+ "kink_repaired_pieces": 46,
+ "infer_command": "python -m vesuvius.neural_tracing.tracers.fibers.sheet_strip.infer --afv AFV --fiber AFV_ID --arc ARC_START ARC_END --out OUT/<piece> --checkpoint scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e --ct <the volume> --umbilicus <its umbilicus, level-2 voxels> --cache-dir C:/VesuviusTemp/strips/ct_cache --device cpu --index none --no-render --step 8 --blend 16 --trim 75 --batch 32 (CUDA_VISIBLE_DEVICES=-1; runs/v3/run_all.ps1: 8 torch threads, BelowNormal, one process at a time)"
+}

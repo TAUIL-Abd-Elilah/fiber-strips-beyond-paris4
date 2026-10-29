@@ -1,0 +1,303 @@
+{
+ "tool": "tools/paris4_piece_check.py",
+ "afv": "runs\\erratum_v31\\paris4\\paris4_pieces.afv",
+ "write_afv": {
+  "fibers": 3,
+  "points": 1043,
+  "blocks": 6
+ },
+ "g0_afv": "C:\\VesuviusTemp\\strips\\data\\g0\\g0_fibers.afv",
+ "g0_afv_sha256": "999fea61c158a75f472cabd720e995776c906a3ee513b644598388895ae0c5fb",
+ "windows": [
+  {
+   "tag": "A",
+   "g0_id": 778459,
+   "family": "V",
+   "window_sv": [
+    400.0,
+    440.0
+   ],
+   "fiber_length_sv": 499.55328713382573,
+   "fiber_length_full_sv": 499.55328713382573,
+   "fiber_kink_repairs": 0,
+   "piece": {
+    "afv_id": 1803139159717749,
+    "uuid": "667f20d1-8777-5aee-90c4-c829a5b05e7e",
+    "fiber": "g0_778459",
+    "parent_file": "g0_778459",
+    "parent_uuid": "b2c5a1c0-0249-55bf-b46a-c516707f213f",
+    "parent_afv_id": 3144990272267413,
+    "family": "V",
+    "annotator": "g0",
+    "line_index_range": [
+     59,
+     496
+    ],
+    "parent_arc_sv": [
+     59.295507371157036,
+     499.55328713382573
+    ],
+    "length_sv": 440.2577797626687,
+    "heads_sv": [
+     360.0,
+     472.0
+    ],
+    "head_k": [
+     21,
+     28
+    ],
+    "heads_full_sv": [
+     360.0,
+     472.0
+    ],
+    "decisions": 8,
+    "arc_patch_vox": [
+     300.704,
+     412.704
+    ],
+    "segment": "paris4",
+    "windows": [
+     "WA"
+    ],
+    "id": "QA"
+   },
+   "cut_line_points": [
+    59,
+    496
+   ],
+   "fiber_line_points": 497,
+   "arc_patch_vox": [
+    300.704493,
+    413.704493
+   ],
+   "decisions": 8,
+   "head_k": [
+    21,
+    28
+   ],
+   "piece_length_sv": 440.25777976266875,
+   "piece_kink_repairs": 0,
+   "max_head_dev_sv": 3.7115749325035976e-07,
+   "first_head_trace": 150.3522465
+  },
+  {
+   "tag": "B",
+   "g0_id": 757072,
+   "family": "H",
+   "window_sv": [
+    40.0,
+    80.0
+   ],
+   "fiber_length_sv": 487.63487975501664,
+   "fiber_length_full_sv": 487.63487975501664,
+   "fiber_kink_repairs": 0,
+   "piece": {
+    "afv_id": 1812992823353589,
+    "uuid": "670e8493-760f-5aa9-90cc-41371a171696",
+    "fiber": "g0_757072",
+    "parent_file": "g0_757072",
+    "parent_uuid": "c7574635-e157-5941-ba9b-04dae1af5b36",
+    "parent_afv_id": 3506842464294261,
+    "family": "H",
+    "annotator": "g0",
+    "line_index_range": [
+     0,
+     278
+    ],
+    "parent_arc_sv": [
+     0.0,
+     280.1784455126382
+    ],
+    "length_sv": 280.1784455126382,
+    "heads_sv": [
+     24.0,
+     120.0
+    ],
+    "head_k": [
+     0,
+     6
+    ],
+    "heads_full_sv": [
+     24.0,
+     120.0
+    ],
+    "decisions": 7,
+    "arc_patch_vox": [
+     24.0,
+     120.0
+    ],
+    "segment": "paris4",
+    "windows": [
+     "WB"
+    ],
+    "id": "QB"
+   },
+   "cut_line_points": [
+    0,
+    278
+   ],
+   "fiber_line_points": 483,
+   "arc_patch_vox": [
+    24.0,
+    121.0
+   ],
+   "decisions": 7,
+   "head_k": [
+    0,
+    6
+   ],
+   "piece_length_sv": 280.1784455126382,
+   "piece_kink_repairs": 0,
+   "max_head_dev_sv": 0.0,
+   "first_head_trace": 12.0
+  },
+  {
+   "tag": "C",
+   "g0_id": 329464,
+   "family": "V",
+   "window_sv": [
+    100.0,
+    140.0
+   ],
+   "fiber_length_sv": 452.5789760413144,
+   "fiber_length_full_sv": 452.28959409623906,
+   "fiber_kink_repairs": 1,
+   "piece": {
+    "afv_id": 3777008994570789,
+    "uuid": "d6b2b6f6-f522-5448-bca2-c3e91c3fe07a",
+    "fiber": "g0_329464",
+    "parent_file": "g0_329464",
+    "parent_uuid": "86622ee7-4d6f-506c-9c63-f29a98095cd8",
+    "parent_afv_id": 2364100029241077,
+    "family": "V",
+    "annotator": "g0",
+    "line_index_range": [
+     0,
+     325
+    ],
+    "parent_arc_sv": [
+     0.0,
+     329.01264400409883
+    ],
+    "length_sv": 329.01264400409883,
+    "heads_sv": [
+     72.0,
+     168.0
+    ],
+    "head_k": [
+     3,
+     9
+    ],
+    "heads_full_sv": [
+     72.0,
+     168.0
+    ],
+    "decisions": 7,
+    "arc_patch_vox": [
+     72.0,
+     168.0
+    ],
+    "segment": "paris4",
+    "windows": [
+     "WC"
+    ],
+    "id": "QC"
+   },
+   "cut_line_points": [
+    0,
+    325
+   ],
+   "fiber_line_points": 449,
+   "arc_patch_vox": [
+    72.0,
+    169.0
+   ],
+   "decisions": 7,
+   "head_k": [
+    3,
+    9
+   ],
+   "piece_length_sv": 329.01264400409883,
+   "piece_kink_repairs": 0,
+   "max_head_dev_sv": 0.0,
+   "first_head_trace": 36.0
+  }
+ ],
+ "runplan": [
+  {
+   "name": "piece_A",
+   "kind": "piece",
+   "tag": "A",
+   "afv": "runs\\erratum_v31\\paris4\\paris4_pieces.afv",
+   "fiber": 1803139159717749,
+   "arc": [
+    "300.704493",
+    "413.704493"
+   ]
+  },
+  {
+   "name": "piece_B",
+   "kind": "piece",
+   "tag": "B",
+   "afv": "runs\\erratum_v31\\paris4\\paris4_pieces.afv",
+   "fiber": 1812992823353589,
+   "arc": [
+    "24.000000",
+    "121.000000"
+   ]
+  },
+  {
+   "name": "piece_C",
+   "kind": "piece",
+   "tag": "C",
+   "afv": "runs\\erratum_v31\\paris4\\paris4_pieces.afv",
+   "fiber": 3777008994570789,
+   "arc": [
+    "72.000000",
+    "169.000000"
+   ]
+  },
+  {
+   "name": "full_A",
+   "kind": "full",
+   "tag": "A",
+   "afv": "C:\\VesuviusTemp\\strips\\data\\g0\\g0_fibers.afv",
+   "fiber": 778459,
+   "arc": null
+  },
+  {
+   "name": "full_B",
+   "kind": "full",
+   "tag": "B",
+   "afv": "C:\\VesuviusTemp\\strips\\data\\g0\\g0_fibers.afv",
+   "fiber": 757072,
+   "arc": null
+  },
+  {
+   "name": "full_C",
+   "kind": "full",
+   "tag": "C",
+   "afv": "C:\\VesuviusTemp\\strips\\data\\g0\\g0_fibers.afv",
+   "fiber": 329464,
+   "arc": null
+  }
+ ],
+ "infer_args": [
+  "--device",
+  "cpu",
+  "--index",
+  "none",
+  "--no-render",
+  "--step",
+  "8",
+  "--blend",
+  "16",
+  "--trim",
+  "75",
+  "--batch",
+  "32"
+ ],
+ "checkpoint": "scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e",
+ "ct": "s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr",
+ "umbilicus": "C:/VesuviusTemp/strips/data/paris4/umbilicus.json"
+}

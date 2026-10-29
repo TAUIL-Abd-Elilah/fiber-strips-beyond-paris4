@@ -1,0 +1,236 @@
+{
+ "rule": "results/g0_selection_rule.txt",
+ "seed": 20261027,
+ "draw": 3000,
+ "pool": 88126,
+ "z_quintile_edges_l0": [
+  40634.640234375,
+  46133.65390625,
+  52640.22890625,
+  58838.320703125
+ ],
+ "afv_bytes_fetched": 12685412,
+ "afv_requests": 3098,
+ "fibers": [
+  {
+   "order": 7,
+   "fiber": 238475,
+   "family": "H",
+   "length_mm": 3.522,
+   "nodes": 1350,
+   "expected_error_vox": 1.494,
+   "checkpoint": "v3",
+   "afv_name": "fiber_follow 00238475",
+   "afv_length_l0": 1467.4170438757214,
+   "afv_point_count": 367,
+   "centre_l0": [
+    18373.615234375,
+    6194.67822265625,
+    36849.814453125
+   ],
+   "z_c": 36849.814453125,
+   "radius_patch_vox": 1862.032381228001,
+   "z_bin": 0,
+   "radial_half": "inner",
+   "bin_median_radius": 1996.923553413559
+  },
+  {
+   "order": 35,
+   "fiber": 329464,
+   "family": "V",
+   "length_mm": 4.345,
+   "nodes": 1875,
+   "expected_error_vox": 1.069,
+   "checkpoint": "v3",
+   "afv_name": "fiber_follow 00329464",
+   "afv_length_l0": 1810.3159041652582,
+   "afv_point_count": 449,
+   "centre_l0": [
+    26295.677734375,
+    20542.794921875,
+    39736.001953125
+   ],
+   "z_c": 39736.001953125,
+   "radius_patch_vox": 2411.4421364229315,
+   "z_bin": 0,
+   "radial_half": "outer",
+   "bin_median_radius": 1996.923553413559
+  },
+  {
+   "order": 110,
+   "fiber": 435199,
+   "family": "H",
+   "length_mm": 3.325,
+   "nodes": 1225,
+   "expected_error_vox": 0.645,
+   "checkpoint": "v3",
+   "afv_name": "fiber_follow 00435199",
+   "afv_length_l0": 1385.5883449210878,
+   "afv_point_count": 346,
+   "centre_l0": [
+    27031.880859375,
+    21064.798828125,
+    43635.71484375
+   ],
+   "z_c": 43635.71484375,
+   "radius_patch_vox": 2577.424111867022,
+   "z_bin": 1,
+   "radial_half": "outer",
+   "bin_median_radius": 1917.7831165277282
+  },
+  {
+   "order": 18,
+   "fiber": 307062,
+   "family": "V",
+   "length_mm": 3.243,
+   "nodes": 1175,
+   "expected_error_vox": 0.794,
+   "checkpoint": "v3",
+   "afv_name": "fiber_follow 00307062",
+   "afv_length_l0": 1351.0736057784534,
+   "afv_point_count": 335,
+   "centre_l0": [
+    15754.8603515625,
+    14029.91650390625,
+    40653.8515625
+   ],
+   "z_c": 40653.8515625,
+   "radius_patch_vox": 957.5727995332234,
+   "z_bin": 1,
+   "radial_half": "inner",
+   "bin_median_radius": 1917.7831165277282
+  },
+  {
+   "order": 15,
+   "fiber": 498336,
+   "family": "H",
+   "length_mm": 3.675,
+   "nodes": 1450,
+   "expected_error_vox": 1.056,
+   "checkpoint": "v3",
+   "afv_name": "fiber_follow 00498336",
+   "afv_length_l0": 1531.4357832047174,
+   "afv_point_count": 377,
+   "centre_l0": [
+    15011.46044921875,
+    9482.41064453125,
+    47254.099609375
+   ],
+   "z_c": 47254.099609375,
+   "radius_patch_vox": 1593.019504073604,
+   "z_bin": 2,
+   "radial_half": "inner",
+   "bin_median_radius": 1922.638024859653
+  },
+  {
+   "order": 4,
+   "fiber": 523953,
+   "family": "V",
+   "length_mm": 2.957,
+   "nodes": 975,
+   "expected_error_vox": 0.844,
+   "checkpoint": "v3",
+   "afv_name": "fiber_follow 00523953",
+   "afv_length_l0": 1232.2766175014144,
+   "afv_point_count": 305,
+   "centre_l0": [
+    12323.6005859375,
+    20207.3095703125,
+    46360.55078125
+   ],
+   "z_c": 46360.55078125,
+   "radius_patch_vox": 2098.8700242606715,
+   "z_bin": 2,
+   "radial_half": "outer",
+   "bin_median_radius": 1922.638024859653
+  },
+  {
+   "order": 1,
+   "fiber": 757072,
+   "family": "H",
+   "length_mm": 4.681,
+   "nodes": 2100,
+   "expected_error_vox": 0.902,
+   "checkpoint": "v3",
+   "afv_name": "fiber_follow 00757072",
+   "afv_length_l0": 1950.5395190200652,
+   "afv_point_count": 483,
+   "centre_l0": [
+    11242.90869140625,
+    22766.4501953125,
+    58470.28125
+   ],
+   "z_c": 58470.28125,
+   "radius_patch_vox": 2025.8463610002402,
+   "z_bin": 3,
+   "radial_half": "outer",
+   "bin_median_radius": 1894.7687866705787
+  },
+  {
+   "order": 0,
+   "fiber": 740130,
+   "family": "V",
+   "length_mm": 3.015,
+   "nodes": 1025,
+   "expected_error_vox": 1.07,
+   "checkpoint": "v3",
+   "afv_name": "fiber_follow 00740130",
+   "afv_length_l0": 1256.2221980802183,
+   "afv_point_count": 311,
+   "centre_l0": [
+    15341.0439453125,
+    16048.75390625,
+    57792.486328125
+   ],
+   "z_c": 57792.486328125,
+   "radius_patch_vox": 764.2006670704621,
+   "z_bin": 3,
+   "radial_half": "inner",
+   "bin_median_radius": 1894.7687866705787
+  },
+  {
+   "order": 32,
+   "fiber": 838073,
+   "family": "H",
+   "length_mm": 3.058,
+   "nodes": 1050,
+   "expected_error_vox": 0.886,
+   "checkpoint": "v3",
+   "afv_name": "fiber_follow 00838073",
+   "afv_length_l0": 1274.3175836180997,
+   "afv_point_count": 314,
+   "centre_l0": [
+    21172.6845703125,
+    22384.9560546875,
+    61672.890625
+   ],
+   "z_c": 61672.890625,
+   "radius_patch_vox": 1281.7018758833367,
+   "z_bin": 4,
+   "radial_half": "inner",
+   "bin_median_radius": 1853.3739477422978
+  },
+  {
+   "order": 23,
+   "fiber": 778459,
+   "family": "V",
+   "length_mm": 4.796,
+   "nodes": 2175,
+   "expected_error_vox": 0.687,
+   "checkpoint": "v3",
+   "afv_name": "fiber_follow 00778459",
+   "afv_length_l0": 1998.2131485353043,
+   "afv_point_count": 497,
+   "centre_l0": [
+    8923.2119140625,
+    14226.30712890625,
+    61566.716796875
+   ],
+   "z_c": 61566.716796875,
+   "radius_patch_vox": 2434.240741441883,
+   "z_bin": 4,
+   "radial_half": "outer",
+   "bin_median_radius": 1853.3739477422978
+  }
+ ]
+}

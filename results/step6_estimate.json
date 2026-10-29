@@ -1,0 +1,38 @@
+{
+ "0139": {
+  "afv": "data/human_afv/PHerc0139_human_controlled.afv",
+  "volume": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr",
+  "fibers_converted": 615,
+  "fibers_run": 600,
+  "skipped_le_2p5mm": 15,
+  "total_length_mm": 35686.0,
+  "decisions": 231715,
+  "cpu_hours_at_1p35_dec_s": 47.68,
+  "cpu_hours_at_1p47_dec_s": 43.79,
+  "ct_chunks_read_estimate": 80272,
+  "ct_gib_read_estimate": 156.78,
+  "ct_chunks_prefetch_r170": 93716,
+  "ct_gib_prefetch_r170": 183.04,
+  "download_hours_at_0p58_mib_s": 76.82,
+  "download_hours_prefetch_r170": 89.7
+ },
+ "0332": {
+  "afv": "data/human_afv/PHerc0332_human_controlled.afv",
+  "volume": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0332/volumes/20251211183505-2.399um-0.2m-78keV-masked.zarr",
+  "fibers_converted": 253,
+  "fibers_run": 237,
+  "skipped_le_2p5mm": 16,
+  "total_length_mm": 11895.3,
+  "decisions": 77161,
+  "cpu_hours_at_1p35_dec_s": 15.88,
+  "cpu_hours_at_1p47_dec_s": 14.58,
+  "ct_chunks_read_estimate": 16376,
+  "ct_gib_read_estimate": 31.98,
+  "ct_chunks_prefetch_r170": 18639,
+  "ct_gib_prefetch_r170": 36.4,
+  "download_hours_at_0p58_mib_s": 15.69,
+  "download_hours_prefetch_r170": 17.85
+ },
+ "method": "decisions: exact count infer_all makes (arange(12, L+1e-9, 8) trace voxels of the AFVFibers geometry, fibers > 2.5 mm); CT: union of level-2 chunks within R level-2 voxels of the fibers; on the 10 G0 fibers villa read 392 chunks, a ball of R=120 gave 415 (covers 357 of the 392), R=170 covers all 392 (750 chunks); throughput 1.35 decisions/s (1 process, 16 threads, CT cached; 1.47 with 4 crop threads; 2 processes x 6 threads gave 1.44 aggregate); bandwidth 0.55-0.62 MiB/s measured to S3 from this machine today (8 connections).",
+ "note": "whole-fiber footprints are far larger than the heldout-eval repo figures (10.4 / 3.9 GiB), which covered only GT points within a reach of each seed, not whole fibers"
+}

@@ -1,0 +1,25 @@
+G0 fiber selection rule (written 2026-10-27, BEFORE any strip was produced or compared)
+
+Source of candidates: all_strips/fibers.tsv inside
+  https://dl.ash2txt.org/datasets/spiral_datasets/PHercParis4/fiber_strips/101526/all_strips.zip
+  (229,200 published strips; read via HTTP range on the zip central directory).
+
+1. Pool: rows with checkpoint == 'v3' (made with fiber_strip_small_v1 = sheet_strip_paris4_slim50k_v3 update 15000;
+   the 53,874 'v2_ft' strips came from another checkpoint and are excluded) and 2.5 < length_mm <= 6.0
+   (bounded length to keep CT bytes and CPU time small; PR #2163 used 2.8-6.3 mm).
+2. rng = numpy.random.default_rng(20261027); draw = rng.choice(len(pool), size=3000, replace=False), in that order.
+3. For each drawn fiber read its AFV row (fibers.afv, by fiber id = rowid, HTTP range reads): bbox centre (L0 xyz);
+   z_c = centre z; r = xy distance (patch voxels = L0/4) from the umbilicus (umbilicus.json, interpolated at z_c/4).
+4. z bins: quintiles of z_c over the 3000 drawn fibers (numpy.quantile at .2 .4 .6 .8) -> bins k = 0..4.
+   Radial halves inside each bin: inner = r <= median r of that bin, outer = r > median.
+5. In bin k: the H fiber is the first (in draw order) H fiber of the inner half if k is even, else of the outer half;
+   the V fiber is the first V fiber of the opposite half. -> 10 fibers, 5 H + 5 V, spread over z and radius.
+No fiber is replaced after this point; a fiber that fails to run counts as a failure in G0.
+
+Gate (fixed by the task before running): for each fiber, compare the produced strip to the published one:
+  - primary matching: node index (same tifxyz grid position (row, col)) on nodes valid in both
+    (x,y,z != -1); distance |p_new - p_pub| in patch voxels (= CT level 2 = 9.6 um).
+  - secondary: nearest published node (KD-tree) for every valid produced node (robust to a grid offset).
+  Report mean, median, p99, max, mask agreement (IoU of valid-node masks) and shape equality.
+  PASS if >= 9/10 strips have mean (node-index) distance <= 1 voxel.
+  Also recorded, for comparison with PR #2163's tighter band: mean <= 0.05 and p99 <= 0.5 patch voxels.

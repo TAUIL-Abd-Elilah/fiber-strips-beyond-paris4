@@ -1,0 +1,14 @@
+Freeze of the pre-registration for fiber_strip_small_v1 off Paris 4 (C:/VesuviusTemp/strips/score)
+frozen_at_local: 2026-10-27 19:36:15 +0000
+frozen_at_utc:   2026-10-27 19:36:15 UTC
+state: no PHerc0139 or PHerc0332 strip exists on this machine; no strip results seen
+tests: 23 passed (tests/test_score_strips.py, CPU only)
+sha256:
+  e30daff671ec93f7a05adfe589e596f870a4485e6b2853feca11652ec73bf8b5 *PREREG.md
+  b82b9cee709f386313382ae8fc0419575b31171d7dccff2ef52cd7e5d7fcbab9 *score_strips.py
+  5281120040243ab8dee7ed3c1947fdf41967f3a20030a9b660ef3afeb8d96274 *tests/test_score_strips.py
+  e61399cb72bf30eeef76ee82481fa6e41d665c0ff197b751e19dc87b25d1a47b *data/fibers0139_sizes.txt
+  de0b770f4fd0bbaeeeec85989fb0c6c134eb37704fb1850b688ca3ace2807672 *data/segments0139_mesh_keys.txt
+  d1a2bd427b08d5731b47b2782193f635bd4c4cbeef0c71482da136136fea9899 *data/segment_urls_0139_2399.txt
+  8123543f1792ab307a6f6d426469710899aaa0d36a2dc3bc8160ddf7a57a7edb *data/umbilicus/PHerc0139_20260102150214_umbilicus.json
+  cf1d4f18e1b75060ec71049019f3fcca318643cda31d98c8bbe98910a66da20b *data/lasagna0139/lasagna.json

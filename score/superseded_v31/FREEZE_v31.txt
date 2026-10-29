@@ -1,0 +1,113 @@
+Freeze of pre-registration v3.1 for fiber_strip_small_v1 off Paris 4 (C:/VesuviusTemp/strips/score)
+frozen_at_local: 2026-10-29 00:34:06 +0000
+frozen_at_utc:   2026-10-29 00:34:06 UTC
+state: no PHerc0139 or PHerc0332 strip of the run plans has been made, scored or inspected; the only such strips are smoke tests of fibers in no scored set: the setup run's 0139 strip (PREREG 10.3) and a separate build's two 0332 strips of one fiber in no plan, not opened here (PREREG 10.7 item 8); the v3.1 checks ran on Paris 4 only (PREREG 10.7)
+tests: 61 passed in 167 s (tests/test_score_strips.py 35 synthetic; tests/test_piece_afv.py 14 on the real data, plans and villa's infer.py head code; tests/test_erratum_v31.py 12, incl. the real Paris 4 infer.py output), CPU only (CUDA_VISIBLE_DEVICES=-1), BelowNormal, 29 Oct 2026; log runs/pytest_v31/pytest_v31_freeze.txt
+villa_6f2: HEAD 6f2024569404a46b0f008eee292773945c07a684; changed files exactly the 9 pinned below (git status)
+notes:
+  - v3.1 erratum (PREREG 10.7), written before any PHerc0139/PHerc0332 strip of the plans: text corrections, unstated code rules stated, code pins, Paris 4 checks 5 and 6, geometry checks; v3 archived in superseded_v3/ (ARCHIVE.txt)
+  - unchanged from v3 (same sha256): the scorer, its v3 tests, the matched sets, plans, AFVs, run plans, full-run maps, Lasagna normals, manifests, runs/v3/run_all.ps1, prefetch_v3.py, infer_cpu.py (50 of the 52 v3 files; PREREG.md and tools/write_freeze.py changed)
+  - strata (4.8): the code's rule = the segment with the most stretch length; the literal v3 text would give a 9.1 GiB cap and another set (results/erratum_v31/strata_reading_check.json); the frozen set stays
+  - check 5: six real Paris 4 infer.py outputs read by the scorer, 100 % of nodes reproduced, frame plane available; check 6: piece = full run on the window rows within 0.001 sv (results/erratum_v31/paris4_piece_check.json); the tube input can differ in 6 secondary and 6 PHerc0332 pieces (results/erratum_v31/geometry_checks.json)
+  - CT prefetch of all three run sets complete (runs/prefetch_standalone.log, 29 Oct 00:20:12, rc 0); the runner has not been started since the v3 stops (PREREG 10.7 item 7)
+sha256:
+  831ee3cfb7fb2165cd1dcf8856125782c2bd084d0d11562a66dfbdba26337a90 *PREREG.md
+  d7d6d1946bc4decd72bc153958c4fb209f10f90fdca5f16b6616186f8e2c3577 *score_strips.py
+  f93fb9159945946da10e912f2a38b1dfbb14aa4b32b37ae61fe6a46d7224a5d3 *tests/test_score_strips.py
+  a017dbbc2080219c41816ad496f4b826f253ec7908577b6d4cbcda3f1f5f605e *tests/test_piece_afv.py
+  1b59e0c8eeb5269e4fc369ebfb59d6e1de0b7574428b5ad17205e1244add344c *tests/test_erratum_v31.py
+  5551149b513c49bcef0a26d1bdbd5bc55912df200f19007734f5908ae457d542 *tools/make_piece_afv.py
+  896ffe5b173da32d98721302b930bac5ffeb0c79fc7aa5d931091fd9ad1bb0e5 *tools/full_run_map.py
+  5bb45d9504505fb6ecc87b36cf930cd3a756db518a2d1ba097e83d79242c35da *tools/download_inputs.py
+  670b53dc2bac6113f0e23968973405865dbde6006bc49a7e7a03e3434b9af025 *tools/write_freeze.py
+  1dc4bc0bda9334cb29f2b5f3957bfba566cd12b3db1c4518adb37f1ddab8c40f *tools/archive_v2.py
+  9a6f950de39a93e8cc27f77cfb66271af70c490731d48fc0ab0c2c946e3417c3 *tools/paris4_piece_check.py
+  af93fb5fdb2f42be5771ae671922487b4150d3be17cf52ba3bb751f1b71cc4e6 *tools/strata_reading_check.py
+  96add3dd2a6668f1d909a1425998713e80fd45f1a1b1536d034ff3a6d7a5095f *tools/erratum_geometry_checks.py
+  f22973b9eaf9033a7d4ea877f875730d042a5b3997375694a3393acac108517c *../tools/fibers_json_to_afv.py
+  314b629e083381bcb8bb862784bf09cfaafbb2c5630e1c280643061163269d25 *runs/v3/run_all.ps1
+  7e60ad827940d949839b61b85b728d30135c8ee786ecf8fd9193cead513e6f6a *runs/v3/prefetch_v3.py
+  9b08d1c6f4aea74a9e4b5d407dc9af5fc53ee7dda913d6fad2f888d8c0d7e741 *runs/v3/infer_cpu.py
+  94be3b045bee8f2bc1bb63f0bc76a5d094f7dafc9089c211eba5469a0515c073 *runs/plan_v3/run_match.sh
+  f0d75f211c1fe53d764e8000fb23d16797cdb88234e79a5f704ce33feb0600bb *runs/plan_v3/run_afv.sh
+  295128ae79e257dcb1f3c87dbea5456ddee444570e42b322f2eb6c2c0dc9c3c8 *runs/erratum_v31/infer_cpu4.py
+  4a607fa86b2cb7f3a03f166cfbca1583e3d467b9b5d09c7084657dba2b26a506 *runs/erratum_v31/paris4/plan.json
+  baa67fa8c5a5e20170235b2554372abce5eb5619f77f1a96a6b046a9ba639fe5 *../data/human_afv/PHerc0139_human_controlled.afv
+  7907a9394a0bd299af85dd957e85510f9f8ecae9e06543c67efcba18101b13bb *../data/human_afv/PHerc0332_human_controlled.afv
+  c0c5d6758131a5b7227c2e45ac7278af9659505283862fecdfe5466e8d8a94b8 *data/full_run_map_0139.npz
+  a0607f7854b514fbb8c7ece0f743a6deb9c9a41faded6fcbda4038e786de5101 *data/full_run_map_0332.npz
+  71203041b7cec13f13c5723b17b8ae8a35fe5c35b29d2787159bb9e8af630f76 *results/matched_stretches.json
+  e95dd3dd51d7aa21c3c2dc1222c1a62240aa9ba7907520496f1c46e9a096e769 *results/matched_stretches_secondary_run40.json
+  1db293724ba00190bbaeabc5aca73dc5ce9fb5cdbe3515a5160a3002a4d16838 *results/crossings_0332_plan.json
+  08af0c1abe30d1abbd61e779713662bbf7c6cf0ede5b3d201359d0f4348f6e25 *data/matched_0139.afv
+  bc34d58b004dfa97cad9d6e10a67154795b7231ba6a95bc652bf48533ee61123 *data/matched_0139.tsv
+  34af8c5e02bfadc73b9c0d918ebf7df491a73a926e139c118f952a54cfe4ac9a *results/runplan_0139_primary.tsv
+  5101e120552358b3951c50b9c4552fafb40a8fcc58496e5ab03c999f569f2d71 *results/matched_0139_afv_report.json
+  d1cca77566b39c46d3f00f2b3cf51d513d1dc47f303bc17442d4a7352928c9e7 *data/matched_0139_secondary_run40.afv
+  310ceb8ce9e9b62752370af3d23b0c303a7d1de9dacb348bbb3b1815a5d9bf72 *data/matched_0139_secondary_run40.tsv
+  33bc4d9871808ecb862e70cfc1bab86a1c788baac037cd3f099f4c2acd0e8722 *results/runplan_0139_secondary_run40.tsv
+  fb77685bbe816115c677918b6bc60f246cbf6a469510b416326d7d359a4c116d *results/matched_0139_secondary_run40_afv_report.json
+  e9d7f35057f2c58d974e5369bbcfb69b32dd0bd138a60e4a9d145bd2a5dd85fb *data/crossings_0332.afv
+  17ddb616657ce4a040825692f524f55dbe02159fcacbfc1aa510310f089d401e *data/crossings_0332.tsv
+  ff6b3344000b708c12f1087548c72ae57ab6a9c23b4416eb71ef1384045a874e *results/runplan_0332_crossings.tsv
+  fd3394fd7ab5a7db59e2f8808d31e0244ad2a82abe368402a646d2dea9110339 *results/crossings_0332_afv_report.json
+  a1987433be2aa3beb20f5b7c612ccf20e2381edd5bd380da05e09001ace95f10 *results/erratum_v31/strata_reading_check.json
+  f24ed02e3cedd826475e25f2d84e96504757e9b40863dc1ad211cee58439103f *results/erratum_v31/paris4_piece_check.json
+  91771e31ff82c2fa207dad0b04de0a75308efc4876b416579decc7b395ddaebd *results/erratum_v31/geometry_checks.json
+  9d632fe17fe2591768d79ba7942c31570327e5603337d31cf1736a18a205627e *data/lasagna_normals_0139_primary.npz
+  d0dae184704fb6e1c55a970e24e1f7a29f67b092e179bc325f35f76869d248c8 *data/lasagna_normals_0139_secondary_run40.npz
+  6cde18d6de60b360995ec2e44c2ca38b45cd75476090007370b3e368a05cd3a8 *data/segments_manifest.json
+  73475915220dfcd57f5eaf61018a03f8fc1561fef2fb4dfba9145b69b7702cde *data/fibers0139_manifest.json
+  ca140fd626b5737f38b460ac680d3f7e190124781bf12ba92c275c55c19fe78b *data/fibers0332_manifest.json
+  8123543f1792ab307a6f6d426469710899aaa0d36a2dc3bc8160ddf7a57a7edb *data/umbilicus/PHerc0139_20260102150214_umbilicus.json
+  91b80a1fd74c1744d858033aefc949046f71847dff6b046814b29e24f6adbaac *../data/umbilicus/PHerc0139_20260102150214_umbilicus_L2.json
+  d458cd931d0363950da0934237ad804d1101e847664d3d4fa048636371941217 *../data/umbilicus/PHerc0332_20251211183505_umbilicus_L2.json
+  9a297d1b91d31c9dfd18be3e4a5b00fec4ab3fff15bc3f0401ab779193cdbbf3 *../results/g0_errata.md
+  0b86d6247310a18a16998a010f66a714ee10f90e05563996424cc3aa2977eda2 *superseded_v3/PREREG_v3.md
+  5309debbbeeb6ed7401badbbd163809b9c4632838c71f7eded8945d0783db8d5 *superseded_v3/FREEZE_v3.txt
+  7274db4a3e618c28da7e3a40bf4d95b7227c5c824336b24a1af1ab994c672312 *superseded_v3/write_freeze_v3.py
+  d9a8a9f01bbab19efee6870a37fdf13cad4fab46b3e467eea0c5c7cd11fe9f23 *superseded_v3/ARCHIVE.txt
+  ac91035fabbfdfb65568c5d99d6f853221cf3e2f839667ed8475bc098442b9ba *superseded_v2/PREREG_v2.md
+  b37c292b4ce85216ab65b668cb83ae97ad756f623e5e5b6c9b0e849a6109a624 *superseded_v2/FREEZE_v2.txt
+  a3edb92a2b2987337949b5458499f8a1babdc54140ad564ed19c2d8832ee726f *superseded_v2/score_strips_v2.py
+  0f8bf32716861be955501f92fd0065801fd558f66f8211d843dd4862d5119713 *superseded_v2/ARCHIVE.txt
+  e30daff671ec93f7a05adfe589e596f870a4485e6b2853feca11652ec73bf8b5 *superseded_v1/PREREG_v1.md
+  df68b273966bf42bbefc06e4cc5c72acd32987794cc3cae5dac9c6b8c1dbbcbc *superseded_v1/FREEZE_v1.txt
+  b82b9cee709f386313382ae8fc0419575b31171d7dccff2ef52cd7e5d7fcbab9 *superseded_v1/score_strips_v1.py
+  7870d8a89bdda7855b52605ab751b8010098cc8dd341dd24ddfac020df69bc0a *superseded_v1/g1_v1_result.json
+  63d20928e5a340ae3c3c8785e2fa3da936e9c0894419a8039d0c46acee7d2daa *tests/fixtures/paris4_real/README.md
+  22da378b34d57d4493c3b2cb5b9e23ebf3e5065af69c779cece0de58e4bc341c *tests/fixtures/paris4_real/fiber_778459.json
+  5f95fc7d7016d77c2f55367103cf395e6f75106b6064cd3d88da1d958cb61311 *tests/fixtures/paris4_real/g0_fiber_778459/expected_error.tif
+  afac329e07fb2a271090d7b72b9e0a7244b2d7ea79a03b386dd478bcb0703ab2 *tests/fixtures/paris4_real/g0_fiber_778459/mask.tif
+  08aaed35bef9a0bb34468c29dec7bbc9cd53fd3faa15f1c608d97cc26bd432e2 *tests/fixtures/paris4_real/g0_fiber_778459/meta.json
+  cc85bac61abfba993c9e55fc0d0cf1da5b7325b3e7cb0d258430c0dc19b65789 *tests/fixtures/paris4_real/g0_fiber_778459/trace.json
+  5d0e49073af048ec7b10cfac014a8e152969afa246a9396af2cfa2c177122658 *tests/fixtures/paris4_real/g0_fiber_778459/x.tif
+  07ec17eaa61350123c7c6d5e27a46b34dd4fcff808d293532a90d7bd0e0e7472 *tests/fixtures/paris4_real/g0_fiber_778459/y.tif
+  60b2fa12f490d4b821c0d20c5d90e86873c511957f8b588057767066ccd4a8d1 *tests/fixtures/paris4_real/g0_fiber_778459/z.tif
+  dcfab6981cbe92f610ae5e62eeb70ff6ec6b7754777b0b93cd3debb8a7d54119 *tests/fixtures/paris4_real/pieces/QA/strip.npz
+  caf1a9018716d815ec921e9549cacdc605483a2b2babcdd753aa898eef71043e *tests/fixtures/paris4_real/pieces/QA/strip/mask.tif
+  00d15d624f4611611e665fbc2140233cd61d4f5155cb434f9d90a9af54d7a406 *tests/fixtures/paris4_real/pieces/QA/strip/meta.json
+  c400401897f32bbbe6c30372409e3797346587a0b7ad40f4cef888ca66c3ec39 *tests/fixtures/paris4_real/pieces/QA/strip/trace.json
+  8f83025cb78fbfbaf778d733de4eb161c65d19f1a630cbb02096fcfed20a6bba *tests/fixtures/paris4_real/pieces/QA/strip/x.tif
+  25abddc53210407093ec9a1596e88e414c4b24ed94c472683c3a51833079bf56 *tests/fixtures/paris4_real/pieces/QA/strip/y.tif
+  8014adaeec08a37cff720cac2edb6be1f5fdc60b77a136d8a0d654faec18b324 *tests/fixtures/paris4_real/pieces/QA/strip/z.tif
+  1b18960e6b78c755af7f9ad962bf22c19d28376997385a083685ebeb25633661 *tests/fixtures/paris4_real/pieces/QA/summary.json
+  edf5f5a7cd1224916e960d623cfffe7d365a61e39171dd4b1ffa4ab0c6b71827 *../villa_6f2/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/README.md
+  68978c7143e3da2bc616a358f3056ddc6a3c4ac88a7edef89d1e402fb094e2a5 *../villa_6f2/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/sheet_strip/infer.py
+  1c11bf3797f13519b6b8845cc8d981dfa4347de99ff67e3628f43d5b8ad5b3d3 *../villa_6f2/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/tracing/service.py
+  c415eae09e289843d5a6e902aba95cfba7753c7a25ebbddea260fc37ab3aedcb *../villa_6f2/vesuvius/src/vesuvius/neural_tracing/tracers/shared/crop_sampling/gpu.py
+  315c4de697bfc5aa21b25fc3eedaf6d748173d680c188616f28ad8b2adb97c33 *../villa_6f2/vesuvius/src/vesuvius/neural_tracing/tracers/shared/crop_sampling/prefetch.py
+  a65fa48e6f85711ae2727fc6c69432d4543c470f16f3e80b279540db15df36b5 *../villa_6f2/vesuvius/src/vesuvius/neural_tracing/tracers/shared/crop_sampling/volume.py
+  d7cc942faf48fbbea3a8ce4ba9782045248c0c5f730bf116143372fe5913b60a *../villa_6f2/vesuvius/src/vesuvius/neural_tracing/tracers/shared/io.py
+  5c305f02c950831d7bc2015d35cbe470ab7e62caeffd4b0ec8d708e9091c467c *../villa_6f2/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/tests/test_chunk_lock.py
+  6662dabacc229821b22a1741568da30b3fc69913f7d03a4b7da2d3075f484efe *../villa_6f2/vesuvius/src/vesuvius/neural_tracing/tracers/fibers/tests/test_service_transport.py
+  0540920dceb9309920fe56879ced03d019d8a97dd6343fd2129ff008f275df26 *../patches/APPLIED.txt
+  8322e9c4101d08efc530238d1637d257699ec0fa2bfbec71b3d5960ad2bd29c4 *../patches/applied_pr2163_on_6f2024569.diff
+  c308b5d5661fc06742b3526be1253fce6db70394ab9c8d2bcdc5436fb4b8b2d4 *../patches/applied_pr2163_on_6f2024569_with_tests.diff
+  95e5e9928c43f58995c75ed0b3b57957f6a39a6fd3d0aa645fd03e18c93ee6a4 *../patches/pr2163_full.diff
+  bc4f067c22f7620d4776f1743a8a3e8003a78835aa204661303bdbd8e6ab5352 *../patches/strip_bind_normalization_other_volume.diff
+  1295a5f27f01686470b29b3337298917bba0a6529d56ef83b61547719e1f1372 *../patches/worktree_full_after_g0.diff
+  0f6d64da50e47af10c86912a8e268c99fa55bf784823b7ca5b87f84d47f1d6e4 *../hf_home/hub/models--scrollprize--fiber_strip_small_v1/snapshots/7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt
+  c10e21e62d05228bdadeda65334d5c9eede91d942b80ca9d318616eda7cbf35f *../hf_home/hub/models--scrollprize--fiber_strip_small_v1/snapshots/7bd163a22c839ff312879ae1916195d0c9729c0e/heading_model.pt
+  485b25596e5e15f51d576a8636383e239d27b74635f6a3453a95eaf1db8a0724 *../hf_home/hub/models--scrollprize--fiber_strip_small_v1/snapshots/7bd163a22c839ff312879ae1916195d0c9729c0e/config.json
+  6c8228575548bbe24331984cc7b1c7e7ca3571d515533e74ce95f0dcb100b7d5 *../hf_home/hub/models--scrollprize--fiber_strip_small_v1/snapshots/7bd163a22c839ff312879ae1916195d0c9729c0e/run.json

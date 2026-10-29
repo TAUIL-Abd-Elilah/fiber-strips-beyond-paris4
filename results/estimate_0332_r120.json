@@ -1,0 +1,21 @@
+{
+ "afv": "data/human_afv/PHerc0332_human_controlled.afv",
+ "volume": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0332/volumes/20251211183505-2.399um-0.2m-78keV-masked.zarr",
+ "fibers": 253,
+ "fibers_run": 237,
+ "skipped_short": 16,
+ "total_length_mm": 11895.289502689153,
+ "decisions": 77161,
+ "decisions_per_fiber": {
+  "median": 219.0,
+  "max": 1172
+ },
+ "decisions_per_second": 1.35,
+ "cpu_hours": 15.88,
+ "ct_chunks": 16376,
+ "ct_gib": 31.98,
+ "ct_chunks_cached": 0,
+ "download_hours_at_mib_s": 15.69,
+ "mib_per_second": 0.58,
+ "radius_level2_vox": 120.0
+}

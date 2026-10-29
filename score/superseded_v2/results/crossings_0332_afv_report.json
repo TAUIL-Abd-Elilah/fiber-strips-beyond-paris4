@@ -1,0 +1,399 @@
+{
+ "pieces": 25,
+ "checks": [
+  {
+   "piece": "C0000",
+   "afv_id": 1341599540475189,
+   "points": 394,
+   "length_sv_json": 782.0417113678575,
+   "length_sv_plan": 782.0417113678523,
+   "length_sv_afvfibers": 779.8730680669069,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    300.9,
+    618.06
+   ],
+   "decisions": 20,
+   "decisions_planned": 21
+  },
+  {
+   "piece": "C0001",
+   "afv_id": 1767508201412053,
+   "points": 353,
+   "length_sv_json": 781.45082072735,
+   "length_sv_plan": 781.4508207273461,
+   "length_sv_afvfibers": 780.6572161784412,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    301.92,
+    620.21
+   ],
+   "decisions": 20,
+   "decisions_planned": 21
+  },
+  {
+   "piece": "C0002",
+   "afv_id": 4299492967371733,
+   "points": 387,
+   "length_sv_json": 782.0800620581201,
+   "length_sv_plan": 782.0800620581208,
+   "length_sv_afvfibers": 782.0800620581197,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.46,
+    620.08
+   ],
+   "decisions": 20,
+   "decisions_planned": 21
+  },
+  {
+   "piece": "C0003",
+   "afv_id": 4207311806565189,
+   "points": 317,
+   "length_sv_json": 648.3391208759325,
+   "length_sv_plan": 648.3391208759323,
+   "length_sv_afvfibers": 647.9219664999769,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    152.0,
+    486.59
+   ],
+   "decisions": 21,
+   "decisions_planned": 22
+  },
+  {
+   "piece": "C0004",
+   "afv_id": 457433185796053,
+   "points": 371,
+   "length_sv_json": 783.0848934515966,
+   "length_sv_plan": 783.0848934516052,
+   "length_sv_afvfibers": 781.3998354344195,
+   "kink_repairs": 3,
+   "arc_patch_vox": [
+    301.54,
+    619.3
+   ],
+   "decisions": 20,
+   "decisions_planned": 21
+  },
+  {
+   "piece": "C0005",
+   "afv_id": 2155667040096229,
+   "points": 392,
+   "length_sv_json": 780.7780273278188,
+   "length_sv_plan": 780.7780273278189,
+   "length_sv_afvfibers": 780.7780273278186,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    299.94,
+    620.78
+   ],
+   "decisions": 21,
+   "decisions_planned": 21
+  },
+  {
+   "piece": "C0006",
+   "afv_id": 649170952878277,
+   "points": 313,
+   "length_sv_json": 796.8266980853365,
+   "length_sv_plan": 796.8266980853371,
+   "length_sv_afvfibers": 792.8702432744649,
+   "kink_repairs": 3,
+   "arc_patch_vox": [
+    297.53,
+    632.59
+   ],
+   "decisions": 21,
+   "decisions_planned": 22
+  },
+  {
+   "piece": "C0007",
+   "afv_id": 908713930795413,
+   "points": 287,
+   "length_sv_json": 589.8292247283518,
+   "length_sv_plan": 589.8292247283518,
+   "length_sv_afvfibers": 568.2818540081179,
+   "kink_repairs": 3,
+   "arc_patch_vox": [
+    280.41,
+    567.81
+   ],
+   "decisions": 18,
+   "decisions_planned": 19
+  },
+  {
+   "piece": "C0008",
+   "afv_id": 2632540326030789,
+   "points": 401,
+   "length_sv_json": 798.1493632775746,
+   "length_sv_plan": 798.1493632775782,
+   "length_sv_afvfibers": 798.1493632775746,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    302.0,
+    638.15
+   ],
+   "decisions": 22,
+   "decisions_planned": 22
+  },
+  {
+   "piece": "C0009",
+   "afv_id": 67275899568533,
+   "points": 401,
+   "length_sv_json": 798.6182816550436,
+   "length_sv_plan": 798.6182816550554,
+   "length_sv_afvfibers": 798.6182816550439,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.83,
+    638.62
+   ],
+   "decisions": 22,
+   "decisions_planned": 22
+  },
+  {
+   "piece": "C0010",
+   "afv_id": 2204109116395733,
+   "points": 393,
+   "length_sv_json": 782.4680149342121,
+   "length_sv_plan": 782.4680149342057,
+   "length_sv_afvfibers": 782.4680149342116,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.87,
+    622.47
+   ],
+   "decisions": 21,
+   "decisions_planned": 21
+  },
+  {
+   "piece": "C0011",
+   "afv_id": 2037188470998373,
+   "points": 393,
+   "length_sv_json": 781.9047760800008,
+   "length_sv_plan": 781.9047760800004,
+   "length_sv_afvfibers": 781.9047760800001,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.22,
+    620.14
+   ],
+   "decisions": 20,
+   "decisions_planned": 21
+  },
+  {
+   "piece": "C0012",
+   "afv_id": 1902852337164965,
+   "points": 219,
+   "length_sv_json": 594.6686731245794,
+   "length_sv_plan": 594.6686731245763,
+   "length_sv_afvfibers": 594.6686731245791,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    302.0,
+    588.69
+   ],
+   "decisions": 18,
+   "decisions_planned": 19
+  },
+  {
+   "piece": "C0013",
+   "afv_id": 3142371907893237,
+   "points": 463,
+   "length_sv_json": 920.3257104012802,
+   "length_sv_plan": 920.3257104012794,
+   "length_sv_afvfibers": 920.3257104012794,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    24.0,
+    760.33
+   ],
+   "decisions": 47,
+   "decisions_planned": 47
+  },
+  {
+   "piece": "C0014",
+   "afv_id": 70666599753301,
+   "points": 254,
+   "length_sv_json": 505.05171043080577,
+   "length_sv_plan": 505.0517104308057,
+   "length_sv_afvfibers": 505.0517104308057,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    24.0,
+    343.11
+   ],
+   "decisions": 20,
+   "decisions_planned": 21
+  },
+  {
+   "piece": "C0015",
+   "afv_id": 1341927154830405,
+   "points": 434,
+   "length_sv_json": 862.247668189998,
+   "length_sv_plan": 862.2476681899966,
+   "length_sv_afvfibers": 862.2476681899981,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.67,
+    700.38
+   ],
+   "decisions": 25,
+   "decisions_planned": 26
+  },
+  {
+   "piece": "C0016",
+   "afv_id": 3226466001034645,
+   "points": 442,
+   "length_sv_json": 877.9684053878007,
+   "length_sv_plan": 877.9684053878025,
+   "length_sv_afvfibers": 877.9684053878012,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.75,
+    717.98
+   ],
+   "decisions": 27,
+   "decisions_planned": 27
+  },
+  {
+   "piece": "C0017",
+   "afv_id": 4297201720402725,
+   "points": 228,
+   "length_sv_json": 457.6290914782733,
+   "length_sv_plan": 457.6290914782732,
+   "length_sv_afvfibers": 456.4132614717765,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    24.0,
+    296.0
+   ],
+   "decisions": 17,
+   "decisions_planned": 18
+  },
+  {
+   "piece": "C0018",
+   "afv_id": 1089079290348181,
+   "points": 393,
+   "length_sv_json": 782.471367258066,
+   "length_sv_plan": 782.471367258072,
+   "length_sv_afvfibers": 782.4713672580662,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.98,
+    620.69
+   ],
+   "decisions": 20,
+   "decisions_planned": 21
+  },
+  {
+   "piece": "C0019",
+   "afv_id": 352098342803717,
+   "points": 393,
+   "length_sv_json": 781.1133347965983,
+   "length_sv_plan": 781.1133347965983,
+   "length_sv_afvfibers": 780.6997827025216,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    299.88,
+    620.7
+   ],
+   "decisions": 21,
+   "decisions_planned": 21
+  },
+  {
+   "piece": "C0020",
+   "afv_id": 2363694446515029,
+   "points": 370,
+   "length_sv_json": 781.7799416951523,
+   "length_sv_plan": 781.779941695153,
+   "length_sv_afvfibers": 781.7799416951525,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.48,
+    621.78
+   ],
+   "decisions": 21,
+   "decisions_planned": 21
+  },
+  {
+   "piece": "C0021",
+   "afv_id": 2197701144735157,
+   "points": 393,
+   "length_sv_json": 781.7026341681544,
+   "length_sv_plan": 781.7026341681545,
+   "length_sv_afvfibers": 781.7026341681552,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.35,
+    619.97
+   ],
+   "decisions": 20,
+   "decisions_planned": 21
+  },
+  {
+   "piece": "C0022",
+   "afv_id": 1820375752316357,
+   "points": 393,
+   "length_sv_json": 783.2459889175193,
+   "length_sv_plan": 783.2459889175161,
+   "length_sv_afvfibers": 783.2459889175203,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.25,
+    621.25
+   ],
+   "decisions": 20,
+   "decisions_planned": 21
+  },
+  {
+   "piece": "C0023",
+   "afv_id": 1844193330110725,
+   "points": 393,
+   "length_sv_json": 783.838183161195,
+   "length_sv_plan": 783.8381831612114,
+   "length_sv_afvfibers": 783.8381831611945,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    302.0,
+    621.89
+   ],
+   "decisions": 20,
+   "decisions_planned": 21
+  },
+  {
+   "piece": "C0024",
+   "afv_id": 1064038406433237,
+   "points": 349,
+   "length_sv_json": 797.4904159468376,
+   "length_sv_plan": 797.4904159468401,
+   "length_sv_afvfibers": 795.9215217141374,
+   "kink_repairs": 2,
+   "arc_patch_vox": [
+    299.94,
+    635.3
+   ],
+   "decisions": 21,
+   "decisions_planned": 22
+  }
+ ],
+ "afv": "data\\crossings_0332.afv",
+ "write_afv": {
+  "fibers": 25,
+  "points": 9126,
+  "blocks": 47
+ },
+ "volume": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0332/volumes/20251211183505-2.399um-0.2m-78keV-masked.zarr",
+ "base_shape_zyx": [
+  33592,
+  15761,
+  15761
+ ],
+ "pieces_written": 25,
+ "decisions_runplan": 543,
+ "decisions_plan": 560,
+ "max_length_diff_sv_afvfibers_vs_json": 21.54737072023397,
+ "max_head_to_geometry_sv": 0.9964679491435952,
+ "kink_repaired_pieces": 9,
+ "infer_command": "python -m vesuvius.neural_tracing.tracers.fibers.sheet_strip.infer --afv AFV --fiber AFV_ID --arc ARC_START ARC_END --out OUT/<piece> --checkpoint scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e --ct <the volume> --umbilicus <its umbilicus, level-2 voxels> --cache-dir C:/VesuviusTemp/strips/ct_cache --device cpu --index none --no-render --step 8 --blend 16 --trim 75 (CUDA_VISIBLE_DEVICES=-1)"
+}

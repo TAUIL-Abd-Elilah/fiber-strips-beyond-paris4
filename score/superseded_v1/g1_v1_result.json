@@ -1,0 +1,90 @@
+{
+ "G1": {
+  "fibers": 615,
+  "candidates": 22,
+  "matched_long": 0,
+  "matched_any_length": 0,
+  "by_family": {
+   "H": {
+    "candidates": 17,
+    "matched": 0
+   },
+   "V": {
+    "candidates": 5,
+    "matched": 0
+   },
+   "?": {
+    "candidates": 0,
+    "matched": 0
+   }
+  },
+  "noise_floor_sv": 1.7839570628053474,
+  "noise_floor_definition": "median over candidate fibers of the per-fiber median |normal distance| of its samples within 6.0 sv of a segment",
+  "matched_fiber_median_abs_d_sv": null,
+  "matched_fiber_mean_d_sv": null,
+  "sensitivity_matched_at_50pct": 0,
+  "flagged_matched": 0,
+  "pass": false,
+  "rule": ">= 30 matched fibers (>= 70% of length within 2.0 sv of a segment, runs >= 40.0 sv, length >= 2.5 mm) and noise floor <= 2.0 sv"
+ },
+ "provenance": {
+  "scorer": "C:\\VesuviusTemp\\strips\\score\\score_strips.py",
+  "scorer_version": "1.0.0",
+  "scorer_sha256": "b82b9cee709f386313382ae8fc0419575b31171d7dccff2ef52cd7e5d7fcbab9",
+  "prereg_sha256": "e30daff671ec93f7a05adfe589e596f870a4485e6b2853feca11652ec73bf8b5",
+  "argv": [
+   "match",
+   "--fiber-urls",
+   "C:\\VesuviusTemp\\strips\\score\\data\\fiber_urls_0139.txt",
+   "--segment-urls",
+   "C:\\VesuviusTemp\\strips\\score\\data\\segment_urls_0139_2399.txt",
+   "--umbilicus",
+   "C:\\VesuviusTemp\\strips\\score\\data\\umbilicus\\PHerc0139_20260102150214_umbilicus.json",
+   "--out",
+   "C:\\VesuviusTemp\\strips\\score\\runs\\g1_0139\\matches_0139.json"
+  ],
+  "constants": {
+   "SCORE_UNIT_BASE": 4.0,
+   "SAMPLE_STEP": 1.0,
+   "MATCH_MAX_D": 2.0,
+   "CANDIDATE_MAX_D": 6.0,
+   "MATCH_MIN_FRACTION": 0.7,
+   "MIN_RUN": 40.0,
+   "MIN_LENGTH_SV": 260.4166666666667,
+   "SEARCH_REACH": 30.0,
+   "TANGENT_TOL": 1.0,
+   "ASSOC_MAX_SV": 5.0,
+   "ROW_MAX_SV": 10.0,
+   "MIN_NODES": 25,
+   "G1_MIN_FIBERS": 30,
+   "G1_MAX_NOISE": 2.0,
+   "G2_MAX_MEAN": 1.5,
+   "G2_MIN_WITHIN2": 0.7,
+   "BOOTSTRAP": 2000,
+   "BOOTSTRAP_PCT": 1000,
+   "SEED": 20261028,
+   "CAL_EDGES": [
+    0.0,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    2.0,
+    3.0,
+    null
+   ],
+   "CROSS_TOL": 3.0,
+   "CROSS_RADIUS": 30.0,
+   "LASAGNA_SCALE": 16.0,
+   "TANGENT_HALF": 4
+  },
+  "time": "2026-10-27 21:14:02",
+  "units": {
+   "score_unit_base": 4.0,
+   "fiber_unit_base": 1.0,
+   "segment_unit_base": 1.0,
+   "strip_unit_base": null
+  }
+ }
+}

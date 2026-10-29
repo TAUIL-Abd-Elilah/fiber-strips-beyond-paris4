@@ -1,0 +1,74 @@
+{
+ "pieces": 2,
+ "checks": [
+  {
+   "piece": "P0000",
+   "afv_id": 3329813072112693,
+   "points": 429,
+   "length_sv_json": 911.0537402448252,
+   "length_sv_plan": 911.053740244829,
+   "length_sv_afvfibers": 911.0537402448255,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.092145,
+    750.092145
+   ],
+   "decisions": 29,
+   "decisions_planned": 29,
+   "head_k": [
+    229,
+    257
+   ],
+   "first_head_trace": 150.5460725,
+   "max_head_dev_sv": 2.9052325175966634e-07,
+   "mean_head_dev_sv": 2.90520219416632e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "P0001",
+   "afv_id": 2216996804852677,
+   "points": 457,
+   "length_sv_json": 909.4176021735491,
+   "length_sv_plan": 909.417602173548,
+   "length_sv_afvfibers": 909.4176021735481,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.035139,
+    750.035139
+   ],
+   "decisions": 29,
+   "decisions_planned": 29,
+   "head_k": [
+    74,
+    102
+   ],
+   "first_head_trace": 150.5175695,
+   "max_head_dev_sv": 1.2821755851502968e-07,
+   "mean_head_dev_sv": 1.2821704643063536e-07,
+   "clamped_to_min_head": false
+  }
+ ],
+ "afv": "data\\matched_0139.afv",
+ "write_afv": {
+  "fibers": 2,
+  "points": 886,
+  "blocks": 4
+ },
+ "volume": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr",
+ "base_shape_zyx": [
+  76953,
+  26511,
+  26511
+ ],
+ "pieces_written": 2,
+ "runplan_tool": "make_piece_afv.py v3 run plan (heads on the full run grid)",
+ "full_afv": "../data/human_afv/PHerc0139_human_controlled.afv",
+ "end_pad_sv": 1.0,
+ "decisions_runplan": 58,
+ "decisions_plan": 58,
+ "max_length_diff_sv_afvfibers_vs_json": 1.0231815394945443e-12,
+ "max_head_dev_sv_vs_full_run": 2.9052325175966634e-07,
+ "pieces_head_dev_over_1sv": [],
+ "kink_repaired_pieces": 0,
+ "infer_command": "python -m vesuvius.neural_tracing.tracers.fibers.sheet_strip.infer --afv AFV --fiber AFV_ID --arc ARC_START ARC_END --out OUT/<piece> --checkpoint scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e --ct <the volume> --umbilicus <its umbilicus, level-2 voxels> --cache-dir C:/VesuviusTemp/strips/ct_cache --device cpu --index none --no-render --step 8 --blend 16 --trim 75 --batch 32 (CUDA_VISIBLE_DEVICES=-1; runs/v3/run_all.ps1: 8 torch threads, BelowNormal, one process at a time)"
+}

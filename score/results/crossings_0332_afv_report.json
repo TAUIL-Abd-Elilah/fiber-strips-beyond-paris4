@@ -1,0 +1,606 @@
+{
+ "pieces": 25,
+ "checks": [
+  {
+   "piece": "C0000",
+   "afv_id": 3712474505676437,
+   "points": 395,
+   "length_sv_json": 784.0388093434076,
+   "length_sv_plan": 784.0388093434021,
+   "length_sv_afvfibers": 781.8697116055022,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    301.258493,
+    622.258493
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    499,
+    519
+   ],
+   "first_head_trace": 150.6292465,
+   "max_head_dev_sv": 0.3757652085743667,
+   "mean_head_dev_sv": 0.05056787372067421,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0001",
+   "afv_id": 2823820124885077,
+   "points": 355,
+   "length_sv_json": 785.4514036907684,
+   "length_sv_plan": 785.4514036907644,
+   "length_sv_afvfibers": 784.6577906220757,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    300.70104,
+    621.70104
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    217,
+    237
+   ],
+   "first_head_trace": 150.35052,
+   "max_head_dev_sv": 5.734222738915176,
+   "mean_head_dev_sv": 1.5103728031161312,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0002",
+   "afv_id": 4299492967371733,
+   "points": 387,
+   "length_sv_json": 782.0800620581201,
+   "length_sv_plan": 782.0800620581208,
+   "length_sv_afvfibers": 782.0800620581197,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.559094,
+    621.559094
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    216,
+    236
+   ],
+   "first_head_trace": 150.279547,
+   "max_head_dev_sv": 3.202870955688624e-07,
+   "mean_head_dev_sv": 3.2028614539079407e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0003",
+   "afv_id": 2198802323832421,
+   "points": 310,
+   "length_sv_json": 634.3391213534487,
+   "length_sv_plan": 634.3391213534485,
+   "length_sv_afvfibers": 633.9219669774931,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    152.0,
+    473.0
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    8,
+    28
+   ],
+   "first_head_trace": 76.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0004",
+   "afv_id": 3277713429239957,
+   "points": 371,
+   "length_sv_json": 781.9967138630698,
+   "length_sv_plan": 781.9967138630782,
+   "length_sv_afvfibers": 780.3116569135505,
+   "kink_repairs": 3,
+   "arc_patch_vox": [
+    299.761245,
+    620.761245
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    716,
+    736
+   ],
+   "first_head_trace": 149.8806225,
+   "max_head_dev_sv": 1.2632443719892976,
+   "mean_head_dev_sv": 0.55515671929258,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0005",
+   "afv_id": 2155667040096229,
+   "points": 392,
+   "length_sv_json": 780.7780273278188,
+   "length_sv_plan": 780.7780273278189,
+   "length_sv_afvfibers": 780.7780273278186,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.000234,
+    621.000234
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    44,
+    64
+   ],
+   "first_head_trace": 150.000117,
+   "max_head_dev_sv": 3.3725644406511916e-07,
+   "mean_head_dev_sv": 3.3725586074937355e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0006",
+   "afv_id": 3473891254210373,
+   "points": 305,
+   "length_sv_json": 780.8391967149371,
+   "length_sv_plan": 780.8391967149375,
+   "length_sv_afvfibers": 776.8793306234968,
+   "kink_repairs": 3,
+   "arc_patch_vox": [
+    296.906109,
+    617.906109
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    84,
+    104
+   ],
+   "first_head_trace": 148.4530545,
+   "max_head_dev_sv": 3.653370453644064e-07,
+   "mean_head_dev_sv": 3.653364062755928e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0007",
+   "afv_id": 1343654686261237,
+   "points": 291,
+   "length_sv_json": 597.8291526540597,
+   "length_sv_plan": 597.8291526540598,
+   "length_sv_afvfibers": 576.2817820764795,
+   "kink_repairs": 3,
+   "arc_patch_vox": [
+    279.95277,
+    568.95277
+   ],
+   "decisions": 19,
+   "decisions_planned": 19,
+   "head_k": [
+    45,
+    63
+   ],
+   "first_head_trace": 139.976385,
+   "max_head_dev_sv": 0.01603654031642757,
+   "mean_head_dev_sv": 0.0016881894317884076,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0008",
+   "afv_id": 2632540326030789,
+   "points": 401,
+   "length_sv_json": 798.1493632775746,
+   "length_sv_plan": 798.1493632775782,
+   "length_sv_afvfibers": 798.1493632775746,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.97368,
+    638.97368
+   ],
+   "decisions": 22,
+   "decisions_planned": 22,
+   "head_k": [
+    172,
+    193
+   ],
+   "first_head_trace": 150.98684,
+   "max_head_dev_sv": 9.311308446794137e-08,
+   "mean_head_dev_sv": 9.311043114386745e-08,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0009",
+   "afv_id": 2585365838119637,
+   "points": 401,
+   "length_sv_json": 798.6182851087849,
+   "length_sv_plan": 798.618285108796,
+   "length_sv_afvfibers": 798.6182851087852,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.819688,
+    637.819688
+   ],
+   "decisions": 22,
+   "decisions_planned": 22,
+   "head_k": [
+    633,
+    654
+   ],
+   "first_head_trace": 150.409844,
+   "max_head_dev_sv": 3.327206188716139e-07,
+   "mean_head_dev_sv": 3.3271052324272355e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0010",
+   "afv_id": 1640769187740565,
+   "points": 393,
+   "length_sv_json": 782.4679645514839,
+   "length_sv_plan": 782.467964551477,
+   "length_sv_afvfibers": 782.4679645514833,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.573297,
+    621.573297
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    448,
+    468
+   ],
+   "first_head_trace": 150.2866485,
+   "max_head_dev_sv": 2.4585261053771694e-07,
+   "mean_head_dev_sv": 2.458508831137468e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0011",
+   "afv_id": 2037188470998373,
+   "points": 393,
+   "length_sv_json": 781.9047760800008,
+   "length_sv_plan": 781.9047760800004,
+   "length_sv_afvfibers": 781.9047760800001,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.614465,
+    621.614465
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    60,
+    80
+   ],
+   "first_head_trace": 150.3072325,
+   "max_head_dev_sv": 8.689793046912569e-08,
+   "mean_head_dev_sv": 8.689699247930651e-08,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0012",
+   "afv_id": 1902852337164965,
+   "points": 219,
+   "length_sv_json": 594.6686731245794,
+   "length_sv_plan": 594.6686731245763,
+   "length_sv_afvfibers": 594.6686731245791,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.420686,
+    590.420686
+   ],
+   "decisions": 19,
+   "decisions_planned": 19,
+   "head_k": [
+    282,
+    300
+   ],
+   "first_head_trace": 150.710343,
+   "max_head_dev_sv": 4.371844580472252e-07,
+   "mean_head_dev_sv": 4.3718260080259666e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0013",
+   "afv_id": 3142371907893237,
+   "points": 463,
+   "length_sv_json": 920.3257104012802,
+   "length_sv_plan": 920.3257104012794,
+   "length_sv_afvfibers": 920.3257104012794,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    24.0,
+    761.0
+   ],
+   "decisions": 47,
+   "decisions_planned": 47,
+   "head_k": [
+    0,
+    46
+   ],
+   "first_head_trace": 12.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0014",
+   "afv_id": 70666599753301,
+   "points": 254,
+   "length_sv_json": 505.05171043080577,
+   "length_sv_plan": 505.0517104308057,
+   "length_sv_afvfibers": 505.0517104308057,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    24.0,
+    345.0
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    0,
+    20
+   ],
+   "first_head_trace": 12.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0015",
+   "afv_id": 1341927154830405,
+   "points": 434,
+   "length_sv_json": 862.247668189998,
+   "length_sv_plan": 862.2476681899966,
+   "length_sv_afvfibers": 862.2476681899981,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.772282,
+    701.772282
+   ],
+   "decisions": 26,
+   "decisions_planned": 26,
+   "head_k": [
+    84,
+    109
+   ],
+   "first_head_trace": 150.386141,
+   "max_head_dev_sv": 1.5715777152221627e-07,
+   "mean_head_dev_sv": 1.5715628922024519e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0016",
+   "afv_id": 3226466001034645,
+   "points": 442,
+   "length_sv_json": 877.9684053878007,
+   "length_sv_plan": 877.9684053878025,
+   "length_sv_afvfibers": 877.9684053878012,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.983296,
+    717.983296
+   ],
+   "decisions": 27,
+   "decisions_planned": 27,
+   "head_k": [
+    87,
+    113
+   ],
+   "first_head_trace": 150.491648,
+   "max_head_dev_sv": 4.762518601830346e-07,
+   "mean_head_dev_sv": 4.7625134692122076e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0017",
+   "afv_id": 4297201720402725,
+   "points": 228,
+   "length_sv_json": 457.6290914782733,
+   "length_sv_plan": 457.6290914782732,
+   "length_sv_afvfibers": 456.4132614717765,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    24.0,
+    297.0
+   ],
+   "decisions": 18,
+   "decisions_planned": 18,
+   "head_k": [
+    0,
+    17
+   ],
+   "first_head_trace": 12.0,
+   "max_head_dev_sv": 0.0,
+   "mean_head_dev_sv": 0.0,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0018",
+   "afv_id": 1089079290348181,
+   "points": 393,
+   "length_sv_json": 782.471367258066,
+   "length_sv_plan": 782.471367258072,
+   "length_sv_afvfibers": 782.4713672580662,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.09069,
+    622.09069
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    381,
+    401
+   ],
+   "first_head_trace": 150.545345,
+   "max_head_dev_sv": 3.1231744131045585e-07,
+   "mean_head_dev_sv": 3.1231506637019874e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0019",
+   "afv_id": 352098342803717,
+   "points": 393,
+   "length_sv_json": 781.1133347965983,
+   "length_sv_plan": 781.1133347965983,
+   "length_sv_afvfibers": 780.6997827025216,
+   "kink_repairs": 1,
+   "arc_patch_vox": [
+    300.119826,
+    621.119826
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    129,
+    149
+   ],
+   "first_head_trace": 150.059913,
+   "max_head_dev_sv": 0.043012438749879464,
+   "mean_head_dev_sv": 0.0029610380561795814,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0020",
+   "afv_id": 2977120535045957,
+   "points": 378,
+   "length_sv_json": 797.7793210440768,
+   "length_sv_plan": 797.7793210440777,
+   "length_sv_afvfibers": 797.7793210440772,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.206824,
+    638.206824
+   ],
+   "decisions": 22,
+   "decisions_planned": 22,
+   "head_k": [
+    756,
+    777
+   ],
+   "first_head_trace": 150.603412,
+   "max_head_dev_sv": 1.2812771814513703e-07,
+   "mean_head_dev_sv": 1.2812217549204624e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0021",
+   "afv_id": 2197701144735157,
+   "points": 393,
+   "length_sv_json": 781.7026341681544,
+   "length_sv_plan": 781.7026341681545,
+   "length_sv_afvfibers": 781.7026341681552,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.134063,
+    621.134063
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    31,
+    51
+   ],
+   "first_head_trace": 150.0670315,
+   "max_head_dev_sv": 1.8939643500141423e-07,
+   "mean_head_dev_sv": 1.89396020480397e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0022",
+   "afv_id": 4280780629249589,
+   "points": 392,
+   "length_sv_json": 781.2461055327171,
+   "length_sv_plan": 781.246105532714,
+   "length_sv_afvfibers": 781.2461055327182,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    300.661224,
+    621.661224
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    314,
+    334
+   ],
+   "first_head_trace": 150.330612,
+   "max_head_dev_sv": 4.055445357415814e-07,
+   "mean_head_dev_sv": 4.055419125732862e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0023",
+   "afv_id": 1844193330110725,
+   "points": 393,
+   "length_sv_json": 783.838183161195,
+   "length_sv_plan": 783.8381831612114,
+   "length_sv_afvfibers": 783.8381831611945,
+   "kink_repairs": 0,
+   "arc_patch_vox": [
+    301.898614,
+    622.898614
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    551,
+    571
+   ],
+   "first_head_trace": 150.949307,
+   "max_head_dev_sv": 4.3209033962918164e-07,
+   "mean_head_dev_sv": 4.3208519810929414e-07,
+   "clamped_to_min_head": false
+  },
+  {
+   "piece": "C0024",
+   "afv_id": 880266568737541,
+   "points": 342,
+   "length_sv_json": 783.544838835651,
+   "length_sv_plan": 783.5448388356535,
+   "length_sv_afvfibers": 781.9759446029507,
+   "kink_repairs": 2,
+   "arc_patch_vox": [
+    300.973289,
+    621.973289
+   ],
+   "decisions": 21,
+   "decisions_planned": 21,
+   "head_k": [
+    115,
+    135
+   ],
+   "first_head_trace": 150.4866445,
+   "max_head_dev_sv": 2.501915636762015e-07,
+   "mean_head_dev_sv": 2.501908822139506e-07,
+   "clamped_to_min_head": false
+  }
+ ],
+ "afv": "data\\crossings_0332.afv",
+ "write_afv": {
+  "fibers": 25,
+  "points": 9118,
+  "blocks": 47
+ },
+ "volume": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0332/volumes/20251211183505-2.399um-0.2m-78keV-masked.zarr",
+ "base_shape_zyx": [
+  33592,
+  15761,
+  15761
+ ],
+ "pieces_written": 25,
+ "runplan_tool": "make_piece_afv.py v3 run plan (heads on the full run grid)",
+ "full_afv": "../data/human_afv/PHerc0332_human_controlled.afv",
+ "end_pad_sv": 1.0,
+ "decisions_runplan": 558,
+ "decisions_plan": 558,
+ "max_length_diff_sv_afvfibers_vs_json": 21.547370577580182,
+ "max_head_dev_sv_vs_full_run": 5.734222738915176,
+ "pieces_head_dev_over_1sv": [
+  "C0001",
+  "C0004"
+ ],
+ "kink_repaired_pieces": 9,
+ "infer_command": "python -m vesuvius.neural_tracing.tracers.fibers.sheet_strip.infer --afv AFV --fiber AFV_ID --arc ARC_START ARC_END --out OUT/<piece> --checkpoint scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e --ct <the volume> --umbilicus <its umbilicus, level-2 voxels> --cache-dir C:/VesuviusTemp/strips/ct_cache --device cpu --index none --no-render --step 8 --blend 16 --trim 75 --batch 32 (CUDA_VISIBLE_DEVICES=-1; runs/v3/run_all.ps1: 8 torch threads, BelowNormal, one process at a time)"
+}

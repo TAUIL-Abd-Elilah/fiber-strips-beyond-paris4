@@ -1,0 +1,1663 @@
+{
+ "tool": "tools/paris4_piece_check.py",
+ "tool_sha256": "9a6f950de39a93e8cc27f77cfb66271af70c490731d48fc0ab0c2c946e3417c3",
+ "scorer_sha256": "d7d6d1946bc4decd72bc153958c4fb209f10f90fdca5f16b6616186f8e2c3577",
+ "plan_sha256": "4a607fa86b2cb7f3a03f166cfbca1583e3d467b9b5d09c7084657dba2b26a506",
+ "scope": "Paris 4 only (G0 fibers); no PHerc0139 or PHerc0332 strip",
+ "reading_path": {
+  "full_A": {
+   "path": "strips\\full_A\\strip",
+   "rows": 152,
+   "cols": 25,
+   "valid_nodes": 2175,
+   "notes": [],
+   "frame_plane_available": true,
+   "frame_plane_nodes": 2175,
+   "expected_error_available": true,
+   "reproduced_within_0_05_sv": 1.0,
+   "reproduction_max_sv": 0.0005135439649433139,
+   "column_step_sv": 5.009344232644972,
+   "decisions": 30,
+   "npz_keys": [
+    "arcs",
+    "expected_error_vox",
+    "f",
+    "flipped",
+    "frames",
+    "heights",
+    "positions",
+    "spread",
+    "trace_per_patch",
+    "v"
+   ],
+   "trace_keys": [
+    "afv",
+    "arc_trace",
+    "blend",
+    "checkpoint",
+    "column_step_voxels",
+    "columns",
+    "decision_step",
+    "decisions",
+    "expected_error_vox",
+    "fiber",
+    "first_row_arc_patch_voxels",
+    "row_step_voxels",
+    "rows",
+    "seconds",
+    "spread_vox",
+    "step",
+    "trace_per_patch",
+    "trim_patch_voxels",
+    "units",
+    "v_flips"
+   ]
+  },
+  "full_B": {
+   "path": "strips\\full_B\\strip",
+   "rows": 148,
+   "cols": 25,
+   "valid_nodes": 2100,
+   "notes": [],
+   "frame_plane_available": true,
+   "frame_plane_nodes": 2100,
+   "expected_error_available": true,
+   "reproduced_within_0_05_sv": 1.0,
+   "reproduction_max_sv": 0.0005506686269802384,
+   "column_step_sv": 5.023658667481511,
+   "decisions": 29,
+   "npz_keys": [
+    "arcs",
+    "expected_error_vox",
+    "f",
+    "flipped",
+    "frames",
+    "heights",
+    "positions",
+    "spread",
+    "trace_per_patch",
+    "v"
+   ],
+   "trace_keys": [
+    "afv",
+    "arc_trace",
+    "blend",
+    "checkpoint",
+    "column_step_voxels",
+    "columns",
+    "decision_step",
+    "decisions",
+    "expected_error_vox",
+    "fiber",
+    "first_row_arc_patch_voxels",
+    "row_step_voxels",
+    "rows",
+    "seconds",
+    "spread_vox",
+    "step",
+    "trace_per_patch",
+    "trim_patch_voxels",
+    "units",
+    "v_flips"
+   ]
+  },
+  "full_C": {
+   "path": "strips\\full_C\\strip",
+   "rows": 140,
+   "cols": 25,
+   "valid_nodes": 1875,
+   "notes": [],
+   "frame_plane_available": true,
+   "frame_plane_nodes": 1875,
+   "expected_error_available": true,
+   "reproduced_within_0_05_sv": 1.0,
+   "reproduction_max_sv": 0.0005768307870031365,
+   "column_step_sv": 5.026313515768192,
+   "decisions": 27,
+   "npz_keys": [
+    "arcs",
+    "expected_error_vox",
+    "f",
+    "flipped",
+    "frames",
+    "heights",
+    "positions",
+    "spread",
+    "trace_per_patch",
+    "v"
+   ],
+   "trace_keys": [
+    "afv",
+    "arc_trace",
+    "blend",
+    "checkpoint",
+    "column_step_voxels",
+    "columns",
+    "decision_step",
+    "decisions",
+    "expected_error_vox",
+    "fiber",
+    "first_row_arc_patch_voxels",
+    "row_step_voxels",
+    "rows",
+    "seconds",
+    "spread_vox",
+    "step",
+    "trace_per_patch",
+    "trim_patch_voxels",
+    "units",
+    "v_flips"
+   ]
+  },
+  "piece_A": {
+   "path": "strips\\piece_A\\strip",
+   "rows": 64,
+   "cols": 25,
+   "valid_nodes": 600,
+   "notes": [],
+   "frame_plane_available": true,
+   "frame_plane_nodes": 600,
+   "expected_error_available": true,
+   "reproduced_within_0_05_sv": 1.0,
+   "reproduction_max_sv": 0.0005035602245884935,
+   "column_step_sv": 5.0331620733407085,
+   "decisions": 8,
+   "npz_keys": [
+    "arcs",
+    "expected_error_vox",
+    "f",
+    "flipped",
+    "frames",
+    "heights",
+    "positions",
+    "spread",
+    "trace_per_patch",
+    "v"
+   ],
+   "trace_keys": [
+    "afv",
+    "arc_trace",
+    "blend",
+    "checkpoint",
+    "column_step_voxels",
+    "columns",
+    "decision_step",
+    "decisions",
+    "expected_error_vox",
+    "fiber",
+    "first_row_arc_patch_voxels",
+    "row_step_voxels",
+    "rows",
+    "seconds",
+    "spread_vox",
+    "step",
+    "trace_per_patch",
+    "trim_patch_voxels",
+    "units",
+    "v_flips"
+   ]
+  },
+  "piece_B": {
+   "path": "strips\\piece_B\\strip",
+   "rows": 60,
+   "cols": 25,
+   "valid_nodes": 475,
+   "notes": [],
+   "frame_plane_available": true,
+   "frame_plane_nodes": 475,
+   "expected_error_available": true,
+   "reproduced_within_0_05_sv": 1.0,
+   "reproduction_max_sv": 0.0005503611425490538,
+   "column_step_sv": 5.012761692007237,
+   "decisions": 7,
+   "npz_keys": [
+    "arcs",
+    "expected_error_vox",
+    "f",
+    "flipped",
+    "frames",
+    "heights",
+    "positions",
+    "spread",
+    "trace_per_patch",
+    "v"
+   ],
+   "trace_keys": [
+    "afv",
+    "arc_trace",
+    "blend",
+    "checkpoint",
+    "column_step_voxels",
+    "columns",
+    "decision_step",
+    "decisions",
+    "expected_error_vox",
+    "fiber",
+    "first_row_arc_patch_voxels",
+    "row_step_voxels",
+    "rows",
+    "seconds",
+    "spread_vox",
+    "step",
+    "trace_per_patch",
+    "trim_patch_voxels",
+    "units",
+    "v_flips"
+   ]
+  },
+  "piece_C": {
+   "path": "strips\\piece_C\\strip",
+   "rows": 60,
+   "cols": 25,
+   "valid_nodes": 775,
+   "notes": [],
+   "frame_plane_available": true,
+   "frame_plane_nodes": 775,
+   "expected_error_available": true,
+   "reproduced_within_0_05_sv": 1.0,
+   "reproduction_max_sv": 0.0005828758880894675,
+   "column_step_sv": 5.009375662902901,
+   "decisions": 7,
+   "npz_keys": [
+    "arcs",
+    "expected_error_vox",
+    "f",
+    "flipped",
+    "frames",
+    "heights",
+    "positions",
+    "spread",
+    "trace_per_patch",
+    "v"
+   ],
+   "trace_keys": [
+    "afv",
+    "arc_trace",
+    "blend",
+    "checkpoint",
+    "column_step_voxels",
+    "columns",
+    "decision_step",
+    "decisions",
+    "expected_error_vox",
+    "fiber",
+    "first_row_arc_patch_voxels",
+    "row_step_voxels",
+    "rows",
+    "seconds",
+    "spread_vox",
+    "step",
+    "trace_per_patch",
+    "trim_patch_voxels",
+    "units",
+    "v_flips"
+   ]
+  }
+ },
+ "piece_vs_full": [
+  {
+   "tag": "A",
+   "g0_id": 778459,
+   "family": "V",
+   "window_sv": [
+    400.0,
+    440.0
+   ],
+   "head_k": [
+    21,
+    28
+   ],
+   "piece_row_offset_in_full": 84,
+   "window_rows": 10,
+   "rows_with_the_full_runs_decisions": 20,
+   "piece_arc_trace": [
+    150.3522465,
+    206.3522465
+   ],
+   "piece_decisions": 8,
+   "g0_infer_all_16_threads": {
+    "window_rows": {
+     "nodes": 150,
+     "mean_sv": 8.138020833333333e-06,
+     "p99_sv": 0.00012451171874999778,
+     "max_sv": 0.0009765625,
+     "median_sv": 0.0,
+     "valid_piece_only": 0,
+     "valid_full_only": 700
+    },
+    "rows_with_the_full_runs_decisions": {
+     "nodes": 300,
+     "mean_sv": 0.0027196073841389864,
+     "p99_sv": 0.028184660117141807,
+     "max_sv": 0.037993490063041195,
+     "median_sv": 0.0,
+     "valid_piece_only": 0,
+     "valid_full_only": 550
+    },
+    "all_rows": {
+     "nodes": 600,
+     "mean_sv": 0.2925063776901864,
+     "p99_sv": 1.1737573925517581,
+     "max_sv": 1.202413992908919,
+     "median_sv": 0.023155229064537597,
+     "valid_piece_only": 0,
+     "valid_full_only": 250
+    },
+    "per_row_max_sv": {
+     "columns": [
+      "piece_row",
+      "full_run_arc_sv",
+      "in_window",
+      "max_sv"
+     ],
+     "rows": [
+      [
+       10,
+       329.5,
+       false,
+       1.2024
+      ],
+      [
+       11,
+       333.5,
+       false,
+       1.1807
+      ],
+      [
+       12,
+       337.5,
+       false,
+       1.186
+      ],
+      [
+       13,
+       341.5,
+       false,
+       1.1565
+      ],
+      [
+       14,
+       345.5,
+       false,
+       1.1183
+      ],
+      [
+       15,
+       349.5,
+       false,
+       1.1985
+      ],
+      [
+       16,
+       353.5,
+       false,
+       1.1738
+      ],
+      [
+       17,
+       357.5,
+       false,
+       1.0142
+      ],
+      [
+       18,
+       361.5,
+       false,
+       0.7723
+      ],
+      [
+       19,
+       365.5,
+       false,
+       0.5094
+      ],
+      [
+       20,
+       369.5,
+       false,
+       0.2562
+      ],
+      [
+       21,
+       373.5,
+       false,
+       0.0773
+      ],
+      [
+       22,
+       377.5,
+       false,
+       0.038
+      ],
+      [
+       23,
+       381.5,
+       false,
+       0.0232
+      ],
+      [
+       24,
+       385.5,
+       false,
+       0.0085
+      ],
+      [
+       25,
+       389.5,
+       false,
+       0.0015
+      ],
+      [
+       26,
+       393.5,
+       false,
+       0.0
+      ],
+      [
+       27,
+       397.5,
+       false,
+       0.0
+      ],
+      [
+       28,
+       401.5,
+       true,
+       0.0
+      ],
+      [
+       29,
+       405.5,
+       true,
+       0.0002
+      ],
+      [
+       30,
+       409.5,
+       true,
+       0.0
+      ],
+      [
+       31,
+       413.5,
+       true,
+       0.001
+      ],
+      [
+       32,
+       417.5,
+       true,
+       0.0
+      ],
+      [
+       33,
+       421.5,
+       true,
+       0.0
+      ]
+     ]
+    }
+   },
+   "infer_py_full_4_threads": {
+    "window_rows": {
+     "nodes": 150,
+     "mean_sv": 8.138020833333333e-06,
+     "p99_sv": 0.00012451171874999778,
+     "max_sv": 0.0009765625,
+     "median_sv": 0.0,
+     "valid_piece_only": 0,
+     "valid_full_only": 700
+    },
+    "rows_with_the_full_runs_decisions": {
+     "nodes": 300,
+     "mean_sv": 0.0027196073841389864,
+     "p99_sv": 0.028184660117141807,
+     "max_sv": 0.037993490063041195,
+     "median_sv": 0.0,
+     "valid_piece_only": 0,
+     "valid_full_only": 550
+    },
+    "all_rows": {
+     "nodes": 600,
+     "mean_sv": 0.2925063776901864,
+     "p99_sv": 1.1737573925517581,
+     "max_sv": 1.202413992908919,
+     "median_sv": 0.023155229064537597,
+     "valid_piece_only": 0,
+     "valid_full_only": 250
+    },
+    "per_row_max_sv": {
+     "columns": [
+      "piece_row",
+      "full_run_arc_sv",
+      "in_window",
+      "max_sv"
+     ],
+     "rows": [
+      [
+       10,
+       329.5,
+       false,
+       1.2024
+      ],
+      [
+       11,
+       333.5,
+       false,
+       1.1807
+      ],
+      [
+       12,
+       337.5,
+       false,
+       1.186
+      ],
+      [
+       13,
+       341.5,
+       false,
+       1.1565
+      ],
+      [
+       14,
+       345.5,
+       false,
+       1.1183
+      ],
+      [
+       15,
+       349.5,
+       false,
+       1.1985
+      ],
+      [
+       16,
+       353.5,
+       false,
+       1.1738
+      ],
+      [
+       17,
+       357.5,
+       false,
+       1.0142
+      ],
+      [
+       18,
+       361.5,
+       false,
+       0.7723
+      ],
+      [
+       19,
+       365.5,
+       false,
+       0.5094
+      ],
+      [
+       20,
+       369.5,
+       false,
+       0.2562
+      ],
+      [
+       21,
+       373.5,
+       false,
+       0.0773
+      ],
+      [
+       22,
+       377.5,
+       false,
+       0.038
+      ],
+      [
+       23,
+       381.5,
+       false,
+       0.0232
+      ],
+      [
+       24,
+       385.5,
+       false,
+       0.0085
+      ],
+      [
+       25,
+       389.5,
+       false,
+       0.0015
+      ],
+      [
+       26,
+       393.5,
+       false,
+       0.0
+      ],
+      [
+       27,
+       397.5,
+       false,
+       0.0
+      ],
+      [
+       28,
+       401.5,
+       true,
+       0.0
+      ],
+      [
+       29,
+       405.5,
+       true,
+       0.0002
+      ],
+      [
+       30,
+       409.5,
+       true,
+       0.0
+      ],
+      [
+       31,
+       413.5,
+       true,
+       0.001
+      ],
+      [
+       32,
+       417.5,
+       true,
+       0.0
+      ],
+      [
+       33,
+       421.5,
+       true,
+       0.0
+      ]
+     ]
+    }
+   },
+   "outside_points_nearest_to_a_head_sv": 279.4544116517263,
+   "heads_with_outside_points_in_crop_sphere": 0,
+   "g0_vs_infer_py_full": {
+    "nodes": 2175,
+    "mean_sv": 4.489942528735632e-07,
+    "p99_sv": 0.0,
+    "max_sv": 0.000244140625,
+    "median_sv": 0.0,
+    "valid_piece_only": 0,
+    "valid_full_only": 0
+   },
+   "score_end_to_end": {
+    "skips": [],
+    "scored": true,
+    "strip_nodes": 150,
+    "frame_plane_nodes": 150,
+    "strip_mean_abs_sv": 4.976425622065518e-06,
+    "frame_plane_mean_abs_sv": 2.136712536601652,
+    "assoc_median_sv": 1.0606915228125198,
+    "notes": [],
+    "aggregate": {
+     "scored_fibers": 1,
+     "strip": {
+      "nodes": 150,
+      "mean": 4.976425622065518e-06,
+      "median": 0.0,
+      "p90": 0.0,
+      "within1": 1.0,
+      "within2": 1.0
+     },
+     "frame_plane_available_fibers": 1,
+     "frame_plane": {
+      "nodes": 150,
+      "mean": 2.136712536601652,
+      "median": 1.95424363907226,
+      "p90": 3.641142695753417,
+      "within1": 0.14,
+      "within2": 0.5066666666666667
+     }
+    }
+   }
+  },
+  {
+   "tag": "B",
+   "g0_id": 757072,
+   "family": "H",
+   "window_sv": [
+    40.0,
+    80.0
+   ],
+   "head_k": [
+    0,
+    6
+   ],
+   "piece_row_offset_in_full": 0,
+   "window_rows": 10,
+   "rows_with_the_full_runs_decisions": 16,
+   "piece_arc_trace": [
+    12.0,
+    60.0
+   ],
+   "piece_decisions": 7,
+   "g0_infer_all_16_threads": {
+    "window_rows": {
+     "nodes": 25,
+     "mean_sv": 0.0,
+     "p99_sv": 0.0,
+     "max_sv": 0.0,
+     "median_sv": 0.0,
+     "valid_piece_only": 0,
+     "valid_full_only": 700
+    },
+    "rows_with_the_full_runs_decisions": {
+     "nodes": 175,
+     "mean_sv": 0.0,
+     "p99_sv": 0.0,
+     "max_sv": 0.0,
+     "median_sv": 0.0,
+     "valid_piece_only": 0,
+     "valid_full_only": 550
+    },
+    "all_rows": {
+     "nodes": 475,
+     "mean_sv": 0.5292201768495277,
+     "p99_sv": 2.740988343268109,
+     "max_sv": 2.9040087292076304,
+     "median_sv": 0.17004039621038228,
+     "valid_piece_only": 0,
+     "valid_full_only": 250
+    },
+    "per_row_max_sv": {
+     "columns": [
+      "piece_row",
+      "full_run_arc_sv",
+      "in_window",
+      "max_sv"
+     ],
+     "rows": [
+      [
+       31,
+       77.5,
+       true,
+       0.0
+      ],
+      [
+       32,
+       81.5,
+       false,
+       0.0
+      ],
+      [
+       33,
+       85.5,
+       false,
+       0.0
+      ],
+      [
+       34,
+       89.5,
+       false,
+       0.0
+      ],
+      [
+       35,
+       93.5,
+       false,
+       0.0
+      ],
+      [
+       36,
+       97.5,
+       false,
+       0.0
+      ],
+      [
+       37,
+       101.5,
+       false,
+       0.0
+      ],
+      [
+       38,
+       105.5,
+       false,
+       0.0079
+      ],
+      [
+       39,
+       109.5,
+       false,
+       0.1042
+      ],
+      [
+       40,
+       113.5,
+       false,
+       0.3007
+      ],
+      [
+       41,
+       117.5,
+       false,
+       0.5592
+      ],
+      [
+       42,
+       121.5,
+       false,
+       0.827
+      ],
+      [
+       43,
+       125.5,
+       false,
+       1.1963
+      ],
+      [
+       44,
+       129.5,
+       false,
+       1.6661
+      ],
+      [
+       45,
+       133.5,
+       false,
+       2.1398
+      ],
+      [
+       46,
+       137.5,
+       false,
+       2.5407
+      ],
+      [
+       47,
+       141.5,
+       false,
+       2.8107
+      ],
+      [
+       48,
+       145.5,
+       false,
+       2.904
+      ],
+      [
+       49,
+       149.5,
+       false,
+       2.8719
+      ]
+     ]
+    }
+   },
+   "infer_py_full_4_threads": {
+    "window_rows": {
+     "nodes": 25,
+     "mean_sv": 0.0,
+     "p99_sv": 0.0,
+     "max_sv": 0.0,
+     "median_sv": 0.0,
+     "valid_piece_only": 0,
+     "valid_full_only": 700
+    },
+    "rows_with_the_full_runs_decisions": {
+     "nodes": 175,
+     "mean_sv": 5.580357142857143e-06,
+     "p99_sv": 0.00012695312499999556,
+     "max_sv": 0.00048828125,
+     "median_sv": 0.0,
+     "valid_piece_only": 0,
+     "valid_full_only": 550
+    },
+    "all_rows": {
+     "nodes": 475,
+     "mean_sv": 0.5292222327705803,
+     "p99_sv": 2.740988343268109,
+     "max_sv": 2.9040087292076304,
+     "median_sv": 0.17004039621038228,
+     "valid_piece_only": 0,
+     "valid_full_only": 250
+    },
+    "per_row_max_sv": {
+     "columns": [
+      "piece_row",
+      "full_run_arc_sv",
+      "in_window",
+      "max_sv"
+     ],
+     "rows": [
+      [
+       31,
+       77.5,
+       true,
+       0.0
+      ],
+      [
+       32,
+       81.5,
+       false,
+       0.0
+      ],
+      [
+       33,
+       85.5,
+       false,
+       0.0
+      ],
+      [
+       34,
+       89.5,
+       false,
+       0.0
+      ],
+      [
+       35,
+       93.5,
+       false,
+       0.0005
+      ],
+      [
+       36,
+       97.5,
+       false,
+       0.0
+      ],
+      [
+       37,
+       101.5,
+       false,
+       0.0005
+      ],
+      [
+       38,
+       105.5,
+       false,
+       0.0079
+      ],
+      [
+       39,
+       109.5,
+       false,
+       0.1042
+      ],
+      [
+       40,
+       113.5,
+       false,
+       0.3007
+      ],
+      [
+       41,
+       117.5,
+       false,
+       0.5592
+      ],
+      [
+       42,
+       121.5,
+       false,
+       0.827
+      ],
+      [
+       43,
+       125.5,
+       false,
+       1.1963
+      ],
+      [
+       44,
+       129.5,
+       false,
+       1.6661
+      ],
+      [
+       45,
+       133.5,
+       false,
+       2.1398
+      ],
+      [
+       46,
+       137.5,
+       false,
+       2.5407
+      ],
+      [
+       47,
+       141.5,
+       false,
+       2.8107
+      ],
+      [
+       48,
+       145.5,
+       false,
+       2.904
+      ],
+      [
+       49,
+       149.5,
+       false,
+       2.8719
+      ]
+     ]
+    }
+   },
+   "outside_points_nearest_to_a_head_sv": 158.36124058582647,
+   "heads_with_outside_points_in_crop_sphere": 0,
+   "g0_vs_infer_py_full": {
+    "nodes": 2100,
+    "mean_sv": 4.650297619047619e-07,
+    "p99_sv": 0.0,
+    "max_sv": 0.00048828125,
+    "median_sv": 0.0,
+    "valid_piece_only": 0,
+    "valid_full_only": 0
+   },
+   "score_end_to_end": {
+    "skips": [],
+    "scored": true,
+    "strip_nodes": 25,
+    "frame_plane_nodes": 25,
+    "strip_mean_abs_sv": 0.0,
+    "frame_plane_mean_abs_sv": 2.814195320619001,
+    "assoc_median_sv": 0.7645532472984393,
+    "notes": [],
+    "aggregate": {
+     "scored_fibers": 1,
+     "strip": {
+      "nodes": 25,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "within1": 1.0,
+      "within2": 1.0
+     },
+     "frame_plane_available_fibers": 1,
+     "frame_plane": {
+      "nodes": 25,
+      "mean": 2.814195320619001,
+      "median": 1.1835620689597968,
+      "p90": 7.872231416137802,
+      "within1": 0.44,
+      "within2": 0.64
+     }
+    }
+   }
+  },
+  {
+   "tag": "C",
+   "g0_id": 329464,
+   "family": "V",
+   "window_sv": [
+    100.0,
+    140.0
+   ],
+   "head_k": [
+    3,
+    9
+   ],
+   "piece_row_offset_in_full": 12,
+   "window_rows": 10,
+   "rows_with_the_full_runs_decisions": 16,
+   "piece_arc_trace": [
+    36.0,
+    84.0
+   ],
+   "piece_decisions": 7,
+   "g0_infer_all_16_threads": {
+    "window_rows": {
+     "nodes": 250,
+     "mean_sv": 0.0,
+     "p99_sv": 0.0,
+     "max_sv": 0.0,
+     "median_sv": 0.0,
+     "valid_piece_only": 0,
+     "valid_full_only": 775
+    },
+    "rows_with_the_full_runs_decisions": {
+     "nodes": 400,
+     "mean_sv": 1.220703125e-06,
+     "p99_sv": 0.0,
+     "max_sv": 0.00048828125,
+     "median_sv": 0.0,
+     "valid_piece_only": 0,
+     "valid_full_only": 625
+    },
+    "all_rows": {
+     "nodes": 775,
+     "mean_sv": 0.1733894435560093,
+     "p99_sv": 1.4971715186172736,
+     "max_sv": 1.7983353361248828,
+     "median_sv": 0.0,
+     "valid_piece_only": 0,
+     "valid_full_only": 250
+    },
+    "per_row_max_sv": {
+     "columns": [
+      "piece_row",
+      "full_run_arc_sv",
+      "in_window",
+      "max_sv"
+     ],
+     "rows": [
+      [
+       19,
+       77.5,
+       false,
+       0.3363
+      ],
+      [
+       20,
+       81.5,
+       false,
+       0.1622
+      ],
+      [
+       21,
+       85.5,
+       false,
+       0.0268
+      ],
+      [
+       22,
+       89.5,
+       false,
+       0.0
+      ],
+      [
+       23,
+       93.5,
+       false,
+       0.0005
+      ],
+      [
+       24,
+       97.5,
+       false,
+       0.0
+      ],
+      [
+       25,
+       101.5,
+       true,
+       0.0
+      ],
+      [
+       26,
+       105.5,
+       true,
+       0.0
+      ],
+      [
+       27,
+       109.5,
+       true,
+       0.0
+      ],
+      [
+       28,
+       113.5,
+       true,
+       0.0
+      ],
+      [
+       29,
+       117.5,
+       true,
+       0.0
+      ],
+      [
+       30,
+       121.5,
+       true,
+       0.0
+      ],
+      [
+       31,
+       125.5,
+       true,
+       0.0
+      ],
+      [
+       32,
+       129.5,
+       true,
+       0.0
+      ],
+      [
+       33,
+       133.5,
+       true,
+       0.0
+      ],
+      [
+       34,
+       137.5,
+       true,
+       0.0
+      ],
+      [
+       35,
+       141.5,
+       false,
+       0.0
+      ],
+      [
+       36,
+       145.5,
+       false,
+       0.0
+      ],
+      [
+       37,
+       149.5,
+       false,
+       0.0
+      ],
+      [
+       38,
+       153.5,
+       false,
+       0.0046
+      ],
+      [
+       39,
+       157.5,
+       false,
+       0.0547
+      ],
+      [
+       40,
+       161.5,
+       false,
+       0.1367
+      ],
+      [
+       41,
+       165.5,
+       false,
+       0.2273
+      ],
+      [
+       42,
+       169.5,
+       false,
+       0.3295
+      ],
+      [
+       43,
+       173.5,
+       false,
+       0.5494
+      ],
+      [
+       44,
+       177.5,
+       false,
+       0.8152
+      ],
+      [
+       45,
+       181.5,
+       false,
+       1.121
+      ],
+      [
+       46,
+       185.5,
+       false,
+       1.4322
+      ],
+      [
+       47,
+       189.5,
+       false,
+       1.5979
+      ],
+      [
+       48,
+       193.5,
+       false,
+       1.7281
+      ],
+      [
+       49,
+       197.5,
+       false,
+       1.7983
+      ]
+     ]
+    }
+   },
+   "infer_py_full_4_threads": {
+    "window_rows": {
+     "nodes": 250,
+     "mean_sv": 1.953125e-06,
+     "p99_sv": 0.0,
+     "max_sv": 0.00048828125,
+     "median_sv": 0.0,
+     "valid_piece_only": 0,
+     "valid_full_only": 775
+    },
+    "rows_with_the_full_runs_decisions": {
+     "nodes": 400,
+     "mean_sv": 1.220703125e-06,
+     "p99_sv": 0.0,
+     "max_sv": 0.00048828125,
+     "median_sv": 0.0,
+     "valid_piece_only": 0,
+     "valid_full_only": 625
+    },
+    "all_rows": {
+     "nodes": 775,
+     "mean_sv": 0.1733894435560093,
+     "p99_sv": 1.4971715186172736,
+     "max_sv": 1.7983353361248828,
+     "median_sv": 0.0,
+     "valid_piece_only": 0,
+     "valid_full_only": 250
+    },
+    "per_row_max_sv": {
+     "columns": [
+      "piece_row",
+      "full_run_arc_sv",
+      "in_window",
+      "max_sv"
+     ],
+     "rows": [
+      [
+       19,
+       77.5,
+       false,
+       0.3363
+      ],
+      [
+       20,
+       81.5,
+       false,
+       0.1622
+      ],
+      [
+       21,
+       85.5,
+       false,
+       0.0268
+      ],
+      [
+       22,
+       89.5,
+       false,
+       0.0
+      ],
+      [
+       23,
+       93.5,
+       false,
+       0.0
+      ],
+      [
+       24,
+       97.5,
+       false,
+       0.0
+      ],
+      [
+       25,
+       101.5,
+       true,
+       0.0
+      ],
+      [
+       26,
+       105.5,
+       true,
+       0.0005
+      ],
+      [
+       27,
+       109.5,
+       true,
+       0.0
+      ],
+      [
+       28,
+       113.5,
+       true,
+       0.0
+      ],
+      [
+       29,
+       117.5,
+       true,
+       0.0
+      ],
+      [
+       30,
+       121.5,
+       true,
+       0.0
+      ],
+      [
+       31,
+       125.5,
+       true,
+       0.0
+      ],
+      [
+       32,
+       129.5,
+       true,
+       0.0
+      ],
+      [
+       33,
+       133.5,
+       true,
+       0.0
+      ],
+      [
+       34,
+       137.5,
+       true,
+       0.0
+      ],
+      [
+       35,
+       141.5,
+       false,
+       0.0
+      ],
+      [
+       36,
+       145.5,
+       false,
+       0.0
+      ],
+      [
+       37,
+       149.5,
+       false,
+       0.0
+      ],
+      [
+       38,
+       153.5,
+       false,
+       0.0046
+      ],
+      [
+       39,
+       157.5,
+       false,
+       0.0547
+      ],
+      [
+       40,
+       161.5,
+       false,
+       0.1367
+      ],
+      [
+       41,
+       165.5,
+       false,
+       0.2273
+      ],
+      [
+       42,
+       169.5,
+       false,
+       0.3295
+      ],
+      [
+       43,
+       173.5,
+       false,
+       0.5494
+      ],
+      [
+       44,
+       177.5,
+       false,
+       0.8152
+      ],
+      [
+       45,
+       181.5,
+       false,
+       1.121
+      ],
+      [
+       46,
+       185.5,
+       false,
+       1.4322
+      ],
+      [
+       47,
+       189.5,
+       false,
+       1.5979
+      ],
+      [
+       48,
+       193.5,
+       false,
+       1.7281
+      ],
+      [
+       49,
+       197.5,
+       false,
+       1.7983
+      ]
+     ]
+    }
+   },
+   "outside_points_nearest_to_a_head_sv": 155.78389391818982,
+   "heads_with_outside_points_in_crop_sphere": 0,
+   "g0_vs_infer_py_full": {
+    "nodes": 1875,
+    "mean_sv": 1.0416666666666667e-06,
+    "p99_sv": 0.0,
+    "max_sv": 0.00048828125,
+    "median_sv": 0.0,
+    "valid_piece_only": 0,
+    "valid_full_only": 0
+   },
+   "score_end_to_end": {
+    "skips": [],
+    "scored": true,
+    "strip_nodes": 250,
+    "frame_plane_nodes": 250,
+    "strip_mean_abs_sv": 0.0,
+    "frame_plane_mean_abs_sv": 2.5908822723854272,
+    "assoc_median_sv": 1.8446637165005464,
+    "notes": [],
+    "aggregate": {
+     "scored_fibers": 1,
+     "strip": {
+      "nodes": 250,
+      "mean": 0.0,
+      "median": 0.0,
+      "p90": 0.0,
+      "within1": 1.0,
+      "within2": 1.0
+     },
+     "frame_plane_available_fibers": 1,
+     "frame_plane": {
+      "nodes": 250,
+      "mean": 2.5908822723854272,
+      "median": 2.38092696029589,
+      "p90": 4.997924281872982,
+      "within1": 0.18,
+      "within2": 0.392
+     }
+    }
+   }
+  }
+ ],
+ "records": {
+  "full_A": {
+   "status": "ok",
+   "wall_seconds": 32.36,
+   "peak_rss_gb": 3.78,
+   "torch_threads": 4,
+   "cuda_visible_devices": "-1",
+   "priority": "16384",
+   "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py"
+  },
+  "full_B": {
+   "status": "ok",
+   "wall_seconds": 524.55,
+   "peak_rss_gb": 3.777,
+   "torch_threads": 4,
+   "cuda_visible_devices": "-1",
+   "priority": "16384",
+   "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py"
+  },
+  "full_C": {
+   "status": "ok",
+   "wall_seconds": 312.99,
+   "peak_rss_gb": 3.323,
+   "torch_threads": 4,
+   "cuda_visible_devices": "-1",
+   "priority": "16384",
+   "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py"
+  },
+  "piece_A": {
+   "status": "ok",
+   "wall_seconds": 697.36,
+   "peak_rss_gb": 1.557,
+   "torch_threads": 4,
+   "cuda_visible_devices": "-1",
+   "priority": "16384",
+   "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py"
+  },
+  "piece_B": {
+   "status": "ok",
+   "wall_seconds": 5.76,
+   "peak_rss_gb": 1.462,
+   "torch_threads": 4,
+   "cuda_visible_devices": "-1",
+   "priority": "16384",
+   "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py"
+  },
+  "piece_C": {
+   "status": "ok",
+   "wall_seconds": 7.0,
+   "peak_rss_gb": 1.375,
+   "torch_threads": 4,
+   "cuda_visible_devices": "-1",
+   "priority": "16384",
+   "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py"
+  }
+ }
+}

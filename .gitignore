@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Pinned villa worktree, model cache, CT cache (never committed)
+villa_6f2/
+hf_home/
+ct_cache/
+*.zarr/
+*.zarray
+*.zattrs
+
+# Raw inputs that are not redistributed (fetch_inputs.py puts them here; the manifests stay tracked)
+score/data/fibers0139/
+score/data/fibers0332/
+score/data/segments/
+score/data/umbilicus/
+score/superseded_v2/data/umbilicus/
+data/samples/
+data/human/
+data/umbilicus/
+data/g0/published/fiber_*/
+data/paris4/
+
+# AFVs (SQLite) and their piece tables, maps and normals: rebuilt locally, verified with verify_freeze.py --data-root
+*.afv
+*.afv-journal
+data/human_afv/
+score/data/matched_*.tsv
+score/data/crossings_*.tsv
+score/superseded_v2/data/*.tsv
+*.npz
+
+# Strip outputs and run logs (strips are published later as a release asset, after path scrubbing)
+score/runs/v3/*
+!score/runs/v3/run_all.ps1
+!score/runs/v3/prefetch_v3.py
+!score/runs/v3/infer_cpu.py
+score/runs/*/strips/
+score/results/v3/
+strip/
+strip.npz
+*.tif
+*.tiff
+
+# Downloads in progress or rejected by a checksum
+*.part
+*.mismatch
+
+# v3.1 test fixture: a small real Paris 4 infer.py output with its G0 reference strip and fiber (Paris 4 only,
+# CC BY-NC 4.0 derived data, LICENSE-DATA.md). Shipped: the tests read it (score/tests/test_erratum_v31.py).
+!score/tests/fixtures/paris4_real/
+!score/tests/fixtures/paris4_real/**

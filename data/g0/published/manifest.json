@@ -1,0 +1,372 @@
+{
+ "238475": [
+  {
+   "name": "all_strips/fiber_238475/expected_error.tif",
+   "size": 12272,
+   "crc": 1697004258
+  },
+  {
+   "name": "all_strips/fiber_238475/mask.tif",
+   "size": 3256,
+   "crc": 3883849474
+  },
+  {
+   "name": "all_strips/fiber_238475/meta.json",
+   "size": 403,
+   "crc": 1971996713
+  },
+  {
+   "name": "all_strips/fiber_238475/trace.json",
+   "size": 597,
+   "crc": 1263574616
+  },
+  {
+   "name": "all_strips/fiber_238475/x.tif",
+   "size": 12272,
+   "crc": 573029072
+  },
+  {
+   "name": "all_strips/fiber_238475/y.tif",
+   "size": 12272,
+   "crc": 3712163422
+  },
+  {
+   "name": "all_strips/fiber_238475/z.tif",
+   "size": 12272,
+   "crc": 2125097863
+  }
+ ],
+ "329464": [
+  {
+   "name": "all_strips/fiber_329464/expected_error.tif",
+   "size": 14272,
+   "crc": 1165987862
+  },
+  {
+   "name": "all_strips/fiber_329464/mask.tif",
+   "size": 3756,
+   "crc": 1045342014
+  },
+  {
+   "name": "all_strips/fiber_329464/meta.json",
+   "size": 398,
+   "crc": 1676901381
+  },
+  {
+   "name": "all_strips/fiber_329464/trace.json",
+   "size": 594,
+   "crc": 2468135879
+  },
+  {
+   "name": "all_strips/fiber_329464/x.tif",
+   "size": 14272,
+   "crc": 540850539
+  },
+  {
+   "name": "all_strips/fiber_329464/y.tif",
+   "size": 14272,
+   "crc": 1357870573
+  },
+  {
+   "name": "all_strips/fiber_329464/z.tif",
+   "size": 14272,
+   "crc": 2149221631
+  }
+ ],
+ "435199": [
+  {
+   "name": "all_strips/fiber_435199/expected_error.tif",
+   "size": 11872,
+   "crc": 420952763
+  },
+  {
+   "name": "all_strips/fiber_435199/mask.tif",
+   "size": 3156,
+   "crc": 3510058549
+  },
+  {
+   "name": "all_strips/fiber_435199/meta.json",
+   "size": 396,
+   "crc": 723169781
+  },
+  {
+   "name": "all_strips/fiber_435199/trace.json",
+   "size": 597,
+   "crc": 1596348700
+  },
+  {
+   "name": "all_strips/fiber_435199/x.tif",
+   "size": 11872,
+   "crc": 477693873
+  },
+  {
+   "name": "all_strips/fiber_435199/y.tif",
+   "size": 11872,
+   "crc": 1081590708
+  },
+  {
+   "name": "all_strips/fiber_435199/z.tif",
+   "size": 11872,
+   "crc": 3133371407
+  }
+ ],
+ "307062": [
+  {
+   "name": "all_strips/fiber_307062/expected_error.tif",
+   "size": 11472,
+   "crc": 290660475
+  },
+  {
+   "name": "all_strips/fiber_307062/mask.tif",
+   "size": 3056,
+   "crc": 3547360913
+  },
+  {
+   "name": "all_strips/fiber_307062/meta.json",
+   "size": 407,
+   "crc": 3322776261
+  },
+  {
+   "name": "all_strips/fiber_307062/trace.json",
+   "size": 594,
+   "crc": 3599642444
+  },
+  {
+   "name": "all_strips/fiber_307062/x.tif",
+   "size": 11472,
+   "crc": 2114532174
+  },
+  {
+   "name": "all_strips/fiber_307062/y.tif",
+   "size": 11472,
+   "crc": 790638733
+  },
+  {
+   "name": "all_strips/fiber_307062/z.tif",
+   "size": 11472,
+   "crc": 1248330073
+  }
+ ],
+ "498336": [
+  {
+   "name": "all_strips/fiber_498336/expected_error.tif",
+   "size": 12672,
+   "crc": 2445555938
+  },
+  {
+   "name": "all_strips/fiber_498336/mask.tif",
+   "size": 3356,
+   "crc": 599561071
+  },
+  {
+   "name": "all_strips/fiber_498336/meta.json",
+   "size": 401,
+   "crc": 1776144793
+  },
+  {
+   "name": "all_strips/fiber_498336/trace.json",
+   "size": 597,
+   "crc": 3198509755
+  },
+  {
+   "name": "all_strips/fiber_498336/x.tif",
+   "size": 12672,
+   "crc": 2247192309
+  },
+  {
+   "name": "all_strips/fiber_498336/y.tif",
+   "size": 12672,
+   "crc": 236872694
+  },
+  {
+   "name": "all_strips/fiber_498336/z.tif",
+   "size": 12672,
+   "crc": 3599820225
+  }
+ ],
+ "523953": [
+  {
+   "name": "all_strips/fiber_523953/expected_error.tif",
+   "size": 10672,
+   "crc": 1277131815
+  },
+  {
+   "name": "all_strips/fiber_523953/mask.tif",
+   "size": 2856,
+   "crc": 3179958391
+  },
+  {
+   "name": "all_strips/fiber_523953/meta.json",
+   "size": 400,
+   "crc": 2665110059
+  },
+  {
+   "name": "all_strips/fiber_523953/trace.json",
+   "size": 594,
+   "crc": 2671438996
+  },
+  {
+   "name": "all_strips/fiber_523953/x.tif",
+   "size": 10672,
+   "crc": 959917889
+  },
+  {
+   "name": "all_strips/fiber_523953/y.tif",
+   "size": 10672,
+   "crc": 2579591552
+  },
+  {
+   "name": "all_strips/fiber_523953/z.tif",
+   "size": 10672,
+   "crc": 4179419029
+  }
+ ],
+ "757072": [
+  {
+   "name": "all_strips/fiber_757072/expected_error.tif",
+   "size": 15072,
+   "crc": 847955692
+  },
+  {
+   "name": "all_strips/fiber_757072/mask.tif",
+   "size": 3956,
+   "crc": 3907539412
+  },
+  {
+   "name": "all_strips/fiber_757072/meta.json",
+   "size": 392,
+   "crc": 529172281
+  },
+  {
+   "name": "all_strips/fiber_757072/trace.json",
+   "size": 598,
+   "crc": 2049026288
+  },
+  {
+   "name": "all_strips/fiber_757072/x.tif",
+   "size": 15072,
+   "crc": 2152636341
+  },
+  {
+   "name": "all_strips/fiber_757072/y.tif",
+   "size": 15072,
+   "crc": 4261915104
+  },
+  {
+   "name": "all_strips/fiber_757072/z.tif",
+   "size": 15072,
+   "crc": 3408963778
+  }
+ ],
+ "740130": [
+  {
+   "name": "all_strips/fiber_740130/expected_error.tif",
+   "size": 11072,
+   "crc": 1751460923
+  },
+  {
+   "name": "all_strips/fiber_740130/mask.tif",
+   "size": 2956,
+   "crc": 3881076736
+  },
+  {
+   "name": "all_strips/fiber_740130/meta.json",
+   "size": 402,
+   "crc": 1723579438
+  },
+  {
+   "name": "all_strips/fiber_740130/trace.json",
+   "size": 594,
+   "crc": 1444512639
+  },
+  {
+   "name": "all_strips/fiber_740130/x.tif",
+   "size": 11072,
+   "crc": 1634814181
+  },
+  {
+   "name": "all_strips/fiber_740130/y.tif",
+   "size": 11072,
+   "crc": 3925750020
+  },
+  {
+   "name": "all_strips/fiber_740130/z.tif",
+   "size": 11072,
+   "crc": 4012909846
+  }
+ ],
+ "838073": [
+  {
+   "name": "all_strips/fiber_838073/expected_error.tif",
+   "size": 11072,
+   "crc": 641321977
+  },
+  {
+   "name": "all_strips/fiber_838073/mask.tif",
+   "size": 2956,
+   "crc": 796627399
+  },
+  {
+   "name": "all_strips/fiber_838073/meta.json",
+   "size": 397,
+   "crc": 1214260095
+  },
+  {
+   "name": "all_strips/fiber_838073/trace.json",
+   "size": 597,
+   "crc": 1000314036
+  },
+  {
+   "name": "all_strips/fiber_838073/x.tif",
+   "size": 11072,
+   "crc": 2594831370
+  },
+  {
+   "name": "all_strips/fiber_838073/y.tif",
+   "size": 11072,
+   "crc": 1725881764
+  },
+  {
+   "name": "all_strips/fiber_838073/z.tif",
+   "size": 11072,
+   "crc": 103998909
+  }
+ ],
+ "778459": [
+  {
+   "name": "all_strips/fiber_778459/expected_error.tif",
+   "size": 15472,
+   "crc": 1296773326
+  },
+  {
+   "name": "all_strips/fiber_778459/mask.tif",
+   "size": 4056,
+   "crc": 2199629935
+  },
+  {
+   "name": "all_strips/fiber_778459/meta.json",
+   "size": 401,
+   "crc": 378128812
+  },
+  {
+   "name": "all_strips/fiber_778459/trace.json",
+   "size": 594,
+   "crc": 3454556376
+  },
+  {
+   "name": "all_strips/fiber_778459/x.tif",
+   "size": 15472,
+   "crc": 1672167323
+  },
+  {
+   "name": "all_strips/fiber_778459/y.tif",
+   "size": 15472,
+   "crc": 2018906156
+  },
+  {
+   "name": "all_strips/fiber_778459/z.tif",
+   "size": 15472,
+   "crc": 165770156
+  }
+ ]
+}
