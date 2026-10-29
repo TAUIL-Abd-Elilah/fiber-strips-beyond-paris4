@@ -1,0 +1,2 @@
+[2026-10-29 02:14:45] [prefetch] primary: 2 pieces, 140 chunks (0.27 GiB), 140 cached, 0 to fetch (0.00 GiB), 2 connections
+[2026-10-29 02:14:45] [prefetch] primary: done: 0 fetched (0 missing objects -> fill), 0 MiB in 0 s; 0 of 140 chunks not cached

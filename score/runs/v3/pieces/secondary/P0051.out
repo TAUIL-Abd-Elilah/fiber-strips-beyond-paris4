@@ -1,0 +1,34 @@
+CT per-crop z-score bound to s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr::2 (checkpoint: s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr::2)
+[infer] 8/8 decisions, 5 s
+{
+ "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt",
+ "step": 15000,
+ "afv": "C:\\VesuviusTemp\\strips\\score\\data\\matched_0139_secondary_run40.afv",
+ "fiber": 1807781562105189,
+ "arc_trace": [
+  150.3930005,
+  206.3930005
+ ],
+ "decision_step": 8.0,
+ "blend": 16.0,
+ "trim_patch_voxels": 75.0,
+ "units": "patch voxels",
+ "trace_per_patch": 0.5,
+ "first_row_arc_patch_voxels": 230.286001,
+ "decisions": 8,
+ "rows": 64,
+ "columns": 25,
+ "row_step_voxels": 4.0,
+ "column_step_voxels": 5.0,
+ "v_flips": 0,
+ "spread_vox": {
+  "median": 0.6743387884340655,
+  "p95": 4.001869391160913
+ },
+ "expected_error_vox": {
+  "mean": 0.9475422501564026,
+  "p95": 1.522506833076477
+ },
+ "seconds": 5.028859853744507
+}
+[infer_cpu] ok in 5.04 s, peak RSS 1.572 GB

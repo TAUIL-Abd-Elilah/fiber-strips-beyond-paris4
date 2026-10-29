@@ -32,13 +32,22 @@ score/data/crossings_*.tsv
 score/superseded_v2/data/*.tsv
 *.npz
 
-# Strip outputs and run logs (strips are published later as a release asset, after path scrubbing)
+# Strip outputs (published as the release asset strips-v3, after path scrubbing: tools/package_strips.py). The run's
+# log, status, stage outputs and per-piece records are shipped; the scorer's reports (score/results/v3/) too.
 score/runs/v3/*
 !score/runs/v3/run_all.ps1
 !score/runs/v3/prefetch_v3.py
 !score/runs/v3/infer_cpu.py
+!score/runs/v3/log.txt
+!score/runs/v3/status.json
+!score/runs/v3/DONE*
+!score/runs/v3/V3_FINAL
+!score/runs/v3/runner_pid.txt
+!score/runs/v3/*.out
+!score/runs/v3/*.err
+!score/runs/v3/records/
+!score/runs/v3/pieces/
 score/runs/*/strips/
-score/results/v3/
 strip/
 strip.npz
 *.tif

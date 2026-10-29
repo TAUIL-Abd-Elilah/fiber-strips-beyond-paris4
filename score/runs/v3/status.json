@@ -1,0 +1,62 @@
+﻿{
+    "stage":  "finished",
+    "pid":  76004,
+    "started":  "2026-10-29 02:13:16",
+    "rc":  0,
+    "pieces":  {
+                   "primary":  {
+                                   "planned":  2,
+                                   "decisions":  58,
+                                   "ok":  2,
+                                   "skipped":  0,
+                                   "failed":  0,
+                                   "failed_pieces":  [
+
+                                                     ]
+                               },
+                   "secondary":  {
+                                     "planned":  46,
+                                     "decisions":  3513,
+                                     "ok":  46,
+                                     "skipped":  0,
+                                     "failed":  0,
+                                     "failed_pieces":  [
+
+                                                       ]
+                                 },
+                   "0332":  {
+                                "planned":  25,
+                                "decisions":  558,
+                                "ok":  25,
+                                "skipped":  0,
+                                "failed":  0,
+                                "failed_pieces":  [
+
+                                                  ]
+                            }
+               },
+    "score":  {
+                  "primary":  {
+                                  "rc":  0,
+                                  "seconds":  9.3
+                              },
+                  "secondary":  {
+                                    "rc":  0,
+                                    "seconds":  57.7
+                                },
+                  "0332":  {
+                               "rc":  0,
+                               "seconds":  9.4
+                           }
+              },
+    "updated":  "2026-10-29 03:40:54",
+    "prefetch":  {
+                     "set":  "secondary",
+                     "fetched":  800,
+                     "to_fetch":  803,
+                     "chunks":  4914,
+                     "mib":  1600.0,
+                     "mib_per_s":  1.397,
+                     "updated":  "2026-10-28 16:24:01"
+                 }
+}

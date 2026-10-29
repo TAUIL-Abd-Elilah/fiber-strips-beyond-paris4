@@ -1,0 +1,1266 @@
+{
+ "tool": "tools/make_figures.py",
+ "version": "1.1",
+ "tool_sha256": "8ff4ef03541c217f2998c1cacbcf261f1a266ff186bdd9fe97785b8b42d7de54",
+ "generated_utc": "2026-10-29 07:47:45",
+ "workspace": "C:\\VesuviusTemp\\strips\\score",
+ "backend": "matplotlib 3.11.1 (PNG 150 dpi + SVG)",
+ "units": "sv = level-2 voxels of the 2.4 um scans (9.596 um)",
+ "reports": {
+  "secondary": {
+   "path": "results/v3/secondary_report.json",
+   "status": "read",
+   "sha256": "82406c49654644a0220a6cbb48f001e32603d79496b21c68fc51a1656f9cb3e2",
+   "analysis": "secondary",
+   "scorer_version": "3.0.0",
+   "scorer_sha256": "d7d6d1946bc4decd72bc153958c4fb209f10f90fdca5f16b6616186f8e2c3577",
+   "prereg_sha256": "dffa97b9dffb7cd9b69d6cdc66fa247f00a57de6a208db71fdc098034b59812e"
+  },
+  "primary": {
+   "path": "results/v3/primary_case_studies.json",
+   "status": "read",
+   "sha256": "5ece29c944bb561400658036f82a256df435841a9969af372fad9358d7616fe5",
+   "analysis": "primary",
+   "scorer_version": "3.0.0",
+   "scorer_sha256": "d7d6d1946bc4decd72bc153958c4fb209f10f90fdca5f16b6616186f8e2c3577",
+   "prereg_sha256": "dffa97b9dffb7cd9b69d6cdc66fa247f00a57de6a208db71fdc098034b59812e"
+  },
+  "crossings_0332": {
+   "path": "results/v3/crossings_0332_report.json",
+   "status": "read",
+   "sha256": "17510ce26b8a8316ee4c428b842e63abb698973daf252177a8809f0fcfb99966",
+   "analysis": null,
+   "scorer_version": "3.0.0",
+   "scorer_sha256": "d7d6d1946bc4decd72bc153958c4fb209f10f90fdca5f16b6616186f8e2c3577",
+   "prereg_sha256": "dffa97b9dffb7cd9b69d6cdc66fa247f00a57de6a208db71fdc098034b59812e"
+  }
+ },
+ "figures": {
+  "fig1_secondary_distance": {
+   "files": [
+    "fig1_secondary_distance.png",
+    "fig1_secondary_distance.svg"
+   ],
+   "size_inches": [
+    11.4,
+    6.66
+   ],
+   "title": "PHerc0139 secondary set: distance from the predicted sheet to the wrap segment",
+   "caption": "Secondary set (PHerc0139, PREREG 4.10): distance |d| from the predicted sheet to the matched wrap segment, in sv (1 sv = 9.596 µm); 36 scored fibers, 283 of 284 planned stretches scored (the report lists 1 skips). (a) The report holds no per-node distances, only these points of the pooled per-node distribution: the median and p90 (horizontal bars: fiber-bootstrap 95 % CI) and the fractions within 1 and 2 sv (vertical bars: CI); marks of different surfaces (point or CI bar) that would overlap are moved apart, perpendicular to the value they show, here by at most 0.007 up or down (median, p90) and 0.06 sv sideways (within 1 and 2 sv); every other mark is at its value. Strip: all scored nodes; frame plane and Lasagna plane: the nodes covered by both the strip and that baseline; fiber floor: the human fiber itself, one point per scored row (its count is of rows; no CI in the report). Below: pooled mean |d| with its CI. Strip: mean 1.20 sv [1.05, 1.46], median 0.80 sv, p90 2.54 sv, within 2 sv 84.1 % [78.4, 87.4] %; frame plane 2.92 sv [2.63, 3.14]; Lasagna plane 3.15 sv [2.46, 3.79]; fiber floor 0.88 sv. G2 (PREREG 6) needs a pooled mean ≤ 1.5 sv, at least 70 % of nodes within 2 sv and both baselines beaten; the report's verdict: “secondary: transfers”. (b) Per fiber: the cumulative fraction of scored fibers by their mean |d| over each surface's own covered nodes (node-weighted over the fiber's strips, from per_strip; a baseline only for fibers with at least 25 of its nodes); the dotted line is the fiber floor's pooled mean.",
+   "notes": [
+    "The report holds no per-node distances: panel (a) shows the points of the pooled per-node distribution that it states; panel (b) the per-fiber means derived from per_strip."
+   ],
+   "data": {
+    "node_level": [
+     {
+      "surface": "strip",
+      "on": "all scored nodes",
+      "count_is_of": "nodes",
+      "nodes": 128860.0,
+      "mean": 1.1985574091433011,
+      "median": 0.7965570382147347,
+      "p90": 2.538570967376242,
+      "within1": 0.5925733354027627,
+      "within2": 0.8412540741890424,
+      "ci": {
+       "mean": [
+        1.0479000096693578,
+        1.4589157022744244
+       ],
+       "median": [
+        0.7117572833509858,
+        0.9570727519171095
+       ],
+       "p90": [
+        2.2367481082210845,
+        3.0698335639175323
+       ],
+       "within1": [
+        0.5170534582784937,
+        0.6402271256111859
+       ],
+       "within2": [
+        0.7840230223480229,
+        0.8741702646927426
+       ]
+      },
+      "drawn_offset": {
+       "median": -0.0075,
+       "within1": -0.06175751531159819
+      }
+     },
+     {
+      "surface": "frame_plane",
+      "on": "nodes covered by both",
+      "count_is_of": "nodes",
+      "nodes": 128617.0,
+      "mean": 2.921162907603444,
+      "median": 1.9134370977474076,
+      "p90": 6.902635878803409,
+      "within1": 0.29632163710862486,
+      "within2": 0.5158882573843271,
+      "ci": {
+       "mean": [
+        2.6304368638352917,
+        3.1381244730331614
+       ],
+       "median": [
+        1.7644992597776668,
+        2.0300203682294264
+       ],
+       "p90": [
+        5.9761564150589646,
+        7.580145472489504
+       ],
+       "within1": [
+        0.2810449762913243,
+        0.31843375964912063
+       ],
+       "within2": [
+        0.4950089317569938,
+        0.545655704731788
+       ]
+      },
+      "drawn_offset": {
+       "median": -0.0075,
+       "p90": -0.0075,
+       "within1": -0.06175751531159819,
+       "within2": -0.06175751531159819
+      }
+     },
+     {
+      "surface": "lasagna_plane",
+      "on": "nodes covered by both",
+      "count_is_of": "nodes",
+      "nodes": 126257.0,
+      "mean": 3.150583233876504,
+      "median": 1.7455804949945088,
+      "p90": 7.6159374134618885,
+      "within1": 0.31147579936161957,
+      "within2": 0.5500764314057834,
+      "ci": {
+       "mean": [
+        2.4605183880988064,
+        3.7919120866588454
+       ],
+       "median": [
+        1.521759890321068,
+        1.9859893126759918
+       ],
+       "p90": [
+        5.798832114649813,
+        9.357199289636089
+       ],
+       "within1": [
+        0.2806052367415387,
+        0.3511109177002819
+       ],
+       "within2": [
+        0.5054553892431026,
+        0.6081013602333057
+       ]
+      },
+      "drawn_offset": {
+       "median": 0.0075,
+       "p90": 0.0075,
+       "within1": 0.06175751531159819,
+       "within2": 0.06175751531159819
+      }
+     },
+     {
+      "surface": "fiber_floor",
+      "on": "the human fiber, one point per scored row",
+      "count_is_of": "rows",
+      "nodes": 5213.0,
+      "mean": 0.8822012755091603,
+      "median": 0.8289230558644354,
+      "p90": 1.6960056795360048,
+      "within1": 0.5931325532323038,
+      "within2": 1.0,
+      "ci": {
+       "mean": null,
+       "median": null,
+       "p90": null,
+       "within1": null,
+       "within2": null
+      },
+      "drawn_offset": {
+       "median": 0.0075,
+       "within1": 0.06175751531159819
+      }
+     }
+    ],
+    "per_fiber": {
+     "strip": [
+      0.7218305106297123,
+      0.7255898625159064,
+      0.7524119385918248,
+      0.8426525620707381,
+      0.8992331344490198,
+      0.9160078003414066,
+      0.9461609117616251,
+      0.948052801270215,
+      0.9582841567790619,
+      0.9817761935154347,
+      1.0541395367103137,
+      1.090638277305678,
+      1.2982608660918964,
+      1.3712533892582235,
+      1.4284840041193336,
+      1.4733106410507948,
+      1.486030071262584,
+      1.497942915847178,
+      1.4984734302746376,
+      1.5128905754624102,
+      1.6573710097939656,
+      1.6780865981515052,
+      1.8575905458940927,
+      1.8885379622855174,
+      1.9088678557583052,
+      1.9204609012571447,
+      1.973236198654537,
+      2.0014003573181594,
+      2.0503416616129657,
+      2.1301281442115703,
+      2.1588441687391144,
+      2.2706777622095364,
+      2.302520039863849,
+      2.5340192004591455,
+      3.349648981865004,
+      9.056434607208464
+     ],
+     "frame_plane": [
+      0.9864365555017435,
+      1.07791461782395,
+      1.8566144810656529,
+      1.8856001949755,
+      1.889388887431055,
+      1.9581212732666626,
+      2.0030883006890754,
+      2.0881143946383562,
+      2.138818052467825,
+      2.15246257379746,
+      2.270568491655389,
+      2.29324628247414,
+      2.3107550284467924,
+      2.3673599808184624,
+      2.486717889121676,
+      2.612700181213895,
+      2.6290692501000272,
+      2.645080854318908,
+      2.6479745264003975,
+      2.7186592806791885,
+      2.7444398181556986,
+      2.895207554714198,
+      2.9180468412396348,
+      2.9749055659051735,
+      3.1696975857850935,
+      3.1808892862473805,
+      3.239160223930445,
+      3.317536306022606,
+      3.3188699138327302,
+      3.380576650347556,
+      3.55129663132197,
+      3.9011559946158028,
+      3.9316078773917322,
+      4.39606793152327,
+      4.518939203528287,
+      8.548388267183475
+     ],
+     "lasagna_plane": [
+      0.7674917081032826,
+      0.9600487501100764,
+      1.0626794319769286,
+      1.0782056264936513,
+      1.5676445183974939,
+      1.574571843410956,
+      1.5822718631856416,
+      1.66973079777082,
+      1.7019921289364408,
+      1.7656655623715591,
+      1.7672844947472808,
+      1.7713625295949675,
+      1.8263423989705934,
+      1.9701236020618165,
+      2.054971150962143,
+      2.064055029361238,
+      2.1062904257841186,
+      2.6222982625323383,
+      2.7620989088385,
+      2.7705515885444902,
+      2.7842870194762925,
+      2.78470787562909,
+      2.837677793626259,
+      3.0457061811273274,
+      3.1687966657373554,
+      3.1718294992930836,
+      3.1756652024413596,
+      3.3871436828200285,
+      3.6439660328622403,
+      3.759670346886604,
+      3.9248257179115447,
+      3.976095262161595,
+      4.566473656721915,
+      4.7532021836828156,
+      8.44494194500702,
+      14.175584602760805
+     ]
+    }
+   }
+  },
+  "fig2_secondary_per_fiber": {
+   "files": [
+    "fig2_secondary_per_fiber.png",
+    "fig2_secondary_per_fiber.svg"
+   ],
+   "size_inches": [
+    10.4,
+    6.74
+   ],
+   "title": "PHerc0139 secondary set: per-fiber mean distance, strip against each baseline",
+   "caption": "Secondary set, per scored fiber: the mean |d| of the strip (y) against each baseline (x), in sv; below the diagonal the strip is nearer the segment than the baseline. A fiber's means are over each surface's own covered nodes on its scored rows (node-weighted over its strips, from per_strip), so its two values need not come from identical nodes; a baseline is plotted for fibers with at least 25 of its nodes. The black diamond and the paired difference are the report's, on the nodes covered by both: the diamond's bar is the fiber-bootstrap 95 % CI of the baseline's mean (the report has no CI for the strip on those nodes). frame plane: 36 fibers plotted; the report's paired comparison has 36 fibers and 128,617 nodes, baseline − strip mean |d| = 1.73 sv [1.30, 2.00], beaten; Lasagna plane: 36 fibers plotted; the report's paired comparison has 36 fibers and 126,257 nodes, baseline − strip mean |d| = 1.98 sv [1.15, 2.68], beaten. Rings: the example-strip fibers (lt_20260907T055613990_000059, median; kb_20260904T033639453_000086, p90).",
+   "notes": [],
+   "data": {
+    "frame_plane": {
+     "fibers": [
+      {
+       "fiber": "dj_20260904T151437210_000003",
+       "family": "V",
+       "strip_mean_abs_sv": 0.8992331344490198,
+       "strip_nodes": 2775,
+       "baseline_mean_abs_sv": 2.3673599808184624,
+       "baseline_nodes": 2773
+      },
+      {
+       "fiber": "dj_20260904T160405930_000005",
+       "family": "H",
+       "strip_mean_abs_sv": 0.948052801270215,
+       "strip_nodes": 12850,
+       "baseline_mean_abs_sv": 2.29324628247414,
+       "baseline_nodes": 12850
+      },
+      {
+       "fiber": "dj_20260904T160405930_000006",
+       "family": "H",
+       "strip_mean_abs_sv": 0.7255898625159064,
+       "strip_nodes": 9369,
+       "baseline_mean_abs_sv": 2.7444398181556986,
+       "baseline_nodes": 9370
+      },
+      {
+       "fiber": "dj_20260908T175525681_000008",
+       "family": "V",
+       "strip_mean_abs_sv": 1.9088678557583052,
+       "strip_nodes": 684,
+       "baseline_mean_abs_sv": 2.645080854318908,
+       "baseline_nodes": 678
+      },
+      {
+       "fiber": "dj_20260917T020516909_000019",
+       "family": "H",
+       "strip_mean_abs_sv": 9.056434607208464,
+       "strip_nodes": 403,
+       "baseline_mean_abs_sv": 8.548388267183475,
+       "baseline_nodes": 375
+      },
+      {
+       "fiber": "kb_20260902T191811281_000079",
+       "family": "H",
+       "strip_mean_abs_sv": 1.6573710097939656,
+       "strip_nodes": 1720,
+       "baseline_mean_abs_sv": 2.9749055659051735,
+       "baseline_nodes": 1695
+      },
+      {
+       "fiber": "kb_20260902T210830268_000081",
+       "family": "H",
+       "strip_mean_abs_sv": 1.9204609012571447,
+       "strip_nodes": 2121,
+       "baseline_mean_abs_sv": 3.9011559946158028,
+       "baseline_nodes": 2135
+      },
+      {
+       "fiber": "kb_20260904T021448778_000085",
+       "family": "H",
+       "strip_mean_abs_sv": 0.9160078003414066,
+       "strip_nodes": 26664,
+       "baseline_mean_abs_sv": 3.3188699138327302,
+       "baseline_nodes": 26649
+      },
+      {
+       "fiber": "kb_20260904T033639453_000086",
+       "family": "V",
+       "strip_mean_abs_sv": 2.302520039863849,
+       "strip_nodes": 300,
+       "baseline_mean_abs_sv": 1.07791461782395,
+       "baseline_nodes": 300
+      },
+      {
+       "fiber": "kb_20260904T033920427_000087",
+       "family": "H",
+       "strip_mean_abs_sv": 0.7218305106297123,
+       "strip_nodes": 575,
+       "baseline_mean_abs_sv": 2.6290692501000272,
+       "baseline_nodes": 575
+      },
+      {
+       "fiber": "kb_20260904T040638181_000088",
+       "family": "H",
+       "strip_mean_abs_sv": 0.9582841567790619,
+       "strip_nodes": 4300,
+       "baseline_mean_abs_sv": 2.138818052467825,
+       "baseline_nodes": 4300
+      },
+      {
+       "fiber": "kb_20260907T011847533_000102",
+       "family": "V",
+       "strip_mean_abs_sv": 1.2982608660918964,
+       "strip_nodes": 925,
+       "baseline_mean_abs_sv": 1.889388887431055,
+       "baseline_nodes": 919
+      },
+      {
+       "fiber": "kb_20260907T013716679_000103",
+       "family": "V",
+       "strip_mean_abs_sv": 1.090638277305678,
+       "strip_nodes": 275,
+       "baseline_mean_abs_sv": 2.0881143946383562,
+       "baseline_nodes": 275
+      },
+      {
+       "fiber": "kb_20260909T180606717_000122",
+       "family": "V",
+       "strip_mean_abs_sv": 0.9817761935154347,
+       "strip_nodes": 400,
+       "baseline_mean_abs_sv": 2.3107550284467924,
+       "baseline_nodes": 400
+      },
+      {
+       "fiber": "kb_20260916T163135553_000139",
+       "family": "V",
+       "strip_mean_abs_sv": 1.4284840041193336,
+       "strip_nodes": 500,
+       "baseline_mean_abs_sv": 2.15246257379746,
+       "baseline_nodes": 500
+      },
+      {
+       "fiber": "kb_20260918T012228114_000147",
+       "family": "V",
+       "strip_mean_abs_sv": 1.3712533892582235,
+       "strip_nodes": 600,
+       "baseline_mean_abs_sv": 3.9316078773917322,
+       "baseline_nodes": 600
+      },
+      {
+       "fiber": "kb_20260918T034157988_000148",
+       "family": "H",
+       "strip_mean_abs_sv": 0.9461609117616251,
+       "strip_nodes": 8650,
+       "baseline_mean_abs_sv": 3.380576650347556,
+       "baseline_nodes": 8645
+      },
+      {
+       "fiber": "kb_20260925T033453814_000215",
+       "family": "H",
+       "strip_mean_abs_sv": 1.486030071262584,
+       "strip_nodes": 7725,
+       "baseline_mean_abs_sv": 3.317536306022606,
+       "baseline_nodes": 7661
+      },
+      {
+       "fiber": "kb_20260929T002049782_000229",
+       "family": "V",
+       "strip_mean_abs_sv": 0.8426525620707381,
+       "strip_nodes": 1075,
+       "baseline_mean_abs_sv": 0.9864365555017435,
+       "baseline_nodes": 1075
+      },
+      {
+       "fiber": "kb_20260929T030233129_000230",
+       "family": "H",
+       "strip_mean_abs_sv": 1.6780865981515052,
+       "strip_nodes": 9025,
+       "baseline_mean_abs_sv": 3.1808892862473805,
+       "baseline_nodes": 8990
+      },
+      {
+       "fiber": "lt_20260903T061642538_000048",
+       "family": "H",
+       "strip_mean_abs_sv": 2.0503416616129657,
+       "strip_nodes": 750,
+       "baseline_mean_abs_sv": 2.486717889121676,
+       "baseline_nodes": 750
+      },
+      {
+       "fiber": "lt_20260903T101835034_000051",
+       "family": "H",
+       "strip_mean_abs_sv": 0.7524119385918248,
+       "strip_nodes": 8275,
+       "baseline_mean_abs_sv": 2.895207554714198,
+       "baseline_nodes": 8275
+      },
+      {
+       "fiber": "lt_20260904T093417253_000053",
+       "family": "V",
+       "strip_mean_abs_sv": 2.0014003573181594,
+       "strip_nodes": 375,
+       "baseline_mean_abs_sv": 4.39606793152327,
+       "baseline_nodes": 364
+      },
+      {
+       "fiber": "lt_20260907T055613990_000059",
+       "family": "V",
+       "strip_mean_abs_sv": 1.497942915847178,
+       "strip_nodes": 375,
+       "baseline_mean_abs_sv": 3.55129663132197,
+       "baseline_nodes": 375
+      },
+      {
+       "fiber": "lt_20260910T072828497_000111",
+       "family": "V",
+       "strip_mean_abs_sv": 1.4984734302746376,
+       "strip_nodes": 4399,
+       "baseline_mean_abs_sv": 2.270568491655389,
+       "baseline_nodes": 4390
+      },
+      {
+       "fiber": "lt_20260910T082256930_000112",
+       "family": "V",
+       "strip_mean_abs_sv": 2.2706777622095364,
+       "strip_nodes": 325,
+       "baseline_mean_abs_sv": 2.9180468412396348,
+       "baseline_nodes": 325
+      },
+      {
+       "fiber": "lt_20260910T090933172_000113",
+       "family": "V",
+       "strip_mean_abs_sv": 1.4733106410507948,
+       "strip_nodes": 2125,
+       "baseline_mean_abs_sv": 1.9581212732666626,
+       "baseline_nodes": 2125
+      },
+      {
+       "fiber": "lt_20260911T073815460_000119",
+       "family": "V",
+       "strip_mean_abs_sv": 2.5340192004591455,
+       "strip_nodes": 900,
+       "baseline_mean_abs_sv": 1.8856001949755,
+       "baseline_nodes": 900
+      },
+      {
+       "fiber": "lt_20260914T080111721_000127",
+       "family": "V",
+       "strip_mean_abs_sv": 2.1301281442115703,
+       "strip_nodes": 2725,
+       "baseline_mean_abs_sv": 3.239160223930445,
+       "baseline_nodes": 2722
+      },
+      {
+       "fiber": "lt_20260914T091427983_000130",
+       "family": "V",
+       "strip_mean_abs_sv": 2.1588441687391144,
+       "strip_nodes": 600,
+       "baseline_mean_abs_sv": 2.6479745264003975,
+       "baseline_nodes": 600
+      },
+      {
+       "fiber": "lt_20260916T075855882_000136",
+       "family": "V",
+       "strip_mean_abs_sv": 1.8575905458940927,
+       "strip_nodes": 875,
+       "baseline_mean_abs_sv": 1.8566144810656529,
+       "baseline_nodes": 874
+      },
+      {
+       "fiber": "lt_20260917T045630900_000139",
+       "family": "V",
+       "strip_mean_abs_sv": 3.349648981865004,
+       "strip_nodes": 750,
+       "baseline_mean_abs_sv": 4.518939203528287,
+       "baseline_nodes": 746
+      },
+      {
+       "fiber": "lt_20260917T054942114_000140",
+       "family": "V",
+       "strip_mean_abs_sv": 1.8885379622855174,
+       "strip_nodes": 1725,
+       "baseline_mean_abs_sv": 2.612700181213895,
+       "baseline_nodes": 1725
+      },
+      {
+       "fiber": "lt_20260917T074125911_000145",
+       "family": "V",
+       "strip_mean_abs_sv": 1.5128905754624102,
+       "strip_nodes": 2800,
+       "baseline_mean_abs_sv": 2.0030883006890754,
+       "baseline_nodes": 2792
+      },
+      {
+       "fiber": "lt_20260917T115342120_000149",
+       "family": "V",
+       "strip_mean_abs_sv": 1.973236198654537,
+       "strip_nodes": 250,
+       "baseline_mean_abs_sv": 2.7186592806791885,
+       "baseline_nodes": 250
+      },
+      {
+       "fiber": "lt_20260918T094222156_000161",
+       "family": "H",
+       "strip_mean_abs_sv": 1.0541395367103137,
+       "strip_nodes": 10675,
+       "baseline_mean_abs_sv": 3.1696975857850935,
+       "baseline_nodes": 10667
+      }
+     ],
+     "pooled_baseline_mean_sv": 2.921162907603444,
+     "pooled_baseline_mean_ci": [
+      2.6304368638352917,
+      3.1381244730331614
+     ],
+     "pooled_strip_mean_on_same_nodes_sv": 1.1921790556700926,
+     "delta": {
+      "fibers": 36,
+      "nodes": 128617,
+      "baseline_minus_strip_mean_sv": 1.7289838519333514,
+      "ci": [
+       1.3049805922859878,
+       2.002360425303173
+      ],
+      "beaten": true,
+      "strip_minus_baseline_within2": 0.3259211457272367,
+      "ci_within2": [
+       0.25166706129613303,
+       0.36747483600906655
+      ]
+     }
+    },
+    "lasagna_plane": {
+     "fibers": [
+      {
+       "fiber": "dj_20260904T151437210_000003",
+       "family": "V",
+       "strip_mean_abs_sv": 0.8992331344490198,
+       "strip_nodes": 2775,
+       "baseline_mean_abs_sv": 1.7672844947472808,
+       "baseline_nodes": 2775
+      },
+      {
+       "fiber": "dj_20260904T160405930_000005",
+       "family": "H",
+       "strip_mean_abs_sv": 0.948052801270215,
+       "strip_nodes": 12850,
+       "baseline_mean_abs_sv": 2.1062904257841186,
+       "baseline_nodes": 12849
+      },
+      {
+       "fiber": "dj_20260904T160405930_000006",
+       "family": "H",
+       "strip_mean_abs_sv": 0.7255898625159064,
+       "strip_nodes": 9369,
+       "baseline_mean_abs_sv": 2.78470787562909,
+       "baseline_nodes": 9367
+      },
+      {
+       "fiber": "dj_20260908T175525681_000008",
+       "family": "V",
+       "strip_mean_abs_sv": 1.9088678557583052,
+       "strip_nodes": 684,
+       "baseline_mean_abs_sv": 3.0457061811273274,
+       "baseline_nodes": 684
+      },
+      {
+       "fiber": "dj_20260917T020516909_000019",
+       "family": "H",
+       "strip_mean_abs_sv": 9.056434607208464,
+       "strip_nodes": 403,
+       "baseline_mean_abs_sv": 8.44494194500702,
+       "baseline_nodes": 397
+      },
+      {
+       "fiber": "kb_20260902T191811281_000079",
+       "family": "H",
+       "strip_mean_abs_sv": 1.6573710097939656,
+       "strip_nodes": 1720,
+       "baseline_mean_abs_sv": 3.1756652024413596,
+       "baseline_nodes": 1686
+      },
+      {
+       "fiber": "kb_20260902T210830268_000081",
+       "family": "H",
+       "strip_mean_abs_sv": 1.9204609012571447,
+       "strip_nodes": 2121,
+       "baseline_mean_abs_sv": 3.9248257179115447,
+       "baseline_nodes": 2131
+      },
+      {
+       "fiber": "kb_20260904T021448778_000085",
+       "family": "H",
+       "strip_mean_abs_sv": 0.9160078003414066,
+       "strip_nodes": 26664,
+       "baseline_mean_abs_sv": 4.7532021836828156,
+       "baseline_nodes": 25840
+      },
+      {
+       "fiber": "kb_20260904T033639453_000086",
+       "family": "V",
+       "strip_mean_abs_sv": 2.302520039863849,
+       "strip_nodes": 300,
+       "baseline_mean_abs_sv": 0.7674917081032826,
+       "baseline_nodes": 300
+      },
+      {
+       "fiber": "kb_20260904T033920427_000087",
+       "family": "H",
+       "strip_mean_abs_sv": 0.7218305106297123,
+       "strip_nodes": 575,
+       "baseline_mean_abs_sv": 2.6222982625323383,
+       "baseline_nodes": 575
+      },
+      {
+       "fiber": "kb_20260904T040638181_000088",
+       "family": "H",
+       "strip_mean_abs_sv": 0.9582841567790619,
+       "strip_nodes": 4300,
+       "baseline_mean_abs_sv": 2.054971150962143,
+       "baseline_nodes": 4300
+      },
+      {
+       "fiber": "kb_20260907T011847533_000102",
+       "family": "V",
+       "strip_mean_abs_sv": 1.2982608660918964,
+       "strip_nodes": 925,
+       "baseline_mean_abs_sv": 1.574571843410956,
+       "baseline_nodes": 919
+      },
+      {
+       "fiber": "kb_20260907T013716679_000103",
+       "family": "V",
+       "strip_mean_abs_sv": 1.090638277305678,
+       "strip_nodes": 275,
+       "baseline_mean_abs_sv": 0.9600487501100764,
+       "baseline_nodes": 275
+      },
+      {
+       "fiber": "kb_20260909T180606717_000122",
+       "family": "V",
+       "strip_mean_abs_sv": 0.9817761935154347,
+       "strip_nodes": 400,
+       "baseline_mean_abs_sv": 1.8263423989705934,
+       "baseline_nodes": 400
+      },
+      {
+       "fiber": "kb_20260916T163135553_000139",
+       "family": "V",
+       "strip_mean_abs_sv": 1.4284840041193336,
+       "strip_nodes": 500,
+       "baseline_mean_abs_sv": 1.7656655623715591,
+       "baseline_nodes": 500
+      },
+      {
+       "fiber": "kb_20260918T012228114_000147",
+       "family": "V",
+       "strip_mean_abs_sv": 1.3712533892582235,
+       "strip_nodes": 600,
+       "baseline_mean_abs_sv": 3.6439660328622403,
+       "baseline_nodes": 600
+      },
+      {
+       "fiber": "kb_20260918T034157988_000148",
+       "family": "H",
+       "strip_mean_abs_sv": 0.9461609117616251,
+       "strip_nodes": 8650,
+       "baseline_mean_abs_sv": 3.1718294992930836,
+       "baseline_nodes": 8647
+      },
+      {
+       "fiber": "kb_20260925T033453814_000215",
+       "family": "H",
+       "strip_mean_abs_sv": 1.486030071262584,
+       "strip_nodes": 7725,
+       "baseline_mean_abs_sv": 3.3871436828200285,
+       "baseline_nodes": 7658
+      },
+      {
+       "fiber": "kb_20260929T002049782_000229",
+       "family": "V",
+       "strip_mean_abs_sv": 0.8426525620707381,
+       "strip_nodes": 1075,
+       "baseline_mean_abs_sv": 1.0626794319769286,
+       "baseline_nodes": 1075
+      },
+      {
+       "fiber": "kb_20260929T030233129_000230",
+       "family": "H",
+       "strip_mean_abs_sv": 1.6780865981515052,
+       "strip_nodes": 9025,
+       "baseline_mean_abs_sv": 3.1687966657373554,
+       "baseline_nodes": 8988
+      },
+      {
+       "fiber": "lt_20260903T061642538_000048",
+       "family": "H",
+       "strip_mean_abs_sv": 2.0503416616129657,
+       "strip_nodes": 750,
+       "baseline_mean_abs_sv": 2.837677793626259,
+       "baseline_nodes": 749
+      },
+      {
+       "fiber": "lt_20260903T101835034_000051",
+       "family": "H",
+       "strip_mean_abs_sv": 0.7524119385918248,
+       "strip_nodes": 8275,
+       "baseline_mean_abs_sv": 2.7620989088385,
+       "baseline_nodes": 8267
+      },
+      {
+       "fiber": "lt_20260904T093417253_000053",
+       "family": "V",
+       "strip_mean_abs_sv": 2.0014003573181594,
+       "strip_nodes": 375,
+       "baseline_mean_abs_sv": 3.759670346886604,
+       "baseline_nodes": 362
+      },
+      {
+       "fiber": "lt_20260907T055613990_000059",
+       "family": "V",
+       "strip_mean_abs_sv": 1.497942915847178,
+       "strip_nodes": 375,
+       "baseline_mean_abs_sv": 1.5676445183974939,
+       "baseline_nodes": 375
+      },
+      {
+       "fiber": "lt_20260910T072828497_000111",
+       "family": "V",
+       "strip_mean_abs_sv": 1.4984734302746376,
+       "strip_nodes": 4399,
+       "baseline_mean_abs_sv": 1.9701236020618165,
+       "baseline_nodes": 4392
+      },
+      {
+       "fiber": "lt_20260910T082256930_000112",
+       "family": "V",
+       "strip_mean_abs_sv": 2.2706777622095364,
+       "strip_nodes": 325,
+       "baseline_mean_abs_sv": 14.175584602760805,
+       "baseline_nodes": 154
+      },
+      {
+       "fiber": "lt_20260910T090933172_000113",
+       "family": "V",
+       "strip_mean_abs_sv": 1.4733106410507948,
+       "strip_nodes": 2125,
+       "baseline_mean_abs_sv": 1.66973079777082,
+       "baseline_nodes": 2125
+      },
+      {
+       "fiber": "lt_20260911T073815460_000119",
+       "family": "V",
+       "strip_mean_abs_sv": 2.5340192004591455,
+       "strip_nodes": 900,
+       "baseline_mean_abs_sv": 1.0782056264936513,
+       "baseline_nodes": 900
+      },
+      {
+       "fiber": "lt_20260914T080111721_000127",
+       "family": "V",
+       "strip_mean_abs_sv": 2.1301281442115703,
+       "strip_nodes": 2725,
+       "baseline_mean_abs_sv": 2.7842870194762925,
+       "baseline_nodes": 2722
+      },
+      {
+       "fiber": "lt_20260914T091427983_000130",
+       "family": "V",
+       "strip_mean_abs_sv": 2.1588441687391144,
+       "strip_nodes": 600,
+       "baseline_mean_abs_sv": 1.7019921289364408,
+       "baseline_nodes": 600
+      },
+      {
+       "fiber": "lt_20260916T075855882_000136",
+       "family": "V",
+       "strip_mean_abs_sv": 1.8575905458940927,
+       "strip_nodes": 875,
+       "baseline_mean_abs_sv": 1.5822718631856416,
+       "baseline_nodes": 875
+      },
+      {
+       "fiber": "lt_20260917T045630900_000139",
+       "family": "V",
+       "strip_mean_abs_sv": 3.349648981865004,
+       "strip_nodes": 750,
+       "baseline_mean_abs_sv": 4.566473656721915,
+       "baseline_nodes": 743
+      },
+      {
+       "fiber": "lt_20260917T054942114_000140",
+       "family": "V",
+       "strip_mean_abs_sv": 1.8885379622855174,
+       "strip_nodes": 1725,
+       "baseline_mean_abs_sv": 1.7713625295949675,
+       "baseline_nodes": 1725
+      },
+      {
+       "fiber": "lt_20260917T074125911_000145",
+       "family": "V",
+       "strip_mean_abs_sv": 1.5128905754624102,
+       "strip_nodes": 2800,
+       "baseline_mean_abs_sv": 2.064055029361238,
+       "baseline_nodes": 2789
+      },
+      {
+       "fiber": "lt_20260917T115342120_000149",
+       "family": "V",
+       "strip_mean_abs_sv": 1.973236198654537,
+       "strip_nodes": 250,
+       "baseline_mean_abs_sv": 2.7705515885444902,
+       "baseline_nodes": 250
+      },
+      {
+       "fiber": "lt_20260918T094222156_000161",
+       "family": "H",
+       "strip_mean_abs_sv": 1.0541395367103137,
+       "strip_nodes": 10675,
+       "baseline_mean_abs_sv": 3.976095262161595,
+       "baseline_nodes": 10518
+      }
+     ],
+     "pooled_baseline_mean_sv": 3.150583233876504,
+     "pooled_baseline_mean_ci": [
+      2.4605183880988064,
+      3.7919120866588454
+     ],
+     "pooled_strip_mean_on_same_nodes_sv": 1.1676314306294941,
+     "delta": {
+      "fibers": 36,
+      "nodes": 126257,
+      "baseline_minus_strip_mean_sv": 1.9829518032470097,
+      "ci": [
+       1.1494020135712038,
+       2.6786918168048155
+      ],
+      "beaten": true,
+      "strip_minus_baseline_within2": 0.29506482808873963,
+      "ci_within2": [
+       0.19406456451523954,
+       0.3593046442092622
+      ]
+     }
+    }
+   }
+  },
+  "fig3_0332_crossings": {
+   "files": [
+    "fig3_0332_crossings.png",
+    "fig3_0332_crossings.svg"
+   ],
+   "size_inches": [
+    9.2,
+    6.52
+   ],
+   "title": "PHerc0332: H/V crossing agreement",
+   "caption": "PHerc0332, no ground truth: consistency, not accuracy: per planned crossing that has both strips, the agreement (sv): the median |d| from one strip's nodes within 30 sv of the crossing point to the other strip's surface, averaged over the two directions, against the closest approach of the two human fibers (sv). Filled: the tight subset (closest approach ≤ 3 sv), reported apart (PREREG 7). Two strips can agree and both be wrong, and at 3 to 6 sv the two fibers may lie on opposite faces of one sheet or on neighbouring sheets. All crossings: median 4.71 sv [1.92, 7.39], mean 4.63 sv [2.99, 6.32], within 2 sv 33 %; tight subset (2): median 1.43 sv. Missing (no agreement): X0019, X0021, X0027. ",
+   "notes": [],
+   "data": {
+    "per_crossing": [
+     {
+      "id": "X0000",
+      "h_fiber": "dj_20260810T113807458_000001",
+      "v_fiber": "dj_20261026T193623205_000068",
+      "closest_approach_sv": 4.892264153592992,
+      "agreement_sv": 9.365429350752624,
+      "directions": 2,
+      "tight": false
+     },
+     {
+      "id": "X0005",
+      "h_fiber": "dj_20261020T172947429_000029",
+      "v_fiber": "lt_20261020T065435715_000093",
+      "closest_approach_sv": 2.177762953328543,
+      "agreement_sv": 0.9134247205704085,
+      "directions": 2,
+      "tight": true
+     },
+     {
+      "id": "X0008",
+      "h_fiber": "dj_20261021T162300637_000033",
+      "v_fiber": "dj_20260923T173510189_000015",
+      "closest_approach_sv": 3.76105579073131,
+      "agreement_sv": 4.524674032579666,
+      "directions": 2,
+      "tight": false
+     },
+     {
+      "id": "X0012",
+      "h_fiber": "dj_20261022T104237390_000041",
+      "v_fiber": "lt_20261015T070224501_000050",
+      "closest_approach_sv": 4.8402187531649545,
+      "agreement_sv": 1.8995589588901653,
+      "directions": 2,
+      "tight": false
+     },
+     {
+      "id": "X0016",
+      "h_fiber": "kb_20260822T032335476_000056",
+      "v_fiber": "lt_20261014T071541855_000036",
+      "closest_approach_sv": 5.251285140933015,
+      "agreement_sv": 6.793905559462766,
+      "directions": 2,
+      "tight": false
+     },
+     {
+      "id": "X0018",
+      "h_fiber": "kb_20260822T193333844_000065",
+      "v_fiber": "dj_20260810T180232302_000006",
+      "closest_approach_sv": 5.503418443191085,
+      "agreement_sv": 2.419861683616427,
+      "directions": 2,
+      "tight": false
+     },
+     {
+      "id": "X0022",
+      "h_fiber": "kb_20261014T205717634_000088",
+      "v_fiber": "dj_20261022T154755059_000054",
+      "closest_approach_sv": 3.547339058933202,
+      "agreement_sv": 0.9761798351233775,
+      "directions": 2,
+      "tight": false
+     },
+     {
+      "id": "X0024",
+      "h_fiber": "kb_20261014T205717634_000088",
+      "v_fiber": "kb_20261014T212252875_000096",
+      "closest_approach_sv": 4.3722543640956895,
+      "agreement_sv": 4.895046795736473,
+      "directions": 2,
+      "tight": false
+     },
+     {
+      "id": "X0025",
+      "h_fiber": "kb_20261014T205717634_000088",
+      "v_fiber": "lt_20261013T095553471_000027",
+      "closest_approach_sv": 5.104696031708673,
+      "agreement_sv": 5.287061573746447,
+      "directions": 2,
+      "tight": false
+     },
+     {
+      "id": "X0026",
+      "h_fiber": "kb_20261014T210601020_000090",
+      "v_fiber": "kb_20261014T212252875_000096",
+      "closest_approach_sv": 3.751722893436851,
+      "agreement_sv": 8.494619788629269,
+      "directions": 2,
+      "tight": false
+     },
+     {
+      "id": "X0042",
+      "h_fiber": "lt_20261015T085630589_000057",
+      "v_fiber": "lt_20261020T054929715_000090",
+      "closest_approach_sv": 3.2656160126540925,
+      "agreement_sv": 7.987983126157214,
+      "directions": 2,
+      "tight": false
+     },
+     {
+      "id": "X0046",
+      "h_fiber": "lt_20261020T060604707_000091",
+      "v_fiber": "lt_20261020T054929715_000090",
+      "closest_approach_sv": 2.533842555130432,
+      "agreement_sv": 1.9431008732860537,
+      "directions": 2,
+      "tight": true
+     }
+    ],
+    "missing": [
+     "X0019",
+     "X0021",
+     "X0027"
+    ],
+    "tight_rule_sv": 3.0,
+    "label": "no ground truth: consistency between two predictions, not accuracy"
+   }
+  },
+  "fig4_calibration": {
+   "files": [
+    "fig4_calibration.png",
+    "fig4_calibration.svg"
+   ],
+   "size_inches": [
+    9.4,
+    6.55
+   ],
+   "title": "Calibration of the model's expected_error",
+   "caption": "Calibration of the model's expected_error (PREREG 5.7): the scored nodes binned by their predicted error (bin edges 0, 0.5, 0.75, 1, 1.25, 1.5, 2, 3 sv and up); per filled bin the mean predicted error (x) against the mean (filled) and median (hollow) observed |d| to the matched wrap segment (y), in sv; the table gives each bin's nodes and values. expected_error is the model's predicted error along its frame normal, learned against Paris 4 patches; the observed |d| is the normal distance to the PHerc0139 mesh, which carries the mesh's own disagreement with the human fibers (the fiber floor). Secondary set: 128,860 nodes, 36 fibers; weighted |gap| 0.45 sv; observed/expected 1.59; Spearman ρ node 0.28, fiber 0.56. weighted |gap| is the scorer's weighted_abs_gap_sv: the node-weighted mean over bins of |bin mean observed − bin mean expected|, not a per-node mean.",
+   "notes": [
+    "The primary case studies are left out (--no-primary-overlay)."
+   ],
+   "data": {
+    "secondary_bins": [
+     {
+      "lo": 0.0,
+      "hi": 0.5,
+      "nodes": 4459,
+      "mean_expected": 0.4830769614759291,
+      "mean_observed": 0.6833912897940925,
+      "median_observed": 0.5463733124633395,
+      "within2": 0.9652388427898632
+     },
+     {
+      "lo": 0.5,
+      "hi": 0.75,
+      "nodes": 79027,
+      "mean_expected": 0.6165342036313081,
+      "mean_observed": 0.9277866411977688,
+      "median_observed": 0.6883670954235712,
+      "within2": 0.9025776000607387
+     },
+     {
+      "lo": 0.75,
+      "hi": 1.0,
+      "nodes": 28283,
+      "mean_expected": 0.8508532921441779,
+      "mean_observed": 1.4634367778888195,
+      "median_observed": 1.0055649806522668,
+      "within2": 0.7709578191846692
+     },
+     {
+      "lo": 1.0,
+      "hi": 1.25,
+      "nodes": 10110,
+      "mean_expected": 1.1052446614929117,
+      "mean_observed": 1.865369759723861,
+      "median_observed": 1.287997020938703,
+      "within2": 0.6798219584569732
+     },
+     {
+      "lo": 1.25,
+      "hi": 1.5,
+      "nodes": 4041,
+      "mean_expected": 1.3556259026841948,
+      "mean_observed": 2.233157442496836,
+      "median_observed": 1.5456004674635635,
+      "within2": 0.6228656273199703
+     },
+     {
+      "lo": 1.5,
+      "hi": 2.0,
+      "nodes": 2300,
+      "mean_expected": 1.6795742931080073,
+      "mean_observed": 2.6507107751577985,
+      "median_observed": 1.784623489513394,
+      "within2": 0.5673913043478261
+     },
+     {
+      "lo": 2.0,
+      "hi": 3.0,
+      "nodes": 615,
+      "mean_expected": 2.3137376395766394,
+      "mean_observed": 4.272469223486618,
+      "median_observed": 2.4942675726677477,
+      "within2": 0.42601626016260163
+     },
+     {
+      "lo": 3.0,
+      "hi": null,
+      "nodes": 25,
+      "mean_expected": 3.281838049615384,
+      "mean_observed": 3.24031387212861,
+      "median_observed": 3.1942308914783633,
+      "within2": 0.4
+     }
+    ],
+    "primary_bins": [],
+    "secondary_summary": {
+     "nodes": 128860,
+     "fibers": 36,
+     "weighted_abs_gap_sv": 0.4461158492441812,
+     "observed_over_expected": 1.5928569189993693,
+     "spearman_node": 0.2802918601708027,
+     "spearman_fiber": 0.5619047619047619
+    }
+   }
+  }
+ },
+ "example_strips": {
+  "rule": "among the scored secondary fibers (at least MIN_NODES covered strip nodes), ranked by mean |d| (node-weighted over the fiber's strips, from per_strip): the median, rank (n+1)//2 (an even count takes the lower of the two middle values), and the 90th percentile, nearest rank ceil(0.9 n); a value shared by several fibers goes to the smaller fiber name",
+  "scored_fibers": 36,
+  "consistency_with_report": {
+   "scored_fibers": [
+    36,
+    36
+   ],
+   "strip_nodes": [
+    128860,
+    128860
+   ],
+   "pooled_mean_sv": [
+    1.1985574091433013,
+    1.1985574091433011
+   ],
+   "ok": true,
+   "note": "derived from per_strip, then as the report states it (accuracy.all)"
+  },
+  "runplan": "results/runplan_0139_secondary_run40.tsv",
+  "runplan_status": "read",
+  "environment": "$env:CUDA_VISIBLE_DEVICES = '-1'; $env:HF_HOME = 'C:\\VesuviusTemp\\strips\\hf_home'; $env:HF_HUB_OFFLINE = '1'",
+  "examples": {
+   "median": {
+    "fiber": "lt_20260907T055613990_000059",
+    "family": "V",
+    "mean_abs_sv": 1.497942915847178,
+    "rank": 18,
+    "of": 36,
+    "fibers_with_this_value": 1,
+    "strip_nodes": 375,
+    "pieces": [
+     {
+      "piece": "P0121",
+      "strip_nodes": 375,
+      "strip_mean_abs_sv": 1.497942915847178,
+      "stretches": [
+       "S0803"
+      ],
+      "afv_id": 3590359107663125,
+      "run_in_plan": "True",
+      "commands": [
+       "New-Item -ItemType Directory -Force -Path 'C:\\VesuviusTemp\\strips\\renders\\v3_secondary\\P0121\\strip' | Out-Null",
+       "Copy-Item -Force -Path 'C:\\VesuviusTemp\\strips\\score\\runs\\v3\\strips\\secondary\\P0121\\strip\\*' -Destination 'C:\\VesuviusTemp\\strips\\renders\\v3_secondary\\P0121\\strip'",
+       "Copy-Item -Force -Path 'C:\\VesuviusTemp\\strips\\score\\runs\\v3\\strips\\secondary\\P0121\\strip.npz','C:\\VesuviusTemp\\strips\\score\\runs\\v3\\strips\\secondary\\P0121\\summary.json' -Destination 'C:\\VesuviusTemp\\strips\\renders\\v3_secondary\\P0121'",
+       "& 'C:\\Users\\PC\\miniconda3\\envs\\vesuvius\\python.exe' -I -u 'D:\\Competition\\Vesuvius progress prizes\\_public\\fiber-strips-beyond-paris4\\tools\\render_strip.py' --villa 'C:\\VesuviusTemp\\strips\\villa_6f2' --out 'C:\\VesuviusTemp\\strips\\renders\\v3_secondary\\P0121' --checkpoint scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e --ct s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr --cache-dir 'C:\\VesuviusTemp\\strips\\ct_cache' --device cpu",
+       "Copy-Item -Force -Path 'C:\\VesuviusTemp\\strips\\renders\\v3_secondary\\P0121\\render.png' -Destination 'D:\\Competition\\Vesuvius progress prizes\\_public\\fiber-strips-beyond-paris4\\figures\\example_strip_median_P0121.png'"
+      ]
+     }
+    ]
+   },
+   "p90": {
+    "fiber": "kb_20260904T033639453_000086",
+    "family": "V",
+    "mean_abs_sv": 2.302520039863849,
+    "rank": 33,
+    "of": 36,
+    "fibers_with_this_value": 1,
+    "strip_nodes": 300,
+    "pieces": [
+     {
+      "piece": "P0035",
+      "strip_nodes": 300,
+      "strip_mean_abs_sv": 2.302520039863849,
+      "stretches": [
+       "S0235"
+      ],
+      "afv_id": 4008533781375621,
+      "run_in_plan": "True",
+      "commands": [
+       "New-Item -ItemType Directory -Force -Path 'C:\\VesuviusTemp\\strips\\renders\\v3_secondary\\P0035\\strip' | Out-Null",
+       "Copy-Item -Force -Path 'C:\\VesuviusTemp\\strips\\score\\runs\\v3\\strips\\secondary\\P0035\\strip\\*' -Destination 'C:\\VesuviusTemp\\strips\\renders\\v3_secondary\\P0035\\strip'",
+       "Copy-Item -Force -Path 'C:\\VesuviusTemp\\strips\\score\\runs\\v3\\strips\\secondary\\P0035\\strip.npz','C:\\VesuviusTemp\\strips\\score\\runs\\v3\\strips\\secondary\\P0035\\summary.json' -Destination 'C:\\VesuviusTemp\\strips\\renders\\v3_secondary\\P0035'",
+       "& 'C:\\Users\\PC\\miniconda3\\envs\\vesuvius\\python.exe' -I -u 'D:\\Competition\\Vesuvius progress prizes\\_public\\fiber-strips-beyond-paris4\\tools\\render_strip.py' --villa 'C:\\VesuviusTemp\\strips\\villa_6f2' --out 'C:\\VesuviusTemp\\strips\\renders\\v3_secondary\\P0035' --checkpoint scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e --ct s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr --cache-dir 'C:\\VesuviusTemp\\strips\\ct_cache' --device cpu",
+       "Copy-Item -Force -Path 'C:\\VesuviusTemp\\strips\\renders\\v3_secondary\\P0035\\render.png' -Destination 'D:\\Competition\\Vesuvius progress prizes\\_public\\fiber-strips-beyond-paris4\\figures\\example_strip_p90_P0035.png'"
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

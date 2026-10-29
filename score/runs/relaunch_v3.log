@@ -1,0 +1,12 @@
+﻿[2026-10-28 14:45:34] relaunch wrapper pid 76492 start
+[2026-10-28 14:45:35] attempt 1: start run_all.ps1 (C: 26.69 GiB free)
+[2026-10-28 15:27:15] attempt 1: exit 3; DONE: rc=3 stage=failed: prefetch:secondary finished=2026-10-28 15:26:40
+[2026-10-28 15:30:03] attempt 2: start run_all.ps1 (C: 20.89 GiB free)
+[2026-10-28 15:52:07] attempt 2: exit 3; DONE: rc=3 stage=failed: prefetch:secondary finished=2026-10-28 15:51:46
+[2026-10-28 15:54:09] attempt 3: start run_all.ps1 (C: 19.56 GiB free)
+[2026-10-28 16:26:13] attempt 3: exit 3; DONE: rc=3 stage=failed: prefetch:secondary finished=2026-10-28 16:25:10
+[2026-10-28 16:28:13] attempt 4: start run_all.ps1 (C: 17.69 GiB free)
+[2026-10-29 02:13:14] relaunch wrapper pid 64500 start
+[2026-10-29 02:13:15] attempt 1: start run_all.ps1 (C: 29.72 GiB free)
+[2026-10-29 03:40:54] attempt 1: exit 0; DONE: rc=0 stage=finished finished=2026-10-29 03:40:54
+[2026-10-29 03:40:54] V3_FINAL rc 0

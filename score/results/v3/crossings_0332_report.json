@@ -1,0 +1,289 @@
+{
+ "provenance": {
+  "scorer": "C:\\VesuviusTemp\\strips\\score\\score_strips.py",
+  "scorer_version": "3.0.0",
+  "scorer_sha256": "d7d6d1946bc4decd72bc153958c4fb209f10f90fdca5f16b6616186f8e2c3577",
+  "prereg_sha256": "dffa97b9dffb7cd9b69d6cdc66fa247f00a57de6a208db71fdc098034b59812e",
+  "argv": [
+   "crossings",
+   "--fibers",
+   "data\\fibers0332",
+   "--space",
+   "PHerc0332/20251211183505@L0",
+   "--plan",
+   "results\\crossings_0332_plan.json",
+   "--strips",
+   "C:\\VesuviusTemp\\strips\\score\\runs\\v3\\strips\\0332",
+   "--out",
+   "C:\\VesuviusTemp\\strips\\score\\results\\v3\\crossings_0332_report.json"
+  ],
+  "constants": {
+   "SCORE_UNIT_BASE": 4.0,
+   "SV_UM": 9.596,
+   "SAMPLE_STEP": 1.0,
+   "MATCH_MAX_D": 2.0,
+   "CANDIDATE_MAX_D": 6.0,
+   "MIN_STRETCH_SV": 260.5252188411838,
+   "SEARCH_REACH": 30.0,
+   "TANGENT_TOL": 1.0,
+   "ASSOC_MAX_SV": 5.0,
+   "ROW_MAX_SV": 30.0,
+   "MIN_NODES": 25,
+   "G1_MIN_FIBERS": 30,
+   "G1_MAX_NOISE": 2.0,
+   "G2_MAX_MEAN": 1.5,
+   "G2_MIN_WITHIN2": 0.7,
+   "BOOTSTRAP": 2000,
+   "BOOTSTRAP_PCT": 1000,
+   "SEED": 20261028,
+   "CAL_EDGES": [
+    0.0,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    2.0,
+    3.0,
+    null
+   ],
+   "CROSS_TOL": 3.0,
+   "CROSS_TOL_0332": 6.0,
+   "CROSS_RADIUS": 30.0,
+   "LASAGNA_SCALE": 16.0,
+   "TANGENT_HALF": 4,
+   "DECISION_STEP_SV": 16.0,
+   "FIRST_HEAD_SV": 24.0,
+   "BLEND_SV": 32.0,
+   "HEAD_MARGIN_SV": 40.0,
+   "PIECE_BEFORE_SV": 300.0,
+   "PIECE_AFTER_SV": 160.0,
+   "CT_LEVEL": 2,
+   "CT_RADIUS": 170.0,
+   "CPU_DECISIONS_PER_S": 1.35,
+   "CPU_DECISIONS_PER_S_IDLE": [
+    3.27,
+    3.56
+   ],
+   "PROCESS_OVERHEAD_S": 30.0,
+   "CT_MIB_PER_S": 0.58,
+   "CPU_CAP_H_0139": 8.0,
+   "CT_CAP_GIB_0139": 8.0,
+   "CT_CAP_SCAN_0139_SECONDARY": [
+    8.0,
+    13.0,
+    0.1
+   ],
+   "MIN_RUN_FIBERS_SECONDARY": 36,
+   "CPU_CAP_H_0332": 2.0,
+   "CT_CAP_GIB_0332": 2.0,
+   "MAX_CROSSINGS_0332": 60
+  },
+  "time": "2026-10-29 03:40:54",
+  "units": {
+   "score_unit_base": 4.0,
+   "fiber_unit_base": 1.0,
+   "segment_unit_base": null,
+   "strip_unit_base": 4.0
+  }
+ },
+ "crossings": {
+  "label": "no ground truth: consistency between two predictions, not accuracy",
+  "planned": 15,
+  "missing": [
+   "X0019",
+   "X0021",
+   "X0027"
+  ],
+  "crossings": 12,
+  "fibers_h": 10,
+  "fibers_v": 10,
+  "mean": 4.625070524879241,
+  "median": 4.7098604141580696,
+  "p90": 8.443956122382064,
+  "within2": 0.3333333333333333,
+  "ci": {
+   "mean": [
+    2.992669622680591,
+    6.323334669686903
+   ],
+   "median": [
+    1.9213299160881094,
+    7.39094434280999
+   ],
+   "p90": [
+    5.24786009594545,
+    9.365429350752624
+   ],
+   "within2": [
+    0.08333333333333333,
+    0.5833333333333334
+   ]
+  },
+  "tight_subset": {
+   "rule": "closest approach <= 3.0 sv",
+   "crossings": 2,
+   "mean": 1.428262796928231,
+   "median": 1.428262796928231,
+   "within2": 1.0
+  },
+  "per_crossing": [
+   {
+    "id": "X0000",
+    "h_fiber": "dj_20260810T113807458_000001",
+    "v_fiber": "dj_20261026T193623205_000068",
+    "closest_approach_sv": 4.892264153592992,
+    "point_sv": [
+     2417.278043638057,
+     1746.1208266967787,
+     3642.3782453836957
+    ],
+    "agreement_sv": 9.365429350752624,
+    "directions": 2
+   },
+   {
+    "id": "X0005",
+    "h_fiber": "dj_20261020T172947429_000029",
+    "v_fiber": "lt_20261020T065435715_000093",
+    "closest_approach_sv": 2.177762953328543,
+    "point_sv": [
+     1353.585215810191,
+     2491.3764166100973,
+     2674.516783973874
+    ],
+    "agreement_sv": 0.9134247205704085,
+    "directions": 2
+   },
+   {
+    "id": "X0008",
+    "h_fiber": "dj_20261021T162300637_000033",
+    "v_fiber": "dj_20260923T173510189_000015",
+    "closest_approach_sv": 3.76105579073131,
+    "point_sv": [
+     2930.3509268527705,
+     1694.5870889019309,
+     5392.826951301703
+    ],
+    "agreement_sv": 4.524674032579666,
+    "directions": 2
+   },
+   {
+    "id": "X0012",
+    "h_fiber": "dj_20261022T104237390_000041",
+    "v_fiber": "lt_20261015T070224501_000050",
+    "closest_approach_sv": 4.8402187531649545,
+    "point_sv": [
+     1307.445048996311,
+     2639.106517451285,
+     6702.29066649952
+    ],
+    "agreement_sv": 1.8995589588901653,
+    "directions": 2
+   },
+   {
+    "id": "X0016",
+    "h_fiber": "kb_20260822T032335476_000056",
+    "v_fiber": "lt_20261014T071541855_000036",
+    "closest_approach_sv": 5.251285140933015,
+    "point_sv": [
+     2589.604135363902,
+     1285.722500159324,
+     6604.655231785163
+    ],
+    "agreement_sv": 6.793905559462766,
+    "directions": 2
+   },
+   {
+    "id": "X0018",
+    "h_fiber": "kb_20260822T193333844_000065",
+    "v_fiber": "dj_20260810T180232302_000006",
+    "closest_approach_sv": 5.503418443191085,
+    "point_sv": [
+     2614.3565619042747,
+     1871.2248422141201,
+     4209.054253799073
+    ],
+    "agreement_sv": 2.419861683616427,
+    "directions": 2
+   },
+   {
+    "id": "X0022",
+    "h_fiber": "kb_20261014T205717634_000088",
+    "v_fiber": "dj_20261022T154755059_000054",
+    "closest_approach_sv": 3.547339058933202,
+    "point_sv": [
+     1764.1758020966395,
+     2894.041100953851,
+     2664.5268518297107
+    ],
+    "agreement_sv": 0.9761798351233775,
+    "directions": 2
+   },
+   {
+    "id": "X0024",
+    "h_fiber": "kb_20261014T205717634_000088",
+    "v_fiber": "kb_20261014T212252875_000096",
+    "closest_approach_sv": 4.3722543640956895,
+    "point_sv": [
+     1435.2423115483116,
+     2763.3475001219817,
+     2699.0363643494434
+    ],
+    "agreement_sv": 4.895046795736473,
+    "directions": 2
+   },
+   {
+    "id": "X0025",
+    "h_fiber": "kb_20261014T205717634_000088",
+    "v_fiber": "lt_20261013T095553471_000027",
+    "closest_approach_sv": 5.104696031708673,
+    "point_sv": [
+     1282.3925667701633,
+     2708.9150023106404,
+     2720.3859731746306
+    ],
+    "agreement_sv": 5.287061573746447,
+    "directions": 2
+   },
+   {
+    "id": "X0026",
+    "h_fiber": "kb_20261014T210601020_000090",
+    "v_fiber": "kb_20261014T212252875_000096",
+    "closest_approach_sv": 3.751722893436851,
+    "point_sv": [
+     1431.2979487556593,
+     2771.491006894737,
+     2629.0417076325166
+    ],
+    "agreement_sv": 8.494619788629269,
+    "directions": 2
+   },
+   {
+    "id": "X0042",
+    "h_fiber": "lt_20261015T085630589_000057",
+    "v_fiber": "lt_20261020T054929715_000090",
+    "closest_approach_sv": 3.2656160126540925,
+    "point_sv": [
+     1658.7345468989993,
+     2389.682688841486,
+     1418.6232198848052
+    ],
+    "agreement_sv": 7.987983126157214,
+    "directions": 2
+   },
+   {
+    "id": "X0046",
+    "h_fiber": "lt_20261020T060604707_000091",
+    "v_fiber": "lt_20261020T054929715_000090",
+    "closest_approach_sv": 2.533842555130432,
+    "point_sv": [
+     1826.063400112214,
+     2515.1559204782325,
+     5509.024694479112
+    ],
+    "agreement_sv": 1.9431008732860537,
+    "directions": 2
+   }
+  ]
+ }
+}

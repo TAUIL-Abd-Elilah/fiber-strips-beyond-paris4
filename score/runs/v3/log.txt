@@ -1,0 +1,512 @@
+﻿[2026-10-28 14:04:33] START v3 runner pid 43784 (BelowNormal), CUDA_VISIBLE_DEVICES=-1, HF_HUB_OFFLINE=1, C: 26.61 GiB free
+[2026-10-28 14:04:33] villa worktree C:\VesuviusTemp\strips\villa_6f2 at 6f2024569404a46b0f008eee292773945c07a684 (+ #2163 + normalization patch, as G0); checkpoint scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e
+[2026-10-28 14:04:59] verify FREEZE.txt: rc 0; FREEZE verify: 52 files, 0 differ: [] 
+[2026-10-28 14:05:49] [prefetch] 0139: cache metadata present (C:\VesuviusTemp\strips\ct_cache\s3\vesuvius-challenge-open-data\PHerc0139\volumes\20260102150214-2.399um-0.2m-78keV-masked.zarr\2)
+[2026-10-28 14:05:49] [prefetch] 0332: cache metadata present (C:\VesuviusTemp\strips\ct_cache\s3\vesuvius-challenge-open-data\PHerc0332\volumes\20251211183505-2.399um-0.2m-78keV-masked.zarr\2)
+[2026-10-28 14:06:35] preflight 0139 rc 0 CT per-crop z-score bound to s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr::2 (checkpoint: s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr::2) {"preflight": "ok", "ct": "s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr", "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt", "step": 15000, "trace_per_patch": 0.5, "grid_scale": 8.0, "ct_grid_scale": 4.0, "f_spacing": 2.0, "vol_shape": [9620, 3314, 3314], "torch": "2.13.0+cu126", "torch_threads": 8, "cuda_available": false, "priority": "16384", "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py", "seconds": 2.5} 
+[2026-10-28 14:12:37] preflight 0332 rc 0 CT per-crop z-score bound to s3://vesuvius-challenge-open-data/PHerc0332/volumes/20251211183505-2.399um-0.2m-78keV-masked.zarr::2 (checkpoint: s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr::2) {"preflight": "ok", "ct": "s3://vesuvius-challenge-open-data/PHerc0332/volumes/20251211183505-2.399um-0.2m-78keV-masked.zarr", "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt", "step": 15000, "trace_per_patch": 0.5, "grid_scale": 8.0, "ct_grid_scale": 4.0, "f_spacing": 2.0, "vol_shape": [4199, 1971, 1971], "torch": "2.13.0+cu126", "torch_threads": 8, "cuda_available": false, "priority": "16384", "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py", "seconds": 3.4} 
+[2026-10-28 14:12:37] prefetch primary: start (C: 29.72 GiB free)
+[2026-10-28 14:12:38] [prefetch] primary: 2 pieces, 140 chunks (0.27 GiB), 0 cached, 140 to fetch (0.27 GiB), 2 connections
+[2026-10-28 14:12:51] [prefetch] primary: 16/140 chunks, 32 MiB, 13 s, 2.47 MiB/s, C: 29.7 GiB free
+[2026-10-28 14:12:55] [prefetch] primary: 32/140 chunks, 64 MiB, 17 s, 3.74 MiB/s, C: 29.7 GiB free
+[2026-10-28 14:13:00] [prefetch] primary: 48/140 chunks, 96 MiB, 22 s, 4.43 MiB/s, C: 29.7 GiB free
+[2026-10-28 14:13:12] [prefetch] primary: 64/140 chunks, 128 MiB, 34 s, 3.81 MiB/s, C: 29.6 GiB free
+[2026-10-28 14:13:22] [prefetch] primary: 80/140 chunks, 160 MiB, 44 s, 3.63 MiB/s, C: 29.6 GiB free
+[2026-10-28 14:13:31] [prefetch] primary: 96/140 chunks, 192 MiB, 52 s, 3.66 MiB/s, C: 29.5 GiB free
+[2026-10-28 14:14:23] [prefetch] retry (27, 33, 22): ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2026-10-28 14:14:58] [prefetch] retry (27, 34, 21): ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2026-10-28 14:15:27] [prefetch] retry (27, 34, 22): HTTPSConnectionPool(host='vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com', port=443): Max retries exceeded with url: /PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr/2/27/34/22 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+[2026-10-28 14:15:27] [prefetch] retry (27, 34, 21): HTTPSConnectionPool(host='vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com', port=443): Max retries exceeded with url: /PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr/2/27/34/21 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+[2026-10-28 14:15:38] [prefetch] primary: 112/140 chunks, 224 MiB, 179 s, 1.25 MiB/s, C: 29.5 GiB free
+[2026-10-28 14:15:42] [prefetch] primary: 128/140 chunks, 256 MiB, 184 s, 1.39 MiB/s, C: 17.9 GiB free
+[2026-10-28 14:15:44] [prefetch] primary: 140/140 chunks, 280 MiB, 186 s, 1.51 MiB/s, C: 17.8 GiB free
+[2026-10-28 14:15:44] [prefetch] primary: done: 140 fetched (0 missing objects -> fill), 280 MiB in 186 s; 0 of 140 chunks not cached
+[2026-10-28 14:15:50] prefetch primary: rc 0 (C: 28.41 GiB free)
+[2026-10-28 14:15:50] prefetch secondary: start (C: 28.41 GiB free)
+[2026-10-28 14:17:27] [prefetch] secondary: 46 pieces, 4914 chunks (9.60 GiB), 79 cached, 4835 to fetch (9.44 GiB), 2 connections
+[2026-10-28 14:20:57] [prefetch] retry (10, 23, 36): HTTPSConnectionPool(host='vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com', port=443): Max retries exceeded with url: /PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr/2/10/23/36 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+[2026-10-28 14:20:57] [prefetch] retry (10, 24, 34): HTTPSConnectionPool(host='vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com', port=443): Max retries exceeded with url: /PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr/2/10/24/34 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+[2026-10-28 14:21:19] [prefetch] secondary: 16/4835 chunks, 32 MiB, 230 s, 0.14 MiB/s, C: 29.2 GiB free
+[2026-10-28 14:21:22] [prefetch] secondary: 32/4835 chunks, 64 MiB, 233 s, 0.27 MiB/s, C: 29.2 GiB free
+[2026-10-28 14:21:26] [prefetch] secondary: 48/4835 chunks, 96 MiB, 237 s, 0.41 MiB/s, C: 29.2 GiB free
+[2026-10-28 14:21:29] [prefetch] secondary: 64/4835 chunks, 128 MiB, 240 s, 0.53 MiB/s, C: 29.1 GiB free
+[2026-10-28 14:21:33] [prefetch] secondary: 80/4835 chunks, 160 MiB, 243 s, 0.66 MiB/s, C: 29.1 GiB free
+[2026-10-28 14:21:38] [prefetch] secondary: 96/4835 chunks, 192 MiB, 248 s, 0.77 MiB/s, C: 29.1 GiB free
+[2026-10-28 14:21:43] [prefetch] secondary: 112/4835 chunks, 224 MiB, 253 s, 0.88 MiB/s, C: 29.0 GiB free
+[2026-10-28 14:21:51] [prefetch] secondary: 128/4835 chunks, 256 MiB, 261 s, 0.98 MiB/s, C: 29.0 GiB free
+[2026-10-28 14:21:59] [prefetch] secondary: 144/4835 chunks, 288 MiB, 269 s, 1.07 MiB/s, C: 29.0 GiB free
+[2026-10-28 14:22:08] [prefetch] secondary: 160/4835 chunks, 320 MiB, 278 s, 1.15 MiB/s, C: 28.9 GiB free
+[2026-10-28 14:22:14] [prefetch] secondary: 176/4835 chunks, 352 MiB, 284 s, 1.24 MiB/s, C: 28.9 GiB free
+[2026-10-28 14:22:21] [prefetch] secondary: 192/4835 chunks, 384 MiB, 291 s, 1.32 MiB/s, C: 28.8 GiB free
+[2026-10-28 14:22:58] [prefetch] secondary: 208/4835 chunks, 416 MiB, 329 s, 1.27 MiB/s, C: 28.8 GiB free
+[2026-10-28 14:23:00] [prefetch] secondary: 224/4835 chunks, 448 MiB, 331 s, 1.35 MiB/s, C: 28.8 GiB free
+[2026-10-28 14:23:03] [prefetch] secondary: 240/4835 chunks, 480 MiB, 333 s, 1.44 MiB/s, C: 28.7 GiB free
+[2026-10-28 14:23:05] [prefetch] secondary: 256/4835 chunks, 512 MiB, 335 s, 1.53 MiB/s, C: 28.7 GiB free
+[2026-10-28 14:23:08] [prefetch] secondary: 272/4835 chunks, 544 MiB, 338 s, 1.61 MiB/s, C: 28.7 GiB free
+[2026-10-28 14:23:21] [prefetch] secondary: 288/4835 chunks, 576 MiB, 351 s, 1.64 MiB/s, C: 28.6 GiB free
+[2026-10-28 14:23:33] [prefetch] secondary: 304/4835 chunks, 608 MiB, 364 s, 1.67 MiB/s, C: 28.6 GiB free
+[2026-10-28 14:24:02] [prefetch] secondary: 320/4835 chunks, 640 MiB, 392 s, 1.63 MiB/s, C: 28.6 GiB free
+[2026-10-28 14:24:04] [prefetch] secondary: 336/4835 chunks, 672 MiB, 395 s, 1.70 MiB/s, C: 17.0 GiB free
+[2026-10-28 14:24:07] [prefetch] secondary: 352/4835 chunks, 704 MiB, 398 s, 1.77 MiB/s, C: 17.0 GiB free
+[2026-10-28 14:24:11] [prefetch] secondary: 368/4835 chunks, 736 MiB, 401 s, 1.83 MiB/s, C: 17.0 GiB free
+[2026-10-28 14:24:15] [prefetch] secondary: 384/4835 chunks, 768 MiB, 406 s, 1.89 MiB/s, C: 16.9 GiB free
+[2026-10-28 14:24:19] [prefetch] secondary: 400/4835 chunks, 800 MiB, 410 s, 1.95 MiB/s, C: 16.9 GiB free
+[2026-10-28 14:24:25] [prefetch] secondary: 416/4835 chunks, 832 MiB, 415 s, 2.00 MiB/s, C: 16.8 GiB free
+[2026-10-28 14:24:53] [prefetch] secondary: 432/4835 chunks, 864 MiB, 443 s, 1.95 MiB/s, C: 16.8 GiB free
+[2026-10-28 14:24:56] [prefetch] secondary: 448/4835 chunks, 896 MiB, 447 s, 2.01 MiB/s, C: 16.8 GiB free
+[2026-10-28 14:25:00] [prefetch] secondary: 464/4835 chunks, 928 MiB, 450 s, 2.06 MiB/s, C: 16.7 GiB free
+[2026-10-28 14:25:03] [prefetch] secondary: 480/4835 chunks, 960 MiB, 454 s, 2.11 MiB/s, C: 16.7 GiB free
+[2026-10-28 14:25:10] [prefetch] secondary: 496/4835 chunks, 992 MiB, 461 s, 2.15 MiB/s, C: 16.7 GiB free
+[2026-10-28 14:25:16] [prefetch] secondary: 512/4835 chunks, 1024 MiB, 467 s, 2.19 MiB/s, C: 16.6 GiB free
+[2026-10-28 14:27:41] [prefetch] secondary: 528/4835 chunks, 1056 MiB, 611 s, 1.73 MiB/s, C: 28.1 GiB free
+[2026-10-28 14:28:01] [prefetch] secondary: 544/4835 chunks, 1088 MiB, 632 s, 1.72 MiB/s, C: 28.1 GiB free
+[2026-10-28 14:28:05] [prefetch] secondary: 560/4835 chunks, 1120 MiB, 635 s, 1.76 MiB/s, C: 28.1 GiB free
+[2026-10-28 14:28:14] [prefetch] secondary: 576/4835 chunks, 1152 MiB, 645 s, 1.79 MiB/s, C: 28.1 GiB free
+[2026-10-28 14:28:23] [prefetch] secondary: 592/4835 chunks, 1184 MiB, 653 s, 1.81 MiB/s, C: 28.1 GiB free
+[2026-10-28 14:28:29] [prefetch] secondary: 608/4835 chunks, 1216 MiB, 660 s, 1.84 MiB/s, C: 28.1 GiB free
+[2026-10-28 14:28:35] [prefetch] secondary: 624/4835 chunks, 1246 MiB, 665 s, 1.87 MiB/s, C: 28.1 GiB free
+[2026-10-28 14:28:42] [prefetch] secondary: 640/4835 chunks, 1278 MiB, 672 s, 1.90 MiB/s, C: 28.0 GiB free
+[2026-10-28 14:28:49] [prefetch] secondary: 656/4835 chunks, 1310 MiB, 679 s, 1.93 MiB/s, C: 28.0 GiB free
+[2026-10-28 14:28:57] [prefetch] secondary: 672/4835 chunks, 1342 MiB, 687 s, 1.95 MiB/s, C: 27.9 GiB free
+[2026-10-28 14:29:07] [prefetch] secondary: 688/4835 chunks, 1374 MiB, 698 s, 1.97 MiB/s, C: 27.9 GiB free
+[2026-10-28 14:29:15] [prefetch] secondary: 704/4835 chunks, 1406 MiB, 706 s, 1.99 MiB/s, C: 27.9 GiB free
+[2026-10-28 14:29:21] [prefetch] secondary: 720/4835 chunks, 1438 MiB, 711 s, 2.02 MiB/s, C: 27.8 GiB free
+[2026-10-28 14:29:27] [prefetch] secondary: 736/4835 chunks, 1470 MiB, 717 s, 2.05 MiB/s, C: 27.8 GiB free
+[2026-10-28 14:29:29] [prefetch] secondary: 752/4835 chunks, 1502 MiB, 720 s, 2.09 MiB/s, C: 27.7 GiB free
+[2026-10-28 14:29:34] [prefetch] secondary: 768/4835 chunks, 1534 MiB, 725 s, 2.12 MiB/s, C: 27.7 GiB free
+[2026-10-28 14:29:40] [prefetch] secondary: 784/4835 chunks, 1566 MiB, 731 s, 2.14 MiB/s, C: 27.7 GiB free
+[2026-10-28 14:29:43] [prefetch] secondary: 800/4835 chunks, 1598 MiB, 734 s, 2.18 MiB/s, C: 27.6 GiB free
+[2026-10-28 14:29:49] [prefetch] secondary: 816/4835 chunks, 1630 MiB, 739 s, 2.20 MiB/s, C: 27.6 GiB free
+[2026-10-28 14:30:01] [prefetch] secondary: 832/4835 chunks, 1662 MiB, 752 s, 2.21 MiB/s, C: 27.6 GiB free
+[2026-10-28 14:30:07] [prefetch] retry (25, 19, 30): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2026-10-28 14:30:15] [prefetch] secondary: 848/4835 chunks, 1694 MiB, 765 s, 2.21 MiB/s, C: 27.5 GiB free
+[2026-10-28 14:30:19] [prefetch] secondary: 864/4835 chunks, 1726 MiB, 769 s, 2.24 MiB/s, C: 27.5 GiB free
+[2026-10-28 14:30:23] [prefetch] secondary: 880/4835 chunks, 1758 MiB, 774 s, 2.27 MiB/s, C: 27.4 GiB free
+[2026-10-28 14:30:36] [prefetch] retry (25, 21, 36): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2026-10-28 14:31:24] [prefetch] retry (25, 21, 36): ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2026-10-28 14:31:47] [prefetch] secondary: 896/4835 chunks, 1790 MiB, 858 s, 2.09 MiB/s, C: 27.4 GiB free
+[2026-10-28 14:31:59] [prefetch] secondary: 912/4835 chunks, 1822 MiB, 870 s, 2.09 MiB/s, C: 27.3 GiB free
+[2026-10-28 14:32:07] [prefetch] retry (25, 24, 18): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2026-10-28 14:32:16] [prefetch] retry (25, 24, 18): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2026-10-28 14:32:35] [prefetch] secondary: 928/4835 chunks, 1854 MiB, 906 s, 2.05 MiB/s, C: 27.3 GiB free
+[2026-10-28 14:32:38] [prefetch] secondary: 944/4835 chunks, 1886 MiB, 909 s, 2.08 MiB/s, C: 27.3 GiB free
+[2026-10-28 14:32:42] [prefetch] secondary: 960/4835 chunks, 1918 MiB, 912 s, 2.10 MiB/s, C: 27.2 GiB free
+[2026-10-28 14:32:44] [prefetch] secondary: 976/4835 chunks, 1950 MiB, 915 s, 2.13 MiB/s, C: 27.2 GiB free
+[2026-10-28 14:32:51] [prefetch] secondary: 992/4835 chunks, 1982 MiB, 922 s, 2.15 MiB/s, C: 27.2 GiB free
+[2026-10-28 14:33:12] [prefetch] secondary: 1008/4835 chunks, 2014 MiB, 943 s, 2.14 MiB/s, C: 27.1 GiB free
+[2026-10-28 14:33:35] [prefetch] secondary: 1024/4835 chunks, 2046 MiB, 965 s, 2.12 MiB/s, C: 15.6 GiB free
+[2026-10-28 14:33:45] [prefetch] secondary: 1040/4835 chunks, 2078 MiB, 976 s, 2.13 MiB/s, C: 15.5 GiB free
+[2026-10-28 14:33:49] [prefetch] secondary: 1056/4835 chunks, 2110 MiB, 980 s, 2.15 MiB/s, C: 15.5 GiB free
+[2026-10-28 14:33:56] [prefetch] secondary: 1072/4835 chunks, 2142 MiB, 986 s, 2.17 MiB/s, C: 15.5 GiB free
+[2026-10-28 14:34:09] [prefetch] secondary: 1088/4835 chunks, 2174 MiB, 999 s, 2.18 MiB/s, C: 15.4 GiB free
+[2026-10-28 14:34:34] [prefetch] secondary: 1104/4835 chunks, 2206 MiB, 1024 s, 2.15 MiB/s, C: 15.4 GiB free
+[2026-10-28 14:34:41] [prefetch] secondary: 1120/4835 chunks, 2238 MiB, 1032 s, 2.17 MiB/s, C: 15.4 GiB free
+[2026-10-28 14:34:52] [prefetch] secondary: 1136/4835 chunks, 2270 MiB, 1042 s, 2.18 MiB/s, C: 15.4 GiB free
+[2026-10-28 14:37:29] [prefetch] secondary: 1152/4835 chunks, 2302 MiB, 1199 s, 1.92 MiB/s, C: 15.3 GiB free
+[2026-10-28 14:37:29] [prefetch] STOP: C: has 8.36 GiB free (< 10); 1152/4835 fetched
+[2026-10-28 14:37:40] prefetch secondary: rc 3 (C: 8.36 GiB free)
+[2026-10-28 14:37:40] ERROR (rc 3): C: below 10 GiB free during prefetch secondary
+[2026-10-28 14:37:40] DONE rc 3
+[2026-10-28 14:46:55] START v3 runner pid 53108 (BelowNormal), CUDA_VISIBLE_DEVICES=-1, HF_HUB_OFFLINE=1, C: 15.13 GiB free
+[2026-10-28 14:46:57] villa worktree C:\VesuviusTemp\strips\villa_6f2 at 6f2024569404a46b0f008eee292773945c07a684 (+ #2163 + normalization patch, as G0); checkpoint scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e
+[2026-10-28 14:47:12] verify FREEZE.txt: rc 0; FREEZE verify: 52 files, 0 differ: [] 
+[2026-10-28 14:47:28] [prefetch] 0139: cache metadata present (C:\VesuviusTemp\strips\ct_cache\s3\vesuvius-challenge-open-data\PHerc0139\volumes\20260102150214-2.399um-0.2m-78keV-masked.zarr\2)
+[2026-10-28 14:47:29] [prefetch] 0332: cache metadata present (C:\VesuviusTemp\strips\ct_cache\s3\vesuvius-challenge-open-data\PHerc0332\volumes\20251211183505-2.399um-0.2m-78keV-masked.zarr\2)
+[2026-10-28 14:50:54] preflight 0139 rc 0 CT per-crop z-score bound to s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr::2 (checkpoint: s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr::2) {"preflight": "ok", "ct": "s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr", "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt", "step": 15000, "trace_per_patch": 0.5, "grid_scale": 8.0, "ct_grid_scale": 4.0, "f_spacing": 2.0, "vol_shape": [9620, 3314, 3314], "torch": "2.13.0+cu126", "torch_threads": 8, "cuda_available": false, "priority": "16384", "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py", "seconds": 18.4} 
+[2026-10-28 14:51:01] preflight 0332 rc 0 CT per-crop z-score bound to s3://vesuvius-challenge-open-data/PHerc0332/volumes/20251211183505-2.399um-0.2m-78keV-masked.zarr::2 (checkpoint: s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr::2) {"preflight": "ok", "ct": "s3://vesuvius-challenge-open-data/PHerc0332/volumes/20251211183505-2.399um-0.2m-78keV-masked.zarr", "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt", "step": 15000, "trace_per_patch": 0.5, "grid_scale": 8.0, "ct_grid_scale": 4.0, "f_spacing": 2.0, "vol_shape": [4199, 1971, 1971], "torch": "2.13.0+cu126", "torch_threads": 8, "cuda_available": false, "priority": "16384", "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py", "seconds": 1.8} 
+[2026-10-28 14:51:02] prefetch primary: start (C: 26.48 GiB free)
+[2026-10-28 14:51:04] [prefetch] primary: 2 pieces, 140 chunks (0.27 GiB), 140 cached, 0 to fetch (0.00 GiB), 2 connections
+[2026-10-28 14:51:04] [prefetch] primary: done: 0 fetched (0 missing objects -> fill), 0 MiB in 0 s; 0 of 140 chunks not cached
+[2026-10-28 14:51:06] prefetch primary: rc 0 (C: 26.45 GiB free)
+[2026-10-28 14:51:06] prefetch secondary: start (C: 26.45 GiB free)
+[2026-10-28 14:51:26] [prefetch] secondary: 46 pieces, 4914 chunks (9.60 GiB), 1231 cached, 3683 to fetch (7.19 GiB), 2 connections
+[2026-10-28 14:51:33] [prefetch] secondary: 16/3683 chunks, 32 MiB, 8 s, 4.26 MiB/s, C: 26.5 GiB free
+[2026-10-28 14:51:40] [prefetch] secondary: 32/3683 chunks, 64 MiB, 14 s, 4.63 MiB/s, C: 26.4 GiB free
+[2026-10-28 14:51:47] [prefetch] secondary: 48/3683 chunks, 96 MiB, 21 s, 4.62 MiB/s, C: 26.4 GiB free
+[2026-10-28 14:51:56] [prefetch] secondary: 64/3683 chunks, 128 MiB, 30 s, 4.30 MiB/s, C: 26.4 GiB free
+[2026-10-28 14:52:03] [prefetch] secondary: 80/3683 chunks, 160 MiB, 37 s, 4.27 MiB/s, C: 26.3 GiB free
+[2026-10-28 14:52:21] [prefetch] secondary: 96/3683 chunks, 192 MiB, 55 s, 3.50 MiB/s, C: 26.3 GiB free
+[2026-10-28 14:52:35] [prefetch] secondary: 112/3683 chunks, 224 MiB, 69 s, 3.26 MiB/s, C: 26.2 GiB free
+[2026-10-28 14:52:38] [prefetch] secondary: 128/3683 chunks, 256 MiB, 72 s, 3.58 MiB/s, C: 26.2 GiB free
+[2026-10-28 14:52:41] [prefetch] secondary: 144/3683 chunks, 288 MiB, 75 s, 3.82 MiB/s, C: 26.2 GiB free
+[2026-10-28 14:52:49] [prefetch] secondary: 160/3683 chunks, 320 MiB, 83 s, 3.86 MiB/s, C: 26.1 GiB free
+[2026-10-28 14:52:59] [prefetch] secondary: 176/3683 chunks, 352 MiB, 93 s, 3.77 MiB/s, C: 26.1 GiB free
+[2026-10-28 14:53:09] [prefetch] secondary: 192/3683 chunks, 384 MiB, 103 s, 3.72 MiB/s, C: 26.1 GiB free
+[2026-10-28 14:53:16] [prefetch] secondary: 208/3683 chunks, 416 MiB, 110 s, 3.78 MiB/s, C: 26.0 GiB free
+[2026-10-28 14:53:23] [prefetch] secondary: 224/3683 chunks, 448 MiB, 117 s, 3.82 MiB/s, C: 26.0 GiB free
+[2026-10-28 14:53:29] [prefetch] secondary: 240/3683 chunks, 480 MiB, 123 s, 3.89 MiB/s, C: 26.0 GiB free
+[2026-10-28 14:53:37] [prefetch] secondary: 256/3683 chunks, 512 MiB, 131 s, 3.90 MiB/s, C: 25.9 GiB free
+[2026-10-28 14:53:45] [prefetch] secondary: 272/3683 chunks, 544 MiB, 140 s, 3.90 MiB/s, C: 25.9 GiB free
+[2026-10-28 14:53:54] [prefetch] secondary: 288/3683 chunks, 576 MiB, 148 s, 3.89 MiB/s, C: 25.9 GiB free
+[2026-10-28 14:53:59] [prefetch] secondary: 304/3683 chunks, 608 MiB, 153 s, 3.97 MiB/s, C: 25.9 GiB free
+[2026-10-28 14:54:36] [prefetch] secondary: 320/3683 chunks, 640 MiB, 190 s, 3.37 MiB/s, C: 25.8 GiB free
+[2026-10-28 14:54:42] [prefetch] secondary: 336/3683 chunks, 672 MiB, 196 s, 3.44 MiB/s, C: 25.8 GiB free
+[2026-10-28 14:55:12] [prefetch] retry (28, 19, 37): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2026-10-28 14:55:18] [prefetch] secondary: 352/3683 chunks, 704 MiB, 232 s, 3.04 MiB/s, C: 25.8 GiB free
+[2026-10-28 14:55:23] [prefetch] secondary: 368/3683 chunks, 736 MiB, 237 s, 3.10 MiB/s, C: 14.2 GiB free
+[2026-10-28 14:56:57] [prefetch] secondary: 384/3683 chunks, 768 MiB, 331 s, 2.32 MiB/s, C: 14.2 GiB free
+[2026-10-28 14:57:03] [prefetch] secondary: 400/3683 chunks, 800 MiB, 337 s, 2.37 MiB/s, C: 14.1 GiB free
+[2026-10-28 14:57:11] [prefetch] secondary: 416/3683 chunks, 832 MiB, 345 s, 2.41 MiB/s, C: 14.1 GiB free
+[2026-10-28 14:57:19] [prefetch] secondary: 432/3683 chunks, 864 MiB, 353 s, 2.45 MiB/s, C: 14.1 GiB free
+[2026-10-28 14:57:25] [prefetch] secondary: 448/3683 chunks, 896 MiB, 359 s, 2.49 MiB/s, C: 14.1 GiB free
+[2026-10-28 14:57:46] [prefetch] secondary: 464/3683 chunks, 928 MiB, 380 s, 2.44 MiB/s, C: 14.0 GiB free
+[2026-10-28 14:57:54] [prefetch] secondary: 480/3683 chunks, 960 MiB, 389 s, 2.47 MiB/s, C: 14.0 GiB free
+[2026-10-28 14:58:00] [prefetch] secondary: 496/3683 chunks, 992 MiB, 394 s, 2.52 MiB/s, C: 14.0 GiB free
+[2026-10-28 14:58:06] [prefetch] secondary: 512/3683 chunks, 1024 MiB, 400 s, 2.56 MiB/s, C: 13.9 GiB free
+[2026-10-28 15:00:30] [prefetch] retry (28, 34, 26): ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2026-10-28 15:00:36] [prefetch] secondary: 528/3683 chunks, 1056 MiB, 550 s, 1.92 MiB/s, C: 23.7 GiB free
+[2026-10-28 15:00:41] [prefetch] secondary: 544/3683 chunks, 1088 MiB, 555 s, 1.96 MiB/s, C: 13.8 GiB free
+[2026-10-28 15:00:53] [prefetch] secondary: 560/3683 chunks, 1120 MiB, 567 s, 1.98 MiB/s, C: 13.8 GiB free
+[2026-10-28 15:00:58] [prefetch] secondary: 576/3683 chunks, 1152 MiB, 572 s, 2.01 MiB/s, C: 13.7 GiB free
+[2026-10-28 15:01:05] [prefetch] secondary: 592/3683 chunks, 1184 MiB, 579 s, 2.05 MiB/s, C: 13.7 GiB free
+[2026-10-28 15:01:13] [prefetch] secondary: 608/3683 chunks, 1216 MiB, 587 s, 2.07 MiB/s, C: 13.6 GiB free
+[2026-10-28 15:01:21] [prefetch] secondary: 624/3683 chunks, 1248 MiB, 595 s, 2.10 MiB/s, C: 25.0 GiB free
+[2026-10-28 15:01:30] [prefetch] secondary: 640/3683 chunks, 1280 MiB, 604 s, 2.12 MiB/s, C: 25.0 GiB free
+[2026-10-28 15:01:38] [prefetch] secondary: 656/3683 chunks, 1312 MiB, 613 s, 2.14 MiB/s, C: 24.9 GiB free
+[2026-10-28 15:01:46] [prefetch] secondary: 672/3683 chunks, 1344 MiB, 620 s, 2.17 MiB/s, C: 24.9 GiB free
+[2026-10-28 15:01:55] [prefetch] secondary: 688/3683 chunks, 1376 MiB, 629 s, 2.19 MiB/s, C: 24.9 GiB free
+[2026-10-28 15:02:05] [prefetch] secondary: 704/3683 chunks, 1408 MiB, 639 s, 2.20 MiB/s, C: 24.8 GiB free
+[2026-10-28 15:02:16] [prefetch] secondary: 720/3683 chunks, 1440 MiB, 651 s, 2.21 MiB/s, C: 24.8 GiB free
+[2026-10-28 15:02:25] [prefetch] secondary: 736/3683 chunks, 1472 MiB, 659 s, 2.23 MiB/s, C: 24.8 GiB free
+[2026-10-28 15:02:30] [prefetch] secondary: 752/3683 chunks, 1504 MiB, 664 s, 2.26 MiB/s, C: 24.7 GiB free
+[2026-10-28 15:02:37] [prefetch] secondary: 768/3683 chunks, 1536 MiB, 671 s, 2.29 MiB/s, C: 24.7 GiB free
+[2026-10-28 15:02:43] [prefetch] secondary: 784/3683 chunks, 1568 MiB, 678 s, 2.31 MiB/s, C: 24.7 GiB free
+[2026-10-28 15:03:14] [prefetch] secondary: 800/3683 chunks, 1600 MiB, 708 s, 2.26 MiB/s, C: 24.6 GiB free
+[2026-10-28 15:03:28] [prefetch] secondary: 816/3683 chunks, 1632 MiB, 722 s, 2.26 MiB/s, C: 24.5 GiB free
+[2026-10-28 15:03:41] [prefetch] secondary: 832/3683 chunks, 1664 MiB, 735 s, 2.26 MiB/s, C: 24.5 GiB free
+[2026-10-28 15:03:47] [prefetch] secondary: 848/3683 chunks, 1696 MiB, 741 s, 2.29 MiB/s, C: 24.5 GiB free
+[2026-10-28 15:03:55] [prefetch] secondary: 864/3683 chunks, 1728 MiB, 749 s, 2.31 MiB/s, C: 24.4 GiB free
+[2026-10-28 15:04:04] [prefetch] secondary: 880/3683 chunks, 1760 MiB, 758 s, 2.32 MiB/s, C: 24.4 GiB free
+[2026-10-28 15:04:15] [prefetch] secondary: 896/3683 chunks, 1792 MiB, 769 s, 2.33 MiB/s, C: 24.3 GiB free
+[2026-10-28 15:04:22] [prefetch] secondary: 912/3683 chunks, 1824 MiB, 776 s, 2.35 MiB/s, C: 24.3 GiB free
+[2026-10-28 15:04:29] [prefetch] secondary: 928/3683 chunks, 1856 MiB, 783 s, 2.37 MiB/s, C: 24.3 GiB free
+[2026-10-28 15:04:52] [prefetch] secondary: 944/3683 chunks, 1888 MiB, 806 s, 2.34 MiB/s, C: 24.2 GiB free
+[2026-10-28 15:04:57] [prefetch] secondary: 960/3683 chunks, 1920 MiB, 811 s, 2.37 MiB/s, C: 24.2 GiB free
+[2026-10-28 15:05:02] [prefetch] secondary: 976/3683 chunks, 1952 MiB, 817 s, 2.39 MiB/s, C: 24.1 GiB free
+[2026-10-28 15:05:08] [prefetch] secondary: 992/3683 chunks, 1984 MiB, 822 s, 2.41 MiB/s, C: 24.1 GiB free
+[2026-10-28 15:05:27] [prefetch] secondary: 1008/3683 chunks, 2016 MiB, 841 s, 2.40 MiB/s, C: 24.1 GiB free
+[2026-10-28 15:05:33] [prefetch] secondary: 1024/3683 chunks, 2048 MiB, 847 s, 2.42 MiB/s, C: 24.0 GiB free
+[2026-10-28 15:05:35] [prefetch] secondary: 1040/3683 chunks, 2080 MiB, 849 s, 2.45 MiB/s, C: 24.0 GiB free
+[2026-10-28 15:05:41] [prefetch] secondary: 1056/3683 chunks, 2112 MiB, 855 s, 2.47 MiB/s, C: 24.0 GiB free
+[2026-10-28 15:05:45] [prefetch] secondary: 1072/3683 chunks, 2144 MiB, 859 s, 2.50 MiB/s, C: 23.9 GiB free
+[2026-10-28 15:05:51] [prefetch] secondary: 1088/3683 chunks, 2174 MiB, 865 s, 2.51 MiB/s, C: 23.9 GiB free
+[2026-10-28 15:05:57] [prefetch] secondary: 1104/3683 chunks, 2206 MiB, 871 s, 2.53 MiB/s, C: 23.9 GiB free
+[2026-10-28 15:07:06] [prefetch] secondary: 1120/3683 chunks, 2238 MiB, 940 s, 2.38 MiB/s, C: 23.8 GiB free
+[2026-10-28 15:07:20] [prefetch] secondary: 1136/3683 chunks, 2266 MiB, 955 s, 2.37 MiB/s, C: 23.8 GiB free
+[2026-10-28 15:07:42] [prefetch] secondary: 1152/3683 chunks, 2298 MiB, 976 s, 2.35 MiB/s, C: 23.7 GiB free
+[2026-10-28 15:07:47] [prefetch] secondary: 1168/3683 chunks, 2330 MiB, 981 s, 2.38 MiB/s, C: 23.7 GiB free
+[2026-10-28 15:07:52] [prefetch] secondary: 1184/3683 chunks, 2362 MiB, 986 s, 2.40 MiB/s, C: 23.7 GiB free
+[2026-10-28 15:07:55] [prefetch] secondary: 1200/3683 chunks, 2394 MiB, 989 s, 2.42 MiB/s, C: 23.7 GiB free
+[2026-10-28 15:08:00] [prefetch] secondary: 1216/3683 chunks, 2426 MiB, 994 s, 2.44 MiB/s, C: 23.6 GiB free
+[2026-10-28 15:08:06] [prefetch] secondary: 1232/3683 chunks, 2458 MiB, 1000 s, 2.46 MiB/s, C: 23.6 GiB free
+[2026-10-28 15:08:12] [prefetch] secondary: 1248/3683 chunks, 2490 MiB, 1006 s, 2.47 MiB/s, C: 23.6 GiB free
+[2026-10-28 15:08:18] [prefetch] secondary: 1264/3683 chunks, 2522 MiB, 1013 s, 2.49 MiB/s, C: 23.5 GiB free
+[2026-10-28 15:08:24] [prefetch] secondary: 1280/3683 chunks, 2554 MiB, 1019 s, 2.51 MiB/s, C: 23.5 GiB free
+[2026-10-28 15:08:30] [prefetch] secondary: 1296/3683 chunks, 2586 MiB, 1024 s, 2.53 MiB/s, C: 23.5 GiB free
+[2026-10-28 15:08:35] [prefetch] secondary: 1312/3683 chunks, 2618 MiB, 1029 s, 2.54 MiB/s, C: 23.4 GiB free
+[2026-10-28 15:08:53] [prefetch] secondary: 1328/3683 chunks, 2650 MiB, 1047 s, 2.53 MiB/s, C: 23.4 GiB free
+[2026-10-28 15:08:55] [prefetch] secondary: 1344/3683 chunks, 2682 MiB, 1049 s, 2.56 MiB/s, C: 23.4 GiB free
+[2026-10-28 15:08:58] [prefetch] secondary: 1360/3683 chunks, 2714 MiB, 1052 s, 2.58 MiB/s, C: 23.3 GiB free
+[2026-10-28 15:09:01] [prefetch] secondary: 1376/3683 chunks, 2746 MiB, 1055 s, 2.60 MiB/s, C: 23.3 GiB free
+[2026-10-28 15:09:06] [prefetch] secondary: 1392/3683 chunks, 2778 MiB, 1060 s, 2.62 MiB/s, C: 23.3 GiB free
+[2026-10-28 15:09:26] [prefetch] secondary: 1408/3683 chunks, 2810 MiB, 1080 s, 2.60 MiB/s, C: 23.2 GiB free
+[2026-10-28 15:09:29] [prefetch] secondary: 1424/3683 chunks, 2838 MiB, 1083 s, 2.62 MiB/s, C: 23.2 GiB free
+[2026-10-28 15:09:32] [prefetch] secondary: 1440/3683 chunks, 2870 MiB, 1086 s, 2.64 MiB/s, C: 23.2 GiB free
+[2026-10-28 15:09:36] [prefetch] secondary: 1456/3683 chunks, 2902 MiB, 1090 s, 2.66 MiB/s, C: 23.1 GiB free
+[2026-10-28 15:09:40] [prefetch] secondary: 1472/3683 chunks, 2934 MiB, 1094 s, 2.68 MiB/s, C: 23.1 GiB free
+[2026-10-28 15:10:47] [prefetch] retry (39, 33, 24): ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2026-10-28 15:11:10] [prefetch] secondary: 1488/3683 chunks, 2966 MiB, 1184 s, 2.51 MiB/s, C: 23.1 GiB free
+[2026-10-28 15:11:17] [prefetch] secondary: 1504/3683 chunks, 2998 MiB, 1191 s, 2.52 MiB/s, C: 23.0 GiB free
+[2026-10-28 15:11:22] [prefetch] secondary: 1520/3683 chunks, 3030 MiB, 1196 s, 2.53 MiB/s, C: 23.0 GiB free
+[2026-10-28 15:11:27] [prefetch] secondary: 1536/3683 chunks, 3062 MiB, 1201 s, 2.55 MiB/s, C: 23.0 GiB free
+[2026-10-28 15:11:31] [prefetch] secondary: 1552/3683 chunks, 3094 MiB, 1205 s, 2.57 MiB/s, C: 22.9 GiB free
+[2026-10-28 15:11:35] [prefetch] secondary: 1568/3683 chunks, 3126 MiB, 1210 s, 2.58 MiB/s, C: 22.9 GiB free
+[2026-10-28 15:11:40] [prefetch] secondary: 1584/3683 chunks, 3158 MiB, 1214 s, 2.60 MiB/s, C: 22.9 GiB free
+[2026-10-28 15:11:52] [prefetch] secondary: 1600/3683 chunks, 3190 MiB, 1226 s, 2.60 MiB/s, C: 22.8 GiB free
+[2026-10-28 15:12:04] [prefetch] secondary: 1616/3683 chunks, 3222 MiB, 1238 s, 2.60 MiB/s, C: 22.8 GiB free
+[2026-10-28 15:12:13] [prefetch] secondary: 1632/3683 chunks, 3254 MiB, 1247 s, 2.61 MiB/s, C: 22.8 GiB free
+[2026-10-28 15:12:21] [prefetch] secondary: 1648/3683 chunks, 3286 MiB, 1255 s, 2.62 MiB/s, C: 22.7 GiB free
+[2026-10-28 15:12:26] [prefetch] secondary: 1664/3683 chunks, 3318 MiB, 1260 s, 2.63 MiB/s, C: 22.7 GiB free
+[2026-10-28 15:12:33] [prefetch] secondary: 1680/3683 chunks, 3350 MiB, 1267 s, 2.64 MiB/s, C: 22.7 GiB free
+[2026-10-28 15:12:37] [prefetch] secondary: 1696/3683 chunks, 3382 MiB, 1271 s, 2.66 MiB/s, C: 22.6 GiB free
+[2026-10-28 15:12:41] [prefetch] secondary: 1712/3683 chunks, 3414 MiB, 1275 s, 2.68 MiB/s, C: 22.6 GiB free
+[2026-10-28 15:12:46] [prefetch] secondary: 1728/3683 chunks, 3446 MiB, 1280 s, 2.69 MiB/s, C: 22.6 GiB free
+[2026-10-28 15:12:54] [prefetch] secondary: 1744/3683 chunks, 3478 MiB, 1288 s, 2.70 MiB/s, C: 22.5 GiB free
+[2026-10-28 15:13:04] [prefetch] secondary: 1760/3683 chunks, 3510 MiB, 1298 s, 2.70 MiB/s, C: 22.5 GiB free
+[2026-10-28 15:13:29] [prefetch] secondary: 1776/3683 chunks, 3542 MiB, 1323 s, 2.68 MiB/s, C: 22.5 GiB free
+[2026-10-28 15:13:36] [prefetch] secondary: 1792/3683 chunks, 3574 MiB, 1330 s, 2.69 MiB/s, C: 22.4 GiB free
+[2026-10-28 15:13:45] [prefetch] secondary: 1808/3683 chunks, 3606 MiB, 1339 s, 2.69 MiB/s, C: 22.4 GiB free
+[2026-10-28 15:13:53] [prefetch] secondary: 1824/3683 chunks, 3638 MiB, 1347 s, 2.70 MiB/s, C: 22.4 GiB free
+[2026-10-28 15:14:00] [prefetch] secondary: 1840/3683 chunks, 3670 MiB, 1354 s, 2.71 MiB/s, C: 22.4 GiB free
+[2026-10-28 15:14:07] [prefetch] secondary: 1856/3683 chunks, 3702 MiB, 1361 s, 2.72 MiB/s, C: 22.3 GiB free
+[2026-10-28 15:14:15] [prefetch] secondary: 1872/3683 chunks, 3734 MiB, 1369 s, 2.73 MiB/s, C: 22.3 GiB free
+[2026-10-28 15:14:23] [prefetch] secondary: 1888/3683 chunks, 3766 MiB, 1377 s, 2.74 MiB/s, C: 22.3 GiB free
+[2026-10-28 15:14:39] [prefetch] secondary: 1904/3683 chunks, 3798 MiB, 1393 s, 2.73 MiB/s, C: 22.2 GiB free
+[2026-10-28 15:15:22] [prefetch] secondary: 1920/3683 chunks, 3830 MiB, 1436 s, 2.67 MiB/s, C: 22.2 GiB free
+[2026-10-28 15:15:33] [prefetch] secondary: 1936/3683 chunks, 3862 MiB, 1447 s, 2.67 MiB/s, C: 22.2 GiB free
+[2026-10-28 15:15:40] [prefetch] secondary: 1952/3683 chunks, 3894 MiB, 1454 s, 2.68 MiB/s, C: 22.1 GiB free
+[2026-10-28 15:16:25] [prefetch] secondary: 1968/3683 chunks, 3926 MiB, 1499 s, 2.62 MiB/s, C: 22.1 GiB free
+[2026-10-28 15:16:29] [prefetch] secondary: 1984/3683 chunks, 3958 MiB, 1503 s, 2.63 MiB/s, C: 10.5 GiB free
+[2026-10-28 15:16:31] [prefetch] secondary: 2000/3683 chunks, 3990 MiB, 1505 s, 2.65 MiB/s, C: 10.5 GiB free
+[2026-10-28 15:16:48] [prefetch] secondary: 2016/3683 chunks, 4022 MiB, 1522 s, 2.64 MiB/s, C: 10.5 GiB free
+[2026-10-28 15:16:50] [prefetch] secondary: 2032/3683 chunks, 4054 MiB, 1525 s, 2.66 MiB/s, C: 10.4 GiB free
+[2026-10-28 15:16:54] [prefetch] secondary: 2048/3683 chunks, 4086 MiB, 1528 s, 2.67 MiB/s, C: 10.4 GiB free
+[2026-10-28 15:16:58] [prefetch] secondary: 2064/3683 chunks, 4118 MiB, 1532 s, 2.69 MiB/s, C: 10.4 GiB free
+[2026-10-28 15:17:03] [prefetch] secondary: 2080/3683 chunks, 4150 MiB, 1537 s, 2.70 MiB/s, C: 10.4 GiB free
+[2026-10-28 15:20:19] [prefetch] secondary: 2096/3683 chunks, 4182 MiB, 1733 s, 2.41 MiB/s, C: 10.3 GiB free
+[2026-10-28 15:20:25] [prefetch] secondary: 2112/3683 chunks, 4214 MiB, 1739 s, 2.42 MiB/s, C: 10.3 GiB free
+[2026-10-28 15:20:32] [prefetch] secondary: 2128/3683 chunks, 4246 MiB, 1746 s, 2.43 MiB/s, C: 10.3 GiB free
+[2026-10-28 15:20:41] [prefetch] secondary: 2144/3683 chunks, 4278 MiB, 1755 s, 2.44 MiB/s, C: 18.7 GiB free
+[2026-10-28 15:20:47] [prefetch] secondary: 2160/3683 chunks, 4310 MiB, 1761 s, 2.45 MiB/s, C: 18.6 GiB free
+[2026-10-28 15:20:53] [prefetch] secondary: 2176/3683 chunks, 4342 MiB, 1767 s, 2.46 MiB/s, C: 18.6 GiB free
+[2026-10-28 15:21:04] [prefetch] secondary: 2192/3683 chunks, 4374 MiB, 1778 s, 2.46 MiB/s, C: 21.7 GiB free
+[2026-10-28 15:21:12] [prefetch] secondary: 2208/3683 chunks, 4406 MiB, 1787 s, 2.47 MiB/s, C: 21.6 GiB free
+[2026-10-28 15:22:09] [prefetch] secondary: 2224/3683 chunks, 4438 MiB, 1843 s, 2.41 MiB/s, C: 21.6 GiB free
+[2026-10-28 15:22:14] [prefetch] secondary: 2240/3683 chunks, 4470 MiB, 1848 s, 2.42 MiB/s, C: 21.5 GiB free
+[2026-10-28 15:22:19] [prefetch] secondary: 2256/3683 chunks, 4502 MiB, 1853 s, 2.43 MiB/s, C: 21.5 GiB free
+[2026-10-28 15:22:24] [prefetch] secondary: 2272/3683 chunks, 4534 MiB, 1858 s, 2.44 MiB/s, C: 21.5 GiB free
+[2026-10-28 15:22:58] [prefetch] secondary: 2288/3683 chunks, 4566 MiB, 1892 s, 2.41 MiB/s, C: 21.4 GiB free
+[2026-10-28 15:23:01] [prefetch] secondary: 2304/3683 chunks, 4598 MiB, 1895 s, 2.43 MiB/s, C: 21.4 GiB free
+[2026-10-28 15:23:04] [prefetch] secondary: 2320/3683 chunks, 4630 MiB, 1898 s, 2.44 MiB/s, C: 21.4 GiB free
+[2026-10-28 15:23:09] [prefetch] secondary: 2336/3683 chunks, 4662 MiB, 1903 s, 2.45 MiB/s, C: 21.4 GiB free
+[2026-10-28 15:23:12] [prefetch] secondary: 2352/3683 chunks, 4694 MiB, 1906 s, 2.46 MiB/s, C: 21.3 GiB free
+[2026-10-28 15:23:16] [prefetch] secondary: 2368/3683 chunks, 4726 MiB, 1910 s, 2.47 MiB/s, C: 21.3 GiB free
+[2026-10-28 15:23:19] [prefetch] secondary: 2384/3683 chunks, 4758 MiB, 1913 s, 2.49 MiB/s, C: 21.3 GiB free
+[2026-10-28 15:23:24] [prefetch] secondary: 2400/3683 chunks, 4790 MiB, 1918 s, 2.50 MiB/s, C: 21.2 GiB free
+[2026-10-28 15:23:29] [prefetch] secondary: 2416/3683 chunks, 4822 MiB, 1923 s, 2.51 MiB/s, C: 21.2 GiB free
+[2026-10-28 15:26:16] [prefetch] secondary: 2432/3683 chunks, 4854 MiB, 2090 s, 2.32 MiB/s, C: 21.2 GiB free
+[2026-10-28 15:26:20] [prefetch] STOP: C: has 9.59 GiB free (< 10); 2432/3683 fetched
+[2026-10-28 15:26:40] prefetch secondary: rc 3 (C: 21.06 GiB free)
+[2026-10-28 15:26:40] ERROR (rc 3): C: below 10 GiB free during prefetch secondary
+[2026-10-28 15:26:40] DONE rc 3
+[2026-10-28 15:30:04] START v3 runner pid 36564 (BelowNormal), CUDA_VISIBLE_DEVICES=-1, HF_HUB_OFFLINE=1, C: 20.88 GiB free
+[2026-10-28 15:30:27] villa worktree C:\VesuviusTemp\strips\villa_6f2 at 6f2024569404a46b0f008eee292773945c07a684 (+ #2163 + normalization patch, as G0); checkpoint scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e
+[2026-10-28 15:30:31] verify FREEZE.txt: rc 0; FREEZE verify: 52 files, 0 differ: [] 
+[2026-10-28 15:33:10] [prefetch] 0139: cache metadata present (C:\VesuviusTemp\strips\ct_cache\s3\vesuvius-challenge-open-data\PHerc0139\volumes\20260102150214-2.399um-0.2m-78keV-masked.zarr\2)
+[2026-10-28 15:33:10] [prefetch] 0332: cache metadata present (C:\VesuviusTemp\strips\ct_cache\s3\vesuvius-challenge-open-data\PHerc0332\volumes\20251211183505-2.399um-0.2m-78keV-masked.zarr\2)
+[2026-10-28 15:37:58] preflight 0139 rc 0 CT per-crop z-score bound to s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr::2 (checkpoint: s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr::2) {"preflight": "ok", "ct": "s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr", "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt", "step": 15000, "trace_per_patch": 0.5, "grid_scale": 8.0, "ct_grid_scale": 4.0, "f_spacing": 2.0, "vol_shape": [9620, 3314, 3314], "torch": "2.13.0+cu126", "torch_threads": 8, "cuda_available": false, "priority": "16384", "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py", "seconds": 3.3} 
+[2026-10-28 15:40:28] preflight 0332 rc 0 CT per-crop z-score bound to s3://vesuvius-challenge-open-data/PHerc0332/volumes/20251211183505-2.399um-0.2m-78keV-masked.zarr::2 (checkpoint: s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr::2) {"preflight": "ok", "ct": "s3://vesuvius-challenge-open-data/PHerc0332/volumes/20251211183505-2.399um-0.2m-78keV-masked.zarr", "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt", "step": 15000, "trace_per_patch": 0.5, "grid_scale": 8.0, "ct_grid_scale": 4.0, "f_spacing": 2.0, "vol_shape": [4199, 1971, 1971], "torch": "2.13.0+cu126", "torch_threads": 8, "cuda_available": false, "priority": "16384", "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py", "seconds": 0.9} 
+[2026-10-28 15:40:30] prefetch primary: start (C: 20.52 GiB free)
+[2026-10-28 15:40:33] [prefetch] primary: 2 pieces, 140 chunks (0.27 GiB), 140 cached, 0 to fetch (0.00 GiB), 2 connections
+[2026-10-28 15:40:33] [prefetch] primary: done: 0 fetched (0 missing objects -> fill), 0 MiB in 0 s; 0 of 140 chunks not cached
+[2026-10-28 15:40:35] prefetch primary: rc 0 (C: 20.51 GiB free)
+[2026-10-28 15:40:45] prefetch secondary: start (C: 20.5 GiB free)
+[2026-10-28 15:40:58] [prefetch] secondary: 46 pieces, 4914 chunks (9.60 GiB), 3663 cached, 1251 to fetch (2.44 GiB), 2 connections
+[2026-10-28 15:41:03] [prefetch] secondary: 16/1251 chunks, 32 MiB, 5 s, 6.49 MiB/s, C: 20.5 GiB free
+[2026-10-28 15:41:11] [prefetch] secondary: 32/1251 chunks, 64 MiB, 13 s, 4.93 MiB/s, C: 20.5 GiB free
+[2026-10-28 15:41:17] [prefetch] secondary: 48/1251 chunks, 96 MiB, 18 s, 5.25 MiB/s, C: 20.4 GiB free
+[2026-10-28 15:41:22] [prefetch] secondary: 64/1251 chunks, 128 MiB, 24 s, 5.43 MiB/s, C: 20.4 GiB free
+[2026-10-28 15:41:26] [prefetch] secondary: 80/1251 chunks, 160 MiB, 28 s, 5.80 MiB/s, C: 20.4 GiB free
+[2026-10-28 15:41:31] [prefetch] secondary: 96/1251 chunks, 192 MiB, 33 s, 5.89 MiB/s, C: 20.4 GiB free
+[2026-10-28 15:41:37] [prefetch] secondary: 112/1251 chunks, 224 MiB, 39 s, 5.76 MiB/s, C: 20.4 GiB free
+[2026-10-28 15:41:42] [prefetch] secondary: 128/1251 chunks, 256 MiB, 44 s, 5.83 MiB/s, C: 20.3 GiB free
+[2026-10-28 15:41:50] [prefetch] secondary: 144/1251 chunks, 288 MiB, 52 s, 5.58 MiB/s, C: 20.3 GiB free
+[2026-10-28 15:41:56] [prefetch] secondary: 160/1251 chunks, 320 MiB, 58 s, 5.53 MiB/s, C: 20.2 GiB free
+[2026-10-28 15:42:03] [prefetch] secondary: 176/1251 chunks, 352 MiB, 64 s, 5.46 MiB/s, C: 20.2 GiB free
+[2026-10-28 15:44:24] [prefetch] retry (52, 19, 37): ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2026-10-28 15:45:37] [prefetch] secondary: 192/1251 chunks, 384 MiB, 278 s, 1.38 MiB/s, C: 20.1 GiB free
+[2026-10-28 15:45:45] [prefetch] secondary: 208/1251 chunks, 416 MiB, 287 s, 1.45 MiB/s, C: 20.0 GiB free
+[2026-10-28 15:45:53] [prefetch] secondary: 224/1251 chunks, 448 MiB, 295 s, 1.52 MiB/s, C: 20.0 GiB free
+[2026-10-28 15:46:03] [prefetch] secondary: 240/1251 chunks, 480 MiB, 305 s, 1.57 MiB/s, C: 19.9 GiB free
+[2026-10-28 15:46:13] [prefetch] secondary: 256/1251 chunks, 512 MiB, 315 s, 1.63 MiB/s, C: 19.9 GiB free
+[2026-10-28 15:46:20] [prefetch] secondary: 272/1251 chunks, 544 MiB, 322 s, 1.69 MiB/s, C: 19.8 GiB free
+[2026-10-28 15:46:27] [prefetch] secondary: 288/1251 chunks, 576 MiB, 329 s, 1.75 MiB/s, C: 19.8 GiB free
+[2026-10-28 15:46:38] [prefetch] secondary: 304/1251 chunks, 608 MiB, 339 s, 1.79 MiB/s, C: 19.8 GiB free
+[2026-10-28 15:46:45] [prefetch] secondary: 320/1251 chunks, 640 MiB, 347 s, 1.85 MiB/s, C: 19.7 GiB free
+[2026-10-28 15:46:56] [prefetch] secondary: 336/1251 chunks, 672 MiB, 358 s, 1.88 MiB/s, C: 19.7 GiB free
+[2026-10-28 15:47:08] [prefetch] secondary: 352/1251 chunks, 704 MiB, 370 s, 1.90 MiB/s, C: 19.7 GiB free
+[2026-10-28 15:47:17] [prefetch] secondary: 368/1251 chunks, 736 MiB, 379 s, 1.94 MiB/s, C: 19.7 GiB free
+[2026-10-28 15:47:26] [prefetch] secondary: 384/1251 chunks, 768 MiB, 387 s, 1.98 MiB/s, C: 19.6 GiB free
+[2026-10-28 15:47:34] [prefetch] secondary: 400/1251 chunks, 800 MiB, 396 s, 2.02 MiB/s, C: 19.6 GiB free
+[2026-10-28 15:47:55] [prefetch] secondary: 416/1251 chunks, 832 MiB, 417 s, 2.00 MiB/s, C: 19.6 GiB free
+[2026-10-28 15:48:09] [prefetch] secondary: 432/1251 chunks, 864 MiB, 431 s, 2.01 MiB/s, C: 19.5 GiB free
+[2026-10-28 15:48:15] [prefetch] secondary: 448/1251 chunks, 896 MiB, 437 s, 2.05 MiB/s, C: 19.5 GiB free
+[2026-10-28 15:48:15] [prefetch] STOP: C: has 7.95 GiB free (< 10); 448/1251 fetched
+[2026-10-28 15:50:46] prefetch secondary: rc 3 (C: 7.92 GiB free)
+[2026-10-28 15:51:42] ERROR (rc 3): C: below 10 GiB free during prefetch secondary
+[2026-10-28 15:51:46] DONE rc 3
+[2026-10-28 15:54:09] START v3 runner pid 68636 (BelowNormal), CUDA_VISIBLE_DEVICES=-1, HF_HUB_OFFLINE=1, C: 19.56 GiB free
+[2026-10-28 15:57:12] villa worktree C:\VesuviusTemp\strips\villa_6f2 at 6f2024569404a46b0f008eee292773945c07a684 (+ #2163 + normalization patch, as G0); checkpoint scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e
+[2026-10-28 15:58:02] verify FREEZE.txt: rc 0; FREEZE verify: 52 files, 0 differ: [] 
+[2026-10-28 15:58:34] [prefetch] 0139: cache metadata present (C:\VesuviusTemp\strips\ct_cache\s3\vesuvius-challenge-open-data\PHerc0139\volumes\20260102150214-2.399um-0.2m-78keV-masked.zarr\2)
+[2026-10-28 15:58:34] [prefetch] 0332: cache metadata present (C:\VesuviusTemp\strips\ct_cache\s3\vesuvius-challenge-open-data\PHerc0332\volumes\20251211183505-2.399um-0.2m-78keV-masked.zarr\2)
+[2026-10-28 15:59:43] preflight 0139 rc 0 CT per-crop z-score bound to s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr::2 (checkpoint: s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr::2) {"preflight": "ok", "ct": "s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr", "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt", "step": 15000, "trace_per_patch": 0.5, "grid_scale": 8.0, "ct_grid_scale": 4.0, "f_spacing": 2.0, "vol_shape": [9620, 3314, 3314], "torch": "2.13.0+cu126", "torch_threads": 8, "cuda_available": false, "priority": "16384", "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py", "seconds": 1.5} 
+[2026-10-28 15:59:54] preflight 0332 rc 0 CT per-crop z-score bound to s3://vesuvius-challenge-open-data/PHerc0332/volumes/20251211183505-2.399um-0.2m-78keV-masked.zarr::2 (checkpoint: s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr::2) {"preflight": "ok", "ct": "s3://vesuvius-challenge-open-data/PHerc0332/volumes/20251211183505-2.399um-0.2m-78keV-masked.zarr", "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt", "step": 15000, "trace_per_patch": 0.5, "grid_scale": 8.0, "ct_grid_scale": 4.0, "f_spacing": 2.0, "vol_shape": [4199, 1971, 1971], "torch": "2.13.0+cu126", "torch_threads": 8, "cuda_available": false, "priority": "16384", "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py", "seconds": 1.2} 
+[2026-10-28 15:59:54] prefetch primary: start (C: 19.51 GiB free)
+[2026-10-28 15:59:56] [prefetch] primary: 2 pieces, 140 chunks (0.27 GiB), 140 cached, 0 to fetch (0.00 GiB), 2 connections
+[2026-10-28 15:59:56] [prefetch] primary: done: 0 fetched (0 missing objects -> fill), 0 MiB in 0 s; 0 of 140 chunks not cached
+[2026-10-28 16:00:31] prefetch primary: rc 0 (C: 19.52 GiB free)
+[2026-10-28 16:01:26] prefetch secondary: start (C: 19.51 GiB free)
+[2026-10-28 16:04:55] [prefetch] secondary: 46 pieces, 4914 chunks (9.60 GiB), 4111 cached, 803 to fetch (1.57 GiB), 2 connections
+[2026-10-28 16:05:04] [prefetch] secondary: 16/803 chunks, 32 MiB, 9 s, 3.55 MiB/s, C: 19.5 GiB free
+[2026-10-28 16:05:08] [prefetch] secondary: 32/803 chunks, 64 MiB, 13 s, 5.05 MiB/s, C: 19.5 GiB free
+[2026-10-28 16:05:17] [prefetch] secondary: 48/803 chunks, 96 MiB, 22 s, 4.41 MiB/s, C: 19.4 GiB free
+[2026-10-28 16:06:17] [prefetch] retry (54, 13, 23): HTTPSConnectionPool(host='vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com', port=443): Max retries exceeded with url: /PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr/2/54/13/23 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+[2026-10-28 16:06:17] [prefetch] retry (54, 13, 24): HTTPSConnectionPool(host='vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com', port=443): Max retries exceeded with url: /PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr/2/54/13/24 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)')))
+[2026-10-28 16:07:29] [prefetch] secondary: 64/803 chunks, 128 MiB, 154 s, 0.83 MiB/s, C: 19.4 GiB free
+[2026-10-28 16:08:56] [prefetch] secondary: 80/803 chunks, 160 MiB, 241 s, 0.66 MiB/s, C: 19.4 GiB free
+[2026-10-28 16:09:27] [prefetch] secondary: 96/803 chunks, 192 MiB, 272 s, 0.71 MiB/s, C: 19.4 GiB free
+[2026-10-28 16:09:35] [prefetch] secondary: 112/803 chunks, 224 MiB, 279 s, 0.80 MiB/s, C: 19.3 GiB free
+[2026-10-28 16:09:42] [prefetch] secondary: 128/803 chunks, 256 MiB, 287 s, 0.89 MiB/s, C: 19.3 GiB free
+[2026-10-28 16:09:51] [prefetch] secondary: 144/803 chunks, 288 MiB, 296 s, 0.97 MiB/s, C: 19.3 GiB free
+[2026-10-28 16:09:58] [prefetch] secondary: 160/803 chunks, 320 MiB, 303 s, 1.06 MiB/s, C: 19.3 GiB free
+[2026-10-28 16:10:05] [prefetch] secondary: 176/803 chunks, 352 MiB, 310 s, 1.13 MiB/s, C: 19.2 GiB free
+[2026-10-28 16:10:15] [prefetch] secondary: 192/803 chunks, 384 MiB, 320 s, 1.20 MiB/s, C: 19.1 GiB free
+[2026-10-28 16:10:25] [prefetch] secondary: 208/803 chunks, 416 MiB, 330 s, 1.26 MiB/s, C: 19.1 GiB free
+[2026-10-28 16:10:42] [prefetch] secondary: 224/803 chunks, 448 MiB, 347 s, 1.29 MiB/s, C: 19.1 GiB free
+[2026-10-28 16:11:41] [prefetch] secondary: 240/803 chunks, 480 MiB, 405 s, 1.18 MiB/s, C: 19.1 GiB free
+[2026-10-28 16:12:39] [prefetch] secondary: 256/803 chunks, 512 MiB, 464 s, 1.10 MiB/s, C: 19.0 GiB free
+[2026-10-28 16:13:30] [prefetch] secondary: 272/803 chunks, 544 MiB, 514 s, 1.06 MiB/s, C: 19.0 GiB free
+[2026-10-28 16:13:32] [prefetch] secondary: 288/803 chunks, 576 MiB, 517 s, 1.11 MiB/s, C: 18.9 GiB free
+[2026-10-28 16:13:36] [prefetch] secondary: 304/803 chunks, 608 MiB, 521 s, 1.17 MiB/s, C: 18.8 GiB free
+[2026-10-28 16:13:45] [prefetch] secondary: 320/803 chunks, 640 MiB, 530 s, 1.21 MiB/s, C: 18.8 GiB free
+[2026-10-28 16:14:14] [prefetch] secondary: 336/803 chunks, 672 MiB, 558 s, 1.20 MiB/s, C: 18.7 GiB free
+[2026-10-28 16:14:19] [prefetch] secondary: 352/803 chunks, 704 MiB, 564 s, 1.25 MiB/s, C: 18.7 GiB free
+[2026-10-28 16:14:23] [prefetch] secondary: 368/803 chunks, 736 MiB, 568 s, 1.30 MiB/s, C: 18.6 GiB free
+[2026-10-28 16:14:29] [prefetch] secondary: 384/803 chunks, 768 MiB, 574 s, 1.34 MiB/s, C: 18.6 GiB free
+[2026-10-28 16:14:32] [prefetch] secondary: 400/803 chunks, 800 MiB, 576 s, 1.39 MiB/s, C: 18.6 GiB free
+[2026-10-28 16:14:34] [prefetch] secondary: 416/803 chunks, 832 MiB, 579 s, 1.44 MiB/s, C: 18.5 GiB free
+[2026-10-28 16:14:38] [prefetch] secondary: 432/803 chunks, 864 MiB, 582 s, 1.48 MiB/s, C: 18.5 GiB free
+[2026-10-28 16:14:41] [prefetch] secondary: 448/803 chunks, 896 MiB, 585 s, 1.53 MiB/s, C: 18.4 GiB free
+[2026-10-28 16:14:45] [prefetch] secondary: 464/803 chunks, 928 MiB, 590 s, 1.57 MiB/s, C: 18.4 GiB free
+[2026-10-28 16:14:51] [prefetch] secondary: 480/803 chunks, 960 MiB, 596 s, 1.61 MiB/s, C: 18.4 GiB free
+[2026-10-28 16:16:35] [prefetch] secondary: 496/803 chunks, 992 MiB, 700 s, 1.42 MiB/s, C: 18.3 GiB free
+[2026-10-28 16:16:43] [prefetch] secondary: 512/803 chunks, 1024 MiB, 708 s, 1.45 MiB/s, C: 18.3 GiB free
+[2026-10-28 16:18:24] [prefetch] retry (57, 20, 20): ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2026-10-28 16:19:08] [prefetch] secondary: 528/803 chunks, 1056 MiB, 853 s, 1.24 MiB/s, C: 18.3 GiB free
+[2026-10-28 16:19:13] [prefetch] secondary: 544/803 chunks, 1088 MiB, 857 s, 1.27 MiB/s, C: 18.2 GiB free
+[2026-10-28 16:19:19] [prefetch] secondary: 560/803 chunks, 1120 MiB, 864 s, 1.30 MiB/s, C: 18.2 GiB free
+[2026-10-28 16:19:53] [prefetch] retry (57, 31, 21): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2026-10-28 16:19:58] [prefetch] secondary: 576/803 chunks, 1152 MiB, 903 s, 1.28 MiB/s, C: 18.2 GiB free
+[2026-10-28 16:22:53] [prefetch] secondary: 592/803 chunks, 1184 MiB, 1078 s, 1.10 MiB/s, C: 18.2 GiB free
+[2026-10-28 16:22:57] [prefetch] secondary: 608/803 chunks, 1216 MiB, 1082 s, 1.12 MiB/s, C: 18.1 GiB free
+[2026-10-28 16:22:59] [prefetch] secondary: 624/803 chunks, 1248 MiB, 1084 s, 1.15 MiB/s, C: 18.1 GiB free
+[2026-10-28 16:23:02] [prefetch] secondary: 640/803 chunks, 1280 MiB, 1086 s, 1.18 MiB/s, C: 18.1 GiB free
+[2026-10-28 16:23:05] [prefetch] secondary: 656/803 chunks, 1312 MiB, 1089 s, 1.20 MiB/s, C: 18.0 GiB free
+[2026-10-28 16:23:07] [prefetch] secondary: 672/803 chunks, 1344 MiB, 1092 s, 1.23 MiB/s, C: 18.0 GiB free
+[2026-10-28 16:23:10] [prefetch] secondary: 688/803 chunks, 1376 MiB, 1094 s, 1.26 MiB/s, C: 18.0 GiB free
+[2026-10-28 16:23:13] [prefetch] secondary: 704/803 chunks, 1408 MiB, 1097 s, 1.28 MiB/s, C: 17.9 GiB free
+[2026-10-28 16:23:16] [prefetch] secondary: 720/803 chunks, 1440 MiB, 1101 s, 1.31 MiB/s, C: 17.9 GiB free
+[2026-10-28 16:23:19] [prefetch] secondary: 736/803 chunks, 1472 MiB, 1104 s, 1.33 MiB/s, C: 17.9 GiB free
+[2026-10-28 16:23:23] [prefetch] secondary: 752/803 chunks, 1504 MiB, 1107 s, 1.36 MiB/s, C: 17.9 GiB free
+[2026-10-28 16:23:40] [prefetch] secondary: 768/803 chunks, 1536 MiB, 1125 s, 1.37 MiB/s, C: 17.8 GiB free
+[2026-10-28 16:23:51] [prefetch] secondary: 784/803 chunks, 1568 MiB, 1136 s, 1.38 MiB/s, C: 17.8 GiB free
+[2026-10-28 16:24:01] [prefetch] secondary: 800/803 chunks, 1600 MiB, 1145 s, 1.40 MiB/s, C: 17.7 GiB free
+[2026-10-28 16:24:01] [prefetch] STOP: C: has 6.18 GiB free (< 10); 800/803 fetched
+[2026-10-28 16:25:10] prefetch secondary: rc 3 (C: 6.19 GiB free)
+[2026-10-28 16:25:10] ERROR (rc 3): C: below 10 GiB free during prefetch secondary
+[2026-10-28 16:25:10] DONE rc 3
+[2026-10-28 16:28:14] START v3 runner pid 14436 (BelowNormal), CUDA_VISIBLE_DEVICES=-1, HF_HUB_OFFLINE=1, C: 17.69 GiB free
+[2026-10-28 16:29:18] villa worktree C:\VesuviusTemp\strips\villa_6f2 at 6f2024569404a46b0f008eee292773945c07a684 (+ #2163 + normalization patch, as G0); checkpoint scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e
+[2026-10-28 16:32:25] verify FREEZE.txt: rc 0; FREEZE verify: 52 files, 0 differ: [] 
+[2026-10-28 16:35:15] [prefetch] 0139: cache metadata present (C:\VesuviusTemp\strips\ct_cache\s3\vesuvius-challenge-open-data\PHerc0139\volumes\20260102150214-2.399um-0.2m-78keV-masked.zarr\2)
+[2026-10-28 16:37:22] [prefetch] 0332: cache metadata present (C:\VesuviusTemp\strips\ct_cache\s3\vesuvius-challenge-open-data\PHerc0332\volumes\20251211183505-2.399um-0.2m-78keV-masked.zarr\2)
+[2026-10-28 16:49:20] preflight 0139 rc 0 CT per-crop z-score bound to s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr::2 (checkpoint: s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr::2) {"preflight": "ok", "ct": "s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr", "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt", "step": 15000, "trace_per_patch": 0.5, "grid_scale": 8.0, "ct_grid_scale": 4.0, "f_spacing": 2.0, "vol_shape": [9620, 3314, 3314], "torch": "2.13.0+cu126", "torch_threads": 8, "cuda_available": false, "priority": "16384", "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py", "seconds": 1.3} 
+[2026-10-28 17:00:10] preflight 0332 rc 0 CT per-crop z-score bound to s3://vesuvius-challenge-open-data/PHerc0332/volumes/20251211183505-2.399um-0.2m-78keV-masked.zarr::2 (checkpoint: s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr::2) {"preflight": "ok", "ct": "s3://vesuvius-challenge-open-data/PHerc0332/volumes/20251211183505-2.399um-0.2m-78keV-masked.zarr", "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt", "step": 15000, "trace_per_patch": 0.5, "grid_scale": 8.0, "ct_grid_scale": 4.0, "f_spacing": 2.0, "vol_shape": [4199, 1971, 1971], "torch": "2.13.0+cu126", "torch_threads": 8, "cuda_available": false, "priority": "16384", "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py", "seconds": 212.7} 
+[2026-10-28 17:00:10] prefetch primary: start (C: 14.26 GiB free)
+[2026-10-28 17:00:11] [prefetch] primary: 2 pieces, 140 chunks (0.27 GiB), 140 cached, 0 to fetch (0.00 GiB), 2 connections
+[2026-10-28 17:00:11] [prefetch] primary: done: 0 fetched (0 missing objects -> fill), 0 MiB in 0 s; 0 of 140 chunks not cached
+[2026-10-28 17:03:15] prefetch primary: rc 0 (C: 17.47 GiB free)
+[2026-10-28 17:04:17] prefetch secondary: start (C: 17.46 GiB free)
+[2026-10-29 02:13:16] START v3 runner pid 76004 (BelowNormal), CUDA_VISIBLE_DEVICES=-1, HF_HUB_OFFLINE=1, C: 29.72 GiB free
+[2026-10-29 02:13:29] villa worktree C:\VesuviusTemp\strips\villa_6f2 at 6f2024569404a46b0f008eee292773945c07a684 (+ #2163 + normalization patch, as G0); checkpoint scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e
+[2026-10-29 02:13:47] verify FREEZE.txt: rc 0; FREEZE verify: 109 files, 0 differ: []; villa_6f2 worktree: ok (HEAD 6f2024569, 9 pinned changed files) 
+[2026-10-29 02:14:10] [prefetch] 0139: cache metadata present (C:\VesuviusTemp\strips\ct_cache\s3\vesuvius-challenge-open-data\PHerc0139\volumes\20260102150214-2.399um-0.2m-78keV-masked.zarr\2)
+[2026-10-29 02:14:10] [prefetch] 0332: cache metadata present (C:\VesuviusTemp\strips\ct_cache\s3\vesuvius-challenge-open-data\PHerc0332\volumes\20251211183505-2.399um-0.2m-78keV-masked.zarr\2)
+[2026-10-29 02:14:34] preflight 0139 rc 0 CT per-crop z-score bound to s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr::2 (checkpoint: s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr::2) {"preflight": "ok", "ct": "s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr", "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt", "step": 15000, "trace_per_patch": 0.5, "grid_scale": 8.0, "ct_grid_scale": 4.0, "f_spacing": 2.0, "vol_shape": [9620, 3314, 3314], "torch": "2.13.0+cu126", "torch_threads": 8, "cuda_available": false, "priority": "16384", "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py", "seconds": 0.9} 
+[2026-10-29 02:14:43] preflight 0332 rc 0 CT per-crop z-score bound to s3://vesuvius-challenge-open-data/PHerc0332/volumes/20251211183505-2.399um-0.2m-78keV-masked.zarr::2 (checkpoint: s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr::2) {"preflight": "ok", "ct": "s3://vesuvius-challenge-open-data/PHerc0332/volumes/20251211183505-2.399um-0.2m-78keV-masked.zarr", "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt", "step": 15000, "trace_per_patch": 0.5, "grid_scale": 8.0, "ct_grid_scale": 4.0, "f_spacing": 2.0, "vol_shape": [4199, 1971, 1971], "torch": "2.13.0+cu126", "torch_threads": 8, "cuda_available": false, "priority": "16384", "infer_py": "C:\\VesuviusTemp\\strips\\villa_6f2\\vesuvius\\src\\vesuvius\\neural_tracing\\tracers\\fibers\\sheet_strip\\infer.py", "seconds": 1.1} 
+[2026-10-29 02:14:43] prefetch primary: start (C: 29.69 GiB free)
+[2026-10-29 02:14:45] [prefetch] primary: 2 pieces, 140 chunks (0.27 GiB), 140 cached, 0 to fetch (0.00 GiB), 2 connections
+[2026-10-29 02:14:45] [prefetch] primary: done: 0 fetched (0 missing objects -> fill), 0 MiB in 0 s; 0 of 140 chunks not cached
+[2026-10-29 02:14:45] prefetch primary: rc 0 (C: 29.69 GiB free)
+[2026-10-29 02:14:45] prefetch secondary: start (C: 29.69 GiB free)
+[2026-10-29 02:14:50] [prefetch] secondary: 46 pieces, 4914 chunks (9.60 GiB), 4914 cached, 0 to fetch (0.00 GiB), 2 connections
+[2026-10-29 02:14:50] [prefetch] secondary: done: 0 fetched (0 missing objects -> fill), 0 MiB in 0 s; 0 of 4914 chunks not cached
+[2026-10-29 02:14:51] prefetch secondary: rc 0 (C: 29.68 GiB free)
+[2026-10-29 02:14:51] prefetch 0332: start (C: 29.68 GiB free)
+[2026-10-29 02:14:53] [prefetch] 0332: 25 pieces, 1009 chunks (1.97 GiB), 1009 cached, 0 to fetch (0.00 GiB), 2 connections
+[2026-10-29 02:14:53] [prefetch] 0332: done: 0 fetched (0 missing objects -> fill), 0 MiB in 0 s; 0 of 1009 chunks not cached
+[2026-10-29 02:14:54] prefetch 0332: rc 0 (C: 29.67 GiB free)
+[2026-10-29 02:14:54] infer primary: 2 pieces, 58 decisions
+[2026-10-29 02:16:10] infer primary P0000 (attempt 1): rc 0, 29 decisions, 76.7 s, 0.378 decisions/s incl. start-up
+[2026-10-29 02:16:29] infer primary P0001 (attempt 1): rc 0, 29 decisions, 19.1 s, 1.518 decisions/s incl. start-up
+[2026-10-29 02:16:29] infer primary: ok 2, skipped 0, failed 0
+[2026-10-29 02:16:29] infer secondary: 46 pieces, 3513 decisions
+[2026-10-29 02:17:46] infer secondary P0003 (attempt 1): rc 0, 99 decisions, 76.6 s, 1.292 decisions/s incl. start-up
+[2026-10-29 02:18:05] infer secondary P0005 (attempt 1): rc 0, 4 decisions, 18.9 s, 0.212 decisions/s incl. start-up
+[2026-10-29 02:23:30] infer secondary P0006 (attempt 1): rc 0, 418 decisions, 325.3 s, 1.285 decisions/s incl. start-up
+[2026-10-29 02:25:21] infer secondary P0007 (attempt 1): rc 0, 234 decisions, 110.3 s, 2.121 decisions/s incl. start-up
+[2026-10-29 02:26:09] infer secondary P0014 (attempt 1): rc 0, 16 decisions, 48.9 s, 0.327 decisions/s incl. start-up
+[2026-10-29 02:26:52] infer secondary P0018 (attempt 1): rc 0, 13 decisions, 42.2 s, 0.308 decisions/s incl. start-up
+[2026-10-29 02:27:11] infer secondary P0020 (attempt 1): rc 0, 10 decisions, 19.5 s, 0.513 decisions/s incl. start-up
+[2026-10-29 02:28:12] infer secondary P0021 (attempt 1): rc 0, 62 decisions, 61.2 s, 1.013 decisions/s incl. start-up
+[2026-10-29 02:29:15] infer secondary P0030 (attempt 1): rc 0, 40 decisions, 63.1 s, 0.634 decisions/s incl. start-up
+[2026-10-29 02:30:21] infer secondary P0031 (attempt 1): rc 0, 29 decisions, 65.4 s, 0.443 decisions/s incl. start-up
+[2026-10-29 02:36:30] infer secondary P0033 (attempt 1): rc 0, 555 decisions, 369.3 s, 1.503 decisions/s incl. start-up
+[2026-10-29 02:37:11] infer secondary P0035 (attempt 1): rc 0, 8 decisions, 40.6 s, 0.197 decisions/s incl. start-up
+[2026-10-29 02:38:13] infer secondary P0040 (attempt 1): rc 0, 37 decisions, 62.3 s, 0.594 decisions/s incl. start-up
+[2026-10-29 02:40:58] infer secondary P0044 (attempt 1): rc 0, 132 decisions, 164.8 s, 0.801 decisions/s incl. start-up
+[2026-10-29 02:41:37] infer secondary P0048 (attempt 1): rc 0, 15 decisions, 39 s, 0.385 decisions/s incl. start-up
+[2026-10-29 02:42:22] infer secondary P0051 (attempt 1): rc 0, 8 decisions, 45.2 s, 0.177 decisions/s incl. start-up
+[2026-10-29 02:43:19] infer secondary P0054 (attempt 1): rc 0, 9 decisions, 56.4 s, 0.16 decisions/s incl. start-up
+[2026-10-29 02:43:46] infer secondary P0059 (attempt 1): rc 0, 10 decisions, 27 s, 0.37 decisions/s incl. start-up
+[2026-10-29 02:44:49] infer secondary P0063 (attempt 1): rc 0, 13 decisions, 63.2 s, 0.206 decisions/s incl. start-up
+[2026-10-29 02:46:25] infer secondary P0066 (attempt 1): rc 0, 170 decisions, 96.6 s, 1.76 decisions/s incl. start-up
+[2026-10-29 02:48:03] infer secondary P0076 (attempt 1): rc 0, 227 decisions, 97.8 s, 2.321 decisions/s incl. start-up
+[2026-10-29 02:49:04] infer secondary P0080 (attempt 1): rc 0, 39 decisions, 60.6 s, 0.644 decisions/s incl. start-up
+[2026-10-29 02:51:09] infer secondary P0083 (attempt 1): rc 0, 168 decisions, 125.3 s, 1.341 decisions/s incl. start-up
+[2026-10-29 02:53:07] infer secondary P0084 (attempt 1): rc 0, 142 decisions, 117.8 s, 1.205 decisions/s incl. start-up
+[2026-10-29 02:53:32] infer secondary P0088 (attempt 1): rc 0, 12 decisions, 25.2 s, 0.476 decisions/s incl. start-up
+[2026-10-29 02:54:42] infer secondary P0104 (attempt 1): rc 0, 187 decisions, 69.3 s, 2.698 decisions/s incl. start-up
+[2026-10-29 02:55:58] infer secondary P0116 (attempt 1): rc 0, 9 decisions, 76.7 s, 0.117 decisions/s incl. start-up
+[2026-10-29 02:56:37] infer secondary P0121 (attempt 1): rc 0, 9 decisions, 38.5 s, 0.234 decisions/s incl. start-up
+[2026-10-29 02:56:55] infer secondary P0125 (attempt 1): rc 0, 9 decisions, 17.7 s, 0.508 decisions/s incl. start-up
+[2026-10-29 02:59:53] infer secondary P0126 (attempt 1): rc 0, 158 decisions, 178.2 s, 0.887 decisions/s incl. start-up
+[2026-10-29 03:00:49] infer secondary P0130 (attempt 1): rc 0, 9 decisions, 55.9 s, 0.161 decisions/s incl. start-up
+[2026-10-29 03:03:00] infer secondary P0133 (attempt 1): rc 0, 90 decisions, 131.8 s, 0.683 decisions/s incl. start-up
+[2026-10-29 03:04:08] infer secondary P0138 (attempt 1): rc 0, 31 decisions, 67.6 s, 0.459 decisions/s incl. start-up
+[2026-10-29 03:04:49] infer secondary P0149 (attempt 1): rc 0, 63 decisions, 41.2 s, 1.529 decisions/s incl. start-up
+[2026-10-29 03:06:51] infer secondary P0150 (attempt 1): rc 0, 13 decisions, 121.7 s, 0.107 decisions/s incl. start-up
+[2026-10-29 03:07:31] infer secondary P0154 (attempt 1): rc 0, 8 decisions, 38.8 s, 0.206 decisions/s incl. start-up
+[2026-10-29 03:08:07] infer secondary P0155 (attempt 1): rc 0, 7 decisions, 35.2 s, 0.199 decisions/s incl. start-up
+[2026-10-29 03:09:47] infer secondary P0158 (attempt 1): rc 0, 18 decisions, 100.1 s, 0.18 decisions/s incl. start-up
+[2026-10-29 03:10:55] infer secondary P0162 (attempt 1): rc 0, 8 decisions, 68.4 s, 0.117 decisions/s incl. start-up
+[2026-10-29 03:13:11] infer secondary P0163 (attempt 1): rc 0, 9 decisions, 135.4 s, 0.066 decisions/s incl. start-up
+[2026-10-29 03:14:50] infer secondary P0166 (attempt 1): rc 0, 75 decisions, 99.7 s, 0.752 decisions/s incl. start-up
+[2026-10-29 03:15:50] infer secondary P0168 (attempt 1): rc 0, 67 decisions, 60.2 s, 1.113 decisions/s incl. start-up
+[2026-10-29 03:16:26] infer secondary P0169 (attempt 1): rc 0, 38 decisions, 35.2 s, 1.08 decisions/s incl. start-up
+[2026-10-29 03:16:40] infer secondary P0172 (attempt 1): rc 0, 7 decisions, 14.2 s, 0.493 decisions/s incl. start-up
+[2026-10-29 03:18:19] infer secondary P0179 (attempt 1): rc 0, 92 decisions, 99.2 s, 0.927 decisions/s incl. start-up
+[2026-10-29 03:20:17] infer secondary P0180 (attempt 1): rc 0, 136 decisions, 117.7 s, 1.155 decisions/s incl. start-up
+[2026-10-29 03:20:17] infer secondary: ok 46, skipped 0, failed 0
+[2026-10-29 03:20:17] infer 0332: 25 pieces, 558 decisions
+[2026-10-29 03:20:35] infer 0332 C0000 (attempt 1): rc 0, 21 decisions, 17.3 s, 1.214 decisions/s incl. start-up
+[2026-10-29 03:22:11] infer 0332 C0001 (attempt 1): rc 0, 21 decisions, 96.3 s, 0.218 decisions/s incl. start-up
+[2026-10-29 03:24:46] infer 0332 C0002 (attempt 1): rc 0, 21 decisions, 154.6 s, 0.136 decisions/s incl. start-up
+[2026-10-29 03:25:07] infer 0332 C0003 (attempt 1): rc 0, 21 decisions, 21.1 s, 0.995 decisions/s incl. start-up
+[2026-10-29 03:26:03] infer 0332 C0004 (attempt 1): rc 0, 21 decisions, 56.5 s, 0.372 decisions/s incl. start-up
+[2026-10-29 03:26:40] infer 0332 C0005 (attempt 1): rc 0, 21 decisions, 37.2 s, 0.565 decisions/s incl. start-up
+[2026-10-29 03:27:12] infer 0332 C0006 (attempt 1): rc 0, 21 decisions, 32.1 s, 0.654 decisions/s incl. start-up
+[2026-10-29 03:27:43] infer 0332 C0007 (attempt 1): rc 0, 19 decisions, 30.1 s, 0.631 decisions/s incl. start-up
+[2026-10-29 03:28:55] infer 0332 C0008 (attempt 1): rc 0, 22 decisions, 72.2 s, 0.305 decisions/s incl. start-up
+[2026-10-29 03:30:07] infer 0332 C0009 (attempt 1): rc 0, 22 decisions, 72.1 s, 0.305 decisions/s incl. start-up
+[2026-10-29 03:31:05] infer 0332 C0010 (attempt 1): rc 0, 21 decisions, 57.8 s, 0.363 decisions/s incl. start-up
+[2026-10-29 03:32:17] infer 0332 C0011 (attempt 1): rc 0, 21 decisions, 72.3 s, 0.29 decisions/s incl. start-up
+[2026-10-29 03:33:13] infer 0332 C0012 (attempt 1): rc 0, 19 decisions, 56 s, 0.339 decisions/s incl. start-up
+[2026-10-29 03:33:42] infer 0332 C0013 (attempt 1): rc 0, 47 decisions, 28.6 s, 1.643 decisions/s incl. start-up
+[2026-10-29 03:34:33] infer 0332 C0014 (attempt 1): rc 0, 21 decisions, 51.7 s, 0.406 decisions/s incl. start-up
+[2026-10-29 03:35:00] infer 0332 C0015 (attempt 1): rc 0, 26 decisions, 26.1 s, 0.996 decisions/s incl. start-up
+[2026-10-29 03:35:39] infer 0332 C0016 (attempt 1): rc 0, 27 decisions, 39.2 s, 0.689 decisions/s incl. start-up
+[2026-10-29 03:36:04] infer 0332 C0017 (attempt 1): rc 0, 18 decisions, 24.4 s, 0.738 decisions/s incl. start-up
+[2026-10-29 03:36:42] infer 0332 C0018 (attempt 1): rc 0, 21 decisions, 38.3 s, 0.548 decisions/s incl. start-up
+[2026-10-29 03:36:59] infer 0332 C0019 (attempt 1): rc 0, 21 decisions, 16.5 s, 1.273 decisions/s incl. start-up
+[2026-10-29 03:37:20] infer 0332 C0020 (attempt 1): rc 0, 22 decisions, 21 s, 1.048 decisions/s incl. start-up
+[2026-10-29 03:38:29] infer 0332 C0021 (attempt 1): rc 0, 21 decisions, 68.6 s, 0.306 decisions/s incl. start-up
+[2026-10-29 03:38:55] infer 0332 C0022 (attempt 1): rc 0, 21 decisions, 25.8 s, 0.814 decisions/s incl. start-up
+[2026-10-29 03:39:21] infer 0332 C0023 (attempt 1): rc 0, 21 decisions, 26.2 s, 0.802 decisions/s incl. start-up
+[2026-10-29 03:39:37] infer 0332 C0024 (attempt 1): rc 0, 21 decisions, 16.5 s, 1.273 decisions/s incl. start-up
+[2026-10-29 03:39:37] infer 0332: ok 25, skipped 0, failed 0
+[2026-10-29 03:39:47] score primary: rc 0 in 9.3 s (report in results\v3; not read by the runner)
+[2026-10-29 03:40:44] score secondary: rc 0 in 57.7 s (report in results\v3; not read by the runner)
+[2026-10-29 03:40:54] score 0332: rc 0 in 9.4 s (report in results\v3; not read by the runner)
+[2026-10-29 03:40:54] DONE rc 0

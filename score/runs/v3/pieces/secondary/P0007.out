@@ -1,0 +1,41 @@
+CT per-crop z-score bound to s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr::2 (checkpoint: s3://vesuvius-challenge-open-data/PHercParis4/volumes/20260411134726-2.400um-0.2m-78keV-masked.zarr::2)
+[infer] 32/234 decisions, 10 s
+[infer] 64/234 decisions, 20 s
+[infer] 96/234 decisions, 32 s
+[infer] 128/234 decisions, 42 s
+[infer] 160/234 decisions, 51 s
+[infer] 192/234 decisions, 63 s
+[infer] 224/234 decisions, 73 s
+[infer] 234/234 decisions, 76 s
+{
+ "checkpoint": "hf://scrollprize/fiber_strip_small_v1@7bd163a22c839ff312879ae1916195d0c9729c0e/last.pt",
+ "step": 15000,
+ "afv": "C:\\VesuviusTemp\\strips\\score\\data\\matched_0139_secondary_run40.afv",
+ "fiber": 2922928426483381,
+ "arc_trace": [
+  12.0,
+  1876.0
+ ],
+ "decision_step": 8.0,
+ "blend": 16.0,
+ "trim_patch_voxels": 75.0,
+ "units": "patch voxels",
+ "trace_per_patch": 0.5,
+ "first_row_arc_patch_voxels": -46.5,
+ "decisions": 234,
+ "rows": 968,
+ "columns": 25,
+ "row_step_voxels": 4.0,
+ "column_step_voxels": 5.0,
+ "v_flips": 21,
+ "spread_vox": {
+  "median": 0.9135521172970033,
+  "p95": 3.191770319222635
+ },
+ "expected_error_vox": {
+  "mean": 0.808073878288269,
+  "p95": 1.067695140838623
+ },
+ "seconds": 76.48187708854675
+}
+[infer_cpu] ok in 76.51 s, peak RSS 5.786 GB

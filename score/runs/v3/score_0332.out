@@ -1,0 +1,41 @@
+{
+ "label": "no ground truth: consistency between two predictions, not accuracy",
+ "planned": 15,
+ "missing": [
+  "X0019",
+  "X0021",
+  "X0027"
+ ],
+ "crossings": 12,
+ "fibers_h": 10,
+ "fibers_v": 10,
+ "mean": 4.625070524879241,
+ "median": 4.7098604141580696,
+ "p90": 8.443956122382064,
+ "within2": 0.3333333333333333,
+ "ci": {
+  "mean": [
+   2.992669622680591,
+   6.323334669686903
+  ],
+  "median": [
+   1.9213299160881094,
+   7.39094434280999
+  ],
+  "p90": [
+   5.24786009594545,
+   9.365429350752624
+  ],
+  "within2": [
+   0.08333333333333333,
+   0.5833333333333334
+  ]
+ },
+ "tight_subset": {
+  "rule": "closest approach <= 3.0 sv",
+  "crossings": 2,
+  "mean": 1.428262796928231,
+  "median": 1.428262796928231,
+  "within2": 1.0
+ }
+}

@@ -1,0 +1,2 @@
+[2026-10-29 02:14:50] [prefetch] secondary: 46 pieces, 4914 chunks (9.60 GiB), 4914 cached, 0 to fetch (0.00 GiB), 2 connections
+[2026-10-29 02:14:50] [prefetch] secondary: done: 0 fetched (0 missing objects -> fill), 0 MiB in 0 s; 0 of 4914 chunks not cached

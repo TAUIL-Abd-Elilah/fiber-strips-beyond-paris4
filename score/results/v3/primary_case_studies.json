@@ -1,0 +1,940 @@
+{
+ "provenance": {
+  "scorer": "C:\\VesuviusTemp\\strips\\score\\score_strips.py",
+  "scorer_version": "3.0.0",
+  "scorer_sha256": "d7d6d1946bc4decd72bc153958c4fb209f10f90fdca5f16b6616186f8e2c3577",
+  "prereg_sha256": "dffa97b9dffb7cd9b69d6cdc66fa247f00a57de6a208db71fdc098034b59812e",
+  "argv": [
+   "score",
+   "--fibers",
+   "data\\fibers0139",
+   "--segments",
+   "data\\segments",
+   "--umbilicus",
+   "data\\umbilicus\\PHerc0139_20260102150214_umbilicus.json",
+   "--crossings",
+   "--matches",
+   "results\\matched_stretches.json",
+   "--strips",
+   "C:\\VesuviusTemp\\strips\\score\\runs\\v3\\strips\\primary",
+   "--lasagna-normals",
+   "data\\lasagna_normals_0139_primary.npz",
+   "--out",
+   "C:\\VesuviusTemp\\strips\\score\\results\\v3\\primary_case_studies.json"
+  ],
+  "constants": {
+   "SCORE_UNIT_BASE": 4.0,
+   "SV_UM": 9.596,
+   "SAMPLE_STEP": 1.0,
+   "MATCH_MAX_D": 2.0,
+   "CANDIDATE_MAX_D": 6.0,
+   "MIN_STRETCH_SV": 260.5252188411838,
+   "SEARCH_REACH": 30.0,
+   "TANGENT_TOL": 1.0,
+   "ASSOC_MAX_SV": 5.0,
+   "ROW_MAX_SV": 30.0,
+   "MIN_NODES": 25,
+   "G1_MIN_FIBERS": 30,
+   "G1_MAX_NOISE": 2.0,
+   "G2_MAX_MEAN": 1.5,
+   "G2_MIN_WITHIN2": 0.7,
+   "BOOTSTRAP": 2000,
+   "BOOTSTRAP_PCT": 1000,
+   "SEED": 20261028,
+   "CAL_EDGES": [
+    0.0,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    2.0,
+    3.0,
+    null
+   ],
+   "CROSS_TOL": 3.0,
+   "CROSS_TOL_0332": 6.0,
+   "CROSS_RADIUS": 30.0,
+   "LASAGNA_SCALE": 16.0,
+   "TANGENT_HALF": 4,
+   "DECISION_STEP_SV": 16.0,
+   "FIRST_HEAD_SV": 24.0,
+   "BLEND_SV": 32.0,
+   "HEAD_MARGIN_SV": 40.0,
+   "PIECE_BEFORE_SV": 300.0,
+   "PIECE_AFTER_SV": 160.0,
+   "CT_LEVEL": 2,
+   "CT_RADIUS": 170.0,
+   "CPU_DECISIONS_PER_S": 1.35,
+   "CPU_DECISIONS_PER_S_IDLE": [
+    3.27,
+    3.56
+   ],
+   "PROCESS_OVERHEAD_S": 30.0,
+   "CT_MIB_PER_S": 0.58,
+   "CPU_CAP_H_0139": 8.0,
+   "CT_CAP_GIB_0139": 8.0,
+   "CT_CAP_SCAN_0139_SECONDARY": [
+    8.0,
+    13.0,
+    0.1
+   ],
+   "MIN_RUN_FIBERS_SECONDARY": 36,
+   "CPU_CAP_H_0332": 2.0,
+   "CT_CAP_GIB_0332": 2.0,
+   "MAX_CROSSINGS_0332": 60
+  },
+  "time": "2026-10-29 03:39:41",
+  "units": {
+   "score_unit_base": 4.0,
+   "fiber_unit_base": 1.0,
+   "segment_unit_base": 1.0,
+   "strip_unit_base": 4.0
+  }
+ },
+ "matches_sha256": "71203041b7cec13f13c5723b17b8ae8a35fe5c35b29d2787159bb9e8af630f76",
+ "G1": {
+  "fibers_loaded": 615,
+  "fibers_with_stretch": 2,
+  "stretches": 2,
+  "total_length_mm": 7.417708,
+  "by_family": {
+   "H": {
+    "fibers": 2,
+    "stretches": 2,
+    "length_mm": 7.417708
+   },
+   "V": {
+    "fibers": 0,
+    "stretches": 0,
+    "length_mm": 0.0
+   }
+  },
+  "noise_floor_match_sv": 0.7751933336257935,
+  "noise_floor_match_per_fiber_median_sv": 0.7660849839448929,
+  "noise_floor_match_definition": "median |d| over all samples of the matched stretches (bounded by 2.0 sv by the selection)",
+  "noise_floor_nf6_sv": 1.764183521270752,
+  "noise_floor_nf6_definition": "median |d| over all samples of the near runs: runs of consecutive samples on one segment with |d| <= 6.0 sv, >= 2.5 mm",
+  "near_runs": 287,
+  "pass": false,
+  "rule": ">= 30 fibers with a matched stretch (|d| <= 2.0 sv on one segment over >= 260.5 sv (2.500 mm) of consecutive 1 sv samples) AND NF_match <= 2.0 sv AND NF6 <= 2.0 sv"
+ },
+ "skips": [],
+ "stretches_planned": 2,
+ "stretches_scored": 2,
+ "accuracy": {
+  "all": {
+   "family": "all",
+   "subset": null,
+   "strip_coverage": {
+    "nodes_on_scored_rows": 4850,
+    "covered": 4850,
+    "fraction": 1.0
+   },
+   "scored_fibers": 2,
+   "scored_stretches": 2,
+   "strip": {
+    "point": {
+     "nodes": 4850,
+     "mean": 0.7497421439272491,
+     "median": 0.6407275709144737,
+     "p90": 1.3928903822146912,
+     "within1": 0.7387628865979381,
+     "within2": 0.9663917525773196
+    },
+    "ci": {
+     "mean": [
+      0.5642819848582797,
+      0.9390660563101555
+     ],
+     "within1": [
+      0.63125,
+      0.8440816326530612
+     ],
+     "within2": [
+      0.9320833333333334,
+      1.0
+     ],
+     "median": [
+      0.4915974721314176,
+      0.8024055807924675
+     ],
+     "p90": [
+      1.1452015983472017,
+      1.7324356278608986
+     ]
+    },
+    "fibers": 2,
+    "replicates": {
+     "B": 2000,
+     "B_percentiles": 1000,
+     "seed": 20261028
+    }
+   },
+   "strip_signed_mean_sv": -0.588730742926668,
+   "fiber_floor": {
+    "nodes": 194,
+    "mean": 0.8080227778897103,
+    "median": 0.7871072033740064,
+    "p90": 1.501543210302062,
+    "within1": 0.6701030927835051,
+    "within2": 1.0
+   },
+   "fiber_floor_note": "the human fiber itself, one point per scored row: the ground truth noise floor",
+   "frame_plane": {
+    "available_fibers": 2,
+    "stats": {
+     "point": {
+      "nodes": 4850,
+      "mean": 2.7630927683887787,
+      "median": 1.777010244398122,
+      "p90": 6.736296915304377,
+      "within1": 0.2979381443298969,
+      "within2": 0.5352577319587629
+     },
+     "ci": {
+      "mean": [
+       2.369803440210681,
+       3.1645756242372536
+      ],
+      "within1": [
+       0.28458333333333335,
+       0.3110204081632653
+      ],
+      "within2": [
+       0.46416666666666667,
+       0.6048979591836735
+      ],
+      "median": [
+       1.5059265433342657,
+       2.318829097288029
+      ],
+      "p90": [
+       6.045862445068505,
+       7.3282259509892596
+      ]
+     },
+     "fibers": 2,
+     "replicates": {
+      "B": 2000,
+      "B_percentiles": 1000,
+      "seed": 20261028
+     }
+    },
+    "strip_on_same_nodes": {
+     "nodes": 4850,
+     "mean": 0.7497421439272491,
+     "median": 0.6407275709144737,
+     "p90": 1.3928903822146912,
+     "within1": 0.7387628865979381,
+     "within2": 0.9663917525773196
+    },
+    "delta": {
+     "fibers": 2,
+     "nodes": 4850,
+     "baseline_minus_strip_mean_sv": 2.0133506244615296,
+     "ci": [
+      1.8055214553524015,
+      2.2255095679270984
+     ],
+     "beaten": true,
+     "strip_minus_baseline_within2": 0.4311340206185567,
+     "ci_within2": [
+      0.39510204081632655,
+      0.46791666666666665
+     ]
+    }
+   },
+   "lasagna_plane": {
+    "available_fibers": 2,
+    "stats": {
+     "point": {
+      "nodes": 4850,
+      "mean": 2.699056686167173,
+      "median": 1.798568780621599,
+      "p90": 6.47097864991968,
+      "within1": 0.30783505154639174,
+      "within2": 0.5371134020618556
+     },
+     "ci": {
+      "mean": [
+       2.267298080838659,
+       3.1398102624400313
+      ],
+      "within1": [
+       0.30041666666666667,
+       0.31510204081632653
+      ],
+      "within2": [
+       0.4683333333333333,
+       0.6044897959183674
+      ],
+      "median": [
+       1.6158365611263636,
+       2.279730867348661
+      ],
+      "p90": [
+       5.477905939024873,
+       7.154241076780037
+      ]
+     },
+     "fibers": 2,
+     "replicates": {
+      "B": 2000,
+      "B_percentiles": 1000,
+      "seed": 20261028
+     }
+    },
+    "strip_on_same_nodes": {
+     "nodes": 4850,
+     "mean": 0.7497421439272491,
+     "median": 0.6407275709144737,
+     "p90": 1.3928903822146912,
+     "within1": 0.7387628865979381,
+     "within2": 0.9663917525773196
+    },
+    "delta": {
+     "fibers": 2,
+     "nodes": 4850,
+     "baseline_minus_strip_mean_sv": 1.9493145422399238,
+     "ci": [
+      1.7030160959803797,
+      2.2007442061298756
+     ],
+     "beaten": true,
+     "strip_minus_baseline_within2": 0.4292783505154639,
+     "ci_within2": [
+      0.3955102040816327,
+      0.46375
+     ]
+    }
+   },
+   "lasagna_vs_segment_normal_deg": {
+    "median": 2.737355773441494,
+    "p90": 4.335619180898671
+   }
+  },
+  "H": {
+   "family": "H",
+   "subset": null,
+   "strip_coverage": {
+    "nodes_on_scored_rows": 4850,
+    "covered": 4850,
+    "fraction": 1.0
+   },
+   "scored_fibers": 2,
+   "scored_stretches": 2,
+   "strip": {
+    "point": {
+     "nodes": 4850,
+     "mean": 0.7497421439272491,
+     "median": 0.6407275709144737,
+     "p90": 1.3928903822146912,
+     "within1": 0.7387628865979381,
+     "within2": 0.9663917525773196
+    },
+    "ci": {
+     "mean": [
+      0.5642819848582797,
+      0.9390660563101555
+     ],
+     "within1": [
+      0.63125,
+      0.8440816326530612
+     ],
+     "within2": [
+      0.9320833333333334,
+      1.0
+     ],
+     "median": [
+      0.4915974721314176,
+      0.8024055807924675
+     ],
+     "p90": [
+      1.1452015983472017,
+      1.7324356278608986
+     ]
+    },
+    "fibers": 2,
+    "replicates": {
+     "B": 2000,
+     "B_percentiles": 1000,
+     "seed": 20261028
+    }
+   },
+   "strip_signed_mean_sv": -0.588730742926668,
+   "fiber_floor": {
+    "nodes": 194,
+    "mean": 0.8080227778897103,
+    "median": 0.7871072033740064,
+    "p90": 1.501543210302062,
+    "within1": 0.6701030927835051,
+    "within2": 1.0
+   },
+   "fiber_floor_note": "the human fiber itself, one point per scored row: the ground truth noise floor",
+   "frame_plane": {
+    "available_fibers": 2,
+    "stats": {
+     "point": {
+      "nodes": 4850,
+      "mean": 2.7630927683887787,
+      "median": 1.777010244398122,
+      "p90": 6.736296915304377,
+      "within1": 0.2979381443298969,
+      "within2": 0.5352577319587629
+     },
+     "ci": {
+      "mean": [
+       2.369803440210681,
+       3.1645756242372536
+      ],
+      "within1": [
+       0.28458333333333335,
+       0.3110204081632653
+      ],
+      "within2": [
+       0.46416666666666667,
+       0.6048979591836735
+      ],
+      "median": [
+       1.5059265433342657,
+       2.318829097288029
+      ],
+      "p90": [
+       6.045862445068505,
+       7.3282259509892596
+      ]
+     },
+     "fibers": 2,
+     "replicates": {
+      "B": 2000,
+      "B_percentiles": 1000,
+      "seed": 20261028
+     }
+    },
+    "strip_on_same_nodes": {
+     "nodes": 4850,
+     "mean": 0.7497421439272491,
+     "median": 0.6407275709144737,
+     "p90": 1.3928903822146912,
+     "within1": 0.7387628865979381,
+     "within2": 0.9663917525773196
+    },
+    "delta": {
+     "fibers": 2,
+     "nodes": 4850,
+     "baseline_minus_strip_mean_sv": 2.0133506244615296,
+     "ci": [
+      1.8055214553524015,
+      2.2255095679270984
+     ],
+     "beaten": true,
+     "strip_minus_baseline_within2": 0.4311340206185567,
+     "ci_within2": [
+      0.39510204081632655,
+      0.46791666666666665
+     ]
+    }
+   },
+   "lasagna_plane": {
+    "available_fibers": 2,
+    "stats": {
+     "point": {
+      "nodes": 4850,
+      "mean": 2.699056686167173,
+      "median": 1.798568780621599,
+      "p90": 6.47097864991968,
+      "within1": 0.30783505154639174,
+      "within2": 0.5371134020618556
+     },
+     "ci": {
+      "mean": [
+       2.267298080838659,
+       3.1398102624400313
+      ],
+      "within1": [
+       0.30041666666666667,
+       0.31510204081632653
+      ],
+      "within2": [
+       0.4683333333333333,
+       0.6044897959183674
+      ],
+      "median": [
+       1.6158365611263636,
+       2.279730867348661
+      ],
+      "p90": [
+       5.477905939024873,
+       7.154241076780037
+      ]
+     },
+     "fibers": 2,
+     "replicates": {
+      "B": 2000,
+      "B_percentiles": 1000,
+      "seed": 20261028
+     }
+    },
+    "strip_on_same_nodes": {
+     "nodes": 4850,
+     "mean": 0.7497421439272491,
+     "median": 0.6407275709144737,
+     "p90": 1.3928903822146912,
+     "within1": 0.7387628865979381,
+     "within2": 0.9663917525773196
+    },
+    "delta": {
+     "fibers": 2,
+     "nodes": 4850,
+     "baseline_minus_strip_mean_sv": 1.9493145422399238,
+     "ci": [
+      1.7030160959803797,
+      2.2007442061298756
+     ],
+     "beaten": true,
+     "strip_minus_baseline_within2": 0.4292783505154639,
+     "ci_within2": [
+      0.3955102040816327,
+      0.46375
+     ]
+    }
+   },
+   "lasagna_vs_segment_normal_deg": {
+    "median": 2.737355773441494,
+    "p90": 4.335619180898671
+   }
+  },
+  "V": {
+   "family": "V",
+   "subset": null,
+   "strip_coverage": {
+    "nodes_on_scored_rows": 0,
+    "covered": 0,
+    "fraction": null
+   },
+   "scored_fibers": 0,
+   "scored_stretches": 0,
+   "strip": {
+    "point": null,
+    "ci": null,
+    "fibers": 0
+   },
+   "strip_signed_mean_sv": null,
+   "fiber_floor": null,
+   "fiber_floor_note": "the human fiber itself, one point per scored row: the ground truth noise floor",
+   "frame_plane": {
+    "available_fibers": 0,
+    "stats": null,
+    "strip_on_same_nodes": null,
+    "delta": null
+   },
+   "lasagna_plane": {
+    "available_fibers": 0,
+    "stats": null,
+    "strip_on_same_nodes": null,
+    "delta": null
+   },
+   "lasagna_vs_segment_normal_deg": null
+  }
+ },
+ "G2": {
+  "verdict": "no accuracy claim (G1 failed or fewer than 30 scored fibers)",
+  "checks": {
+   "g1_pass": false,
+   "scored_fibers_ge_30": false,
+   "mean_le_1.5": true,
+   "within2_ge_0.70": true,
+   "beats_frame_plane": true,
+   "beats_lasagna_plane": true
+  },
+  "rule": "transfers = pooled mean |d| <= 1.5 sv AND >= 70% of nodes within 2 sv AND both baselines beaten (paired fiber-bootstrap 95% CI of baseline - strip mean |d| above 0); otherwise degrades"
+ },
+ "analysis": "primary",
+ "sensitivity": {
+  "note": "reported, not gating (PREREG 4.9)",
+  "unflagged stretches (no fold-back or jump)": {
+   "family": "all",
+   "subset": "unflagged",
+   "strip_coverage": {
+    "nodes_on_scored_rows": 2400,
+    "covered": 2400,
+    "fraction": 1.0
+   },
+   "scored_fibers": 1,
+   "scored_stretches": 0,
+   "strip": {
+    "point": {
+     "nodes": 2400,
+     "mean": 0.9390660563101555,
+     "median": 0.8024055807924675,
+     "p90": 1.7324356278608959,
+     "within1": 0.63125,
+     "within2": 0.9320833333333334
+    },
+    "ci": null,
+    "fibers": 1
+   },
+   "strip_signed_mean_sv": -0.8007829385515449,
+   "fiber_floor": {
+    "nodes": 96,
+    "mean": 0.6573623366393729,
+    "median": 0.6164858253758441,
+    "p90": 1.220506394582908,
+    "within1": 0.8020833333333334,
+    "within2": 1.0
+   },
+   "fiber_floor_note": "the human fiber itself, one point per scored row: the ground truth noise floor",
+   "frame_plane": {
+    "available_fibers": 1,
+    "stats": {
+     "point": {
+      "nodes": 2400,
+      "mean": 3.1645756242372536,
+      "median": 2.318829097288029,
+      "p90": 7.328225950989258,
+      "within1": 0.28458333333333335,
+      "within2": 0.46416666666666667
+     },
+     "ci": null,
+     "fibers": 1
+    },
+    "strip_on_same_nodes": {
+     "nodes": 2400,
+     "mean": 0.9390660563101555,
+     "median": 0.8024055807924675,
+     "p90": 1.7324356278608959,
+     "within1": 0.63125,
+     "within2": 0.9320833333333334
+    },
+    "delta": null
+   },
+   "lasagna_plane": {
+    "available_fibers": 1,
+    "stats": {
+     "point": {
+      "nodes": 2400,
+      "mean": 3.1398102624400313,
+      "median": 2.279730867348661,
+      "p90": 7.154241076780035,
+      "within1": 0.30041666666666667,
+      "within2": 0.4683333333333333
+     },
+     "ci": null,
+     "fibers": 1
+    },
+    "strip_on_same_nodes": {
+     "nodes": 2400,
+     "mean": 0.9390660563101555,
+     "median": 0.8024055807924675,
+     "p90": 1.7324356278608959,
+     "within1": 0.63125,
+     "within2": 0.9320833333333334
+    },
+    "delta": null
+   },
+   "lasagna_vs_segment_normal_deg": {
+    "median": 2.9912452215722762,
+    "p90": 5.6446754350630535
+   }
+  },
+  "annotator kb": {
+   "family": "all",
+   "subset": "annotator kb",
+   "strip_coverage": {
+    "nodes_on_scored_rows": 2450,
+    "covered": 2450,
+    "fraction": 1.0
+   },
+   "scored_fibers": 1,
+   "scored_stretches": 1,
+   "strip": {
+    "point": {
+     "nodes": 2450,
+     "mean": 0.5642819848582797,
+     "median": 0.4915974721314176,
+     "p90": 1.1452015983472013,
+     "within1": 0.8440816326530612,
+     "within2": 1.0
+    },
+    "ci": null,
+    "fibers": 1
+   },
+   "strip_signed_mean_sv": -0.3810061431308704,
+   "fiber_floor": {
+    "nodes": 98,
+    "mean": 0.9556085162573879,
+    "median": 0.9348610796729331,
+    "p90": 1.679644800695171,
+    "within1": 0.5408163265306123,
+    "within2": 1.0
+   },
+   "fiber_floor_note": "the human fiber itself, one point per scored row: the ground truth noise floor",
+   "frame_plane": {
+    "available_fibers": 1,
+    "stats": {
+     "point": {
+      "nodes": 2450,
+      "mean": 2.369803440210681,
+      "median": 1.5059265433342657,
+      "p90": 6.045862445068499,
+      "within1": 0.3110204081632653,
+      "within2": 0.6048979591836735
+     },
+     "ci": null,
+     "fibers": 1
+    },
+    "strip_on_same_nodes": {
+     "nodes": 2450,
+     "mean": 0.5642819848582797,
+     "median": 0.4915974721314176,
+     "p90": 1.1452015983472013,
+     "within1": 0.8440816326530612,
+     "within2": 1.0
+    },
+    "delta": null
+   },
+   "lasagna_plane": {
+    "available_fibers": 1,
+    "stats": {
+     "point": {
+      "nodes": 2450,
+      "mean": 2.267298080838659,
+      "median": 1.6158365611263636,
+      "p90": 5.477905939024867,
+      "within1": 0.31510204081632653,
+      "within2": 0.6044897959183674
+     },
+     "ci": null,
+     "fibers": 1
+    },
+    "strip_on_same_nodes": {
+     "nodes": 2450,
+     "mean": 0.5642819848582797,
+     "median": 0.4915974721314176,
+     "p90": 1.1452015983472013,
+     "within1": 0.8440816326530612,
+     "within2": 1.0
+    },
+    "delta": null
+   },
+   "lasagna_vs_segment_normal_deg": {
+    "median": 2.4183207040019665,
+    "p90": 4.1722885913923795
+   }
+  },
+  "annotator lt": {
+   "family": "all",
+   "subset": "annotator lt",
+   "strip_coverage": {
+    "nodes_on_scored_rows": 2400,
+    "covered": 2400,
+    "fraction": 1.0
+   },
+   "scored_fibers": 1,
+   "scored_stretches": 1,
+   "strip": {
+    "point": {
+     "nodes": 2400,
+     "mean": 0.9390660563101555,
+     "median": 0.8024055807924675,
+     "p90": 1.7324356278608959,
+     "within1": 0.63125,
+     "within2": 0.9320833333333334
+    },
+    "ci": null,
+    "fibers": 1
+   },
+   "strip_signed_mean_sv": -0.8007829385515449,
+   "fiber_floor": {
+    "nodes": 96,
+    "mean": 0.6573623366393729,
+    "median": 0.6164858253758441,
+    "p90": 1.220506394582908,
+    "within1": 0.8020833333333334,
+    "within2": 1.0
+   },
+   "fiber_floor_note": "the human fiber itself, one point per scored row: the ground truth noise floor",
+   "frame_plane": {
+    "available_fibers": 1,
+    "stats": {
+     "point": {
+      "nodes": 2400,
+      "mean": 3.1645756242372536,
+      "median": 2.318829097288029,
+      "p90": 7.328225950989258,
+      "within1": 0.28458333333333335,
+      "within2": 0.46416666666666667
+     },
+     "ci": null,
+     "fibers": 1
+    },
+    "strip_on_same_nodes": {
+     "nodes": 2400,
+     "mean": 0.9390660563101555,
+     "median": 0.8024055807924675,
+     "p90": 1.7324356278608959,
+     "within1": 0.63125,
+     "within2": 0.9320833333333334
+    },
+    "delta": null
+   },
+   "lasagna_plane": {
+    "available_fibers": 1,
+    "stats": {
+     "point": {
+      "nodes": 2400,
+      "mean": 3.1398102624400313,
+      "median": 2.279730867348661,
+      "p90": 7.154241076780035,
+      "within1": 0.30041666666666667,
+      "within2": 0.4683333333333333
+     },
+     "ci": null,
+     "fibers": 1
+    },
+    "strip_on_same_nodes": {
+     "nodes": 2400,
+     "mean": 0.9390660563101555,
+     "median": 0.8024055807924675,
+     "p90": 1.7324356278608959,
+     "within1": 0.63125,
+     "within2": 0.9320833333333334
+    },
+    "delta": null
+   },
+   "lasagna_vs_segment_normal_deg": {
+    "median": 2.9912452215722762,
+    "p90": 5.6446754350630535
+   }
+  }
+ },
+ "calibration": {
+  "nodes": 4850,
+  "fibers": 2,
+  "bins": [
+   {
+    "lo": 0.0,
+    "hi": 0.5,
+    "nodes": 308,
+    "mean_expected": 0.4843479580972739,
+    "mean_observed": 0.6121367061321045,
+    "median_observed": 0.5819339738073663,
+    "within2": 1.0
+   },
+   {
+    "lo": 0.5,
+    "hi": 0.75,
+    "nodes": 3957,
+    "mean_expected": 0.5952303594666343,
+    "mean_observed": 0.7147294169939302,
+    "median_observed": 0.6181948937392793,
+    "within2": 0.9752337629517311
+   },
+   {
+    "lo": 0.75,
+    "hi": 1.0,
+    "nodes": 513,
+    "mean_expected": 0.8313341024585824,
+    "mean_observed": 1.0011427785758769,
+    "median_observed": 0.7799193607666499,
+    "within2": 0.8927875243664717
+   },
+   {
+    "lo": 1.0,
+    "hi": 1.25,
+    "nodes": 70,
+    "mean_expected": 1.070264538833424,
+    "mean_observed": 1.481609743927302,
+    "median_observed": 1.1994054337017979,
+    "within2": 0.8571428571428571
+   },
+   {
+    "lo": 1.25,
+    "hi": 1.5,
+    "nodes": 2,
+    "mean_expected": 1.3193172538368452,
+    "mean_observed": 1.1140310145763215,
+    "median_observed": 1.1140310145763215,
+    "within2": 1.0
+   },
+   {
+    "lo": 1.5,
+    "hi": 2.0,
+    "nodes": 0,
+    "mean_expected": null,
+    "mean_observed": null,
+    "median_observed": null,
+    "within2": null
+   },
+   {
+    "lo": 2.0,
+    "hi": 3.0,
+    "nodes": 0,
+    "mean_expected": null,
+    "mean_observed": null,
+    "median_observed": null,
+    "within2": null
+   },
+   {
+    "lo": 3.0,
+    "hi": null,
+    "nodes": 0,
+    "mean_expected": null,
+    "mean_observed": null,
+    "median_observed": null,
+    "within2": null
+   }
+  ],
+  "weighted_abs_gap_sv": 0.1295944933429902,
+  "observed_over_expected": 1.2086436349411356,
+  "spearman_node": 0.16798667471688436,
+  "spearman_fiber": null,
+  "note": "expected_error is the model's predicted |error| along its frame normal (patch voxels = sv); observed is |normal distance| to the matched segment"
+ },
+ "crossings": {
+  "label": "no ground truth: consistency between two predictions, not accuracy",
+  "planned": 0,
+  "missing": [],
+  "crossings": 0,
+  "note": "no H/V crossings with overlapping strips"
+ },
+ "per_strip": [
+  {
+   "strip": "P0000",
+   "fiber": "kb_20260904T021448778_000085",
+   "family": "H",
+   "stretches": [
+    "S0000"
+   ],
+   "assoc_median_sv": 1.2863683910853019,
+   "notes": [],
+   "strip_nodes": 2450,
+   "frame_plane_nodes": 2450,
+   "lasagna_plane_nodes": 2450,
+   "strip_mean_abs_sv": 0.5642819848582797,
+   "frame_plane_mean_abs_sv": 2.369803440210681,
+   "lasagna_plane_mean_abs_sv": 2.267298080838659,
+   "strip_signed_mean_sv": -0.38100614313087033,
+   "fiber_floor_mean_abs_sv": 0.9556085162573879
+  },
+  {
+   "strip": "P0001",
+   "fiber": "lt_20260918T092404850_000160",
+   "family": "H",
+   "stretches": [
+    "S0001"
+   ],
+   "assoc_median_sv": 1.0814267626803291,
+   "notes": [],
+   "strip_nodes": 2400,
+   "frame_plane_nodes": 2400,
+   "lasagna_plane_nodes": 2400,
+   "strip_mean_abs_sv": 0.9390660563101555,
+   "frame_plane_mean_abs_sv": 3.1645756242372536,
+   "lasagna_plane_mean_abs_sv": 3.1398102624400313,
+   "strip_signed_mean_sv": -0.8007829385515449,
+   "fiber_floor_mean_abs_sv": 0.6573623366393728
+  }
+ ]
+}

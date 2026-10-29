@@ -1,0 +1,25 @@
+2 strips, 2 fibers, 2 stretches, 38 segments
+[score] segment 20260115000000-w044_2026011522: 4 node sets, 1 s
+[score] segment 20260206000002-w054_2026020617: 4 node sets, 2 s
+{
+ "G2": {
+  "verdict": "no accuracy claim (G1 failed or fewer than 30 scored fibers)",
+  "checks": {
+   "g1_pass": false,
+   "scored_fibers_ge_30": false,
+   "mean_le_1.5": true,
+   "within2_ge_0.70": true,
+   "beats_frame_plane": true,
+   "beats_lasagna_plane": true
+  },
+  "rule": "transfers = pooled mean |d| <= 1.5 sv AND >= 70% of nodes within 2 sv AND both baselines beaten (paired fiber-bootstrap 95% CI of baseline - strip mean |d| above 0); otherwise degrades"
+ },
+ "all": {
+  "nodes": 4850,
+  "mean": 0.7497421439272491,
+  "median": 0.6407275709144737,
+  "p90": 1.3928903822146912,
+  "within1": 0.7387628865979381,
+  "within2": 0.9663917525773196
+ }
+}

@@ -1,0 +1,81 @@
+--- a/verification/independent_rescore.py
++++ b/verification/independent_rescore.py
+@@ -80,7 +80,9 @@
+   reading and counts the rows where the two readings differ).
+ Not read: the projection (GridSurface), the sampling, stretch finding, row centres, association, score_strips,
+ aggregate, the bootstrap, the calibration, find_crossings and crossing_agreement (except its three output lines).
+-Version 1.1 (29 Oct 2026, after an adversarial review, before any result existed) read no line of score_strips.py.
++Version 1.1 (29 Oct 2026, about 04:00 to 05:24 UTC, after an adversarial review) read no line of score_strips.py. It
++was made after the scored run had finished and its reports existed (03:39 to 03:41 UTC), by agents working under the
++rule never to read the run's outputs, and before this file was compared with any report (06:10 UTC).
+ It used four facts the review reported from its own reading of the scorer: (a) the scorer projects by a
+ step-limited Gauss-Newton from the 4 nearest nodes (8 iterations, clamped at invalid cells, the nearest covered
+ candidate), a different solver from R7; this file keeps R7 and reads differences through tier 2 (TOLERANCE AND
+@@ -91,6 +93,10 @@
+ Version 1.1 checked tier 2 with the review's scripts and adaptations of them (see TOLERANCE AND VERDICTS). They call
+ the scorer's projection, score_strips() and crossing_agreement() as black boxes and rebuild cmd_score's per_strip
+ means; their code was read, the scorer's was not.
++The last edit of version 1.1 (06:09 UTC), made after the reports and parts of score_strips.py had been seen, added
++the later review's results to TOLERANCE AND VERDICTS and exit code 2 on an input error; it changed no reading,
++metric, tolerance or bound. Version 1.1.1 (29 Oct 2026, after the comparison of 06:10 UTC) corrects this docstring
++only (the timing of version 1.1 and the later review's counts); apart from TOOL_VERSION no code changed.
+ tools/paris4_piece_check.py (not the scorer) was read to set up the Paris 4 fixture test as PREREG 10.7 item 5 ran
+ it. Drafted with AI assistance (Claude, Anthropic); checked by verification/test_independent_rescore.py.
+ 
+@@ -150,8 +156,9 @@
+       planned fiber it runs closest to (median <= 5 sv), and per fiber the strip with the most valid nodes within
+       30 sv of the point is used.
+ 
+-TOLERANCE AND VERDICTS (fixed before any comparison; revised in version 1.1 on 29 Oct 2026, before any result
+-existed, because a review showed that tier 1 alone calls a correct scorer different when strips lie far off the mesh)
++TOLERANCE AND VERDICTS (fixed before any comparison; revised in version 1.1 on 29 Oct 2026, after the run's reports
++existed but without reading them, because a review showed that tier 1 alone calls a correct scorer different when
++strips lie far off the mesh)
+   Tier 1, 'agree': integers (node counts, numbers of usable directions, missing status, a piece's stretch ids,
+     numbers of scored fibers, sample counts, and the fractions within 1 and 2 sv, compared as node counts) exactly;
+     values in sv (means, medians, p90, max, fiber floor, association median, agreement, crossing point and closest
+@@ -194,7 +201,8 @@
+     item cannot tell a defect from a solver difference.
+   'agree_under_other_reading': the item passes tier 1 or 2 only under R6's or R12's other reading.
+   'differs': none of these; neither the solver nor a flagged reading explains the difference.
+-  The thresholds were set from the geometry above and revised twice, before any result, after checks against the
++  The thresholds were set from the geometry above and revised twice, before any comparison with the run's reports
++    (which existed by then but were not read), after checks against the
+     frozen scorer run as a black box (the review's scripts; 116,000 points on synthetic cylinders of radius 60 and
+     300 sv with node noise 0 to 0.3 sv, with and without holes, and on 4 Paris 4 G0 strips as surfaces, up to 35 sv
+     off the mesh; no PHerc0139 or PHerc0332 data). The first check found 369 nodes this file called firmly
+@@ -204,13 +212,18 @@
+     and the asymmetric delta. With the final rules no point of those checks violates them (worst robust difference
+     0.026 sv; scorer feet up to 6.9 % of the distance farther than the closest point; covered edge feet with residuals
+     up to 0.21 x the distance). A later out-of-sample review on other shapes (folds, wrinkles, a spiral turn of more
+-    than 360 deg, sphere caps, ragged and collapsed edges; 54,000 points) found 42 of 13,424 robust nodes outside the
+-    allowance and, on wrinkled meshes, 1 false 'differs' of the ground-truth check in 295 to 620 stretches (a median
+-    |d| 0.003 sv outside its interval); whole pieces still agreed or agreed within the bounds (27 of 27). So a
+-    ground-truth 'differs' by a few thousandths of a sv on a wrinkled mesh can be a solver difference. On the review's 42 per-piece cases 27 agree and 15 agree within the solver bounds: the mean's
+-    interval is 0.07 to 0.23 sv wide on good strips and up to 8.3 sv on strips tilted 40 deg. Of its 8 crossings,
+-    3 agree and 5 agree within the bounds. Its three edge cases agree: a strip with no row in a window, a crossing
+-    strip 8 sv off its fiber, and no primary fiber scored.
++    than 360 deg, sphere caps, ragged and collapsed edges; 54,000 points) found points outside these rules: 42 of
++    13,424 robust nodes outside the allowance and 1 robust node uncovered (all on wrinkled meshes), 19 firmly
++    uncovered nodes that the scorer covered (8 on wrinkled meshes, 11 on the spiral turn: its local solver stopped
++    on another wrinkle or layer, farther than the closest point), 574 sensitive nodes outside their interval and 2
++    with the wrong sign on a 90 deg fold; and, on wrinkled meshes, 1 false 'differs' of the ground-truth check in
++    295 to 620 stretches (a median |d| 0.003 sv outside its interval). Whole pieces still agreed or agreed within
++    the bounds (27 of 27). So a ground-truth 'differs' of a few thousandths of a sv on a wrinkled mesh, or scorer
++    coverage of nodes this file calls firmly uncovered where another layer or wrinkle is within reach, can be a
++    solver difference. On the first review's 42 per-piece cases 27 agree and 15 agree within the solver bounds: the
++    mean's interval is 0.07 to 0.23 sv wide on good strips and up to 8.3 sv on strips tilted 40 deg. Of its 8
++    crossings, 3 agree and 5 agree within the bounds. Its three edge cases agree: a strip with no row in a window, a
++    crossing strip 8 sv off its fiber, and no primary fiber scored.
+ 
+ Memory: each segment is read once and cropped to the box of the points projected on it plus 40 sv; the projection
+ runs in batches. Peak memory is a few hundred MB (CPU only; no torch, no GPU).
+@@ -236,7 +249,7 @@
+ from scipy.spatial import cKDTree  # noqa: E402
+ 
+ TOOL = 'verification/independent_rescore.py'
+-TOOL_VERSION = '1.1.0'
++TOOL_VERSION = '1.1.1'
+ 
+ # ---- PREREG v3.2 numbers, from its text (section in brackets) ---------------------------------------------------
+ L0_PER_SV = 4.0          # [Units] sv = level 2 = 4 base (level-0) voxels
