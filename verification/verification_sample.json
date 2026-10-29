@@ -1,0 +1,424 @@
+{
+ "purpose": "Pre-specified sample for an independent re-scoring of the scored run (PREREG v3.2) by code that does not import score_strips.py. Fixed and published before any PHerc0139 or PHerc0332 result existed; not part of the pre-registered gates.",
+ "rule": "20 of the 284 run stretches of the secondary set (stretches with run = true in results/matched_stretches_secondary_run40.json, sorted by id), drawn with numpy default_rng(20261031).choice(284, 20, replace=False); both primary stretches; all 15 run crossings of results/crossings_0332_plan.json. Every item is recomputed and compared with the scorer, whatever it shows.",
+ "seed": 20261031,
+ "created_utc": "2026-10-29 02:27:30",
+ "sources": {
+  "results/matched_stretches_secondary_run40.json": "e95dd3dd51d7aa21c3c2dc1222c1a62240aa9ba7907520496f1c46e9a096e769",
+  "results/matched_stretches.json": "71203041b7cec13f13c5723b17b8ae8a35fe5c35b29d2787159bb9e8af630f76",
+  "results/crossings_0332_plan.json": "1db293724ba00190bbaeabc5aca73dc5ce9fb5cdbe3515a5160a3002a4d16838"
+ },
+ "secondary_stretches": [
+  {
+   "id": "S0027",
+   "fiber": "dj_20260904T160405930_000005",
+   "family": "H",
+   "annotator": "dj",
+   "segment": "20260115000000-w044_2026011522",
+   "s0": 888.0,
+   "s1": 943.0,
+   "length_sv": 55.0,
+   "piece": "P0006"
+  },
+  {
+   "id": "S0033",
+   "fiber": "dj_20260904T160405930_000005",
+   "family": "H",
+   "annotator": "dj",
+   "segment": "20260112000000-w043_2026011217",
+   "s0": 2612.0,
+   "s1": 2658.0,
+   "length_sv": 46.0,
+   "piece": "P0006"
+  },
+  {
+   "id": "S0054",
+   "fiber": "dj_20260904T160405930_000005",
+   "family": "H",
+   "annotator": "dj",
+   "segment": "20260206000000-w042_2026020613",
+   "s0": 6966.0,
+   "s1": 7032.0,
+   "length_sv": 66.0,
+   "piece": "P0006"
+  },
+  {
+   "id": "S0075",
+   "fiber": "dj_20260904T160405930_000006",
+   "family": "H",
+   "annotator": "dj",
+   "segment": "20260108000000-w041_2026010816",
+   "s0": 3246.0,
+   "s1": 3398.0,
+   "length_sv": 152.0,
+   "piece": "P0007"
+  },
+  {
+   "id": "S0191",
+   "fiber": "kb_20260904T021448778_000085",
+   "family": "H",
+   "annotator": "kb",
+   "segment": "20260325000000-w046_20260325",
+   "s0": 2287.0,
+   "s1": 2352.0,
+   "length_sv": 65.0,
+   "piece": "P0033"
+  },
+  {
+   "id": "S0202",
+   "fiber": "kb_20260904T021448778_000085",
+   "family": "H",
+   "annotator": "kb",
+   "segment": "20260115000000-w044_2026011522",
+   "s0": 4250.0,
+   "s1": 4346.0,
+   "length_sv": 96.0,
+   "piece": "P0033"
+  },
+  {
+   "id": "S0235",
+   "fiber": "kb_20260904T033639453_000086",
+   "family": "V",
+   "annotator": "kb",
+   "segment": "20260115000000-w044_2026011522",
+   "s0": 2988.0,
+   "s1": 3036.0,
+   "length_sv": 48.0,
+   "piece": "P0035"
+  },
+  {
+   "id": "S0387",
+   "fiber": "kb_20260918T034157988_000148",
+   "family": "H",
+   "annotator": "kb",
+   "segment": "20250223000000-w059_2025022312",
+   "s0": 10304.0,
+   "s1": 10359.0,
+   "length_sv": 55.0,
+   "piece": "P0066"
+  },
+  {
+   "id": "S0491",
+   "fiber": "kb_20260929T030233129_000230",
+   "family": "H",
+   "annotator": "kb",
+   "segment": "20251226000000-w055_2025122611",
+   "s0": 2126.0,
+   "s1": 2196.0,
+   "length_sv": 70.0,
+   "piece": "P0083"
+  },
+  {
+   "id": "S0493",
+   "fiber": "kb_20260929T030233129_000230",
+   "family": "H",
+   "annotator": "kb",
+   "segment": "20260206000002-w054_2026020617",
+   "s0": 2694.0,
+   "s1": 2747.0,
+   "length_sv": 53.0,
+   "piece": "P0083"
+  },
+  {
+   "id": "S0495",
+   "fiber": "kb_20260929T030233129_000230",
+   "family": "H",
+   "annotator": "kb",
+   "segment": "20251226000000-w055_2025122611",
+   "s0": 3417.0,
+   "s1": 3507.0,
+   "length_sv": 90.0,
+   "piece": "P0084"
+  },
+  {
+   "id": "S0636",
+   "fiber": "lt_20260903T101835034_000051",
+   "family": "H",
+   "annotator": "lt",
+   "segment": "20250831000000-w040_2025083102",
+   "s0": 772.0,
+   "s1": 838.0,
+   "length_sv": 66.0,
+   "piece": "P0104"
+  },
+  {
+   "id": "S0639",
+   "fiber": "lt_20260903T101835034_000051",
+   "family": "H",
+   "annotator": "lt",
+   "segment": "20250831000000-w040_2025083102",
+   "s0": 1321.0,
+   "s1": 1376.0,
+   "length_sv": 55.0,
+   "piece": "P0104"
+  },
+  {
+   "id": "S0642",
+   "fiber": "lt_20260903T101835034_000051",
+   "family": "H",
+   "annotator": "lt",
+   "segment": "20250831000000-w040_2025083102",
+   "s0": 1957.0,
+   "s1": 2069.0,
+   "length_sv": 112.0,
+   "piece": "P0104"
+  },
+  {
+   "id": "S0835",
+   "fiber": "lt_20260910T072828497_000111",
+   "family": "V",
+   "annotator": "lt",
+   "segment": "20260206000000-w042_2026020613",
+   "s0": 6696.0,
+   "s1": 6739.0,
+   "length_sv": 43.0,
+   "piece": "P0126"
+  },
+  {
+   "id": "S0863",
+   "fiber": "lt_20260910T090933172_000113",
+   "family": "V",
+   "annotator": "lt",
+   "segment": "20260203000000-w032_2026020303",
+   "s0": 5454.0,
+   "s1": 5494.0,
+   "length_sv": 40.0,
+   "piece": "P0133"
+  },
+  {
+   "id": "S0899",
+   "fiber": "lt_20260914T080111721_000127",
+   "family": "V",
+   "annotator": "lt",
+   "segment": "20260203000000-w032_2026020303",
+   "s0": 4590.0,
+   "s1": 4630.0,
+   "length_sv": 40.0,
+   "piece": "P0149"
+  },
+  {
+   "id": "S0902",
+   "fiber": "lt_20260914T080111721_000127",
+   "family": "V",
+   "annotator": "lt",
+   "segment": "20260203000000-w032_2026020303",
+   "s0": 4905.0,
+   "s1": 4995.0,
+   "length_sv": 90.0,
+   "piece": "P0149"
+  },
+  {
+   "id": "S0947",
+   "fiber": "lt_20260917T054942114_000140",
+   "family": "V",
+   "annotator": "lt",
+   "segment": "20250108000004-w029_2025010827",
+   "s0": 921.0,
+   "s1": 977.0,
+   "length_sv": 56.0,
+   "piece": "P0166"
+  },
+  {
+   "id": "S1061",
+   "fiber": "lt_20260918T094222156_000161",
+   "family": "H",
+   "annotator": "lt",
+   "segment": "20260206000002-w054_2026020617",
+   "s0": 2293.0,
+   "s1": 2337.0,
+   "length_sv": 44.0,
+   "piece": "P0180"
+  }
+ ],
+ "primary_stretches": [
+  {
+   "id": "S0000",
+   "fiber": "kb_20260904T021448778_000085",
+   "family": "H",
+   "annotator": "kb",
+   "segment": "20260115000000-w044_2026011522",
+   "s0": 3719.0,
+   "s1": 4108.0,
+   "length_sv": 389.0,
+   "piece": "P0000"
+  },
+  {
+   "id": "S0001",
+   "fiber": "lt_20260918T092404850_000160",
+   "family": "H",
+   "annotator": "lt",
+   "segment": "20260206000002-w054_2026020617",
+   "s0": 1239.0,
+   "s1": 1623.0,
+   "length_sv": 384.0,
+   "piece": "P0001"
+  }
+ ],
+ "crossings": [
+  {
+   "id": "X0000",
+   "h_fiber": "dj_20260810T113807458_000001",
+   "v_fiber": "dj_20261026T193623205_000068",
+   "closest_approach_sv": 4.892264153592992,
+   "windows": [
+    "X0000H",
+    "X0000V"
+   ],
+   "z_tercile": 1
+  },
+  {
+   "id": "X0005",
+   "h_fiber": "dj_20261020T172947429_000029",
+   "v_fiber": "lt_20261020T065435715_000093",
+   "closest_approach_sv": 2.177762953328543,
+   "windows": [
+    "X0005H",
+    "X0005V"
+   ],
+   "z_tercile": 0
+  },
+  {
+   "id": "X0008",
+   "h_fiber": "dj_20261021T162300637_000033",
+   "v_fiber": "dj_20260923T173510189_000015",
+   "closest_approach_sv": 3.76105579073131,
+   "windows": [
+    "X0008H",
+    "X0008V"
+   ],
+   "z_tercile": 1
+  },
+  {
+   "id": "X0012",
+   "h_fiber": "dj_20261022T104237390_000041",
+   "v_fiber": "lt_20261015T070224501_000050",
+   "closest_approach_sv": 4.8402187531649545,
+   "windows": [
+    "X0012H",
+    "X0012V"
+   ],
+   "z_tercile": 2
+  },
+  {
+   "id": "X0016",
+   "h_fiber": "kb_20260822T032335476_000056",
+   "v_fiber": "lt_20261014T071541855_000036",
+   "closest_approach_sv": 5.251285140933015,
+   "windows": [
+    "X0016H",
+    "X0016V"
+   ],
+   "z_tercile": 2
+  },
+  {
+   "id": "X0018",
+   "h_fiber": "kb_20260822T193333844_000065",
+   "v_fiber": "dj_20260810T180232302_000006",
+   "closest_approach_sv": 5.503418443191085,
+   "windows": [
+    "X0018H",
+    "X0018V"
+   ],
+   "z_tercile": 1
+  },
+  {
+   "id": "X0019",
+   "h_fiber": "kb_20261014T202755960_000079",
+   "v_fiber": "dj_20261026T145851782_000063",
+   "closest_approach_sv": 4.285741978347964,
+   "windows": [
+    "X0019H",
+    "X0019V"
+   ],
+   "z_tercile": 2
+  },
+  {
+   "id": "X0021",
+   "h_fiber": "kb_20261014T204610173_000085",
+   "v_fiber": "lt_20261014T052523142_000029",
+   "closest_approach_sv": 0.6171590900640667,
+   "windows": [
+    "X0021H",
+    "X0021V"
+   ],
+   "z_tercile": 2
+  },
+  {
+   "id": "X0022",
+   "h_fiber": "kb_20261014T205717634_000088",
+   "v_fiber": "dj_20261022T154755059_000054",
+   "closest_approach_sv": 3.547339058933202,
+   "windows": [
+    "X0022H",
+    "X0022V"
+   ],
+   "z_tercile": 0
+  },
+  {
+   "id": "X0024",
+   "h_fiber": "kb_20261014T205717634_000088",
+   "v_fiber": "kb_20261014T212252875_000096",
+   "closest_approach_sv": 4.3722543640956895,
+   "windows": [
+    "X0024H",
+    "X0024V"
+   ],
+   "z_tercile": 0
+  },
+  {
+   "id": "X0025",
+   "h_fiber": "kb_20261014T205717634_000088",
+   "v_fiber": "lt_20261013T095553471_000027",
+   "closest_approach_sv": 5.104696031708673,
+   "windows": [
+    "X0025H",
+    "X0025V"
+   ],
+   "z_tercile": 0
+  },
+  {
+   "id": "X0026",
+   "h_fiber": "kb_20261014T210601020_000090",
+   "v_fiber": "kb_20261014T212252875_000096",
+   "closest_approach_sv": 3.751722893436851,
+   "windows": [
+    "X0026H",
+    "X0026V"
+   ],
+   "z_tercile": 0
+  },
+  {
+   "id": "X0027",
+   "h_fiber": "kb_20261014T210601020_000090",
+   "v_fiber": "lt_20261013T095553471_000027",
+   "closest_approach_sv": 4.363089333379568,
+   "windows": [
+    "X0027H",
+    "X0027V"
+   ],
+   "z_tercile": 0
+  },
+  {
+   "id": "X0042",
+   "h_fiber": "lt_20261015T085630589_000057",
+   "v_fiber": "lt_20261020T054929715_000090",
+   "closest_approach_sv": 3.2656160126540925,
+   "windows": [
+    "X0042H",
+    "X0042V"
+   ],
+   "z_tercile": 0
+  },
+  {
+   "id": "X0046",
+   "h_fiber": "lt_20261020T060604707_000091",
+   "v_fiber": "lt_20261020T054929715_000090",
+   "closest_approach_sv": 2.533842555130432,
+   "windows": [
+    "X0046H",
+    "X0046V"
+   ],
+   "z_tercile": 2
+  }
+ ]
+}
